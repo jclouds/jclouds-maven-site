@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-06-21T14:03:38.451">
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/atmos/src/main/java/org/jclouds/atmos/filters/SignRequest.java">
+<violation beginline="19" endline="190" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.atmos.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/atmos/src/main/java/org/jclouds/atmos/util/AtmosUtils.java">
+<violation beginline="103" endline="105" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.atmos.util" class="AtmosUtils" method="adjustContainerIfDirOptionPresent" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

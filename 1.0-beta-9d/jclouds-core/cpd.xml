@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="38" tokens="231">
+<file line="94" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/core/src/main/java/org/jclouds/io/payloads/BaseImmutableContentMetadata.java"/>
+<file line="176" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/core/src/main/java/org/jclouds/io/payloads/BaseMutableContentMetadata.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   /**
+    * {@inheritDoc}
+    */
+   @Override
+   public String getContentEncoding() {
+      return this.contentEncoding;
+   }
+
+   @Override
+   public String toString() {
+      return "[contentType=" + contentType + ", contentLength=" + contentLength + ", contentDisposition="
+            + contentDisposition + ", contentEncoding=" + contentEncoding + ", contentLanguage=" + contentLanguage
+            + ", contentMD5=" + Arrays.toString(contentMD5) + "]";
+   }
+
+   @Override
+   public int hashCode() {
+      final int prime = 31;
+      int result = 1;
+      result = prime * result + ((contentDisposition == null) ? 0 : contentDisposition.hashCode());
+      result = prime * result + ((contentEncoding == null) ? 0 : contentEncoding.hashCode());
+      result = prime * result + ((contentLanguage == null) ? 0 : contentLanguage.hashCode());
+      result = prime * result + ((contentLength == null) ? 0 : contentLength.hashCode());
+      result = prime * result + Arrays.hashCode(contentMD5);
+      result = prime * result + ((contentType == null) ? 0 : contentType.hashCode());
+      return result;
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj)
+         return true;
+      if (obj == null)
+         return false;
+      if (getClass() != obj.getClass())
+         return false;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="32" tokens="187">
+<file line="132" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/core/src/main/java/org/jclouds/io/payloads/BaseImmutableContentMetadata.java"/>
+<file line="214" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/core/src/main/java/org/jclouds/io/payloads/BaseMutableContentMetadata.java"/>
+<codefragment>
+<![CDATA[
+      BaseMutableContentMetadata other = (BaseMutableContentMetadata) obj;
+      if (contentDisposition == null) {
+         if (other.contentDisposition != null)
+            return false;
+      } else if (!contentDisposition.equals(other.contentDisposition))
+         return false;
+      if (contentEncoding == null) {
+         if (other.contentEncoding != null)
+            return false;
+      } else if (!contentEncoding.equals(other.contentEncoding))
+         return false;
+      if (contentLanguage == null) {
+         if (other.contentLanguage != null)
+            return false;
+      } else if (!contentLanguage.equals(other.contentLanguage))
+         return false;
+      if (contentLength == null) {
+         if (other.contentLength != null)
+            return false;
+      } else if (!contentLength.equals(other.contentLength))
+         return false;
+      if (!Arrays.equals(contentMD5, other.contentMD5))
+         return false;
+      if (contentType == null) {
+         if (other.contentType != null)
+            return false;
+      } else if (!contentType.equals(other.contentType))
+         return false;
+      return true;
+   }
+
+}
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

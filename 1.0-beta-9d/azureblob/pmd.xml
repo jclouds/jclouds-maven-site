@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-06-21T15:19:56.629">
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/AzureBlobClient.java">
+<violation beginline="32" endline="32" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.azureblob" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.blobstore.ContainerNotFoundException'
+</violation>
+</file>
+</pmd>

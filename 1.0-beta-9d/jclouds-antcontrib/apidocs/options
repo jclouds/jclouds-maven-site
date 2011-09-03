@@ -1,0 +1,137 @@
+-classpath
+'/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/antcontrib/target/classes:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/net/oauth/core/oauth/20100527/oauth-20100527.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/org/clojure/clojure/1.2.0/clojure-1.2.0.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/org/apache/ant/ant-jsch/1.7.1/ant-jsch-1.7.1.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/scriptbuilder/target/classes:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/com/google/code/gson/gson/1.7.1/gson-1.7.1.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/com/sun/jersey/jersey-core/1.6/jersey-core-1.6.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/org/apache/ant/ant-launcher/1.7.1/ant-launcher-1.7.1.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/com/google/inject/guice/3.0/guice-3.0.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/org/apache/ant/ant/1.7.1/ant-1.7.1.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/javax/inject/javax.inject/1/javax.inject-1.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/compute/target/classes:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/commons-io/commons-io/1.4/commons-io-1.4.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/com/google/guava/guava/r09/guava-r09.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/drivers/jsch/target/classes:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/core/target/classes:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/com/jcraft/jsch/0.1.44-1/jsch-0.1.44-1.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/.repository/org/clojure/clojure-contrib/1.2.0/clojure-contrib-1.2.0.jar'
+-encoding
+'UTF-8'
+-protected
+-quiet
+-sourcepath
+'/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/antcontrib/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2009-2011 <a href="http://www.jclouds.org/">jclouds</a>. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/antcontrib/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Ant-Contrib extensions 1.0-beta-9d API'
+-link
+'http://java.sun.com/javase/6/docs/api'
+-linkoffline
+'http://www.jclouds.org/jclouds-core/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/core/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/azure-common/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/azure/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/aws-common/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/aws/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/openstack-common/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/openstack/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-scriptbuilder/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/scriptbuilder/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-log4j/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/drivers/log4j/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-compute/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/compute/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-jsch/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/drivers/jsch/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/vcloud-common/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/vcloudexpress/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/vcloudexpress/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/trmk-common/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/trmk/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-loadbalancer/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/loadbalancer/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-blobstore/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/blobstore/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/filesystem/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/filesystem/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/byon/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/byon/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/s3/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/ec2/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/ec2/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/walrus/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/walrus/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/eucalyptus/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/eucalyptus/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/swift/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/swift/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/cloudfiles/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/cloudfiles/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/cloudservers/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/cloudservers/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/vcloud/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/vcloud/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/elasticstack/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/elasticstack/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/atmos/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/atmos/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/gogrid/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/gogrid/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/slicehost/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/slicehost/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/cloudsigma-zrh/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/cloudsigma-zrh/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/azureblob/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/azureblob/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/aws-s3/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/aws-s3/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/aws-ec2/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/aws-ec2/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/googlestorage/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/googlestorage/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/scaleup-storage/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/scaleup-storage/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/synaptic-storage/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/synaptic-storage/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/cloudonestorage/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/cloudonestorage/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/eucalyptus-partnercloud-s3/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/eucalyptus-partnercloud-s3/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/eucalyptus-partnercloud-ec2/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/eucalyptus-partnercloud-ec2/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/cloudservers-us/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/cloudservers-us/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/cloudservers-uk/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/cloudservers-uk/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/cloudfiles-us/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/cloudfiles-us/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/cloudfiles-uk/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/cloudfiles-uk/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/bluelock-vcdirector/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/bluelock-vcdirector/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/trmk-ecloud/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/trmk-ecloud/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/trmk-vcloudexpress/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/trmk-vcloudexpress/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/elastichosts-lon-p/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/elastichosts-lon-p/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/elastichosts-sat-p/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/elastichosts-sat-p/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/elastichosts-lon-b/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/elastichosts-lon-b/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/openhosting-east1/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/openhosting-east1/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/serverlove-z1-man/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/serverlove-z1-man/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/skalicloud-sdg-my/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/skalicloud-sdg-my/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/servermanager/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/skeletons/standalone-compute/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-gae/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/drivers/gae/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-apachehc/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/drivers/apachehc/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-joda/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/drivers/joda/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-bouncycastle/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/drivers/bouncycastle/target/site/apidocs'
+-linkoffline
+'http://www.jclouds.org/jclouds-enterprise/apidocs' '/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/drivers/enterprise/target/site/apidocs'
+-use
+-version
+-windowtitle
+'Ant-Contrib extensions 1.0-beta-9d API'

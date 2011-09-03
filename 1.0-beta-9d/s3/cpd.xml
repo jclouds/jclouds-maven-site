@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="89" tokens="338">
+<file line="61" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/BucketListObjectMetadata.java"/>
+<file line="58" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/CopyObjectResult.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public String getKey() {
+      return key;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public CanonicalUser getOwner() {
+      return owner;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public StorageClass getStorageClass() {
+      return storageClass;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public String getCacheControl() {
+      return cacheControl;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public Date getLastModified() {
+      return lastModified;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public String getETag() {
+      return eTag;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public int compareTo(ObjectMetadata o) {
+      return (this == o) ? 0 : getKey().compareTo(o.getKey());
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public Map<String, String> getUserMetadata() {
+      return userMetadata;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   @Override
+   public ContentMetadata getContentMetadata() {
+      return contentMetadata;
+   }
+
+   @Override
+   public int hashCode() {
+      final int prime = 31;
+      int result = 1;
+      result = prime * result + ((cacheControl == null) ? 0 : cacheControl.hashCode());
+      result = prime * result + ((contentMetadata == null) ? 0 : contentMetadata.hashCode());
+      result = prime * result + ((eTag == null) ? 0 : eTag.hashCode());
+      result = prime * result + ((key == null) ? 0 : key.hashCode());
+      result = prime * result + ((lastModified == null) ? 0 : lastModified.hashCode());
+      result = prime * result + ((owner == null) ? 0 : owner.hashCode());
+      result = prime * result + ((storageClass == null) ? 0 : storageClass.hashCode());
+      result = prime * result + ((userMetadata == null) ? 0 : userMetadata.hashCode());
+      return result;
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj)
+         return true;
+      if (obj == null)
+         return false;
+      if (getClass() != obj.getClass())
+         return false;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="45" tokens="270">
+<file line="150" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/BucketListObjectMetadata.java"/>
+<file line="147" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/CopyObjectResult.java"/>
+<codefragment>
+<![CDATA[
+      CopyObjectResult other = (CopyObjectResult) obj;
+      if (cacheControl == null) {
+         if (other.cacheControl != null)
+            return false;
+      } else if (!cacheControl.equals(other.cacheControl))
+         return false;
+      if (contentMetadata == null) {
+         if (other.contentMetadata != null)
+            return false;
+      } else if (!contentMetadata.equals(other.contentMetadata))
+         return false;
+      if (eTag == null) {
+         if (other.eTag != null)
+            return false;
+      } else if (!eTag.equals(other.eTag))
+         return false;
+      if (key == null) {
+         if (other.key != null)
+            return false;
+      } else if (!key.equals(other.key))
+         return false;
+      if (lastModified == null) {
+         if (other.lastModified != null)
+            return false;
+      } else if (!lastModified.equals(other.lastModified))
+         return false;
+      if (owner == null) {
+         if (other.owner != null)
+            return false;
+      } else if (!owner.equals(other.owner))
+         return false;
+      if (storageClass == null) {
+         if (other.storageClass != null)
+            return false;
+      } else if (!storageClass.equals(other.storageClass))
+         return false;
+      if (userMetadata == null) {
+         if (other.userMetadata != null)
+            return false;
+      } else if (!userMetadata.equals(other.userMetadata))
+         return false;
+      return true;
+   }
+
+}
+]]>
+</codefragment>
+</duplication>
+<duplication lines="43" tokens="269">
+<file line="150" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/BucketListObjectMetadata.java"/>
+<file line="208" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/MutableObjectMetadataImpl.java"/>
+<codefragment>
+<![CDATA[
+      MutableObjectMetadataImpl other = (MutableObjectMetadataImpl) obj;
+      if (cacheControl == null) {
+         if (other.cacheControl != null)
+            return false;
+      } else if (!cacheControl.equals(other.cacheControl))
+         return false;
+      if (contentMetadata == null) {
+         if (other.contentMetadata != null)
+            return false;
+      } else if (!contentMetadata.equals(other.contentMetadata))
+         return false;
+      if (eTag == null) {
+         if (other.eTag != null)
+            return false;
+      } else if (!eTag.equals(other.eTag))
+         return false;
+      if (key == null) {
+         if (other.key != null)
+            return false;
+      } else if (!key.equals(other.key))
+         return false;
+      if (lastModified == null) {
+         if (other.lastModified != null)
+            return false;
+      } else if (!lastModified.equals(other.lastModified))
+         return false;
+      if (owner == null) {
+         if (other.owner != null)
+            return false;
+      } else if (!owner.equals(other.owner))
+         return false;
+      if (storageClass == null) {
+         if (other.storageClass != null)
+            return false;
+      } else if (!storageClass.equals(other.storageClass))
+         return false;
+      if (userMetadata == null) {
+         if (other.userMetadata != null)
+            return false;
+      } else if (!userMetadata.equals(other.userMetadata))
+         return false;
+      return true;
+   }
+]]>
+</codefragment>
+</duplication>
+<duplication lines="26" tokens="230">
+<file line="124" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/BucketListObjectMetadata.java"/>
+<file line="182" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/MutableObjectMetadataImpl.java"/>
+<codefragment>
+<![CDATA[
+      this.contentMetadata = contentMetadata;
+   }
+
+   @Override
+   public int hashCode() {
+      final int prime = 31;
+      int result = 1;
+      result = prime * result + ((cacheControl == null) ? 0 : cacheControl.hashCode());
+      result = prime * result + ((contentMetadata == null) ? 0 : contentMetadata.hashCode());
+      result = prime * result + ((eTag == null) ? 0 : eTag.hashCode());
+      result = prime * result + ((key == null) ? 0 : key.hashCode());
+      result = prime * result + ((lastModified == null) ? 0 : lastModified.hashCode());
+      result = prime * result + ((owner == null) ? 0 : owner.hashCode());
+      result = prime * result + ((storageClass == null) ? 0 : storageClass.hashCode());
+      result = prime * result + ((userMetadata == null) ? 0 : userMetadata.hashCode());
+      return result;
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj)
+         return true;
+      if (obj == null)
+         return false;
+      if (getClass() != obj.getClass())
+         return false;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="23" tokens="207">
+<file line="74" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/binders/BindACLToXMLPayload.java"/>
+<file line="69" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/binders/BindBucketLoggingToXmlPayload.java"/>
+<codefragment>
+<![CDATA[
+      for (Grant grant : bucketLogging.getTargetGrants()) {
+         XMLBuilder grantBuilder = grantsBuilder.elem("Grant");
+         XMLBuilder granteeBuilder = grantBuilder.elem("Grantee").attr("xmlns:xsi",
+               "http://www.w3.org/2001/XMLSchema-instance");
+
+         if (grant.getGrantee() instanceof GroupGrantee) {
+            granteeBuilder.attr("xsi:type", "Group").elem("URI").text(grant.getGrantee().getIdentifier());
+         } else if (grant.getGrantee() instanceof CanonicalUserGrantee) {
+            CanonicalUserGrantee grantee = (CanonicalUserGrantee) grant.getGrantee();
+            granteeBuilder.attr("xsi:type", "CanonicalUser").elem("ID").text(grantee.getIdentifier()).up();
+            if (grantee.getDisplayName() != null) {
+               granteeBuilder.elem("DisplayName").text(grantee.getDisplayName());
+            }
+         } else if (grant.getGrantee() instanceof EmailAddressGrantee) {
+            granteeBuilder.attr("xsi:type", "AmazonCustomerByEmail").elem("EmailAddress")
+                  .text(grant.getGrantee().getIdentifier());
+         }
+         grantBuilder.elem("Permission").text(grant.getPermission().toString());
+      }
+      return grantsBuilder;
+   }
+
+}
+]]>
+</codefragment>
+</duplication>
+<duplication lines="15" tokens="120">
+<file line="77" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/xml/AccessControlListHandler.java"/>
+<file line="82" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/xml/BucketLoggingHandler.java"/>
+<codefragment>
+<![CDATA[
+         targetGrants.add(new Grant(currentGrantee, currentPermission));
+      } else if (qName.equals("ID") || qName.equals("EmailAddress") || qName.equals("URI")) {
+         currentId = currentText.toString().trim();
+      } else if (qName.equals("DisplayName")) {
+         currentDisplayName = currentText.toString().trim();
+      } else if (qName.equals("Permission")) {
+         currentPermission = currentText.toString().trim();
+      }
+      currentText = new StringBuilder();
+   }
+
+   public void characters(char ch[], int start, int length) {
+      currentText.append(ch, start, length);
+   }
+}
+]]>
+</codefragment>
+</duplication>
+<duplication lines="58" tokens="100">
+<file line="60" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/BucketListObjectMetadata.java"/>
+<file line="61" path="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/internal/MutableObjectMetadataImpl.java"/>
+<codefragment>
+<![CDATA[
+      HttpUtils.copy(from.getContentMetadata(), this.contentMetadata);
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public String getKey() {
+      return key;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public CanonicalUser getOwner() {
+      return owner;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public StorageClass getStorageClass() {
+      return storageClass;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public String getCacheControl() {
+      return cacheControl;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public Date getLastModified() {
+      return lastModified;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public String getETag() {
+      return eTag;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public int compareTo(ObjectMetadata o) {
+      return (this == o) ? 0 : getKey().compareTo(o.getKey());
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public Map<String, String> getUserMetadata() {
+      return userMetadata;
+   }
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

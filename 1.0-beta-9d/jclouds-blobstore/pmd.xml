@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-06-21T10:51:36.195">
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/blobstore/src/main/java/org/jclouds/blobstore/TransientAsyncBlobStore.java">
+<violation beginline="19" endline="672" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="578" endline="579" begincolumn="10" endcolumn="71" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore" class="TransientAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="582" endline="583" begincolumn="10" endcolumn="71" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore" class="TransientAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/blobstore/src/main/java/org/jclouds/blobstore/TransientBlobStorePropertiesBuilder.java">
+<violation beginline="19" endline="52" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/blobstore/src/main/java/org/jclouds/blobstore/functions/ParseSystemAndUserMetadataFromHeaders.java">
+<violation beginline="19" endline="125" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="92" endline="94" begincolumn="10" endcolumn="45" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore.functions" class="ParseSystemAndUserMetadataFromHeaders" method="parseLastModifiedOrThrowException" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/blobstore/src/main/java/org/jclouds/blobstore/internal/InputStreamMapImpl.java">
+<violation beginline="68" endline="75" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.blobstore.internal" class="InputStreamMapImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'blobFactory'.
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/blobstore/src/main/java/org/jclouds/blobstore/strategy/internal/ListContainerAndRecurseThroughFolders.java">
+<violation beginline="19" endline="85" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore.strategy.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

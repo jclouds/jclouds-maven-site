@@ -1,0 +1,5 @@
+org.jclouds.servermanager.compute.config
+org.jclouds.servermanager.compute.functions
+org.jclouds.servermanager.compute.strategy
+org.jclouds.servermanager.compute
+org.jclouds.servermanager

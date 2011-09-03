@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>ErrorHandlerTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../testapidocs/org/jclouds/aws/xml/ErrorHandlerTest.html">View Javadoc</a></div><pre>
+
+<a class="jxr_linenumber" name="1" href="#1">1</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="2" href="#2">2</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_javadoccomment"> * Copyright (C) 2011 Cloud Conscious, LLC. &lt;info@cloudconscious.com&gt;</em>
+<a class="jxr_linenumber" name="4" href="#4">4</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="5" href="#5">5</a>   <em class="jxr_javadoccomment"> * ====================================================================</em>
+<a class="jxr_linenumber" name="6" href="#6">6</a>   <em class="jxr_javadoccomment"> * Licensed under the Apache License, Version 2.0 (the "License");</em>
+<a class="jxr_linenumber" name="7" href="#7">7</a>   <em class="jxr_javadoccomment"> * you may not use this file except in compliance with the License.</em>
+<a class="jxr_linenumber" name="8" href="#8">8</a>   <em class="jxr_javadoccomment"> * You may obtain a copy of the License at</em>
+<a class="jxr_linenumber" name="9" href="#9">9</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="10" href="#10">10</a>  <em class="jxr_javadoccomment"> * <a href="http://www.apache.org/licenses/LICENSE-2.0" target="alexandria_uri">http://www.apache.org/licenses/LICENSE-2.0</a></em>
+<a class="jxr_linenumber" name="11" href="#11">11</a>  <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="12" href="#12">12</a>  <em class="jxr_javadoccomment"> * Unless required by applicable law or agreed to in writing, software</em>
+<a class="jxr_linenumber" name="13" href="#13">13</a>  <em class="jxr_javadoccomment"> * distributed under the License is distributed on an "AS IS" BASIS,</em>
+<a class="jxr_linenumber" name="14" href="#14">14</a>  <em class="jxr_javadoccomment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</em>
+<a class="jxr_linenumber" name="15" href="#15">15</a>  <em class="jxr_javadoccomment"> * See the License for the specific language governing permissions and</em>
+<a class="jxr_linenumber" name="16" href="#16">16</a>  <em class="jxr_javadoccomment"> * limitations under the License.</em>
+<a class="jxr_linenumber" name="17" href="#17">17</a>  <em class="jxr_javadoccomment"> * ====================================================================</em>
+<a class="jxr_linenumber" name="18" href="#18">18</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="19" href="#19">19</a>  <strong class="jxr_keyword">package</strong> org.jclouds.aws.xml;
+<a class="jxr_linenumber" name="20" href="#20">20</a>  
+<a class="jxr_linenumber" name="21" href="#21">21</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.testng.Assert.assertEquals;
+<a class="jxr_linenumber" name="22" href="#22">22</a>  
+<a class="jxr_linenumber" name="23" href="#23">23</a>  <strong class="jxr_keyword">import</strong> org.jclouds.aws.domain.AWSError;
+<a class="jxr_linenumber" name="24" href="#24">24</a>  <strong class="jxr_keyword">import</strong> org.jclouds.http.HttpException;
+<a class="jxr_linenumber" name="25" href="#25">25</a>  <strong class="jxr_keyword">import</strong> org.jclouds.http.functions.BaseHandlerTest;
+<a class="jxr_linenumber" name="26" href="#26">26</a>  <strong class="jxr_keyword">import</strong> org.jclouds.http.functions.ParseSax;
+<a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">import</strong> org.jclouds.util.Strings2;
+<a class="jxr_linenumber" name="28" href="#28">28</a>  <strong class="jxr_keyword">import</strong> org.testng.annotations.Test;
+<a class="jxr_linenumber" name="29" href="#29">29</a>  
+<a class="jxr_linenumber" name="30" href="#30">30</a>  <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="31" href="#31">31</a>  <em class="jxr_javadoccomment"> * Tests behavior of {@code ErrorHandler}</em>
+<a class="jxr_linenumber" name="32" href="#32">32</a>  <em class="jxr_javadoccomment"> * </em>
+<a class="jxr_linenumber" name="33" href="#33">33</a>  <em class="jxr_javadoccomment"> * @author Adrian Cole</em>
+<a class="jxr_linenumber" name="34" href="#34">34</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="35" href="#35">35</a>  <em class="jxr_comment">// NOTE:without testName, this will not call @Before* and fail w/NPE during surefire</em>
+<a class="jxr_linenumber" name="36" href="#36">36</a>  @Test(groups = <span class="jxr_string">"unit"</span>, testName = <span class="jxr_string">"ErrorHandlerTest"</span>)
+<a class="jxr_linenumber" name="37" href="#37">37</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/aws/xml/ErrorHandlerTest.html">ErrorHandlerTest</a> <strong class="jxr_keyword">extends</strong> BaseHandlerTest {
+<a class="jxr_linenumber" name="38" href="#38">38</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String errorFromAmazonIfYouDontRemoveTransferEncodingHeader = <span class="jxr_string">"&lt;Error&gt;&lt;Code&gt;NotImplemented&lt;/Code&gt;&lt;Message&gt;A header you provided implies functionality that is not implemented&lt;/Message&gt;&lt;Header&gt;Transfer-Encoding&lt;/Header&gt;&lt;RequestId&gt;7C59925D75D15561&lt;/RequestId&gt;&lt;HostId&gt;fbskVU51OZJg2yZS/wNIxoE2PmCf0ZqFd0iH6Vrzw0uKG3KmokswBytL/Bfp/GWb&lt;/HostId&gt;&lt;/Error&gt;"</span>;
+<a class="jxr_linenumber" name="39" href="#39">39</a>  
+<a class="jxr_linenumber" name="40" href="#40">40</a>     ParseSax&lt;AWSError&gt; createParser() {
+<a class="jxr_linenumber" name="41" href="#41">41</a>        ParseSax&lt;AWSError&gt; parser = (ParseSax&lt;AWSError&gt;) factory.create(injector.getInstance(ErrorHandler.<strong class="jxr_keyword">class</strong>));
+<a class="jxr_linenumber" name="42" href="#42">42</a>        <strong class="jxr_keyword">return</strong> parser;
+<a class="jxr_linenumber" name="43" href="#43">43</a>     }
+<a class="jxr_linenumber" name="44" href="#44">44</a>  
+<a class="jxr_linenumber" name="45" href="#45">45</a>     @Test
+<a class="jxr_linenumber" name="46" href="#46">46</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testErrorFromAmazonIfYouDontRemoveTransferEncodingHeader() <strong class="jxr_keyword">throws</strong> HttpException {
+<a class="jxr_linenumber" name="47" href="#47">47</a>        ParseSax&lt;AWSError&gt; parser = createParser();
+<a class="jxr_linenumber" name="48" href="#48">48</a>        AWSError error = parser.parse(Strings2.toInputStream(errorFromAmazonIfYouDontRemoveTransferEncodingHeader));
+<a class="jxr_linenumber" name="49" href="#49">49</a>        assertEquals(error.getCode(), <span class="jxr_string">"NotImplemented"</span>);
+<a class="jxr_linenumber" name="50" href="#50">50</a>        assertEquals(error.getMessage(), <span class="jxr_string">"A header you provided implies functionality that is not implemented"</span>);
+<a class="jxr_linenumber" name="51" href="#51">51</a>        assertEquals(error.getDetails().get(<span class="jxr_string">"Header"</span>), <span class="jxr_string">"Transfer-Encoding"</span>);
+<a class="jxr_linenumber" name="52" href="#52">52</a>        assertEquals(error.getDetails().get(<span class="jxr_string">"HostId"</span>), <span class="jxr_string">"fbskVU51OZJg2yZS/wNIxoE2PmCf0ZqFd0iH6Vrzw0uKG3KmokswBytL/Bfp/GWb"</span>);
+<a class="jxr_linenumber" name="53" href="#53">53</a>     }
+<a class="jxr_linenumber" name="54" href="#54">54</a>  
+<a class="jxr_linenumber" name="55" href="#55">55</a>     @Test
+<a class="jxr_linenumber" name="56" href="#56">56</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testErrorFromEucalyptusWhenGroupAlreadyExists() <strong class="jxr_keyword">throws</strong> HttpException {
+<a class="jxr_linenumber" name="57" href="#57">57</a>        ParseSax&lt;AWSError&gt; parser = createParser();
+<a class="jxr_linenumber" name="58" href="#58">58</a>        AWSError error = parser
+<a class="jxr_linenumber" name="59" href="#59">59</a>                 .parse(Strings2
+<a class="jxr_linenumber" name="60" href="#60">60</a>                          .toInputStream(<span class="jxr_string">"&lt;?xml version=\&quot;1.0\&quot;?&gt;&lt;Response&gt;&lt;Errors&gt;&lt;Error&gt;&lt;Code&gt;Groups&lt;/Code&gt;&lt;Message&gt;\nError adding network group: group named jclouds#eucrun#Eucalyptus already exists\nError adding network group: group named jclouds#eucrun#Eucalyptus already exists&lt;/Message&gt;&lt;/Error&gt;&lt;/Errors&gt;&lt;RequestID&gt;e0133975-3bc5-456d-9753-1d61b27e07e9&lt;/RequestID&gt;&lt;/Response&gt;"</span>));
+<a class="jxr_linenumber" name="61" href="#61">61</a>        assertEquals(error.getCode(), <span class="jxr_string">"Groups"</span>);
+<a class="jxr_linenumber" name="62" href="#62">62</a>        assertEquals(
+<a class="jxr_linenumber" name="63" href="#63">63</a>                 error.getMessage(),
+<a class="jxr_linenumber" name="64" href="#64">64</a>                 <span class="jxr_string">"Error adding network group: group named jclouds#eucrun#Eucalyptus already exists\nError adding network group: group named jclouds#eucrun#Eucalyptus already exists"</span>);
+<a class="jxr_linenumber" name="65" href="#65">65</a>     }
+<a class="jxr_linenumber" name="66" href="#66">66</a>  
+<a class="jxr_linenumber" name="67" href="#67">67</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String badRequestWhenSourceIsDestBucketOnCopy400 = <span class="jxr_string">"&lt;Error&gt;&lt;Code&gt;InvalidRequest&lt;/Code&gt;&lt;Message&gt;The Source and Destination may not be the same when the MetadataDirective is Copy.&lt;/Message&gt;&lt;RequestId&gt;54C77CAF4D42474B&lt;/RequestId&gt;&lt;HostId&gt;SJecknEUUUx88/65VAKbCdKSOCkpuVTeu7ZG9in9x9NTNglGnoxdbALCfS4k/DUZ&lt;/HostId&gt;&lt;/Error&gt;"</span>;
+<a class="jxr_linenumber" name="68" href="#68">68</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String noSuchSourceKeyOrBucketOnCopy404 = <span class="jxr_string">"&lt;Error&gt;&lt;Code&gt;NoSuchKey&lt;/Code&gt;&lt;Message&gt;The specified key does not exist.&lt;/Message&gt;&lt;Key&gt;null&lt;/Key&gt;&lt;RequestId&gt;9CCDF1DACA78B36F&lt;/RequestId&gt;&lt;HostId&gt;63cqk9YsTFBVfBfks840JVGsepPEdQM42mU+r7HN35sF4Nk5xAcWDEUPaQpK2eFU&lt;/HostId&gt;&lt;/Error&gt;"</span>;
+<a class="jxr_linenumber" name="69" href="#69">69</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String noSuchDestinationBucketOnCopy404 = <span class="jxr_string">"&lt;Error&gt;&lt;Code&gt;NoSuchBucket&lt;/Code&gt;&lt;Message&gt;The specified bucketName does not exist&lt;/Message&gt;&lt;BucketName&gt;copydestination&lt;/BucketName&gt;&lt;RequestId&gt;4F0CF319C5535975&lt;/RequestId&gt;&lt;HostId&gt;hdZyHOm7VK+JI2UCdye3d6TVkKhRBIoWflldXVDTKbgipYlamy8HgPBzHrUAVQNJ&lt;/HostId&gt;&lt;/Error&gt;"</span>;
+<a class="jxr_linenumber" name="70" href="#70">70</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String badSign403 = <span class="jxr_string">"&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\n"</span>
+<a class="jxr_linenumber" name="71" href="#71">71</a>              + <span class="jxr_string">"&lt;Error&gt;&lt;Code&gt;SignatureDoesNotMatch&lt;/Code&gt;&lt;Message&gt;The operation signature we calculated does not match the signature you provided. Check your key and signing method.&lt;/Message&gt;&lt;StringToSignBytes&gt;47 45 54 0a 0a 0a 54 68 75 2c 20 31 39 20 4d 61 72 20 32 30 30 39 20 31 37 3a 34 38 3a 30 31 20 47 4d 54 0a 2f 61 64 72 69 61 6e 63 6f 6c 65 2e 73 33 2e 61 6d 61 7a 6f 6e 73 33 74 65 73 74 2e 66 69 6c 65 74 65 73 74 73 66 6f 72 61 64 72 69 61 6e 2f 66 69 6c 65&lt;/StringToSignBytes&gt;&lt;RequestId&gt;514AA22EB75A6E42&lt;/RequestId&gt;&lt;HostId&gt;H5nqnZkGjuKvB+seutvx5hnp1P+WAuC9c3Y7MdQCcYDr1TGwNX/mt+FHstK0pVld&lt;/HostId&gt;&lt;SignatureProvided&gt;Qm6Wss7e5e/eNXV50AxChH+xkLI=&lt;/SignatureProvided&gt;&lt;StringToSign&gt;GET\n"</span>
+<a class="jxr_linenumber" name="72" href="#72">72</a>              + <span class="jxr_string">"\n"</span>
+<a class="jxr_linenumber" name="73" href="#73">73</a>              + <span class="jxr_string">"\n"</span>
+<a class="jxr_linenumber" name="74" href="#74">74</a>              + <span class="jxr_string">"Thu, 19 Mar 2009 17:48:01 GMT\n"</span>
+<a class="jxr_linenumber" name="75" href="#75">75</a>              + <span class="jxr_string">"/adriancole.s3.amazons3test.filetestsforadrian/file&lt;/StringToSign&gt;&lt;AWSAccessKeyId&gt;0101100101001001&lt;/AWSAccessKeyId&gt;&lt;/Error&gt;"</span>;
+<a class="jxr_linenumber" name="76" href="#76">76</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String amazonHadAnError500 = <span class="jxr_string">"&lt;Error&gt;&lt;Code&gt;InternalError&lt;/Code&gt;&lt;Message&gt;We encountered an internal error. Please try again.&lt;/Message&gt;&lt;RequestId&gt;EF6FA7A639CAFF15&lt;/RequestId&gt;&lt;HostId&gt;tBkX23mIeq2riHsNw2YShupMlZ9+iy3V/uN+lRhqCR4qHTE07ujFeyAUPTowvuH/&lt;/HostId&gt;&lt;/Error&gt;"</span>;
+<a class="jxr_linenumber" name="77" href="#77">77</a>  
+<a class="jxr_linenumber" name="78" href="#78">78</a>  }
+</pre>
+<hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
+</html>
+

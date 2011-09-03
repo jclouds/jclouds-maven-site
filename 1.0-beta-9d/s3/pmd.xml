@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-06-21T11:50:41.188">
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/S3PropertiesBuilder.java">
+<violation beginline="19" endline="79" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/AccessControlList.java">
+<violation beginline="236" endline="238" begincolumn="51" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.s3.domain" class="AccessControlList" method="fromCannedAccessPolicy" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/filters/RequestAuthorizeSignature.java">
+<violation beginline="19" endline="254" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/handlers/ParseS3ErrorFromXmlContent.java">
+<violation beginline="19" endline="92" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3.handlers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/apis/s3/src/main/java/org/jclouds/s3/xml/ListBucketHandler.java">
+<violation beginline="107" endline="108" begincolumn="41" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.s3.xml" class="ListBucketHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+</pmd>

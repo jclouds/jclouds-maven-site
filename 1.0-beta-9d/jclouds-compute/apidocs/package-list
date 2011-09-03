@@ -1,0 +1,17 @@
+org.jclouds.compute
+org.jclouds.compute.callables
+org.jclouds.compute.config
+org.jclouds.compute.domain
+org.jclouds.compute.domain.internal
+org.jclouds.compute.domain.os
+org.jclouds.compute.functions
+org.jclouds.compute.internal
+org.jclouds.compute.options
+org.jclouds.compute.predicates
+org.jclouds.compute.reference
+org.jclouds.compute.strategy
+org.jclouds.compute.strategy.impl
+org.jclouds.compute.stub
+org.jclouds.compute.stub.config
+org.jclouds.compute.util
+org.jclouds.ssh

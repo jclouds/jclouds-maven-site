@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-06-21T08:48:38.187">
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/src/main/java/org/jclouds/vcloud/CommonVCloudAsyncClient.java">
+<violation beginline="19" endline="212" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/src/main/java/org/jclouds/vcloud/CommonVCloudClient.java">
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.NoSuchElementException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/src/main/java/org/jclouds/vcloud/binders/BindCloneVAppParamsToXmlPayload.java">
+<violation beginline="19" endline="130" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/src/main/java/org/jclouds/vcloud/config/CommonVCloudRestClientModule.java">
+<violation beginline="19" endline="586" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/src/main/java/org/jclouds/vcloud/handlers/ParseVCloudErrorFromHttpResponse.java">
+<violation beginline="82" endline="83" begincolumn="18" endcolumn="16" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.vcloud.handlers" class="ParseVCloudErrorFromHttpResponse" method="handleError" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/src/main/java/org/jclouds/vcloud/xml/OrgListHandler.java">
+<violation beginline="50" endline="52" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.vcloud.xml" class="OrgListHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/src/main/java/org/jclouds/vcloud/xml/OrgNetworkHandler.java">
+<violation beginline="160" endline="162" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.vcloud.xml" class="OrgNetworkHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/common/vcloud/src/main/java/org/jclouds/vcloud/xml/ovf/ResourceAllocationHandler.java">
+<violation beginline="80" endline="80" begincolumn="22" endcolumn="61" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.vcloud.xml.ovf" class="ResourceAllocationHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+</file>
+</pmd>
