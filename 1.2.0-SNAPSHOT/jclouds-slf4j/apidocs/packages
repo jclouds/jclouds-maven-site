@@ -1,0 +1,2 @@
+org.jclouds.logging.slf4j.config
+org.jclouds.logging.slf4j
