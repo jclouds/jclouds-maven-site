@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T16:59:15.638">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/atmos/src/main/java/org/jclouds/atmos/blobstore/AtmosAsyncBlobStore.java">
+<violation beginline="243" endline="245" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.atmos.blobstore" class="AtmosAsyncBlobStore" method="putBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/atmos/src/main/java/org/jclouds/atmos/blobstore/AtmosBlobStore.java">
+<violation beginline="217" endline="219" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.atmos.blobstore" class="AtmosBlobStore" method="putBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/atmos/src/main/java/org/jclouds/atmos/filters/SignRequest.java">
+<violation beginline="19" endline="190" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.atmos.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/atmos/src/main/java/org/jclouds/atmos/util/AtmosUtils.java">
+<violation beginline="104" endline="106" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.atmos.util" class="AtmosUtils" method="adjustContainerIfDirOptionPresent" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

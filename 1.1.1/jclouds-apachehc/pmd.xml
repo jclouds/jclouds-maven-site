@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T17:48:17.473">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/drivers/apachehc/src/main/java/org/jclouds/http/apachehc/ApacheHCUtils.java">
+<violation beginline="186" endline="187" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.http.apachehc" class="ApacheHCUtils$HttpEntityPayload" method="release" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="191" endline="193" begincolumn="14" endcolumn="7" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.http.apachehc" class="ApacheHCUtils$HttpEntityPayload" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="28" tokens="170">
+<file line="90" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/domain/StaticIPInfo.java"/>
+<file line="195" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/domain/StaticIPInfo.java"/>
+<codefragment>
+<![CDATA[
+      StaticIPInfo other = (StaticIPInfo) obj;
+      if (gateway == null) {
+         if (other.gateway != null)
+            return false;
+      } else if (!gateway.equals(other.gateway))
+         return false;
+      if (nameservers == null) {
+         if (other.nameservers != null)
+            return false;
+      } else if (!nameservers.equals(other.nameservers))
+         return false;
+      if (netmask == null) {
+         if (other.netmask != null)
+            return false;
+      } else if (!netmask.equals(other.netmask))
+         return false;
+      if (user == null) {
+         if (other.user != null)
+            return false;
+      } else if (!user.equals(other.user))
+         return false;
+      if (ip == null) {
+         if (other.ip != null)
+            return false;
+      } else if (!ip.equals(other.ip))
+         return false;
+      return true;
+   }
+]]>
+</codefragment>
+</duplication>
+<duplication lines="22" tokens="166">
+<file line="68" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/domain/StaticIPInfo.java"/>
+<file line="173" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/domain/StaticIPInfo.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   @Override
+   public int hashCode() {
+      final int prime = 31;
+      int result = 1;
+      result = prime * result + ((gateway == null) ? 0 : gateway.hashCode());
+      result = prime * result + ((nameservers == null) ? 0 : nameservers.hashCode());
+      result = prime * result + ((netmask == null) ? 0 : netmask.hashCode());
+      result = prime * result + ((user == null) ? 0 : user.hashCode());
+      result = prime * result + ((ip == null) ? 0 : ip.hashCode());
+      return result;
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj)
+         return true;
+      if (obj == null)
+         return false;
+      if (getClass() != obj.getClass())
+         return false;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="20" tokens="111">
+<file line="63" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/domain/Item.java"/>
+<file line="59" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/domain/VLANInfo.java"/>
+<codefragment>
+<![CDATA[
+         result = prime * result + ((user == null) ? 0 : user.hashCode());
+         result = prime * result + ((uuid == null) ? 0 : uuid.hashCode());
+         return result;
+      }
+
+      @Override
+      public boolean equals(Object obj) {
+         if (this == obj)
+            return true;
+         if (obj == null)
+            return false;
+         if (getClass() != obj.getClass())
+            return false;
+         Builder other = (Builder) obj;
+         if (name == null) {
+            if (other.name != null)
+               return false;
+         } else if (!name.equals(other.name))
+            return false;
+         if (user == null) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="35" tokens="108">
+<file line="57" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/domain/CreateDriveRequest.java"/>
+<file line="36" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/domain/DriveData.java"/>
+<codefragment>
+<![CDATA[
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder readers(Iterable<String> readers) {
+         return Builder.class.cast(super.readers(readers));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder size(long size) {
+         return Builder.class.cast(super.size(size));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder use(Iterable<String> use) {
+         return Builder.class.cast(super.use(use));
+      }
+
+      public DriveData build() {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

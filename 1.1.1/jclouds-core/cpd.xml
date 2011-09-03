@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="33" tokens="189">
+<file line="148" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/io/ContentMetadataBuilder.java"/>
+<file line="133" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/io/payloads/BaseImmutableContentMetadata.java"/>
+<codefragment>
+<![CDATA[
+      BaseImmutableContentMetadata other = (BaseImmutableContentMetadata) obj;
+      if (contentDisposition == null) {
+         if (other.contentDisposition != null)
+            return false;
+      } else if (!contentDisposition.equals(other.contentDisposition))
+         return false;
+      if (contentEncoding == null) {
+         if (other.contentEncoding != null)
+            return false;
+      } else if (!contentEncoding.equals(other.contentEncoding))
+         return false;
+      if (contentLanguage == null) {
+         if (other.contentLanguage != null)
+            return false;
+      } else if (!contentLanguage.equals(other.contentLanguage))
+         return false;
+      if (contentLength == null) {
+         if (other.contentLength != null)
+            return false;
+      } else if (!contentLength.equals(other.contentLength))
+         return false;
+      if (!Arrays.equals(contentMD5, other.contentMD5))
+         return false;
+      if (contentType == null) {
+         if (other.contentType != null)
+            return false;
+      } else if (!contentType.equals(other.contentType))
+         return false;
+      return true;
+   }
+
+   @Override
+   public ContentMetadataBuilder toBuilder() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="23" tokens="178">
+<file line="125" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/io/ContentMetadataBuilder.java"/>
+<file line="110" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/io/payloads/BaseImmutableContentMetadata.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   @Override
+   public int hashCode() {
+      final int prime = 31;
+      int result = 1;
+      result = prime * result + ((contentDisposition == null) ? 0 : contentDisposition.hashCode());
+      result = prime * result + ((contentEncoding == null) ? 0 : contentEncoding.hashCode());
+      result = prime * result + ((contentLanguage == null) ? 0 : contentLanguage.hashCode());
+      result = prime * result + ((contentLength == null) ? 0 : contentLength.hashCode());
+      result = prime * result + Arrays.hashCode(contentMD5);
+      result = prime * result + ((contentType == null) ? 0 : contentType.hashCode());
+      return result;
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj)
+         return true;
+      if (obj == null)
+         return false;
+      if (getClass() != obj.getClass())
+         return false;
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

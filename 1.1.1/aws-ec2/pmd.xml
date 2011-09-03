@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T18:03:26.608">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/AWSEC2PropertiesBuilder.java">
+<violation beginline="19" endline="110" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/strategy/AWSEC2DestroyNodeStrategy.java">
+<violation beginline="64" endline="65" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.aws.ec2.compute.strategy" class="AWSEC2DestroyNodeStrategy" method="destroyInstanceInRegion" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/strategy/AWSEC2ListNodesStrategy.java">
+<violation beginline="19" endline="84" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/suppliers/AWSEC2HardwareSupplier.java">
+<violation beginline="19" endline="67" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/suppliers/AWSRegionAndNameToImageSupplier.java">
+<violation beginline="19" endline="155" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/options/AWSRunInstancesOptions.java">
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ec2.domain.InstanceType'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/options/DescribeSpotPriceHistoryOptions.java">
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ec2.domain.InstanceType'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/reference/AWSEC2Constants.java">
+<violation beginline="40" endline="40" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.reference" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ec2.domain.InstanceType'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/xml/LaunchSpecificationHandler.java">
+<violation beginline="120" endline="120" begincolumn="39" endcolumn="68" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.aws.ec2.xml" class="LaunchSpecificationHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+</file>
+</pmd>

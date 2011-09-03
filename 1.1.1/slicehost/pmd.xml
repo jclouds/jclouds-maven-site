@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T17:25:25.007">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/slicehost/src/main/java/org/jclouds/slicehost/SlicehostPropertiesBuilder.java">
+<violation beginline="40" endline="40" begincolumn="52" endcolumn="60" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.slicehost" class="SlicehostPropertiesBuilder" method="defaultProperties" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/slicehost/src/main/java/org/jclouds/slicehost/handlers/ParseSlicehostErrorFromHttpResponse.java">
+<violation beginline="123" endline="124" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.slicehost.handlers" class="ParseSlicehostErrorFromHttpResponse" method="parseErrorFromContentOrNull" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/slicehost/src/main/java/org/jclouds/slicehost/xml/SliceHandler.java">
+<violation beginline="77" endline="79" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.slicehost.xml" class="SliceHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>

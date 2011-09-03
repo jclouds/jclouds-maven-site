@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="23" tokens="108">
+<file line="33" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/skeletons/standalone-compute/src/main/java/org/jclouds/servermanager/Datacenter.java"/>
+<file line="33" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/skeletons/standalone-compute/src/main/java/org/jclouds/servermanager/Image.java"/>
+<codefragment>
+<![CDATA[
+   public Image(int id, String name) {
+      this.id = id;
+      this.name = name;
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hashCode(id, name);
+   }
+
+   @Override
+   public boolean equals(Object that) {
+      if (that == null)
+         return false;
+      return Objects.equal(this.toString(), that.toString());
+   }
+
+   @Override
+   public String toString() {
+      return Objects.toStringHelper(this).add("id", id).add("name", name).toString();
+   }
+
+}
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

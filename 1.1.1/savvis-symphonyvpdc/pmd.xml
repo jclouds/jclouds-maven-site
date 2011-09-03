@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T19:29:41.854">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/compute/functions/VMToNodeMetadata.java">
+<violation beginline="79" endline="81" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.savvis.vpdc.compute.functions" class="VMToNodeMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/compute/strategy/VPDCComputeServiceAdapter.java">
+<violation beginline="109" endline="112" begincolumn="12" endcolumn="10" rule="EmptyFinallyBlock" ruleset="Basic Rules" package="org.jclouds.savvis.vpdc.compute.strategy" class="VPDCComputeServiceAdapter" method="createNodeWithGroupEncodedIntoNameThenStoreCredentials" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyFinallyBlock" priority="3">
+Avoid empty finally blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/config/VPDCRestClientModule.java">
+<violation beginline="19" endline="167" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.savvis.vpdc.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/FirewallRule.java">
+<violation beginline="156" endline="156" begincolumn="24" endcolumn="41" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.savvis.vpdc.domain" class="FirewallRule" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/xml/FirewallServiceHandler.java">
+<violation beginline="71" endline="76" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.savvis.vpdc.xml" class="FirewallServiceHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/xml/NetworkConfigSectionHandler.java">
+<violation beginline="60" endline="60" begincolumn="23" endcolumn="61" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.savvis.vpdc.xml" class="NetworkConfigSectionHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+</file>
+</pmd>

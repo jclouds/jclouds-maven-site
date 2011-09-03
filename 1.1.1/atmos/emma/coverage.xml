@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="15"/>
+    <classes value="60"/>
+    <methods value="281"/>
+    <srcfiles value="45"/>
+    <srclines value="943"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="78%  (47/60)"/>
+      <coverage type="method, %" value="52%  (145/281)"/>
+      <coverage type="block, %" value="49%  (2564/5264)"/>
+      <coverage type="line, %" value="52%  (494.2/943)"/>
+
+      <package name="org.jclouds.atmos.handlers">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/5)"/>
+        <coverage type="block, %" value="0%   (0/300)"/>
+        <coverage type="line, %" value="0%   (0/62)"/>
+
+        <srcfile name="AtmosClientErrorRetryHandler.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/97)"/>
+          <coverage type="line, %" value="0%   (0/24)"/>
+
+          <class name="AtmosClientErrorRetryHandler">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/97)"/>
+            <coverage type="line, %" value="0%   (0/24)"/>
+
+            <method name="AtmosClientErrorRetryHandler (BackoffLimitedRetryHandler, AtmosUtils): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="shouldRetryRequest (HttpCommand, HttpResponse): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/82)"/>
+              <coverage type="line, %" value="0%   (0/18)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseAtmosErrorFromXmlContent.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/203)"/>
+          <coverage type="line, %" value="0%   (0/38)"/>
+
+          <class name="ParseAtmosErrorFromXmlContent">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/203)"/>
+            <coverage type="line, %" value="0%   (0/38)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="ParseAtmosErrorFromXmlContent (AtmosUtils): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="handleError (HttpCommand, HttpResponse): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/187)"/>
+              <coverage type="line, %" value="0%   (0/32)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.util">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/8)"/>
+        <coverage type="block, %" value="0%   (0/149)"/>
+        <coverage type="line, %" value="0%   (0/22)"/>
+
+        <srcfile name="AtmosUtils.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/8)"/>
+          <coverage type="block, %" value="0%   (0/149)"/>
+          <coverage type="line, %" value="0%   (0/22)"/>
+
+          <class name="AtmosUtils">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/124)"/>
+            <coverage type="line, %" value="0%   (0/20)"/>
+
+            <method name="AtmosUtils (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="adjustContainerIfDirOptionPresent (String, ListContainerOptions): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="deleteAndEnsureGone (AtmosClient, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/36)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="parseAtmosErrorFromContent (HttpCommand, HttpResponse, InputStream): AtmosError">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="parseAtmosErrorFromContent (HttpCommand, HttpResponse, String): AtmosError">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="putBlob (AtmosClient, Crypto, BlobToObject, String, Blob, PutOptions): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/31)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+          </class>
+          <class name="AtmosUtils$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/25)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="AtmosUtils$1 (AtmosClient, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="get (): Boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.blobstore.strategy">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="25%  (1/4)"/>
+        <coverage type="block, %" value="8%   (18/224)"/>
+        <coverage type="line, %" value="19%  (7/37)"/>
+
+        <srcfile name="FindMD5InUserMetadata.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="25%  (1/4)"/>
+          <coverage type="block, %" value="8%   (18/224)"/>
+          <coverage type="line, %" value="19%  (7/37)"/>
+
+          <class name="FindMD5InUserMetadata$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/73)"/>
+            <coverage type="line, %" value="0%   (0/13)"/>
+
+            <method name="FindMD5InUserMetadata$1 (FindMD5InUserMetadata, ListenableFuture, byte [], BlockingQueue): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="run (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/58)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
+            </method>
+          </class>
+          <class name="FindMD5InUserMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="12%  (18/151)"/>
+            <coverage type="line, %" value="28%  (7/25)"/>
+
+            <method name="execute (String, Object, ListContainerOptions): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/133)"/>
+              <coverage type="line, %" value="0%   (0/18)"/>
+            </method>
+            <method name="FindMD5InUserMetadata (ExecutorService, ObjectMD5, ListBlobsInContainer, AtmosAsyncClient): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="33%  (3/9)"/>
+        <coverage type="block, %" value="20%  (20/99)"/>
+        <coverage type="line, %" value="29%  (6/21)"/>
+
+        <srcfile name="AtmosResponseException.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/6)"/>
+          <coverage type="block, %" value="0%   (0/79)"/>
+          <coverage type="line, %" value="0%   (0/15)"/>
+
+          <class name="AtmosResponseException">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/79)"/>
+            <coverage type="line, %" value="0%   (0/15)"/>
+
+            <method name="AtmosResponseException (HttpCommand, HttpResponse, AtmosError): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="AtmosResponseException (HttpCommand, HttpResponse, AtmosError, Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="AtmosResponseException (String, HttpCommand, HttpResponse, AtmosError): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="AtmosResponseException (String, HttpCommand, HttpResponse, AtmosError, Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="getError (): AtmosError">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setError (AtmosError): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AtmosContextBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (20/20)"/>
+          <coverage type="line, %" value="100% (6/6)"/>
+
+          <class name="AtmosContextBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (20/20)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="AtmosContextBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addClientModule (List): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addContextModule (List): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.blobstore">
+        <coverage type="class, %" value="38%  (3/8)"/>
+        <coverage type="method, %" value="13%  (7/53)"/>
+        <coverage type="block, %" value="28%  (276/979)"/>
+        <coverage type="line, %" value="35%  (37/106)"/>
+
+        <srcfile name="AtmosAsyncBlobStore.java">
+          <coverage type="class, %" value="17%  (1/6)"/>
+          <coverage type="method, %" value="3%   (1/31)"/>
+          <coverage type="block, %" value="15%  (74/482)"/>
+          <coverage type="line, %" value="27%  (13/49)"/>
+
+          <class name="AtmosAsyncBlobStore$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/12)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="AtmosAsyncBlobStore$1 (AtmosAsyncBlobStore): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (AtmosObject): BlobMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="AtmosAsyncBlobStore$2">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/9)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="AtmosAsyncBlobStore$2 (AtmosAsyncBlobStore): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (URI): Boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="AtmosAsyncBlobStore$3">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/8)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="AtmosAsyncBlobStore$3 (AtmosAsyncBlobStore): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (URI): Void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="AtmosAsyncBlobStore$4">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/51)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="AtmosAsyncBlobStore$4 (AtmosAsyncBlobStore, String, Blob, PutOptions): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="call (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="AtmosAsyncBlobStore$5">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/9)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="AtmosAsyncBlobStore$5 (AtmosAsyncBlobStore): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (URI): Boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="AtmosAsyncBlobStore">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="5%   (1/20)"/>
+            <coverage type="block, %" value="19%  (74/393)"/>
+            <coverage type="line, %" value="30%  (13/43)"/>
+
+            <method name="access$000 (AtmosAsyncBlobStore): ObjectToBlobMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="access$100 (AtmosAsyncBlobStore): AtmosClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="access$200 (AtmosAsyncBlobStore): Crypto">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="access$300 (AtmosAsyncBlobStore): BlobToObject">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blobExists (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blobMetadata (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/21)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="containerExists (String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String, CreateContainerOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/26)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="createDirectory (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="deleteAndVerifyContainerGone (String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="deleteDirectory (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="directoryExists (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getBlob (String, String, GetOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="list (): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="list (String, ListContainerOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/43)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="putBlob (String, Blob): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="putBlob (String, Blob, PutOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="removeBlob (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AtmosAsyncBlobStore (BlobStoreContext, BlobUtils, ExecutorService, Supplier, Supplier, AtmosAsyncClient, AtmosClient, ObjectToBlob, ObjectToBlobMetadata, BlobToObject, BlobStoreListOptionsToListOptions, DirectoryEntryListToResourceMetadataList, Crypto, BlobToHttpGetOptions, Provider, Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (74/74)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AtmosBlobStore.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="6%   (1/16)"/>
+          <coverage type="block, %" value="20%  (67/339)"/>
+          <coverage type="line, %" value="27%  (12/44)"/>
+
+          <class name="AtmosBlobStore">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="6%   (1/16)"/>
+            <coverage type="block, %" value="20%  (67/339)"/>
+            <coverage type="line, %" value="27%  (12/44)"/>
+
+            <method name="blobExists (String, String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blobMetadata (String, String): BlobMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="containerExists (String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String, CreateContainerOptions): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/21)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="createDirectory (String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="deleteAndVerifyContainerGone (String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="deleteDirectory (String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="directoryExists (String, String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getBlob (String, String, GetOptions): Blob">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/28)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="list (): PageSet">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="list (String, ListContainerOptions): PageSet">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="putBlob (String, Blob): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/34)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="putBlob (String, Blob, PutOptions): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="removeBlob (String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AtmosBlobStore (BlobStoreContext, BlobUtils, Supplier, Supplier, AtmosClient, ObjectToBlob, ObjectToBlobMetadata, BlobToObject, BlobStoreListOptionsToListOptions, DirectoryEntryListToResourceMetadataList, Crypto, BlobToHttpGetOptions, Provider, Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (67/67)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AtmosBlobRequestSigner.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="83%  (5/6)"/>
+          <coverage type="block, %" value="85%  (135/158)"/>
+          <coverage type="line, %" value="92%  (12/13)"/>
+
+          <class name="AtmosBlobRequestSigner">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="85%  (135/158)"/>
+            <coverage type="line, %" value="92%  (12/13)"/>
+
+            <method name="signGetBlob (String, String, GetOptions): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AtmosBlobRequestSigner (RestAnnotationProcessor, BlobToObject, BlobToHttpGetOptions): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (66/66)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="getPath (String, String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="signGetBlob (String, String): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="signPutBlob (String, Blob): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="signRemoveBlob (String, String): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.blobstore.functions">
+        <coverage type="class, %" value="89%  (8/9)"/>
+        <coverage type="method, %" value="65%  (13/20)"/>
+        <coverage type="block, %" value="42%  (200/474)"/>
+        <coverage type="line, %" value="43%  (36.2/85)"/>
+
+        <srcfile name="DirectoryEntryListToResourceMetadataList.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="20%  (1/5)"/>
+          <coverage type="block, %" value="8%   (6/78)"/>
+          <coverage type="line, %" value="30%  (3/10)"/>
+
+          <class name="DirectoryEntryListToResourceMetadataList$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/57)"/>
+            <coverage type="line, %" value="0%   (0/5)"/>
+
+            <method name="DirectoryEntryListToResourceMetadataList$1 (DirectoryEntryListToResourceMetadataList): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (DirectoryEntry): StorageMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/51)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+          </class>
+          <class name="DirectoryEntryListToResourceMetadataList">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="29%  (6/21)"/>
+            <coverage type="line, %" value="60%  (3/5)"/>
+
+            <method name="access$000 (DirectoryEntryListToResourceMetadataList): Supplier">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (BoundedSet): PageSet">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="DirectoryEntryListToResourceMetadataList (Supplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BlobStoreListOptionsToListOptions.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="8%   (3/36)"/>
+          <coverage type="line, %" value="10%  (1/10)"/>
+
+          <class name="BlobStoreListOptionsToListOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="8%   (3/36)"/>
+            <coverage type="line, %" value="10%  (1/10)"/>
+
+            <method name="apply (ListContainerOptions): ListOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/33)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
+            </method>
+            <method name="BlobStoreListOptionsToListOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ObjectToBlob.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="19%  (9/47)"/>
+          <coverage type="line, %" value="36%  (4/11)"/>
+
+          <class name="ObjectToBlob">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="19%  (9/47)"/>
+            <coverage type="line, %" value="36%  (4/11)"/>
+
+            <method name="apply (AtmosObject): Blob">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/38)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="ObjectToBlob (Blob$Factory, ObjectToBlobMetadata): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ObjectToBlobMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="31%  (48/155)"/>
+          <coverage type="line, %" value="19%  (5/27)"/>
+
+          <class name="ObjectToBlobMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="31%  (48/155)"/>
+            <coverage type="line, %" value="19%  (5/27)"/>
+
+            <method name="apply (AtmosObject): MutableBlobMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/107)"/>
+              <coverage type="line, %" value="0%   (0/22)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (39/39)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="ObjectToBlobMetadata (AtmosObjectName, ShareUrl): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BlobMetadataToObject.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="71%  (42/59)"/>
+          <coverage type="line, %" value="78%  (9.3/12)"/>
+
+          <class name="BlobMetadataToObject">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="71%  (42/59)"/>
+            <coverage type="line, %" value="78%  (9.3/12)"/>
+
+            <method name="apply (BlobMetadata): AtmosObject">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="64%  (30/47)"/>
+              <coverage type="line, %" value="62%  (4.3/7)"/>
+            </method>
+            <method name="BlobMetadataToObject (AtmosObject$Factory, BlobToContentMetadata, BlobToSystemMetadata): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BlobToContentMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="87%  (26/30)"/>
+          <coverage type="line, %" value="96%  (3.8/4)"/>
+
+          <class name="BlobToContentMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="87%  (26/30)"/>
+            <coverage type="line, %" value="96%  (3.8/4)"/>
+
+            <method name="apply (BlobMetadata): MutableContentMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="85%  (23/27)"/>
+              <coverage type="line, %" value="95%  (2.8/3)"/>
+            </method>
+            <method name="BlobToContentMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BlobToObject.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="94%  (34/36)"/>
+          <coverage type="line, %" value="89%  (8/9)"/>
+
+          <class name="BlobToObject">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="94%  (34/36)"/>
+            <coverage type="line, %" value="89%  (8/9)"/>
+
+            <method name="apply (Blob): AtmosObject">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="93%  (28/30)"/>
+              <coverage type="line, %" value="83%  (5/6)"/>
+            </method>
+            <method name="BlobToObject (BlobMetadataToObject): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BlobToSystemMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="97%  (32/33)"/>
+          <coverage type="line, %" value="98%  (2/2)"/>
+
+          <class name="BlobToSystemMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="97%  (32/33)"/>
+            <coverage type="line, %" value="98%  (2/2)"/>
+
+            <method name="apply (BlobMetadata): SystemMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="97%  (29/30)"/>
+              <coverage type="line, %" value="96%  (1/1)"/>
+            </method>
+            <method name="BlobToSystemMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.domain">
+        <coverage type="class, %" value="83%  (5/6)"/>
+        <coverage type="method, %" value="46%  (21/46)"/>
+        <coverage type="block, %" value="46%  (408/885)"/>
+        <coverage type="line, %" value="48%  (94.5/197)"/>
+
+        <srcfile name="UploadInfo.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/15)"/>
+          <coverage type="line, %" value="0%   (0/6)"/>
+
+          <class name="UploadInfo">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/15)"/>
+            <coverage type="line, %" value="0%   (0/6)"/>
+
+            <method name="UploadInfo (String, URI): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="getHost (): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getToken (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AtmosError.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="33%  (2/6)"/>
+          <coverage type="block, %" value="22%  (12/54)"/>
+          <coverage type="line, %" value="50%  (5/10)"/>
+
+          <class name="AtmosError">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (2/6)"/>
+            <coverage type="block, %" value="22%  (12/54)"/>
+            <coverage type="line, %" value="50%  (5/10)"/>
+
+            <method name="getMessage (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStringSigned (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setStringSigned (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AtmosError (int, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SystemMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="14%  (2/14)"/>
+          <coverage type="block, %" value="36%  (127/356)"/>
+          <coverage type="line, %" value="40%  (33/82)"/>
+
+          <class name="SystemMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="14%  (2/14)"/>
+            <coverage type="block, %" value="36%  (127/356)"/>
+            <coverage type="line, %" value="40%  (33/82)"/>
+
+            <method name="getContentMD5 (): byte []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getGroupID (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getHardLinkCount (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getInceptionTime (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLastAccessTime (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLastMetadataModification (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLastUserDataModification (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPolicyName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSize (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getUserID (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/118)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="61%  (91/150)"/>
+              <coverage type="line, %" value="45%  (21/47)"/>
+            </method>
+            <method name="SystemMetadata (byte [], Date, Date, String, Date, Date, int, String, String, String, long, FileType, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (36/36)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="UserMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="78%  (7/9)"/>
+          <coverage type="block, %" value="48%  (109/228)"/>
+          <coverage type="line, %" value="56%  (29/52)"/>
+
+          <class name="UserMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="78%  (7/9)"/>
+            <coverage type="block, %" value="48%  (109/228)"/>
+            <coverage type="line, %" value="56%  (29/52)"/>
+
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/58)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (51/85)"/>
+              <coverage type="line, %" value="46%  (13/28)"/>
+            </method>
+            <method name="UserMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="UserMetadata (Map, Map, Iterable, Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (31/31)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="getListableMetadata (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getListableTags (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMetadata (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getTags (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="DirectoryEntry.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="62%  (5/8)"/>
+          <coverage type="block, %" value="62%  (108/173)"/>
+          <coverage type="line, %" value="60%  (24.5/41)"/>
+
+          <class name="DirectoryEntry">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="62%  (5/8)"/>
+            <coverage type="block, %" value="62%  (108/173)"/>
+            <coverage type="line, %" value="60%  (24.5/41)"/>
+
+            <method name="getObjectID (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getType (): FileType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="61%  (42/69)"/>
+              <coverage type="line, %" value="48%  (11/23)"/>
+            </method>
+            <method name="compareTo (DirectoryEntry): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="75%  (12/16)"/>
+              <coverage type="line, %" value="60%  (1.8/3)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="87%  (39/45)"/>
+              <coverage type="line, %" value="95%  (5.7/6)"/>
+            </method>
+            <method name="DirectoryEntry (String, FileType, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="getObjectName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="FileType.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="83%  (5/6)"/>
+          <coverage type="block, %" value="88%  (52/59)"/>
+          <coverage type="line, %" value="50%  (3/6)"/>
+
+          <class name="FileType">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="88%  (52/59)"/>
+            <coverage type="line, %" value="50%  (3/6)"/>
+
+            <method name="value (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromValue (String): FileType">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="57%  (4/7)"/>
+              <coverage type="line, %" value="33%  (1/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="FileType (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="valueOf (String): FileType">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): FileType []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.domain.internal">
+        <coverage type="class, %" value="100% (4/4)"/>
+        <coverage type="method, %" value="55%  (26/47)"/>
+        <coverage type="block, %" value="47%  (250/529)"/>
+        <coverage type="line, %" value="52%  (69.8/134)"/>
+
+        <srcfile name="DelegatingMutableContentMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="38%  (10/26)"/>
+          <coverage type="block, %" value="37%  (71/194)"/>
+          <coverage type="line, %" value="46%  (26/57)"/>
+
+          <class name="DelegatingMutableContentMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="38%  (10/26)"/>
+            <coverage type="block, %" value="37%  (71/194)"/>
+            <coverage type="line, %" value="46%  (26/57)"/>
+
+            <method name="getContentDisposition (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getContentEncoding (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getContentLanguage (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getContentLength (): Long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getContentMD5 (): byte []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getContentType (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getDelegate (): MutableContentMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="setContentDisposition (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setContentEncoding (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setContentLanguage (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setContentMD5 (byte []): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setContentType (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setPropertiesFromHttpHeaders (Multimap): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toBuilder (): ContentMetadataBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="57%  (21/37)"/>
+              <coverage type="line, %" value="54%  (7/13)"/>
+            </method>
+            <method name="DelegatingMutableContentMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="DelegatingMutableContentMetadata (URI, String, String, MutableContentMetadata): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getPath (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getUri (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setContentLength (Long): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setName (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setPath (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setUri (URI): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BoundedLinkedHashSet.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="60%  (3/5)"/>
+          <coverage type="block, %" value="46%  (42/92)"/>
+          <coverage type="line, %" value="52%  (12/23)"/>
+
+          <class name="BoundedLinkedHashSet">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="46%  (42/92)"/>
+            <coverage type="line, %" value="52%  (12/23)"/>
+
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="67%  (26/39)"/>
+              <coverage type="line, %" value="54%  (7/13)"/>
+            </method>
+            <method name="BoundedLinkedHashSet (Iterable, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getToken (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AtmosObjectImpl.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="81%  (13/16)"/>
+          <coverage type="block, %" value="56%  (137/243)"/>
+          <coverage type="line, %" value="59%  (31.8/54)"/>
+
+          <class name="AtmosObjectImpl">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (9/12)"/>
+            <coverage type="block, %" value="51%  (107/211)"/>
+            <coverage type="line, %" value="56%  (28/50)"/>
+
+            <method name="compareTo (AtmosObject): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/46)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="62%  (44/71)"/>
+              <coverage type="line, %" value="48%  (11/23)"/>
+            </method>
+            <method name="AtmosObjectImpl (MutableContentMetadata): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="AtmosObjectImpl (MutableContentMetadata, SystemMetadata, UserMetadata): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="getAllHeaders (): Multimap">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContentMetadata (): MutableContentMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getSystemMetadata (): SystemMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getUserMetadata (): UserMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setAllHeaders (Multimap): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setPayload (Payload): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="AtmosObjectImpl$AtmosObjectFactory">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="94%  (30/32)"/>
+            <coverage type="line, %" value="96%  (3.8/4)"/>
+
+            <method name="create (MutableContentMetadata): AtmosObject">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="83%  (10/12)"/>
+              <coverage type="line, %" value="83%  (0.8/1)"/>
+            </method>
+            <method name="AtmosObjectImpl$AtmosObjectFactory (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="create (MutableContentMetadata, SystemMetadata, UserMetadata): AtmosObject">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="create (SystemMetadata, UserMetadata): AtmosObject">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.filters">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="79%  (11/14)"/>
+        <coverage type="block, %" value="73%  (344/473)"/>
+        <coverage type="line, %" value="78%  (69/88)"/>
+
+        <srcfile name="ShareUrl.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="25%  (1/4)"/>
+          <coverage type="block, %" value="20%  (28/138)"/>
+          <coverage type="line, %" value="40%  (10/25)"/>
+
+          <class name="ShareUrl">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="25%  (1/4)"/>
+            <coverage type="block, %" value="20%  (28/138)"/>
+            <coverage type="line, %" value="40%  (10/25)"/>
+
+            <method name="apply (String): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/61)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="createStringToSign (String, long): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="signString (String): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="ShareUrl (String, String, URI, Provider, Provider, Crypto): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SignRequest.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (10/10)"/>
+          <coverage type="block, %" value="94%  (316/335)"/>
+          <coverage type="line, %" value="94%  (59/63)"/>
+
+          <class name="SignRequest">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (10/10)"/>
+            <coverage type="block, %" value="94%  (316/335)"/>
+            <coverage type="line, %" value="94%  (59/63)"/>
+
+            <method name="calculateSignature (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="62%  (10/16)"/>
+              <coverage type="line, %" value="75%  (3/4)"/>
+            </method>
+            <method name="signString (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="65%  (13/20)"/>
+              <coverage type="line, %" value="60%  (3/5)"/>
+            </method>
+            <method name="createStringToSign (HttpRequest): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="86%  (38/44)"/>
+              <coverage type="line, %" value="90%  (9/10)"/>
+            </method>
+            <method name="SignRequest (SignatureWire, String, String, Provider, Crypto, HttpUtils): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="appendCanonicalizedHeaders (HttpRequest, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (89/89)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+            <method name="appendCanonicalizedResource (HttpRequest, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="appendHttpHeaders (HttpRequest, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (43/43)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="appendMethod (HttpRequest, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="appendPayloadMetadata (HttpRequest, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="filter (HttpRequest): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (59/59)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.config">
+        <coverage type="class, %" value="100% (4/4)"/>
+        <coverage type="method, %" value="71%  (10/14)"/>
+        <coverage type="block, %" value="79%  (89/112)"/>
+        <coverage type="line, %" value="83%  (19/23)"/>
+
+        <srcfile name="AtmosObjectModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="64%  (9/14)"/>
+          <coverage type="line, %" value="75%  (3/4)"/>
+
+          <class name="AtmosObjectModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="64%  (9/14)"/>
+            <coverage type="line, %" value="75%  (3/4)"/>
+
+            <method name="provideAtmosObject (AtmosObject$Factory): AtmosObject">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AtmosObjectModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AtmosRestClientModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="67%  (6/9)"/>
+          <coverage type="block, %" value="80%  (70/88)"/>
+          <coverage type="line, %" value="81%  (13/16)"/>
+
+          <class name="AtmosRestClientModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="69%  (9/13)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="get (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AtmosRestClientModule$1 (AtmosRestClientModule, DateService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AtmosRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="81%  (61/75)"/>
+            <coverage type="line, %" value="87%  (13/15)"/>
+
+            <method name="provideShareableUrlTimeout (): Long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideTimeStamp (Supplier): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AtmosRestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="bindErrorHandlers (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="bindRetryHandlers (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="provideTimeStampCache (long, DateService): Supplier">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AtmosParserModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (10/10)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="AtmosParserModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (10/10)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="AtmosParserModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.options">
+        <coverage type="class, %" value="100% (4/4)"/>
+        <coverage type="method, %" value="76%  (13/17)"/>
+        <coverage type="block, %" value="81%  (109/134)"/>
+        <coverage type="line, %" value="86%  (25.8/30)"/>
+
+        <srcfile name="ListOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="75%  (9/12)"/>
+          <coverage type="block, %" value="79%  (84/106)"/>
+          <coverage type="line, %" value="83%  (18.3/22)"/>
+
+          <class name="ListOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (6/8)"/>
+            <coverage type="block, %" value="76%  (61/80)"/>
+            <coverage type="line, %" value="80%  (12.8/16)"/>
+
+            <method name="getLimit (): Integer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="getToken (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="limit (int): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (22/24)"/>
+              <coverage type="line, %" value="96%  (3.8/4)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="ListOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="includeMeta (): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="metaIncluded (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="token (String): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="ListOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="88%  (23/26)"/>
+            <coverage type="line, %" value="86%  (6/7)"/>
+
+            <method name="ListOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="includeMeta (): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="limit (int): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="token (String): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="PutOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="80%  (4/5)"/>
+          <coverage type="block, %" value="89%  (25/28)"/>
+          <coverage type="line, %" value="94%  (7.5/8)"/>
+
+          <class name="PutOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="70%  (7/10)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="PutOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="publicRead (): PutOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="PutOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (18/18)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="PutOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="publicRead (): PutOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.blobstore.config">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="71%  (5/7)"/>
+        <coverage type="block, %" value="91%  (83/91)"/>
+        <coverage type="line, %" value="85%  (11/13)"/>
+
+        <srcfile name="AtmosBlobStoreContextModule.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="91%  (83/91)"/>
+          <coverage type="line, %" value="85%  (11/13)"/>
+
+          <class name="AtmosBlobStoreContextModule$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="53%  (9/17)"/>
+            <coverage type="line, %" value="33%  (1/3)"/>
+
+            <method name="apply (String): Boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AtmosBlobStoreContextModule$2 (AtmosBlobStoreContextModule, AtmosClient): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AtmosBlobStoreContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (68/68)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="AtmosBlobStoreContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (52/52)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="isPublic (AtmosClient): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AtmosBlobStoreContextModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AtmosBlobStoreContextModule$1 (AtmosBlobStoreContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.functions">
+        <coverage type="class, %" value="100% (8/8)"/>
+        <coverage type="method, %" value="92%  (22/24)"/>
+        <coverage type="block, %" value="92%  (497/541)"/>
+        <coverage type="line, %" value="93%  (63.9/69)"/>
+
+        <srcfile name="ReturnTrueIfGroupACLIsOtherRead.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="21%  (3/14)"/>
+          <coverage type="line, %" value="33%  (1/3)"/>
+
+          <class name="ReturnTrueIfGroupACLIsOtherRead">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="21%  (3/14)"/>
+            <coverage type="line, %" value="33%  (1/3)"/>
+
+            <method name="apply (HttpResponse): Boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="ReturnTrueIfGroupACLIsOtherRead (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ReturnEndpointIfAlreadyExists.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="75%  (3/4)"/>
+          <coverage type="block, %" value="52%  (16/31)"/>
+          <coverage type="line, %" value="71%  (5/7)"/>
+
+          <class name="ReturnEndpointIfAlreadyExists">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="52%  (16/31)"/>
+            <coverage type="line, %" value="71%  (5/7)"/>
+
+            <method name="setContext (HttpRequest): ReturnEndpointIfAlreadyExists">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Exception): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="57%  (8/14)"/>
+              <coverage type="line, %" value="67%  (2/3)"/>
+            </method>
+            <method name="ReturnEndpointIfAlreadyExists (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setEndpoint (URI): ReturnEndpointIfAlreadyExists">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseSystemMetadataFromHeaders.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="92%  (170/185)"/>
+          <coverage type="line, %" value="93%  (13.1/14)"/>
+
+          <class name="ParseSystemMetadataFromHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="92%  (170/185)"/>
+            <coverage type="line, %" value="93%  (13.1/14)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="75%  (6/8)"/>
+              <coverage type="line, %" value="75%  (0.8/1)"/>
+            </method>
+            <method name="apply (HttpResponse): SystemMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (155/168)"/>
+              <coverage type="line, %" value="93%  (9.3/10)"/>
+            </method>
+            <method name="ParseSystemMetadataFromHeaders (DateService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseUserMetadataFromHeaders.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (7/7)"/>
+          <coverage type="block, %" value="98%  (149/152)"/>
+          <coverage type="line, %" value="99%  (15.8/16)"/>
+
+          <class name="ParseUserMetadataFromHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="98%  (138/141)"/>
+            <coverage type="line, %" value="99%  (14.8/15)"/>
+
+            <method name="apply (HttpResponse): UserMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="95%  (58/61)"/>
+              <coverage type="line, %" value="98%  (5.8/6)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (43/43)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ParseUserMetadataFromHeaders (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="access$000 (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMetaMap (String): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (32/32)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+          <class name="ParseUserMetadataFromHeaders$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (11/11)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="ParseUserMetadataFromHeaders$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (String): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AtmosObjectName.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (29/29)"/>
+          <coverage type="line, %" value="100% (4/4)"/>
+
+          <class name="AtmosObjectName">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (29/29)"/>
+            <coverage type="line, %" value="100% (4/4)"/>
+
+            <method name="AtmosObjectName (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Object): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (26/26)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseDirectoryListFromContentAndHeaders.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (40/40)"/>
+          <coverage type="line, %" value="100% (7/7)"/>
+
+          <class name="ParseDirectoryListFromContentAndHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (40/40)"/>
+            <coverage type="line, %" value="100% (7/7)"/>
+
+            <method name="ParseDirectoryListFromContentAndHeaders (ParseSax$Factory, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="apply (HttpResponse): BoundedSet">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseObjectFromHeadersAndHttpContent.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (90/90)"/>
+          <coverage type="line, %" value="100% (18/18)"/>
+
+          <class name="ParseObjectFromHeadersAndHttpContent">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (90/90)"/>
+            <coverage type="line, %" value="100% (18/18)"/>
+
+            <method name="ParseObjectFromHeadersAndHttpContent (ParseSystemMetadataFromHeaders, ParseUserMetadataFromHeaders, AtmosObject$Factory): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="apply (HttpResponse): AtmosObject">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (49/49)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseObjectFromHeadersAndHttpContent">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setPath (String): ParseObjectFromHeadersAndHttpContent">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.xml">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (8/8)"/>
+        <coverage type="block, %" value="97%  (135/139)"/>
+        <coverage type="line, %" value="97%  (28/29)"/>
+
+        <srcfile name="ListDirectoryResponseHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="95%  (83/87)"/>
+          <coverage type="line, %" value="94%  (17/18)"/>
+
+          <class name="ListDirectoryResponseHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="95%  (83/87)"/>
+            <coverage type="line, %" value="94%  (17/18)"/>
+
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="94%  (61/65)"/>
+              <coverage type="line, %" value="92%  (11/12)"/>
+            </method>
+            <method name="ListDirectoryResponseHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="getResult (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ErrorHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (52/52)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="ErrorHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (52/52)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="ErrorHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="getResult (): AtmosError">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.atmos.binders">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (5/5)"/>
+        <coverage type="block, %" value="100% (135/135)"/>
+        <coverage type="line, %" value="100% (27/27)"/>
+
+        <srcfile name="BindMetadataToHeaders.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (43/43)"/>
+          <coverage type="line, %" value="100% (9/9)"/>
+
+          <class name="BindMetadataToHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (43/43)"/>
+            <coverage type="line, %" value="100% (9/9)"/>
+
+            <method name="BindMetadataToHeaders (BindUserMetadataToHeaders): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BindUserMetadataToHeaders.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (92/92)"/>
+          <coverage type="line, %" value="100% (18/18)"/>
+
+          <class name="BindUserMetadataToHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (92/92)"/>
+            <coverage type="line, %" value="100% (18/18)"/>
+
+            <method name="BindUserMetadataToHeaders (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (UserMetadata): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (69/69)"/>
+              <coverage type="line, %" value="100% (14/14)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

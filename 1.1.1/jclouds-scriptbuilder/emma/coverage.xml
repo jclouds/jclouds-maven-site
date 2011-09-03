@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="6"/>
+    <classes value="58"/>
+    <methods value="273"/>
+    <srcfiles value="39"/>
+    <srclines value="995"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="81%  (47/58)"/>
+      <coverage type="method, %" value="67%  (184/273)"/>
+      <coverage type="block, %" value="82%  (4911/6017)"/>
+      <coverage type="line, %" value="75%  (751/995)"/>
+
+      <package name="org.jclouds.scriptbuilder.statements.login">
+        <coverage type="class, %" value="83%  (10/12)"/>
+        <coverage type="method, %" value="68%  (53/78)"/>
+        <coverage type="block, %" value="78%  (980/1254)"/>
+        <coverage type="line, %" value="73%  (200.9/277)"/>
+
+        <srcfile name="DefaultConfiguration.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/7)"/>
+          <coverage type="block, %" value="0%   (0/73)"/>
+          <coverage type="line, %" value="0%   (0/12)"/>
+
+          <class name="DefaultConfiguration">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/5)"/>
+            <coverage type="block, %" value="0%   (0/32)"/>
+            <coverage type="line, %" value="0%   (0/9)"/>
+
+            <method name="DefaultConfiguration (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="cryptFunction (): Function">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="defaultAdminSshKeys (): Supplier">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="defaultAdminUsername (): Supplier">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="passwordGenerator (): Supplier">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="DefaultConfiguration$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/41)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="DefaultConfiguration$1 (DefaultConfiguration): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="get (): Map">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/35)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SudoStatements.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="57%  (4/7)"/>
+          <coverage type="line, %" value="50%  (1/2)"/>
+
+          <class name="SudoStatements">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="57%  (4/7)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="SudoStatements (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createWheel (): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ReplaceShadowPasswordEntry.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (3/6)"/>
+          <coverage type="block, %" value="58%  (87/151)"/>
+          <coverage type="line, %" value="42%  (15/36)"/>
+
+          <class name="ReplaceShadowPasswordEntry">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (3/6)"/>
+            <coverage type="block, %" value="58%  (87/151)"/>
+            <coverage type="line, %" value="42%  (15/36)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="91%  (64/70)"/>
+              <coverage type="line, %" value="73%  (8/11)"/>
+            </method>
+            <method name="ReplaceShadowPasswordEntry (String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="cryptFunction (Function): ReplaceShadowPasswordEntry">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ShadowStatements.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="62%  (5/8)"/>
+          <coverage type="line, %" value="50%  (1/2)"/>
+
+          <class name="ShadowStatements">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="62%  (5/8)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="ShadowStatements (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="resetLoginUserPasswordTo (String): ReplaceShadowPasswordEntryOfLoginUser">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="UserAdd.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="72%  (13/18)"/>
+          <coverage type="block, %" value="82%  (352/428)"/>
+          <coverage type="line, %" value="72%  (63/87)"/>
+
+          <class name="UserAdd">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="57%  (4/7)"/>
+            <coverage type="block, %" value="81%  (272/334)"/>
+            <coverage type="line, %" value="68%  (43/63)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="98%  (219/223)"/>
+              <coverage type="line, %" value="94%  (30/32)"/>
+            </method>
+            <method name="UserAdd (String, List, String, String, List, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (44/44)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="builder (): UserAdd$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="cryptFunction (Function): UserAdd">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="UserAdd$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="82%  (9/11)"/>
+            <coverage type="block, %" value="85%  (80/94)"/>
+            <coverage type="line, %" value="83%  (20/24)"/>
+
+            <method name="authorizeRSAPublicKeys (Iterable): UserAdd$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="shell (String): UserAdd$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="UserAdd$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="authorizeRSAPublicKey (String): UserAdd$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): UserAdd">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defaultHome (String): UserAdd$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="group (String): UserAdd$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="groups (Iterable): UserAdd$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="installRSAPrivateKey (String): UserAdd$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="login (String): UserAdd$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="password (String): UserAdd$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AdminAccess.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="82%  (32/39)"/>
+          <coverage type="block, %" value="90%  (484/537)"/>
+          <coverage type="line, %" value="87%  (109.9/126)"/>
+
+          <class name="AdminAccess$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="88%  (14/16)"/>
+            <coverage type="block, %" value="80%  (127/159)"/>
+            <coverage type="line, %" value="78%  (38/49)"/>
+
+            <method name="adminPrivateKey (File): AdminAccess$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="adminPublicKey (File): AdminAccess$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="buildConfig (): AdminAccess$Config">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="71%  (40/56)"/>
+              <coverage type="line, %" value="50%  (5/10)"/>
+            </method>
+            <method name="AdminAccess$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="AdminAccess$Builder (Function): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="adminPassword (String): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="adminPrivateKey (String): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="adminPublicKey (String): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="adminUsername (String): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="authorizeAdminPublicKey (boolean): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): AdminAccess">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="grantSudoToAdminUser (boolean): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="installAdminPrivateKey (boolean): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="lockSsh (boolean): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="loginPassword (String): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="resetLoginPassword (boolean): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="AdminAccess">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (6/10)"/>
+            <coverage type="block, %" value="94%  (271/289)"/>
+            <coverage type="line, %" value="92%  (44.9/49)"/>
+
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getAdminCredentials (): Credentials">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getAdminPassword (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="shouldGrantSudoToAdminUser (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="init (AdminAccess$Configuration): AdminAccess">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="97%  (118/122)"/>
+              <coverage type="line, %" value="100% (13.9/14)"/>
+            </method>
+            <method name="AdminAccess (AdminAccess$Config): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="builder (): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="builder (Function): AdminAccess$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (130/130)"/>
+              <coverage type="line, %" value="100% (25/25)"/>
+            </method>
+            <method name="standard (): AdminAccess">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AdminAccess$Config">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="92%  (12/13)"/>
+            <coverage type="block, %" value="97%  (86/89)"/>
+            <coverage type="line, %" value="96%  (27/28)"/>
+
+            <method name="getAdminCredentials (): Credentials">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AdminAccess$Config (String, String, String, String, String, boolean, boolean, boolean, boolean, boolean, Function): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (53/53)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
+            </method>
+            <method name="getAdminPassword (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getAdminPrivateKey (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getAdminPublicKey (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getAdminUsername (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCryptFunction (): Function">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLoginPassword (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="shouldAuthorizeAdminPublicKey (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="shouldGrantSudoToAdminUser (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="shouldInstallAdminPrivateKey (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="shouldLockSsh (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="shouldResetLoginPassword (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Sudoers.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="96%  (43/45)"/>
+          <coverage type="line, %" value="90%  (9/10)"/>
+
+          <class name="Sudoers">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="96%  (43/45)"/>
+            <coverage type="line, %" value="90%  (9/10)"/>
+
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Sudoers (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (40/40)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ReplaceShadowPasswordEntryOfLoginUser.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (1/1)"/>
+          <coverage type="block, %" value="100% (5/5)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="ReplaceShadowPasswordEntryOfLoginUser">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (5/5)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="ReplaceShadowPasswordEntryOfLoginUser (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.scriptbuilder">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="64%  (16/25)"/>
+        <coverage type="block, %" value="81%  (637/790)"/>
+        <coverage type="line, %" value="67%  (72/108)"/>
+
+        <srcfile name="InitBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="20%  (2/10)"/>
+          <coverage type="block, %" value="61%  (232/383)"/>
+          <coverage type="line, %" value="24%  (11/46)"/>
+
+          <class name="InitBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="20%  (2/10)"/>
+            <coverage type="block, %" value="61%  (232/383)"/>
+            <coverage type="line, %" value="24%  (11/46)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/69)"/>
+              <coverage type="line, %" value="0%   (0/23)"/>
+            </method>
+            <method name="getCreateRunScript (): CreateRunScript">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getInitStatement (): StatementList">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getInstanceHome (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getInstanceName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLogDir (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/45)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="InitBuilder (String, String, String, Map, Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="InitBuilder (String, String, String, Map, Iterable, Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (223/223)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ScriptBuilder.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="92%  (11/12)"/>
+          <coverage type="block, %" value="99%  (308/310)"/>
+          <coverage type="line, %" value="98%  (46/47)"/>
+
+          <class name="ScriptBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="88%  (7/8)"/>
+            <coverage type="block, %" value="99%  (256/258)"/>
+            <coverage type="line, %" value="98%  (40/41)"/>
+
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ScriptBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (26/26)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="accept (StatementVisitor): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="addEnvironmentVariableScope (String, Map): ScriptBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addStatement (Statement): ScriptBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (147/147)"/>
+              <coverage type="line, %" value="100% (21/21)"/>
+            </method>
+            <method name="resolveFunctionDependencies (Map, OsFamily): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="unsetEnvironmentVariable (String): ScriptBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="ScriptBuilder$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (38/38)"/>
+            <coverage type="line, %" value="100% (4/4)"/>
+
+            <method name="ScriptBuilder$1 (ScriptBuilder, Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (29/29)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="ScriptBuilder$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (14/14)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="ScriptBuilder$2 (ScriptBuilder, OsFamily): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Statement): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="EnvBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (97/97)"/>
+          <coverage type="line, %" value="100% (15/15)"/>
+
+          <class name="EnvBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (97/97)"/>
+            <coverage type="line, %" value="100% (15/15)"/>
+
+            <method name="EnvBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (79/79)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+            <method name="export (String, String): EnvBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.scriptbuilder.domain">
+        <coverage type="class, %" value="72%  (21/29)"/>
+        <coverage type="method, %" value="65%  (83/128)"/>
+        <coverage type="block, %" value="81%  (2618/3214)"/>
+        <coverage type="line, %" value="76%  (368.5/485)"/>
+
+        <srcfile name="AuthorizeRSAPublicKey.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/1)"/>
+          <coverage type="block, %" value="0%   (0/7)"/>
+          <coverage type="line, %" value="0%   (0/2)"/>
+
+          <class name="AuthorizeRSAPublicKey">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/1)"/>
+            <coverage type="block, %" value="0%   (0/7)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="AuthorizeRSAPublicKey (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="InitMetadata.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/10)"/>
+          <coverage type="block, %" value="0%   (0/81)"/>
+          <coverage type="line, %" value="0%   (0/20)"/>
+
+          <class name="InitMetadata">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/10)"/>
+            <coverage type="block, %" value="0%   (0/81)"/>
+            <coverage type="line, %" value="0%   (0/20)"/>
+
+            <method name="InitMetadata (String, String, URI, String, String, String, String, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/54)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
+            </method>
+            <method name="getConfigDir (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getDataDir (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getEndPoint (): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getGoldDir (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLogDir (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPlatformHome (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStartDir (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStopDir (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="InstallRSAPrivateKey.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/1)"/>
+          <coverage type="block, %" value="0%   (0/4)"/>
+          <coverage type="line, %" value="0%   (0/2)"/>
+
+          <class name="InstallRSAPrivateKey">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/1)"/>
+            <coverage type="block, %" value="0%   (0/4)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="InstallRSAPrivateKey (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="JavaInitMetadata.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/6)"/>
+          <coverage type="block, %" value="0%   (0/57)"/>
+          <coverage type="line, %" value="0%   (0/12)"/>
+
+          <class name="JavaInitMetadata">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/57)"/>
+            <coverage type="line, %" value="0%   (0/12)"/>
+
+            <method name="JavaInitMetadata (String, String, URI, String, String, String, String, String, String, String, String [], String, String [], String []): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/42)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="getArgs (): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getClasspath (): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getJavaHome (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getMainClass (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getOpts (): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SaveHttpResponseTo.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/71)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="SaveHttpResponseTo">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/1)"/>
+            <coverage type="block, %" value="0%   (0/53)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="SaveHttpResponseTo (String, String, String, URI, Multimap): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/53)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+          <class name="SaveHttpResponseTo$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/18)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="SaveHttpResponseTo$1 (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Map$Entry): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="StoppableJavaInitMetadata.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/5)"/>
+          <coverage type="block, %" value="0%   (0/53)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
+
+          <class name="StoppableJavaInitMetadata">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/5)"/>
+            <coverage type="block, %" value="0%   (0/53)"/>
+            <coverage type="line, %" value="0%   (0/10)"/>
+
+            <method name="StoppableJavaInitMetadata (String, String, URI, String, String, String, String, String, String, String, String [], String, String [], String [], String [], String, String [], String []): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/41)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="getStopArgs (): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStopClass (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStopClasspath (): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStopOpts (): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Call.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (4/6)"/>
+          <coverage type="block, %" value="52%  (78/150)"/>
+          <coverage type="line, %" value="38%  (12/32)"/>
+
+          <class name="Call">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (4/6)"/>
+            <coverage type="block, %" value="52%  (78/150)"/>
+            <coverage type="line, %" value="38%  (12/32)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/45)"/>
+              <coverage type="line, %" value="0%   (0/15)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="Call (String, String []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (52/52)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Statements.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="55%  (11/20)"/>
+          <coverage type="block, %" value="54%  (88/163)"/>
+          <coverage type="line, %" value="52%  (11/21)"/>
+
+          <class name="Statements$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/37)"/>
+            <coverage type="line, %" value="0%   (0/5)"/>
+
+            <method name="Statements$1 (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+          <class name="Statements">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="65%  (11/17)"/>
+            <coverage type="block, %" value="70%  (88/126)"/>
+            <coverage type="line, %" value="65%  (11/17)"/>
+
+            <method name="Statements (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="appendFile (String, Iterable, String): Statement">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="extractTargzIntoDirectory (String, URI, Multimap, String): Statement">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="extractZipIntoDirectory (String, URI, Multimap, String): Statement">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="pipeHttpResponseToBash (String, URI, Multimap): Statement">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="rm (String): Statement">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="appendFile (String, Iterable): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="call (String, String []): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="createRunScript (String, Iterable, String, Iterable): CreateRunScript">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="exec (String): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="findPid (String): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="forget (String, String, String): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="interpret (String []): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="kill (): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="newStatementList (Statement []): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="switchArg (int, Map): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="StatementList.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="60%  (84/140)"/>
+          <coverage type="line, %" value="50%  (17/34)"/>
+
+          <class name="StatementList">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="60%  (84/140)"/>
+            <coverage type="line, %" value="50%  (17/34)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="StatementList (Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="StatementList (Statement []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="accept (StatementVisitor): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (23/23)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="InterpretableStatement.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="83%  (5/6)"/>
+          <coverage type="block, %" value="73%  (57/78)"/>
+          <coverage type="line, %" value="75%  (15/20)"/>
+
+          <class name="InterpretableStatement">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="73%  (57/78)"/>
+            <coverage type="line, %" value="75%  (15/20)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="72%  (21/29)"/>
+              <coverage type="line, %" value="60%  (6/10)"/>
+            </method>
+            <method name="InterpretableStatement (String []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="UnzipHttpResponseIntoDirectory.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="75%  (44/59)"/>
+          <coverage type="line, %" value="75%  (3/4)"/>
+
+          <class name="UnzipHttpResponseIntoDirectory$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="17%  (3/18)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="apply (Map$Entry): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="UnzipHttpResponseIntoDirectory$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="UnzipHttpResponseIntoDirectory">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (41/41)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="UnzipHttpResponseIntoDirectory (String, URI, Multimap, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (41/41)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="OsFamily.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="75%  (3/4)"/>
+          <coverage type="block, %" value="87%  (33/38)"/>
+          <coverage type="line, %" value="95%  (2.9/3)"/>
+
+          <class name="OsFamily">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="87%  (33/38)"/>
+            <coverage type="line, %" value="95%  (2.9/3)"/>
+
+            <method name="valueOf (String): OsFamily">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="OsFamily (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): OsFamily []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ShellToken.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="89%  (8/9)"/>
+          <coverage type="block, %" value="94%  (815/865)"/>
+          <coverage type="line, %" value="99%  (101.8/103)"/>
+
+          <class name="ShellToken$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="86%  (195/226)"/>
+            <coverage type="line, %" value="87%  (1.7/2)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="86%  (195/226)"/>
+              <coverage type="line, %" value="87%  (1.7/2)"/>
+            </method>
+          </class>
+          <class name="ShellToken">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="97%  (586/605)"/>
+            <coverage type="line, %" value="99%  (97/98)"/>
+
+            <method name="valueOf (String): ShellToken">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="to (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="95%  (270/284)"/>
+              <coverage type="line, %" value="99%  (89/90)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (302/302)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="ShellToken (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="tokenValueMap (OsFamily): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): ShellToken []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ShellToken$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (34/34)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="ShellToken$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (OsFamily): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (31/31)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SwitchArg.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (8/8)"/>
+          <coverage type="block, %" value="95%  (329/346)"/>
+          <coverage type="line, %" value="89%  (55.9/63)"/>
+
+          <class name="SwitchArg">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (8/8)"/>
+            <coverage type="block, %" value="95%  (329/346)"/>
+            <coverage type="line, %" value="89%  (55.9/63)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="66%  (29/44)"/>
+              <coverage type="line, %" value="53%  (8/15)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (24/26)"/>
+              <coverage type="line, %" value="98%  (4.9/5)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="SwitchArg (int, Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="accept (StatementVisitor): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="addArgValidation (StringBuilder, OsFamily): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (56/56)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (23/23)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (149/149)"/>
+              <coverage type="line, %" value="100% (22/22)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AdminAccessVisitor.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="96%  (25/26)"/>
+          <coverage type="line, %" value="88%  (7/8)"/>
+
+          <class name="AdminAccessVisitor">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="96%  (25/26)"/>
+            <coverage type="line, %" value="88%  (7/8)"/>
+
+            <method name="visit (Statement): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (22/23)"/>
+              <coverage type="line, %" value="86%  (6/7)"/>
+            </method>
+            <method name="AdminAccessVisitor (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AppendFile.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (9/9)"/>
+          <coverage type="block, %" value="98%  (254/258)"/>
+          <coverage type="line, %" value="97%  (38/39)"/>
+
+          <class name="AppendFile">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (9/9)"/>
+            <coverage type="block, %" value="98%  (254/258)"/>
+            <coverage type="line, %" value="97%  (38/39)"/>
+
+            <method name="appendToFile (String, String, OsFamily): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="93%  (40/43)"/>
+              <coverage type="line, %" value="80%  (4/5)"/>
+            </method>
+            <method name="AppendFile (String, Iterable, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="97%  (28/29)"/>
+              <coverage type="line, %" value="99%  (6/6)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="AppendFile (String, Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addSpaceToEnsureWeDontAccidentallyRedirectFd (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="escapeVarTokens (String, OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (69/69)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hereFile (String, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (39/39)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (54/54)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CreateRunScript.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="89%  (16/18)"/>
+          <coverage type="block, %" value="99%  (682/689)"/>
+          <coverage type="line, %" value="97%  (90/93)"/>
+
+          <class name="CreateRunScript$AddTitleToFile">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="95%  (36/38)"/>
+            <coverage type="line, %" value="86%  (6/7)"/>
+
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="CreateRunScript$AddTitleToFile (String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CreateRunScript$AddExportToFile">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="96%  (48/50)"/>
+            <coverage type="line, %" value="88%  (7/8)"/>
+
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="CreateRunScript$AddExportToFile (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CreateRunScript">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (10/10)"/>
+            <coverage type="block, %" value="100% (598/601)"/>
+            <coverage type="line, %" value="99%  (77/78)"/>
+
+            <method name="appendToFile (String, String, OsFamily): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="93%  (40/43)"/>
+              <coverage type="line, %" value="80%  (4/5)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="CreateRunScript (String, Iterable, String, Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="addSpaceToEnsureWeDontAccidentallyRedirectFd (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="addUnixRunScript (String, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (52/52)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="addUnixRunScriptFooter (OsFamily, String, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (29/29)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="addUnixRunScriptHeader (OsFamily, String, StringBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (81/81)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+            <method name="escapeVarTokens (String, OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (69/69)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (278/278)"/>
+              <coverage type="line, %" value="100% (31/31)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Kill.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (19/19)"/>
+          <coverage type="line, %" value="100% (5/5)"/>
+
+          <class name="Kill">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (19/19)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="Kill (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="PipeHttpResponseTo.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (73/73)"/>
+          <coverage type="line, %" value="100% (6/6)"/>
+
+          <class name="PipeHttpResponseTo">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (55/55)"/>
+            <coverage type="line, %" value="100% (4/4)"/>
+
+            <method name="PipeHttpResponseTo (Statement, String, URI, Multimap): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (43/43)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="PipeHttpResponseTo$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (18/18)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="PipeHttpResponseTo$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Map$Entry): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="PipeHttpResponseToBash.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (1/1)"/>
+          <coverage type="block, %" value="100% (13/13)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="PipeHttpResponseToBash">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (13/13)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="PipeHttpResponseToBash (String, URI, Multimap): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="PipeHttpResponseToTarxpzfIntoDirectory.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (1/1)"/>
+          <coverage type="block, %" value="100% (24/24)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="PipeHttpResponseToTarxpzfIntoDirectory">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (24/24)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="PipeHttpResponseToTarxpzfIntoDirectory (String, URI, Multimap, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.scriptbuilder.util">
+        <coverage type="class, %" value="80%  (4/5)"/>
+        <coverage type="method, %" value="79%  (15/19)"/>
+        <coverage type="block, %" value="84%  (336/399)"/>
+        <coverage type="line, %" value="83%  (49.9/60)"/>
+
+        <srcfile name="Utils.java">
+          <coverage type="class, %" value="80%  (4/5)"/>
+          <coverage type="method, %" value="79%  (15/19)"/>
+          <coverage type="block, %" value="84%  (336/399)"/>
+          <coverage type="line, %" value="83%  (49.9/60)"/>
+
+          <class name="Utils$FunctionNotFoundException">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/31)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="Utils$FunctionNotFoundException (String, OsFamily): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="Utils$FunctionNotFoundException (String, OsFamily, Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+          <class name="Utils$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="89%  (17/19)"/>
+            <coverage type="line, %" value="89%  (0.9/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="89%  (17/19)"/>
+              <coverage type="line, %" value="89%  (0.9/1)"/>
+            </method>
+          </class>
+          <class name="Utils">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (10/12)"/>
+            <coverage type="block, %" value="91%  (303/333)"/>
+            <coverage type="line, %" value="88%  (46/52)"/>
+
+            <method name="Utils (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="writeFunction (String, String, OsFamily): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="writeUnsetVariables (List, OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="82%  (55/67)"/>
+              <coverage type="line, %" value="89%  (8/9)"/>
+            </method>
+            <method name="writeFunctionFromResource (String, OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="83%  (38/46)"/>
+              <coverage type="line, %" value="60%  (3/5)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="replaceTokens (String, Map): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (56/56)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+            <method name="writeComment (String, OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="writeFunction (String, String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="writePositionalVars (List, OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="writeVariableExporters (Map): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (42/42)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="writeVariableExporters (Map, OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="writeZeroPath (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Utils$LowerCamelToUpperUnderscore">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="Utils$LowerCamelToUpperUnderscore (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Utils$UpperUnderscoreToLowerCamel">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="Utils$UpperUnderscoreToLowerCamel (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.scriptbuilder.functions">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="78%  (7/9)"/>
+        <coverage type="block, %" value="89%  (90/101)"/>
+        <coverage type="line, %" value="94%  (19.7/21)"/>
+
+        <srcfile name="CredentialsFromAdminAccess.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="88%  (78/89)"/>
+          <coverage type="line, %" value="92%  (14.7/16)"/>
+
+          <class name="CredentialsFromAdminAccess">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="83%  (53/64)"/>
+            <coverage type="line, %" value="88%  (9.7/11)"/>
+
+            <method name="valueOf (String): CredentialsFromAdminAccess">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="values (): CredentialsFromAdminAccess []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Statement): Credentials">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="94%  (34/36)"/>
+              <coverage type="line, %" value="89%  (8/9)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="CredentialsFromAdminAccess (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CredentialsFromAdminAccess$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (25/25)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="CredentialsFromAdminAccess$1 (CredentialsFromAdminAccess, AtomicReference): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="visit (Statement): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="InitAdminAccess.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (12/12)"/>
+          <coverage type="line, %" value="100% (5/5)"/>
+
+          <class name="InitAdminAccess">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (12/12)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="InitAdminAccess (AdminAccess$Configuration): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="visit (AdminAccess): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.scriptbuilder.statements.ssh">
+        <coverage type="class, %" value="100% (4/4)"/>
+        <coverage type="method, %" value="71%  (10/14)"/>
+        <coverage type="block, %" value="97%  (250/259)"/>
+        <coverage type="line, %" value="91%  (40/44)"/>
+
+        <srcfile name="SshStatements.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="80%  (12/15)"/>
+          <coverage type="line, %" value="67%  (2/3)"/>
+
+          <class name="SshStatements">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="80%  (12/15)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="SshStatements (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="lockSshd (): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="sshdConfig (Map): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SshdConfig.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="96%  (48/50)"/>
+          <coverage type="line, %" value="88%  (7/8)"/>
+
+          <class name="SshdConfig">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="96%  (48/50)"/>
+            <coverage type="line, %" value="88%  (7/8)"/>
+
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="SshdConfig (Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (39/39)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AuthorizeRSAPublicKeys.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="75%  (3/4)"/>
+          <coverage type="block, %" value="98%  (91/93)"/>
+          <coverage type="line, %" value="94%  (15/16)"/>
+
+          <class name="AuthorizeRSAPublicKeys">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="98%  (91/93)"/>
+            <coverage type="line, %" value="94%  (15/16)"/>
+
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AuthorizeRSAPublicKeys (Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="AuthorizeRSAPublicKeys (String, Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (70/70)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="InstallRSAPrivateKey.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="75%  (3/4)"/>
+          <coverage type="block, %" value="98%  (99/101)"/>
+          <coverage type="line, %" value="94%  (16/17)"/>
+
+          <class name="InstallRSAPrivateKey">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="98%  (99/101)"/>
+            <coverage type="line, %" value="94%  (16/17)"/>
+
+            <method name="functionDependencies (OsFamily): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="InstallRSAPrivateKey (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="InstallRSAPrivateKey (String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="render (OsFamily): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (79/79)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

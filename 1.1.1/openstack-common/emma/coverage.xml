@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="5"/>
+    <classes value="10"/>
+    <methods value="39"/>
+    <srcfiles value="6"/>
+    <srclines value="82"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="40%  (4/10)"/>
+      <coverage type="method, %" value="33%  (13/39)"/>
+      <coverage type="block, %" value="34%  (146/425)"/>
+      <coverage type="line, %" value="36%  (29.3/82)"/>
+
+      <package name="org.jclouds.openstack">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/7)"/>
+        <coverage type="block, %" value="0%   (0/62)"/>
+        <coverage type="line, %" value="0%   (0/13)"/>
+
+        <srcfile name="OpenStackAuthAsyncClient.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/7)"/>
+          <coverage type="block, %" value="0%   (0/62)"/>
+          <coverage type="line, %" value="0%   (0/13)"/>
+
+          <class name="OpenStackAuthAsyncClient$AuthenticationResponse">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/7)"/>
+            <coverage type="block, %" value="0%   (0/62)"/>
+            <coverage type="line, %" value="0%   (0/13)"/>
+
+            <method name="OpenStackAuthAsyncClient$AuthenticationResponse (String, Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="getAuthToken (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getServices (): Map">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setEndpoints (Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.config">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/14)"/>
+        <coverage type="block, %" value="0%   (0/108)"/>
+        <coverage type="line, %" value="0%   (0/21)"/>
+
+        <srcfile name="OpenStackAuthenticationModule.java">
+          <coverage type="class, %" value="0%   (0/4)"/>
+          <coverage type="method, %" value="0%   (0/14)"/>
+          <coverage type="block, %" value="0%   (0/108)"/>
+          <coverage type="line, %" value="0%   (0/21)"/>
+
+          <class name="OpenStackAuthenticationModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/30)"/>
+            <coverage type="line, %" value="0%   (0/7)"/>
+
+            <method name="OpenStackAuthenticationModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/1)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideAuthenticationResponse (Supplier): OpenStackAuthAsyncClient$AuthenticationResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideAuthenticationResponseCache (OpenStackAuthenticationModule$GetAuthenticationResponse): Supplier">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideAuthenticationTokenCache (Supplier): Supplier">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideCacheBusterDate (): Supplier">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="OpenStackAuthenticationModule$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/15)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="OpenStackAuthenticationModule$1 (OpenStackAuthenticationModule, Supplier): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="get (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="OpenStackAuthenticationModule$2">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/10)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="OpenStackAuthenticationModule$2 (OpenStackAuthenticationModule): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="get (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="OpenStackAuthenticationModule$GetAuthenticationResponse">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/53)"/>
+            <coverage type="line, %" value="0%   (0/13)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="OpenStackAuthenticationModule$GetAuthenticationResponse (AsyncClientFactory, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="authenticate (): Future">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="get (): OpenStackAuthAsyncClient$AuthenticationResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.functions">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="60%  (3/5)"/>
+        <coverage type="block, %" value="19%  (20/104)"/>
+        <coverage type="line, %" value="33%  (7/21)"/>
+
+        <srcfile name="ParseAuthenticationResponseFromHeaders.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="60%  (3/5)"/>
+          <coverage type="block, %" value="19%  (20/104)"/>
+          <coverage type="line, %" value="33%  (7/21)"/>
+
+          <class name="ParseAuthenticationResponseFromHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="19%  (20/104)"/>
+            <coverage type="line, %" value="33%  (7/21)"/>
+
+            <method name="apply (HttpResponse): OpenStackAuthAsyncClient$AuthenticationResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/57)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="getURI (String): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="ParseAuthenticationResponseFromHeaders (Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseAuthenticationResponseFromHeaders">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setHostToReplace (String): ParseAuthenticationResponseFromHeaders">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.filters">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="50%  (2/4)"/>
+        <coverage type="block, %" value="60%  (29/48)"/>
+        <coverage type="line, %" value="56%  (5/9)"/>
+
+        <srcfile name="AuthenticateRequest.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/19)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="AuthenticateRequest">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/19)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="AuthenticateRequest (Supplier): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="filter (HttpRequest): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AddTimestampQuery.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (29/29)"/>
+          <coverage type="line, %" value="100% (5/5)"/>
+
+          <class name="AddTimestampQuery">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (29/29)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="AddTimestampQuery (Supplier, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="filter (HttpRequest): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.options">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="89%  (8/9)"/>
+        <coverage type="block, %" value="94%  (97/103)"/>
+        <coverage type="line, %" value="96%  (17.3/18)"/>
+
+        <srcfile name="BaseListOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="89%  (8/9)"/>
+          <coverage type="block, %" value="94%  (97/103)"/>
+          <coverage type="line, %" value="96%  (17.3/18)"/>
+
+          <class name="BaseListOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="89%  (24/27)"/>
+            <coverage type="line, %" value="86%  (6/7)"/>
+
+            <method name="BaseListOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="changesSince (Date): BaseListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="maxResults (int): BaseListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="startAt (long): BaseListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="BaseListOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="96%  (73/76)"/>
+            <coverage type="line, %" value="98%  (11.8/12)"/>
+
+            <method name="maxResults (int): BaseListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (22/24)"/>
+              <coverage type="line, %" value="96%  (3.8/4)"/>
+            </method>
+            <method name="startAt (long): BaseListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (22/23)"/>
+              <coverage type="line, %" value="98%  (3/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="BaseListOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="changesSince (Date): BaseListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

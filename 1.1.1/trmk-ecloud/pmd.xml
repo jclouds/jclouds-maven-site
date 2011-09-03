@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T18:52:25.303">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/trmk-ecloud/src/main/java/org/jclouds/trmk/ecloud/TerremarkECloudAsyncClient.java">
+<violation beginline="19" endline="305" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.ecloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/trmk-ecloud/src/main/java/org/jclouds/trmk/ecloud/TerremarkECloudPropertiesBuilder.java">
+<violation beginline="19" endline="52" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.ecloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/trmk-ecloud/src/main/java/org/jclouds/trmk/ecloud/xml/ECloudOrgHandler.java">
+<violation beginline="52" endline="61" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.trmk.ecloud.xml" class="ECloudOrgHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

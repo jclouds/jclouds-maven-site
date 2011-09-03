@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T16:17:21.747">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/CommonSwiftClient.java">
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.swift" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.blobstore.ContainerNotFoundException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/domain/internal/DelegatingMutableObjectInfoWithMetadata.java">
+<violation beginline="60" endline="60" begincolumn="15" endcolumn="24" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.openstack.swift.domain.internal" class="DelegatingMutableObjectInfoWithMetadata" method="hashCode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+</pmd>

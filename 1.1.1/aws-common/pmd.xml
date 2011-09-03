@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T14:38:47.981">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/aws/src/main/java/org/jclouds/aws/filters/FormSigner.java">
+<violation beginline="19" endline="210" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/aws/src/main/java/org/jclouds/aws/handlers/ParseAWSErrorFromXmlContent.java">
+<violation beginline="82" endline="83" begincolumn="18" endcolumn="16" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.aws.handlers" class="ParseAWSErrorFromXmlContent" method="handleError" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>

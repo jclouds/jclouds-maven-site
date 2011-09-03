@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="11"/>
+    <classes value="50"/>
+    <methods value="262"/>
+    <srcfiles value="29"/>
+    <srclines value="621"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="74%  (37/50)"/>
+      <coverage type="method, %" value="57%  (150/262)"/>
+      <coverage type="block, %" value="54%  (1803/3312)"/>
+      <coverage type="line, %" value="54%  (333.1/621)"/>
+
+      <package name="org.jclouds.cloudloadbalancers.loadbalancer.functions">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/4)"/>
+        <coverage type="block, %" value="0%   (0/60)"/>
+        <coverage type="line, %" value="0%   (0/9)"/>
+
+        <srcfile name="LoadBalancerToLoadBalancerMetadata.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/60)"/>
+          <coverage type="line, %" value="0%   (0/9)"/>
+
+          <class name="LoadBalancerToLoadBalancerMetadata">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/51)"/>
+            <coverage type="line, %" value="0%   (0/7)"/>
+
+            <method name="LoadBalancerToLoadBalancerMetadata (Supplier, Supplier): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="apply (LoadBalancer): LoadBalancerMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/42)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+          <class name="LoadBalancerToLoadBalancerMetadata$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/9)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="LoadBalancerToLoadBalancerMetadata$1 (LoadBalancerToLoadBalancerMetadata): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (VirtualIP): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.loadbalancer.strategy">
+        <coverage type="class, %" value="0%   (0/6)"/>
+        <coverage type="method, %" value="0%   (0/13)"/>
+        <coverage type="block, %" value="0%   (0/237)"/>
+        <coverage type="line, %" value="0%   (0/38)"/>
+
+        <srcfile name="CloudLoadBalancersDestroyLoadBalancerStrategy.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/45)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
+
+          <class name="CloudLoadBalancersDestroyLoadBalancerStrategy">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/45)"/>
+            <coverage type="line, %" value="0%   (0/10)"/>
+
+            <method name="CloudLoadBalancersDestroyLoadBalancerStrategy (CloudLoadBalancersClient, GetLoadBalancerMetadataStrategy): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/18)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="destroyLoadBalancer (String): LoadBalancerMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudLoadBalancersGetLoadBalancerMetadataStrategy.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/42)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
+
+          <class name="CloudLoadBalancersGetLoadBalancerMetadataStrategy">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/42)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
+
+            <method name="CloudLoadBalancersGetLoadBalancerMetadataStrategy (CloudLoadBalancersClient, Function): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="getLoadBalancer (String): LoadBalancerMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudLoadBalancersListLoadBalancersStrategy.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/5)"/>
+          <coverage type="block, %" value="0%   (0/64)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
+
+          <class name="CloudLoadBalancersListLoadBalancersStrategy">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/51)"/>
+            <coverage type="line, %" value="0%   (0/9)"/>
+
+            <method name="CloudLoadBalancersListLoadBalancersStrategy (CloudLoadBalancersAsyncClient, Function, ExecutorService, Set): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/30)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="access$000 (CloudLoadBalancersListLoadBalancersStrategy): CloudLoadBalancersAsyncClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="listLoadBalancers (): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/18)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="CloudLoadBalancersListLoadBalancersStrategy$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/13)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="CloudLoadBalancersListLoadBalancersStrategy$1 (CloudLoadBalancersListLoadBalancersStrategy): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudLoadBalancersLoadBalanceNodesStrategy.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/86)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
+
+          <class name="CloudLoadBalancersLoadBalanceNodesStrategy">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/65)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
+
+            <method name="CloudLoadBalancersLoadBalanceNodesStrategy (CloudLoadBalancersClient, GetLoadBalancerMetadataStrategy): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/18)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="createLoadBalancerInLocation (Location, String, String, int, int, Iterable): LoadBalancerMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/47)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+          <class name="CloudLoadBalancersLoadBalanceNodesStrategy$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/21)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="CloudLoadBalancersLoadBalanceNodesStrategy$1 (CloudLoadBalancersLoadBalanceNodesStrategy, int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (NodeMetadata): NodeRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.predicates">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/6)"/>
+        <coverage type="block, %" value="0%   (0/150)"/>
+        <coverage type="line, %" value="0%   (0/24)"/>
+
+        <srcfile name="LoadBalancerActive.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/83)"/>
+          <coverage type="line, %" value="0%   (0/13)"/>
+
+          <class name="LoadBalancerActive">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/83)"/>
+            <coverage type="line, %" value="0%   (0/13)"/>
+
+            <method name="LoadBalancerActive (CloudLoadBalancersClient): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="apply (LoadBalancer): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/65)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="refresh (LoadBalancer): LoadBalancer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="LoadBalancerDeleted.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/67)"/>
+          <coverage type="line, %" value="0%   (0/11)"/>
+
+          <class name="LoadBalancerDeleted">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/67)"/>
+            <coverage type="line, %" value="0%   (0/11)"/>
+
+            <method name="LoadBalancerDeleted (CloudLoadBalancersClient): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="apply (LoadBalancer): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/49)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="refresh (LoadBalancer): LoadBalancer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.domain.internal">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="54%  (25/46)"/>
+        <coverage type="block, %" value="47%  (253/541)"/>
+        <coverage type="line, %" value="51%  (59.6/116)"/>
+
+        <srcfile name="BaseLoadBalancer.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="64%  (14/22)"/>
+          <coverage type="block, %" value="44%  (104/234)"/>
+          <coverage type="line, %" value="58%  (29.9/52)"/>
+
+          <class name="BaseLoadBalancer$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="56%  (5/9)"/>
+            <coverage type="block, %" value="34%  (26/77)"/>
+            <coverage type="line, %" value="62%  (10/16)"/>
+
+            <method name="build (): BaseLoadBalancer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="from (BaseLoadBalancer): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="node (BaseNode): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="nodes (Iterable): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="BaseLoadBalancer$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="algorithm (String): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="port (Integer): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="protocol (String): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="BaseLoadBalancer">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="69%  (9/13)"/>
+            <coverage type="block, %" value="50%  (78/157)"/>
+            <coverage type="line, %" value="55%  (19.9/36)"/>
+
+            <method name="builder (): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="toBuilder (): BaseLoadBalancer$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/30)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (23/25)"/>
+              <coverage type="line, %" value="98%  (3.9/4)"/>
+            </method>
+            <method name="BaseLoadBalancer (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="BaseLoadBalancer (String, String, Integer, String, Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="compareTo (BaseLoadBalancer): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getAlgorithm (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getNodes (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getPort (): Integer">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getProtocol (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BaseNode.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="46%  (11/24)"/>
+          <coverage type="block, %" value="49%  (149/307)"/>
+          <coverage type="line, %" value="46%  (29.7/64)"/>
+
+          <class name="BaseNode">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (4/12)"/>
+            <coverage type="block, %" value="39%  (72/185)"/>
+            <coverage type="line, %" value="37%  (15.8/43)"/>
+
+            <method name="builder (): BaseNode$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/60)"/>
+              <coverage type="line, %" value="0%   (0/20)"/>
+            </method>
+            <method name="getAddress (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCondition (): BaseNode$Condition">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPort (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getWeight (): Integer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): BaseNode$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/26)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (35/39)"/>
+              <coverage type="line, %" value="97%  (5.8/6)"/>
+            </method>
+            <method name="BaseNode (String, int, BaseNode$Condition, Integer): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="97%  (28/29)"/>
+              <coverage type="line, %" value="99%  (7/7)"/>
+            </method>
+            <method name="BaseNode (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="compareTo (BaseNode): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="BaseNode$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="57%  (4/7)"/>
+            <coverage type="block, %" value="44%  (24/55)"/>
+            <coverage type="line, %" value="69%  (9/13)"/>
+
+            <method name="build (): BaseNode">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="from (BaseNode): BaseNode$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="weight (Integer): BaseNode$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="BaseNode$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="address (String): BaseNode$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="condition (BaseNode$Condition): BaseNode$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="port (int): BaseNode$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="BaseNode$Condition">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="79%  (53/67)"/>
+            <coverage type="line, %" value="61%  (4.9/8)"/>
+
+            <method name="fromValue (String): BaseNode$Condition">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="valueOf (String): BaseNode$Condition">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (44/44)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="BaseNode$Condition (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): BaseNode$Condition []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.domain">
+        <coverage type="class, %" value="82%  (14/17)"/>
+        <coverage type="method, %" value="52%  (69/133)"/>
+        <coverage type="block, %" value="57%  (900/1590)"/>
+        <coverage type="line, %" value="49%  (138.4/281)"/>
+
+        <srcfile name="NodeRequest.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/11)"/>
+          <coverage type="block, %" value="0%   (0/70)"/>
+          <coverage type="line, %" value="0%   (0/13)"/>
+
+          <class name="NodeRequest">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/20)"/>
+            <coverage type="line, %" value="0%   (0/6)"/>
+
+            <method name="NodeRequest (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="NodeRequest (String, int, BaseNode$Condition, Integer): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="builder (): NodeRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): NodeRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="NodeRequest$Builder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/7)"/>
+            <coverage type="block, %" value="0%   (0/50)"/>
+            <coverage type="line, %" value="0%   (0/7)"/>
+
+            <method name="NodeRequest$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="address (String): NodeRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="build (): NodeRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="condition (BaseNode$Condition): NodeRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="from (NodeRequest): NodeRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="port (int): NodeRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="weight (Integer): NodeRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="LoadBalancerAttributes.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="21%  (3/14)"/>
+          <coverage type="block, %" value="6%   (14/233)"/>
+          <coverage type="line, %" value="9%   (4.5/51)"/>
+
+          <class name="LoadBalancerAttributes">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="22%  (2/9)"/>
+            <coverage type="block, %" value="4%   (8/206)"/>
+            <coverage type="line, %" value="9%   (4/47)"/>
+
+            <method name="algorithm (String): LoadBalancerAttributes">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/85)"/>
+              <coverage type="line, %" value="0%   (0/28)"/>
+            </method>
+            <method name="fromLoadBalancer (BaseLoadBalancer): LoadBalancerAttributes">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/58)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="port (int): LoadBalancerAttributes">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="protocol (String): LoadBalancerAttributes">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/25)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="LoadBalancerAttributes (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): LoadBalancerAttributes">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="LoadBalancerAttributes$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="20%  (1/5)"/>
+            <coverage type="block, %" value="22%  (6/27)"/>
+            <coverage type="line, %" value="20%  (1/5)"/>
+
+            <method name="LoadBalancerAttributes$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="algorithm (String): LoadBalancerAttributes">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="port (int): LoadBalancerAttributes">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="protocol (String): LoadBalancerAttributes">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="name (String): LoadBalancerAttributes">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="LoadBalancerRequest.java">
+          <coverage type="class, %" value="67%  (2/3)"/>
+          <coverage type="method, %" value="55%  (11/20)"/>
+          <coverage type="block, %" value="49%  (111/227)"/>
+          <coverage type="line, %" value="61%  (19.5/32)"/>
+
+          <class name="LoadBalancerRequest">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (4/8)"/>
+            <coverage type="block, %" value="48%  (54/113)"/>
+            <coverage type="line, %" value="73%  (10.9/15)"/>
+
+            <method name="LoadBalancerRequest (String, String, int, String, Iterable, List, LoadBalancerRequest$1): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="access$100 (LoadBalancerRequest): List">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/35)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getVirtualIPsFromOptions (VirtualIP$Type, Integer): List">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="80%  (24/30)"/>
+              <coverage type="line, %" value="82%  (4.9/6)"/>
+            </method>
+            <method name="LoadBalancerRequest (String, String, int, String, Iterable, List): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="LoadBalancerRequest (String, String, int, String, Iterable, VirtualIP$Type, Integer): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="LoadBalancerRequest$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="LoadBalancerRequest$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="58%  (7/12)"/>
+            <coverage type="block, %" value="50%  (57/114)"/>
+            <coverage type="line, %" value="50%  (8.6/17)"/>
+
+            <method name="algorithm (String): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="from (LoadBalancerRequest): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="node (NodeRequest): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="nodes (Iterable): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="virtualIPs (List): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="build (): LoadBalancerRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="57%  (23/40)"/>
+              <coverage type="line, %" value="57%  (0.6/1)"/>
+            </method>
+            <method name="LoadBalancerRequest$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="name (String): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="port (Integer): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="protocol (String): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="virtualIPId (Integer): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="virtualIPType (VirtualIP$Type): LoadBalancerRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Node.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="65%  (15/23)"/>
+          <coverage type="block, %" value="71%  (187/264)"/>
+          <coverage type="line, %" value="61%  (27.9/46)"/>
+
+          <class name="Node">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="56%  (5/9)"/>
+            <coverage type="block, %" value="65%  (81/124)"/>
+            <coverage type="line, %" value="50%  (13/26)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/30)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="getId (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStatus (): Node$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): Node$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Node (int, String, int, BaseNode$Condition, Node$Status, Integer): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (23/24)"/>
+              <coverage type="line, %" value="99%  (5/5)"/>
+            </method>
+            <method name="Node (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Node$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="78%  (7/9)"/>
+            <coverage type="block, %" value="73%  (53/73)"/>
+            <coverage type="line, %" value="83%  (10/12)"/>
+
+            <method name="from (Node): Node$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="weight (Integer): Node$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Node$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="address (String): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): Node">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="condition (BaseNode$Condition): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="id (int): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="port (int): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="status (Node$Status): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="Node$Status">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="79%  (53/67)"/>
+            <coverage type="line, %" value="61%  (4.9/8)"/>
+
+            <method name="fromValue (String): Node$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="valueOf (String): Node$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (44/44)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="Node$Status (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): Node$Status []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="VirtualIP.java">
+          <coverage type="class, %" value="100% (4/4)"/>
+          <coverage type="method, %" value="63%  (17/27)"/>
+          <coverage type="block, %" value="73%  (204/279)"/>
+          <coverage type="line, %" value="60%  (31.7/53)"/>
+
+          <class name="VirtualIP">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="45%  (5/11)"/>
+            <coverage type="block, %" value="62%  (77/124)"/>
+            <coverage type="line, %" value="50%  (15/30)"/>
+
+            <method name="compareTo (VirtualIP): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/28)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="getAddress (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getId (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getIpVersion (): VirtualIP$IPVersion">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getType (): VirtualIP$Type">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="VirtualIP (int, String, VirtualIP$Type, VirtualIP$IPVersion): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="97%  (31/32)"/>
+              <coverage type="line, %" value="99%  (7/7)"/>
+            </method>
+            <method name="VirtualIP (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): VirtualIP$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (26/26)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="VirtualIP$IPVersion">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="75%  (43/57)"/>
+            <coverage type="line, %" value="38%  (1.9/5)"/>
+
+            <method name="fromValue (String): VirtualIP$IPVersion">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="valueOf (String): VirtualIP$IPVersion">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="VirtualIP$IPVersion (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): VirtualIP$IPVersion []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="VirtualIP$Type">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="75%  (43/57)"/>
+            <coverage type="line, %" value="48%  (2.9/6)"/>
+
+            <method name="fromValue (String): VirtualIP$Type">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="valueOf (String): VirtualIP$Type">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="VirtualIP$Type (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): VirtualIP$Type []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="VirtualIP$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (6/6)"/>
+            <coverage type="block, %" value="100% (41/41)"/>
+            <coverage type="line, %" value="100% (12/12)"/>
+
+            <method name="VirtualIP$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="address (String): VirtualIP$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): VirtualIP">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="id (int): VirtualIP$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ipVersion (VirtualIP$IPVersion): VirtualIP$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="type (VirtualIP$Type): VirtualIP$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="LoadBalancer.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="61%  (23/38)"/>
+          <coverage type="block, %" value="74%  (384/517)"/>
+          <coverage type="line, %" value="64%  (54.8/86)"/>
+
+          <class name="LoadBalancer">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="27%  (4/15)"/>
+            <coverage type="block, %" value="67%  (164/246)"/>
+            <coverage type="line, %" value="43%  (18.9/44)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/46)"/>
+              <coverage type="line, %" value="0%   (0/15)"/>
+            </method>
+            <method name="getClusterName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCreated (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getId (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getRegion (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSessionPersistenceType (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStatus (): LoadBalancer$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getUpdated (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getVirtualIPs (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isConnectionLoggingEnabled (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): LoadBalancer$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="93%  (25/27)"/>
+              <coverage type="line, %" value="98%  (4.9/5)"/>
+            </method>
+            <method name="LoadBalancer (String, int, String, String, Integer, String, LoadBalancer$Status, Iterable, Iterable, String, String, Date, Date, boolean): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="98%  (58/59)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+            <method name="builder (): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (77/77)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="LoadBalancer$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="89%  (16/18)"/>
+            <coverage type="block, %" value="77%  (127/164)"/>
+            <coverage type="line, %" value="90%  (28/31)"/>
+
+            <method name="from (LoadBalancer): LoadBalancer$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/28)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="node (Node): LoadBalancer$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="LoadBalancer$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="algorithm (String): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): LoadBalancer">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (32/32)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="clusterName (String): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="connectionLoggingEnabled (boolean): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="created (Date): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="id (int): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="nodes (Iterable): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="port (Integer): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="protocol (String): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="region (String): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="sessionPersistenceType (String): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="status (LoadBalancer$Status): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="updated (Date): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="virtualIPs (Iterable): LoadBalancer$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="LoadBalancer$Status">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="87%  (93/107)"/>
+            <coverage type="line, %" value="72%  (7.9/11)"/>
+
+            <method name="fromValue (String): LoadBalancer$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="valueOf (String): LoadBalancer$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (84/84)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="LoadBalancer$Status (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): LoadBalancer$Status []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.handlers">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (4/4)"/>
+        <coverage type="block, %" value="66%  (91/137)"/>
+        <coverage type="line, %" value="65%  (18.8/29)"/>
+
+        <srcfile name="ParseCloudLoadBalancersErrorFromHttpResponse.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="66%  (91/137)"/>
+          <coverage type="line, %" value="65%  (18.8/29)"/>
+
+          <class name="ParseCloudLoadBalancersErrorFromHttpResponse">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="66%  (91/137)"/>
+            <coverage type="line, %" value="65%  (18.8/29)"/>
+
+            <method name="parseErrorFromContentOrNull (HttpCommand, HttpResponse): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="36%  (8/22)"/>
+              <coverage type="line, %" value="40%  (2/5)"/>
+            </method>
+            <method name="handleError (HttpCommand, HttpResponse): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="70%  (73/105)"/>
+              <coverage type="line, %" value="66%  (13.8/21)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="ParseCloudLoadBalancersErrorFromHttpResponse (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.config">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="80%  (8/10)"/>
+        <coverage type="block, %" value="81%  (88/109)"/>
+        <coverage type="line, %" value="86%  (19/22)"/>
+
+        <srcfile name="CloudLoadBalancersRestClientModule.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="80%  (8/10)"/>
+          <coverage type="block, %" value="81%  (88/109)"/>
+          <coverage type="line, %" value="86%  (19/22)"/>
+
+          <class name="CloudLoadBalancersRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (6/8)"/>
+            <coverage type="block, %" value="77%  (71/92)"/>
+            <coverage type="line, %" value="84%  (16/19)"/>
+
+            <method name="accountID (Supplier): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/18)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="regions (Map): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="CloudLoadBalancersRestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="bindErrorHandlers (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="bindRegionsToProvider (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="bindRegionsToProvider (Class): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+          <class name="CloudLoadBalancersRestClientModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="CloudLoadBalancersRestClientModule$1 (CloudLoadBalancersRestClientModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CloudLoadBalancersRestClientModule$ProvideRegionToURIViaPropertiesWithAccountID">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (11/11)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="CloudLoadBalancersRestClientModule$ProvideRegionToURIViaPropertiesWithAccountID (Injector, Multimap, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.options">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="86%  (6/7)"/>
+        <coverage type="block, %" value="92%  (68/74)"/>
+        <coverage type="line, %" value="95%  (13.3/14)"/>
+
+        <srcfile name="ListOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="86%  (6/7)"/>
+          <coverage type="block, %" value="92%  (68/74)"/>
+          <coverage type="line, %" value="95%  (13.3/14)"/>
+
+          <class name="ListOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="84%  (16/19)"/>
+            <coverage type="line, %" value="80%  (4/5)"/>
+
+            <method name="ListOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="limit (int): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="marker (String): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="ListOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="95%  (52/55)"/>
+            <coverage type="line, %" value="98%  (9.8/10)"/>
+
+            <method name="limit (int): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="94%  (29/31)"/>
+              <coverage type="line, %" value="96%  (3.9/4)"/>
+            </method>
+            <method name="marker (String): ListOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="94%  (15/16)"/>
+              <coverage type="line, %" value="98%  (2.9/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="ListOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="94%  (15/16)"/>
+        <coverage type="block, %" value="95%  (121/128)"/>
+        <coverage type="line, %" value="93%  (27/29)"/>
+
+        <srcfile name="CloudLoadBalancersContextBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="65%  (13/20)"/>
+          <coverage type="line, %" value="67%  (4/6)"/>
+
+          <class name="CloudLoadBalancersContextBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="65%  (13/20)"/>
+            <coverage type="line, %" value="67%  (4/6)"/>
+
+            <method name="addClientModule (List): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="CloudLoadBalancersContextBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addContextModule (List): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudLoadBalancersUSPropertiesBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (77/77)"/>
+          <coverage type="line, %" value="100% (12/12)"/>
+
+          <class name="CloudLoadBalancersUSPropertiesBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (77/77)"/>
+            <coverage type="line, %" value="100% (12/12)"/>
+
+            <method name="CloudLoadBalancersUSPropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (73/73)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudLoadBalancersUSProviderMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (11/11)"/>
+          <coverage type="block, %" value="100% (31/31)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="CloudLoadBalancersUSProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (11/11)"/>
+            <coverage type="block, %" value="100% (31/31)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="CloudLoadBalancersUSProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getApiDocumentation (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getConsole (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCredentialName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getHomepage (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getIdentityName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getIso3166Codes (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLinkedServices (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getType (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.functions">
+        <coverage type="class, %" value="100% (4/4)"/>
+        <coverage type="method, %" value="100% (11/11)"/>
+        <coverage type="block, %" value="98%  (226/230)"/>
+        <coverage type="line, %" value="95%  (41/43)"/>
+
+        <srcfile name="UnwrapLoadBalancers.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="96%  (46/48)"/>
+          <coverage type="line, %" value="90%  (9/10)"/>
+
+          <class name="UnwrapLoadBalancers">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="96%  (46/48)"/>
+            <coverage type="line, %" value="90%  (9/10)"/>
+
+            <method name="apply (HttpResponse): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (19/21)"/>
+              <coverage type="line, %" value="75%  (3/4)"/>
+            </method>
+            <method name="UnwrapLoadBalancers (ParseJson): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="setContext (HttpRequest): UnwrapLoadBalancers">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setRegion (String): UnwrapLoadBalancers">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="UnwrapLoadBalancer.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="96%  (49/51)"/>
+          <coverage type="line, %" value="91%  (10/11)"/>
+
+          <class name="UnwrapLoadBalancer">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="96%  (49/51)"/>
+            <coverage type="line, %" value="91%  (10/11)"/>
+
+            <method name="apply (HttpResponse): LoadBalancer">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (22/24)"/>
+              <coverage type="line, %" value="80%  (4/5)"/>
+            </method>
+            <method name="UnwrapLoadBalancer (ParseJson): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="setContext (HttpRequest): UnwrapLoadBalancer">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setRegion (String): UnwrapLoadBalancer">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ConvertLB.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (110/110)"/>
+          <coverage type="line, %" value="100% (15/15)"/>
+
+          <class name="ConvertLB">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (110/110)"/>
+            <coverage type="line, %" value="100% (15/15)"/>
+
+            <method name="ConvertLB (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="apply (LB): LoadBalancer">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (103/103)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="LB.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (1/1)"/>
+          <coverage type="block, %" value="100% (21/21)"/>
+          <coverage type="line, %" value="100% (7/7)"/>
+
+          <class name="LB">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (7/7)"/>
+
+            <method name="LB (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudloadbalancers.loadbalancer.config">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="100% (12/12)"/>
+        <coverage type="block, %" value="100% (56/56)"/>
+        <coverage type="line, %" value="100% (16/16)"/>
+
+        <srcfile name="CloudLoadBalancersBindLoadBalancerStrategiesByClass.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (11/11)"/>
+          <coverage type="line, %" value="100% (5/5)"/>
+
+          <class name="CloudLoadBalancersBindLoadBalancerStrategiesByClass">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (11/11)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="CloudLoadBalancersBindLoadBalancerStrategiesByClass (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defineDestroyLoadBalancerStrategy (): Class">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defineGetLoadBalancerMetadataStrategy (): Class">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defineListLoadBalancersStrategy (): Class">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defineLoadBalanceNodesStrategy (): Class">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudLoadBalancersBindLoadBalancerSuppliersByClass.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (5/5)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="CloudLoadBalancersBindLoadBalancerSuppliersByClass">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (5/5)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="CloudLoadBalancersBindLoadBalancerSuppliersByClass (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defineLocationSupplier (): Class">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudLoadBalancersLoadBalancerContextModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (21/21)"/>
+          <coverage type="line, %" value="100% (6/6)"/>
+
+          <class name="CloudLoadBalancersLoadBalancerContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="CloudLoadBalancersLoadBalancerContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudLoadBalancersLoadBalancerServiceDependenciesModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (19/19)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="CloudLoadBalancersLoadBalancerServiceDependenciesModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (13/13)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="CloudLoadBalancersLoadBalancerServiceDependenciesModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="CloudLoadBalancersLoadBalancerServiceDependenciesModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="CloudLoadBalancersLoadBalancerServiceDependenciesModule$1 (CloudLoadBalancersLoadBalancerServiceDependenciesModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

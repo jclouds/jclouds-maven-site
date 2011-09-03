@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T17:41:07.872">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/AzureBlobClient.java">
+<violation beginline="34" endline="34" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.azureblob" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.blobstore.ContainerNotFoundException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/blobstore/functions/BlobPropertiesToBlobMetadata.java">
+<violation beginline="68" endline="70" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.azureblob.blobstore.functions" class="BlobPropertiesToBlobMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>

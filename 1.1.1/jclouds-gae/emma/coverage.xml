@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="2"/>
+    <classes value="7"/>
+    <methods value="24"/>
+    <srcfiles value="6"/>
+    <srclines value="121"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="57%  (4/7)"/>
+      <coverage type="method, %" value="38%  (9/24)"/>
+      <coverage type="block, %" value="40%  (272/682)"/>
+      <coverage type="line, %" value="46%  (55.5/121)"/>
+
+      <package name="org.jclouds.gae">
+        <coverage type="class, %" value="60%  (3/5)"/>
+        <coverage type="method, %" value="28%  (5/18)"/>
+        <coverage type="block, %" value="38%  (251/653)"/>
+        <coverage type="line, %" value="44%  (48.5/111)"/>
+
+        <srcfile name="AsyncGaeHttpCommandExecutorService.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/9)"/>
+          <coverage type="block, %" value="0%   (0/361)"/>
+          <coverage type="line, %" value="0%   (0/51)"/>
+
+          <class name="AsyncGaeHttpCommandExecutorService">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/131)"/>
+            <coverage type="line, %" value="0%   (0/25)"/>
+
+            <method name="AsyncGaeHttpCommandExecutorService (ExecutorService, URLFetchService, ConvertToGaeRequest, ConvertToJcloudsResponse, DelegatingRetryHandler, IOExceptionRetryHandler, DelegatingErrorHandler, HttpUtils, HttpWire): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/36)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="access$000 (AsyncGaeHttpCommandExecutorService): IOExceptionRetryHandler">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="access$100 (AsyncGaeHttpCommandExecutorService): DelegatingRetryHandler">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="access$200 (AsyncGaeHttpCommandExecutorService): DelegatingErrorHandler">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="filterLogAndConvertRe (HttpRequest): HTTPRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/61)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="submit (HttpCommand): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/25)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+          <class name="AsyncGaeHttpCommandExecutorService$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/230)"/>
+            <coverage type="line, %" value="0%   (0/27)"/>
+
+            <method name="AsyncGaeHttpCommandExecutorService$1 (AsyncGaeHttpCommandExecutorService, HttpCommand): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (HttpResponse): HttpResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/199)"/>
+              <coverage type="line, %" value="0%   (0/21)"/>
+            </method>
+            <method name="shouldContinue (HttpResponse): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="GaeHttpCommandExecutorService.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="20%  (1/5)"/>
+          <coverage type="block, %" value="50%  (18/36)"/>
+          <coverage type="line, %" value="56%  (5/9)"/>
+
+          <class name="GaeHttpCommandExecutorService">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="20%  (1/5)"/>
+            <coverage type="block, %" value="50%  (18/36)"/>
+            <coverage type="line, %" value="56%  (5/9)"/>
+
+            <method name="cleanup (HTTPRequest): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/1)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="convert (HTTPResponse): HttpResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="convert (HttpRequest): HTTPRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="invoke (HTTPRequest): HttpResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="GaeHttpCommandExecutorService (URLFetchService, HttpUtils, ExecutorService, IOExceptionRetryHandler, DelegatingRetryHandler, DelegatingErrorHandler, HttpWire, ConvertToGaeRequest, ConvertToJcloudsResponse): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ConvertToGaeRequest.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="90%  (179/198)"/>
+          <coverage type="line, %" value="84%  (33.5/40)"/>
+
+          <class name="ConvertToGaeRequest">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="90%  (179/198)"/>
+            <coverage type="line, %" value="84%  (33.5/40)"/>
+
+            <method name="apply (HttpRequest): HTTPRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (165/184)"/>
+              <coverage type="line, %" value="82%  (29.5/36)"/>
+            </method>
+            <method name="ConvertToGaeRequest (HttpUtils): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ConvertToJcloudsResponse.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="93%  (54/58)"/>
+          <coverage type="line, %" value="91%  (10/11)"/>
+
+          <class name="ConvertToJcloudsResponse">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="93%  (54/58)"/>
+            <coverage type="line, %" value="91%  (10/11)"/>
+
+            <method name="apply (HTTPResponse): HttpResponse">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="93%  (51/55)"/>
+              <coverage type="line, %" value="90%  (9/10)"/>
+            </method>
+            <method name="ConvertToJcloudsResponse (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.gae.config">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="67%  (4/6)"/>
+        <coverage type="block, %" value="72%  (21/29)"/>
+        <coverage type="line, %" value="70%  (7/10)"/>
+
+        <srcfile name="AsyncGoogleAppEngineConfigurationModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/8)"/>
+          <coverage type="line, %" value="0%   (0/3)"/>
+
+          <class name="AsyncGoogleAppEngineConfigurationModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/8)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="AsyncGoogleAppEngineConfigurationModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="providerHttpCommandExecutorService (Injector): HttpCommandExecutorService">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="GoogleAppEngineConfigurationModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (21/21)"/>
+          <coverage type="line, %" value="100% (7/7)"/>
+
+          <class name="GoogleAppEngineConfigurationModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (7/7)"/>
+
+            <method name="GoogleAppEngineConfigurationModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="provideURLFetchService (): URLFetchService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="providerHttpCommandExecutorService (Injector): HttpCommandExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

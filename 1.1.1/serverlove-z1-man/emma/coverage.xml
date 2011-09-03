@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="2"/>
+    <classes value="4"/>
+    <methods value="16"/>
+    <srcfiles value="4"/>
+    <srclines value="23"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="50%  (2/4)"/>
+      <coverage type="method, %" value="69%  (11/16)"/>
+      <coverage type="block, %" value="42%  (28/66)"/>
+      <coverage type="line, %" value="48%  (11/23)"/>
+
+      <package name="org.jclouds.serverlove.config">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/1)"/>
+        <coverage type="block, %" value="0%   (0/3)"/>
+        <coverage type="line, %" value="0%   (0/1)"/>
+
+        <srcfile name="ServerloveManchesterComputeServiceContextModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/1)"/>
+          <coverage type="block, %" value="0%   (0/3)"/>
+          <coverage type="line, %" value="0%   (0/1)"/>
+
+          <class name="ServerloveManchesterComputeServiceContextModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/1)"/>
+            <coverage type="block, %" value="0%   (0/3)"/>
+            <coverage type="line, %" value="0%   (0/1)"/>
+
+            <method name="ServerloveManchesterComputeServiceContextModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.serverlove">
+        <coverage type="class, %" value="67%  (2/3)"/>
+        <coverage type="method, %" value="73%  (11/15)"/>
+        <coverage type="block, %" value="44%  (28/63)"/>
+        <coverage type="line, %" value="50%  (11/22)"/>
+
+        <srcfile name="ServerloveManchesterContextBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/11)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="ServerloveManchesterContextBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/11)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="ServerloveManchesterContextBuilder (Properties): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="addContextModule (List): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ServerloveManchesterPropertiesBuilder.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/24)"/>
+          <coverage type="line, %" value="0%   (0/7)"/>
+
+          <class name="ServerloveManchesterPropertiesBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/24)"/>
+            <coverage type="line, %" value="0%   (0/7)"/>
+
+            <method name="ServerloveManchesterPropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ServerloveManchesterProviderMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (11/11)"/>
+          <coverage type="block, %" value="100% (28/28)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="ServerloveManchesterProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (11/11)"/>
+            <coverage type="block, %" value="100% (28/28)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="ServerloveManchesterProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getApiDocumentation (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getConsole (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCredentialName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getHomepage (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getIdentityName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getIso3166Codes (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLinkedServices (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getType (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

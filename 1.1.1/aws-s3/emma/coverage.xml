@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="7"/>
+    <classes value="20"/>
+    <methods value="71"/>
+    <srcfiles value="16"/>
+    <srclines value="333"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="75%  (15/20)"/>
+      <coverage type="method, %" value="63%  (45/71)"/>
+      <coverage type="block, %" value="44%  (821/1877)"/>
+      <coverage type="line, %" value="57%  (191/333)"/>
+
+      <package name="org.jclouds.aws.s3.blobstore">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="0%   (0/4)"/>
+        <coverage type="block, %" value="0%   (0/58)"/>
+        <coverage type="line, %" value="0%   (0/8)"/>
+
+        <srcfile name="AWSS3AsyncBlobStore.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/30)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="AWSS3AsyncBlobStore">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/30)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="AWSS3AsyncBlobStore (BlobStoreContext, BlobUtils, ExecutorService, Supplier, Supplier, AWSS3AsyncClient, AWSS3Client, BucketToResourceMetadata, ContainerToBucketListOptions, BucketToResourceList, ObjectToBlob, BlobToHttpGetOptions, BlobToObject, ObjectToBlobMetadata, Provider, Map, Provider): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="putBlob (String, Blob, PutOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AWSS3BlobStore.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/28)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="AWSS3BlobStore">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/28)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="AWSS3BlobStore (BlobStoreContext, BlobUtils, Supplier, Supplier, AWSS3Client, BucketToResourceMetadata, ContainerToBucketListOptions, BucketToResourceList, ObjectToBlob, BlobToHttpGetOptions, BlobToObject, ObjectToBlobMetadata, Provider, Map, Provider): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="putBlob (String, Blob, PutOptions): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.s3.blobstore.strategy.internal">
+        <coverage type="class, %" value="33%  (2/6)"/>
+        <coverage type="method, %" value="37%  (10/27)"/>
+        <coverage type="block, %" value="26%  (332/1294)"/>
+        <coverage type="line, %" value="36%  (70/194)"/>
+
+        <srcfile name="ParallelMultipartUploadStrategy.java">
+          <coverage type="class, %" value="0%   (0/4)"/>
+          <coverage type="method, %" value="0%   (0/14)"/>
+          <coverage type="block, %" value="0%   (0/909)"/>
+          <coverage type="line, %" value="0%   (0/111)"/>
+
+          <class name="ParallelMultipartUploadStrategy">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/137)"/>
+            <coverage type="line, %" value="0%   (0/22)"/>
+
+            <method name="ParallelMultipartUploadStrategy (AWSS3AsyncBlobStore, PayloadSlicer, ExecutorService): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/33)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
+            </method>
+            <method name="execute (String, Blob): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="prepareUploadPart (String, String, String, Integer, Payload, long, long, SortedMap, BlockingQueue, Map, AtomicInteger, int, Map, Queue, CountDownLatch): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/91)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
+            </method>
+          </class>
+          <class name="ParallelMultipartUploadStrategy$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/314)"/>
+            <coverage type="line, %" value="0%   (0/18)"/>
+
+            <method name="ParallelMultipartUploadStrategy$1 (ParallelMultipartUploadStrategy, SortedMap, Integer, ListenableFuture, String, String, long, String, Map, long, long, AtomicInteger, int, Queue, BlockingQueue, Map, CountDownLatch): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/54)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="run (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/260)"/>
+              <coverage type="line, %" value="0%   (0/17)"/>
+            </method>
+          </class>
+          <class name="ParallelMultipartUploadStrategy$2">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/422)"/>
+            <coverage type="line, %" value="0%   (0/58)"/>
+
+            <method name="ParallelMultipartUploadStrategy$2 (ParallelMultipartUploadStrategy, Blob, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="call (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/410)"/>
+              <coverage type="line, %" value="0%   (0/57)"/>
+            </method>
+          </class>
+          <class name="ParallelMultipartUploadStrategy$Part">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/7)"/>
+            <coverage type="block, %" value="0%   (0/36)"/>
+            <coverage type="line, %" value="0%   (0/14)"/>
+
+            <method name="ParallelMultipartUploadStrategy$Part (ParallelMultipartUploadStrategy, int, long, long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="getOffset (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPart (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSize (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setOffset (long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setPart (int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setSize (long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SequentialMultipartUploadStrategy.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="85%  (158/186)"/>
+          <coverage type="line, %" value="87%  (33/38)"/>
+
+          <class name="SequentialMultipartUploadStrategy">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="85%  (158/186)"/>
+            <coverage type="line, %" value="87%  (33/38)"/>
+
+            <method name="prepareUploadPart (String, String, String, int, Payload, long, long, SortedMap): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="67%  (34/51)"/>
+              <coverage type="line, %" value="70%  (7/10)"/>
+            </method>
+            <method name="execute (String, Blob): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="91%  (106/117)"/>
+              <coverage type="line, %" value="91%  (21/23)"/>
+            </method>
+            <method name="SequentialMultipartUploadStrategy (AWSS3BlobStore, PayloadSlicer): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="MultipartUploadSlicingAlgorithm.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="70%  (7/10)"/>
+          <coverage type="block, %" value="87%  (174/199)"/>
+          <coverage type="line, %" value="82%  (37/45)"/>
+
+          <class name="MultipartUploadSlicingAlgorithm">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="70%  (7/10)"/>
+            <coverage type="block, %" value="87%  (174/199)"/>
+            <coverage type="line, %" value="82%  (37/45)"/>
+
+            <method name="addCopied (long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="getCopied (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setCopied (long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="calculateChunkSize (long): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (133/144)"/>
+              <coverage type="line, %" value="90%  (26/29)"/>
+            </method>
+            <method name="MultipartUploadSlicingAlgorithm (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getChunkSize (): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getNextChunkOffset (): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="getNextPart (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getParts (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getRemaining (): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.s3.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="50%  (3/6)"/>
+        <coverage type="block, %" value="70%  (16/23)"/>
+        <coverage type="line, %" value="67%  (6/9)"/>
+
+        <srcfile name="AWSS3RestClientModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (3/6)"/>
+          <coverage type="block, %" value="70%  (16/23)"/>
+          <coverage type="line, %" value="67%  (6/9)"/>
+
+          <class name="AWSS3RestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (3/6)"/>
+            <coverage type="block, %" value="70%  (16/23)"/>
+            <coverage type="line, %" value="67%  (6/9)"/>
+
+            <method name="provide (AWSS3AsyncClient): S3AsyncClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provide (AWSS3Client): S3Client">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideBucketURI (String): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AWSS3RestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="defaultRegionForBucket (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.s3">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="88%  (15/17)"/>
+        <coverage type="block, %" value="90%  (88/98)"/>
+        <coverage type="line, %" value="87%  (26/30)"/>
+
+        <srcfile name="AWSS3ContextBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="61%  (11/18)"/>
+          <coverage type="line, %" value="67%  (4/6)"/>
+
+          <class name="AWSS3ContextBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="61%  (11/18)"/>
+            <coverage type="line, %" value="67%  (4/6)"/>
+
+            <method name="addClientModule (List): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AWSS3ContextBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addContextModule (List): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AWSS3PropertiesBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="93%  (42/45)"/>
+          <coverage type="line, %" value="85%  (11/13)"/>
+
+          <class name="AWSS3PropertiesBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="93%  (42/45)"/>
+            <coverage type="line, %" value="85%  (11/13)"/>
+
+            <method name="AWSS3PropertiesBuilder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AWSS3PropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (38/38)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AWSS3ProviderMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (11/11)"/>
+          <coverage type="block, %" value="100% (35/35)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="AWSS3ProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (11/11)"/>
+            <coverage type="block, %" value="100% (35/35)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="AWSS3ProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getApiDocumentation (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getConsole (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCredentialName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getHomepage (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getIdentityName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getIso3166Codes (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLinkedServices (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getType (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.s3.binders">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="100% (6/6)"/>
+        <coverage type="block, %" value="92%  (231/250)"/>
+        <coverage type="line, %" value="94%  (46/49)"/>
+
+        <srcfile name="BindObjectMetadataToRequest.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="82%  (89/108)"/>
+          <coverage type="line, %" value="86%  (19/22)"/>
+
+          <class name="BindObjectMetadataToRequest">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="82%  (89/108)"/>
+            <coverage type="line, %" value="86%  (19/22)"/>
+
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="81%  (80/99)"/>
+              <coverage type="line, %" value="84%  (16/19)"/>
+            </method>
+            <method name="BindObjectMetadataToRequest (BindMapToHeadersWithPrefix): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AssignCorrectHostnameAndBindAsHostPrefixIfConfigured.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (54/54)"/>
+          <coverage type="line, %" value="100% (10/10)"/>
+
+          <class name="AssignCorrectHostnameAndBindAsHostPrefixIfConfigured">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (54/54)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
+
+            <method name="AssignCorrectHostnameAndBindAsHostPrefixIfConfigured (BindAsHostPrefix, boolean, String, RegionToEndpointOrProviderIfNull, Provider, Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (41/41)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BindPartIdsAndETagsToRequest.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (88/88)"/>
+          <coverage type="line, %" value="100% (17/17)"/>
+
+          <class name="BindPartIdsAndETagsToRequest">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (88/88)"/>
+            <coverage type="line, %" value="100% (17/17)"/>
+
+            <method name="BindPartIdsAndETagsToRequest (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (85/85)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.s3.blobstore.config">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (4/4)"/>
+        <coverage type="block, %" value="100% (49/49)"/>
+        <coverage type="line, %" value="100% (9/9)"/>
+
+        <srcfile name="AWSS3BlobStoreContextModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (49/49)"/>
+          <coverage type="line, %" value="100% (9/9)"/>
+
+          <class name="AWSS3BlobStoreContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (43/43)"/>
+            <coverage type="line, %" value="100% (9/9)"/>
+
+            <method name="AWSS3BlobStoreContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindContext (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (29/29)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+          <class name="AWSS3BlobStoreContextModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AWSS3BlobStoreContextModule$1 (AWSS3BlobStoreContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.s3.functions">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="100% (7/7)"/>
+        <coverage type="block, %" value="100% (105/105)"/>
+        <coverage type="line, %" value="100% (34/34)"/>
+
+        <srcfile name="ETagFromHttpResponseViaRegex.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (65/65)"/>
+          <coverage type="line, %" value="100% (21/21)"/>
+
+          <class name="ETagFromHttpResponseViaRegex">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (65/65)"/>
+            <coverage type="line, %" value="100% (21/21)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ETagFromHttpResponseViaRegex (ReturnStringIf2xx): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="apply (HttpResponse): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (52/52)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ObjectMetadataKey.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (7/7)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="ObjectMetadataKey">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (7/7)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="ObjectMetadataKey (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Object): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="UploadIdFromHttpResponseViaRegex.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (33/33)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="UploadIdFromHttpResponseViaRegex">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (33/33)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="UploadIdFromHttpResponseViaRegex (ReturnStringIf2xx): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="apply (HttpResponse): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (23/23)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

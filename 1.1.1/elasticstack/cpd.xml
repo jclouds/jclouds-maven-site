@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="44" tokens="138">
+<file line="59" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/CreateDriveRequest.java"/>
+<file line="39" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/DriveData.java"/>
+<codefragment>
+<![CDATA[
+      }
+
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder readers(Iterable<String> readers) {
+         return Builder.class.cast(super.readers(readers));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder size(long size) {
+         return Builder.class.cast(super.size(size));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder tags(Iterable<String> tags) {
+         return Builder.class.cast(super.tags(tags));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder userMetadata(Map<String, String> userMetadata) {
+         return Builder.class.cast(super.userMetadata(userMetadata));
+      }
+
+      public DriveData build() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="36" tokens="112">
+<file line="98" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/DriveInfo.java"/>
+<file line="119" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/ServerInfo.java"/>
+<codefragment>
+<![CDATA[
+         return Builder.class.cast(super.vnc(vnc));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder uuid(String uuid) {
+         return Builder.class.cast(super.uuid(uuid));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder tags(Iterable<String> tags) {
+         return Builder.class.cast(super.tags(tags));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder userMetadata(Map<String, String> userMetadata) {
+         return Builder.class.cast(super.userMetadata(userMetadata));
+      }
+
+      public ServerInfo build() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="36" tokens="112">
+<file line="53" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/Drive.java"/>
+<file line="86" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/Server.java"/>
+<codefragment>
+<![CDATA[
+         return this;
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder uuid(String uuid) {
+         return Builder.class.cast(super.uuid(uuid));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder tags(Iterable<String> tags) {
+         return Builder.class.cast(super.tags(tags));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder userMetadata(Map<String, String> userMetadata) {
+         return Builder.class.cast(super.userMetadata(userMetadata));
+      }
+
+      public Server build() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="35" tokens="110">
+<file line="54" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/Drive.java"/>
+<file line="99" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/DriveInfo.java"/>
+<codefragment>
+<![CDATA[
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder uuid(String uuid) {
+         return Builder.class.cast(super.uuid(uuid));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder tags(Iterable<String> tags) {
+         return Builder.class.cast(super.tags(tags));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder userMetadata(Map<String, String> userMetadata) {
+         return Builder.class.cast(super.userMetadata(userMetadata));
+      }
+
+      public static Builder fromDriveInfo(DriveInfo driveInfo) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="16" tokens="101">
+<file line="85" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/Item.java"/>
+<file line="174" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/domain/Item.java"/>
+<codefragment>
+<![CDATA[
+      Item other = (Item) obj;
+      if (name == null) {
+         if (other.name != null)
+            return false;
+      } else if (!name.equals(other.name))
+         return false;
+      if (tags == null) {
+         if (other.tags != null)
+            return false;
+      } else if (!tags.equals(other.tags))
+         return false;
+      if (userMetadata == null) {
+         if (other.userMetadata != null)
+            return false;
+      } else if (!userMetadata.equals(other.userMetadata))
+         return false;
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

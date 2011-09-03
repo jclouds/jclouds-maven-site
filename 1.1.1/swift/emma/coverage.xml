@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="11"/>
+    <classes value="44"/>
+    <methods value="226"/>
+    <srcfiles value="32"/>
+    <srclines value="641"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="64%  (28/44)"/>
+      <coverage type="method, %" value="56%  (127/226)"/>
+      <coverage type="block, %" value="50%  (1517/3004)"/>
+      <coverage type="line, %" value="51%  (328.9/641)"/>
+
+      <package name="org.jclouds.openstack.swift.blobstore">
+        <coverage type="class, %" value="17%  (1/6)"/>
+        <coverage type="method, %" value="10%  (4/40)"/>
+        <coverage type="block, %" value="21%  (124/579)"/>
+        <coverage type="line, %" value="13%  (11/83)"/>
+
+        <srcfile name="SwiftAsyncBlobStore.java">
+          <coverage type="class, %" value="0%   (0/3)"/>
+          <coverage type="method, %" value="0%   (0/19)"/>
+          <coverage type="block, %" value="0%   (0/232)"/>
+          <coverage type="line, %" value="0%   (0/38)"/>
+
+          <class name="SwiftAsyncBlobStore">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/15)"/>
+            <coverage type="block, %" value="0%   (0/204)"/>
+            <coverage type="line, %" value="0%   (0/34)"/>
+
+            <method name="SwiftAsyncBlobStore (BlobStoreContext, BlobUtils, ExecutorService, Supplier, Supplier, CommonSwiftClient, CommonSwiftAsyncClient, ContainerToResourceMetadata, BlobStoreListContainerOptionsToListContainerOptions, ContainerToResourceList, ObjectToBlob, BlobToObject, ObjectToBlobMetadata, BlobToHttpGetOptions, Provider): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/41)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
+            </method>
+            <method name="access$000 (SwiftAsyncBlobStore): ContainerToResourceMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="access$100 (SwiftAsyncBlobStore): ObjectToBlobMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blobExists (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blobMetadata (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="containerExists (String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String, CreateContainerOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="deleteAndVerifyContainerGone (String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="getBlob (String, String, GetOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="list (): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="list (String, ListContainerOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/39)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="putBlob (String, Blob): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="putBlob (String, Blob, PutOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="removeBlob (String, String): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="SwiftAsyncBlobStore$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/16)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="SwiftAsyncBlobStore$1 (SwiftAsyncBlobStore): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Set): PageSet">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="SwiftAsyncBlobStore$2">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/12)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="SwiftAsyncBlobStore$2 (SwiftAsyncBlobStore): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (MutableObjectInfoWithMetadata): BlobMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SwiftBlobStore.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/16)"/>
+          <coverage type="block, %" value="0%   (0/199)"/>
+          <coverage type="line, %" value="0%   (0/33)"/>
+
+          <class name="SwiftBlobStore">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/14)"/>
+            <coverage type="block, %" value="0%   (0/183)"/>
+            <coverage type="line, %" value="0%   (0/32)"/>
+
+            <method name="SwiftBlobStore (BlobStoreContext, BlobUtils, Supplier, Supplier, CommonSwiftClient, ContainerToResourceMetadata, BlobStoreListContainerOptionsToListContainerOptions, ContainerToResourceList, ObjectToBlob, BlobToObject, ObjectToBlobMetadata, BlobToHttpGetOptions, Provider): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
+            </method>
+            <method name="access$000 (SwiftBlobStore): ContainerToResourceMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blobExists (String, String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blobMetadata (String, String): BlobMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="containerExists (String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String, CreateContainerOptions): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="deleteAndVerifyContainerGone (String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="getBlob (String, String, GetOptions): Blob">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="list (): PageSet">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="list (String, ListContainerOptions): PageSet">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/33)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="putBlob (String, Blob): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="putBlob (String, Blob, PutOptions): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="removeBlob (String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+          <class name="SwiftBlobStore$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/16)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="SwiftBlobStore$1 (SwiftBlobStore): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Set): PageSet">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SwiftBlobRequestSigner.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="80%  (4/5)"/>
+          <coverage type="block, %" value="84%  (124/148)"/>
+          <coverage type="line, %" value="92%  (11/12)"/>
+
+          <class name="SwiftBlobRequestSigner">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="block, %" value="84%  (124/148)"/>
+            <coverage type="line, %" value="92%  (11/12)"/>
+
+            <method name="signGetBlob (String, String, GetOptions): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="SwiftBlobRequestSigner (RestAnnotationProcessor, BlobToObject, BlobToHttpGetOptions): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (70/70)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="signGetBlob (String, String): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="signPutBlob (String, Blob): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="signRemoveBlob (String, String): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.domain">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="35%  (7/20)"/>
+        <coverage type="block, %" value="40%  (106/266)"/>
+        <coverage type="line, %" value="38%  (28/74)"/>
+
+        <srcfile name="AccountMetadata.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/9)"/>
+          <coverage type="block, %" value="0%   (0/116)"/>
+          <coverage type="line, %" value="0%   (0/32)"/>
+
+          <class name="AccountMetadata">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/9)"/>
+            <coverage type="block, %" value="0%   (0/116)"/>
+            <coverage type="line, %" value="0%   (0/32)"/>
+
+            <method name="AccountMetadata (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AccountMetadata (long, long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
+            </method>
+            <method name="getBytes (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getContainerCount (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="setBytes (long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setContainerCount (long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/21)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ContainerMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="64%  (7/11)"/>
+          <coverage type="block, %" value="71%  (106/150)"/>
+          <coverage type="line, %" value="67%  (28/42)"/>
+
+          <class name="ContainerMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="64%  (7/11)"/>
+            <coverage type="block, %" value="71%  (106/150)"/>
+            <coverage type="line, %" value="67%  (28/42)"/>
+
+            <method name="compareTo (ContainerMetadata): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="getBytes (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCount (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="68%  (36/53)"/>
+              <coverage type="line, %" value="53%  (9/17)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (43/45)"/>
+              <coverage type="line, %" value="99%  (6/6)"/>
+            </method>
+            <method name="ContainerMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ContainerMetadata (String, long, long): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="setBytes (long): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setCount (long): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setName (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.blobstore.functions">
+        <coverage type="class, %" value="44%  (4/9)"/>
+        <coverage type="method, %" value="44%  (8/18)"/>
+        <coverage type="block, %" value="40%  (209/518)"/>
+        <coverage type="line, %" value="44%  (50.8/115)"/>
+
+        <srcfile name="BlobStoreListContainerOptionsToListContainerOptions.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/87)"/>
+          <coverage type="line, %" value="0%   (0/16)"/>
+
+          <class name="BlobStoreListContainerOptionsToListContainerOptions">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/87)"/>
+            <coverage type="line, %" value="0%   (0/16)"/>
+
+            <method name="BlobStoreListContainerOptionsToListContainerOptions (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (ListContainerOptions): ListContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/84)"/>
+              <coverage type="line, %" value="0%   (0/15)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BlobToObjectGetOptions.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/94)"/>
+          <coverage type="line, %" value="0%   (0/20)"/>
+
+          <class name="BlobToObjectGetOptions">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/94)"/>
+            <coverage type="line, %" value="0%   (0/20)"/>
+
+            <method name="BlobToObjectGetOptions (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (GetOptions): GetOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/91)"/>
+              <coverage type="line, %" value="0%   (0/19)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ContainerToResourceList.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/54)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
+
+          <class name="ContainerToResourceList">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/21)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="ContainerToResourceList (ObjectToBlobMetadata): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="apply (PageSet): PageSet">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="ContainerToResourceList$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/33)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="ContainerToResourceList$1 (ContainerToResourceList): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (BlobMetadata): StorageMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ContainerToResourceMetadata.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/25)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
+
+          <class name="ContainerToResourceMetadata">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/25)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
+
+            <method name="ContainerToResourceMetadata (Supplier): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="apply (ContainerMetadata): StorageMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ResourceToObjectInfo.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="64%  (56/88)"/>
+          <coverage type="line, %" value="66%  (11.8/18)"/>
+
+          <class name="ResourceToObjectInfo">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="64%  (56/88)"/>
+            <coverage type="line, %" value="66%  (11.8/18)"/>
+
+            <method name="apply (StorageMetadata): MutableObjectInfoWithMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="62%  (53/85)"/>
+              <coverage type="line, %" value="64%  (10.8/17)"/>
+            </method>
+            <method name="ResourceToObjectInfo (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ObjectToBlobMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="85%  (73/86)"/>
+          <coverage type="line, %" value="84%  (21/25)"/>
+
+          <class name="ObjectToBlobMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="85%  (73/86)"/>
+            <coverage type="line, %" value="84%  (21/25)"/>
+
+            <method name="apply (ObjectInfo): MutableBlobMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="84%  (67/80)"/>
+              <coverage type="line, %" value="82%  (18/22)"/>
+            </method>
+            <method name="ObjectToBlobMetadata (IfDirectoryReturnNameStrategy): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BlobToObject.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="95%  (40/42)"/>
+          <coverage type="line, %" value="90%  (9/10)"/>
+
+          <class name="BlobToObject">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="95%  (40/42)"/>
+            <coverage type="line, %" value="90%  (9/10)"/>
+
+            <method name="apply (Blob): SwiftObject">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="94%  (31/33)"/>
+              <coverage type="line, %" value="83%  (5/6)"/>
+            </method>
+            <method name="BlobToObject (ResourceToObjectInfo, SwiftObject$Factory): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ObjectToBlob.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="95%  (40/42)"/>
+          <coverage type="line, %" value="90%  (9/10)"/>
+
+          <class name="ObjectToBlob">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="95%  (40/42)"/>
+            <coverage type="line, %" value="90%  (9/10)"/>
+
+            <method name="apply (SwiftObject): Blob">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="94%  (31/33)"/>
+              <coverage type="line, %" value="83%  (5/6)"/>
+            </method>
+            <method name="ObjectToBlob (Blob$Factory, ObjectToBlobMetadata): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.domain.internal">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="78%  (60/77)"/>
+        <coverage type="block, %" value="55%  (386/698)"/>
+        <coverage type="line, %" value="57%  (102.8/180)"/>
+
+        <srcfile name="MutableObjectInfoWithMetadataImpl.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="80%  (16/20)"/>
+          <coverage type="block, %" value="31%  (61/198)"/>
+          <coverage type="line, %" value="50%  (25/50)"/>
+
+          <class name="MutableObjectInfoWithMetadataImpl">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (16/20)"/>
+            <coverage type="block, %" value="31%  (61/198)"/>
+            <coverage type="line, %" value="50%  (25/50)"/>
+
+            <method name="compareTo (ObjectInfo): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/53)"/>
+              <coverage type="line, %" value="0%   (0/18)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/41)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="MutableObjectInfoWithMetadataImpl (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="getBytes (): Long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContainer (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContentType (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getHash (): byte []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLastModified (): Date">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMetadata (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getUri (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setBytes (Long): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setContainer (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setContentType (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setHash (byte []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setLastModified (Date): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setName (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setUri (URI): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SwiftObjectImpl.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (6/9)"/>
+          <coverage type="block, %" value="39%  (50/128)"/>
+          <coverage type="line, %" value="39%  (13/33)"/>
+
+          <class name="SwiftObjectImpl">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (6/9)"/>
+            <coverage type="block, %" value="39%  (50/128)"/>
+            <coverage type="line, %" value="39%  (13/33)"/>
+
+            <method name="compareTo (SwiftObject): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/39)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="SwiftObjectImpl (MutableObjectInfoWithMetadata): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getAllHeaders (): Multimap">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getInfo (): MutableObjectInfoWithMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setAllHeaders (Multimap): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setPayload (Payload): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="DelegatingMutableObjectInfoWithMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="65%  (15/23)"/>
+          <coverage type="block, %" value="65%  (68/105)"/>
+          <coverage type="line, %" value="63%  (22/35)"/>
+
+          <class name="DelegatingMutableObjectInfoWithMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="65%  (15/23)"/>
+            <coverage type="block, %" value="65%  (68/105)"/>
+            <coverage type="line, %" value="63%  (22/35)"/>
+
+            <method name="compareTo (ObjectInfo): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getDelegate (): MutableObjectInfoWithMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setBytes (Long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setContainer (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setHash (byte []): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setLastModified (Date): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setUri (URI): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="DelegatingMutableObjectInfoWithMetadata (MutableObjectInfoWithMetadata): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="getBytes (): Long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContainer (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContentLength (): Long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContentMD5 (): byte []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContentType (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getHash (): byte []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLastModified (): Date">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMetadata (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getUri (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setContentLength (Long): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="setContentMD5 (byte []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setContentType (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setName (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ObjectInfoImpl.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="92%  (23/25)"/>
+          <coverage type="block, %" value="78%  (207/267)"/>
+          <coverage type="line, %" value="69%  (42.8/62)"/>
+
+          <class name="ObjectInfoImpl">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="87%  (13/15)"/>
+            <coverage type="block, %" value="68%  (128/188)"/>
+            <coverage type="line, %" value="57%  (25.8/45)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/53)"/>
+              <coverage type="line, %" value="0%   (0/18)"/>
+            </method>
+            <method name="getUri (): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="88%  (28/32)"/>
+              <coverage type="line, %" value="96%  (4.8/5)"/>
+            </method>
+            <method name="ObjectInfoImpl (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ObjectInfoImpl (String, URI, String, byte [], Long, String, Date): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="builder (): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="compareTo (ObjectInfo): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getBytes (): Long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContainer (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getContentType (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getHash (): byte []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLastModified (): Date">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toBuilder (): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (41/41)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ObjectInfoImpl$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (10/10)"/>
+            <coverage type="block, %" value="100% (79/79)"/>
+            <coverage type="line, %" value="100% (17/17)"/>
+
+            <method name="ObjectInfoImpl$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): ObjectInfoImpl">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bytes (Long): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="container (String): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="contentType (String): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="fromObjectInfo (ObjectInfo): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (23/23)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hash (byte []): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="lastModified (Date): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="uri (URI): ObjectInfoImpl$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.config">
+        <coverage type="class, %" value="60%  (3/5)"/>
+        <coverage type="method, %" value="41%  (7/17)"/>
+        <coverage type="block, %" value="59%  (82/138)"/>
+        <coverage type="line, %" value="55%  (18/33)"/>
+
+        <srcfile name="SwiftRestClientModule.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/7)"/>
+          <coverage type="block, %" value="0%   (0/38)"/>
+          <coverage type="line, %" value="0%   (0/11)"/>
+
+          <class name="SwiftRestClientModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/5)"/>
+            <coverage type="block, %" value="0%   (0/24)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
+
+            <method name="SwiftRestClientModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="provideCommonSwiftClient (SwiftAsyncClient): CommonSwiftAsyncClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideCommonSwiftClient (SwiftClient): CommonSwiftClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideStorageUrl (OpenStackAuthAsyncClient$AuthenticationResponse): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="SwiftRestClientModule$GetAuthenticationResponseForStorage">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/14)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="SwiftRestClientModule$GetAuthenticationResponseForStorage (AsyncClientFactory, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="authenticate (): Future">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BaseSwiftRestClientModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="60%  (3/5)"/>
+          <coverage type="block, %" value="78%  (51/65)"/>
+          <coverage type="line, %" value="80%  (12/15)"/>
+
+          <class name="BaseSwiftRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="78%  (51/65)"/>
+            <coverage type="line, %" value="80%  (12/15)"/>
+
+            <method name="BaseSwiftRestClientModule (Class, Class): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="provideStorageUrl (OpenStackAuthAsyncClient$AuthenticationResponse): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="BaseSwiftRestClientModule (OpenStackAuthenticationModule, Class, Class): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="bindErrorHandlers (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SwiftObjectModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="80%  (4/5)"/>
+          <coverage type="block, %" value="89%  (31/35)"/>
+          <coverage type="line, %" value="86%  (6/7)"/>
+
+          <class name="SwiftObjectModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="80%  (16/20)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
+
+            <method name="provideSwiftObject (SwiftObject$Factory): SwiftObject">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="SwiftObjectModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="SwiftObjectModule$SwiftObjectFactory">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (15/15)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="SwiftObjectModule$SwiftObjectFactory (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="create (MutableObjectInfoWithMetadata): SwiftObject">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.functions">
+        <coverage type="class, %" value="67%  (6/9)"/>
+        <coverage type="method, %" value="71%  (17/24)"/>
+        <coverage type="block, %" value="67%  (245/367)"/>
+        <coverage type="line, %" value="65%  (42.5/65)"/>
+
+        <srcfile name="ParseAccountMetadataResponseFromHeaders.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/25)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="ParseAccountMetadataResponseFromHeaders">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/25)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="ParseAccountMetadataResponseFromHeaders (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (HttpResponse): AccountMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseObjectFromHeadersAndHttpContent.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/47)"/>
+          <coverage type="line, %" value="0%   (0/13)"/>
+
+          <class name="ParseObjectFromHeadersAndHttpContent">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/47)"/>
+            <coverage type="line, %" value="0%   (0/13)"/>
+
+            <method name="ParseObjectFromHeadersAndHttpContent (ParseObjectInfoFromHeaders, SwiftObject$Factory): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="apply (HttpResponse): SwiftObject">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/31)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseObjectFromHeadersAndHttpContent">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ReturnTrueOn404FalseOn409.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/25)"/>
+          <coverage type="line, %" value="0%   (0/3)"/>
+
+          <class name="ReturnTrueOn404FalseOn409">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/25)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="ReturnTrueOn404FalseOn409 (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Exception): Boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseObjectInfoListFromJsonResponse.java">
+          <coverage type="class, %" value="100% (4/4)"/>
+          <coverage type="method, %" value="100% (11/11)"/>
+          <coverage type="block, %" value="87%  (169/194)"/>
+          <coverage type="line, %" value="90%  (22.5/25)"/>
+
+          <class name="ParseObjectInfoListFromJsonResponse">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (7/7)"/>
+            <coverage type="block, %" value="84%  (127/152)"/>
+            <coverage type="line, %" value="89%  (20.5/23)"/>
+
+            <method name="apply (InputStream): PageSet">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="77%  (84/109)"/>
+              <coverage type="line, %" value="82%  (11.5/14)"/>
+            </method>
+            <method name="ParseObjectInfoListFromJsonResponse (Json, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="access$000 (ParseObjectInfoListFromJsonResponse): GeneratedHttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="access$100 (ParseObjectInfoListFromJsonResponse): Provider">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="access$200 (ParseObjectInfoListFromJsonResponse): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setContainer (String): ParseObjectInfoListFromJsonResponse">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseObjectInfoListFromJsonResponse">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="ParseObjectInfoListFromJsonResponse$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="ParseObjectInfoListFromJsonResponse$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ParseObjectInfoListFromJsonResponse$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="ParseObjectInfoListFromJsonResponse$2 (ParseObjectInfoListFromJsonResponse): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ParseObjectInfoListFromJsonResponse$3">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (33/33)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="ParseObjectInfoListFromJsonResponse$3 (ParseObjectInfoListFromJsonResponse): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (ObjectInfoImpl): ObjectInfo">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (27/27)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ObjectName.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (8/8)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="ObjectName">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="ObjectName (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Object): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseObjectInfoFromHeaders.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (68/68)"/>
+          <coverage type="line, %" value="100% (18/18)"/>
+
+          <class name="ParseObjectInfoFromHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (68/68)"/>
+            <coverage type="line, %" value="100% (18/18)"/>
+
+            <method name="ParseObjectInfoFromHeaders (ParseSystemAndUserMetadataFromHeaders, ResourceToObjectInfo): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="apply (HttpResponse): MutableObjectInfoWithMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="setContainer (String): ParseObjectInfoFromHeaders">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseObjectInfoFromHeaders">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="67%  (4/6)"/>
+        <coverage type="block, %" value="71%  (37/52)"/>
+        <coverage type="line, %" value="73%  (11/15)"/>
+
+        <srcfile name="SwiftContextBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="65%  (13/20)"/>
+          <coverage type="line, %" value="67%  (4/6)"/>
+
+          <class name="SwiftContextBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="65%  (13/20)"/>
+            <coverage type="line, %" value="67%  (4/6)"/>
+
+            <method name="addClientModule (List): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="SwiftContextBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addContextModule (List): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SwiftPropertiesBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="75%  (24/32)"/>
+          <coverage type="line, %" value="78%  (7/9)"/>
+
+          <class name="SwiftPropertiesBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="75%  (24/32)"/>
+            <coverage type="line, %" value="78%  (7/9)"/>
+
+            <method name="withMetaPrefix (String): SwiftPropertiesBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="SwiftPropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.handlers">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (4/4)"/>
+        <coverage type="block, %" value="76%  (97/128)"/>
+        <coverage type="line, %" value="77%  (20.8/27)"/>
+
+        <srcfile name="ParseSwiftErrorFromHttpResponse.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="76%  (97/128)"/>
+          <coverage type="line, %" value="77%  (20.8/27)"/>
+
+          <class name="ParseSwiftErrorFromHttpResponse">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="76%  (97/128)"/>
+            <coverage type="line, %" value="77%  (20.8/27)"/>
+
+            <method name="parseErrorFromContentOrNull (HttpCommand, HttpResponse): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="36%  (8/22)"/>
+              <coverage type="line, %" value="40%  (2/5)"/>
+            </method>
+            <method name="handleError (HttpCommand, HttpResponse): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="82%  (76/93)"/>
+              <coverage type="line, %" value="82%  (14.8/18)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ParseSwiftErrorFromHttpResponse (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.options">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="73%  (11/15)"/>
+        <coverage type="block, %" value="82%  (101/123)"/>
+        <coverage type="line, %" value="85%  (22/26)"/>
+
+        <srcfile name="ListContainerOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="73%  (11/15)"/>
+          <coverage type="block, %" value="82%  (101/123)"/>
+          <coverage type="line, %" value="85%  (22/26)"/>
+
+          <class name="ListContainerOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="70%  (7/10)"/>
+            <coverage type="block, %" value="78%  (69/88)"/>
+            <coverage type="line, %" value="81%  (14.5/18)"/>
+
+            <method name="getMarker (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPath (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPrefix (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getMaxResults (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="57%  (8/14)"/>
+              <coverage type="line, %" value="78%  (1.6/2)"/>
+            </method>
+            <method name="maxResults (int): ListContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (23/24)"/>
+              <coverage type="line, %" value="98%  (3.9/4)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="ListContainerOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="afterMarker (String): ListContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="underPath (String): ListContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withPrefix (String): ListContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="ListContainerOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="block, %" value="91%  (32/35)"/>
+            <coverage type="line, %" value="89%  (8/9)"/>
+
+            <method name="ListContainerOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="afterMarker (String): ListContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="maxResults (int): ListContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="underPath (String): ListContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withPrefix (String): ListContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.binders">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="94%  (75/80)"/>
+        <coverage type="line, %" value="93%  (13/14)"/>
+
+        <srcfile name="BindSwiftObjectMetadataToRequest.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="94%  (75/80)"/>
+          <coverage type="line, %" value="93%  (13/14)"/>
+
+          <class name="BindSwiftObjectMetadataToRequest">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="94%  (75/80)"/>
+            <coverage type="line, %" value="93%  (13/14)"/>
+
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="93%  (66/71)"/>
+              <coverage type="line, %" value="90%  (9/10)"/>
+            </method>
+            <method name="BindSwiftObjectMetadataToRequest (ObjectToBlob, BindUserMetadataToHeadersWithPrefix): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.openstack.swift.blobstore.config">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (3/3)"/>
+        <coverage type="block, %" value="100% (55/55)"/>
+        <coverage type="line, %" value="100% (9/9)"/>
+
+        <srcfile name="SwiftBlobStoreContextModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (55/55)"/>
+          <coverage type="line, %" value="100% (9/9)"/>
+
+          <class name="SwiftBlobStoreContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (49/49)"/>
+            <coverage type="line, %" value="100% (9/9)"/>
+
+            <method name="SwiftBlobStoreContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (46/46)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+          </class>
+          <class name="SwiftBlobStoreContextModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="SwiftBlobStoreContextModule$1 (SwiftBlobStoreContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

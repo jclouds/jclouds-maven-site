@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T15:10:31.867">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/TerremarkVCloudAsyncClient.java">
+<violation beginline="19" endline="553" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/TerremarkVCloudClient.java">
+<violation beginline="23" endline="23" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.NoSuchElementException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/TerremarkVCloudPropertiesBuilder.java">
+<violation beginline="19" endline="102" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/binders/BindCloneVAppParamsToXmlPayload.java">
+<violation beginline="19" endline="130" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/binders/BindInstantiateVAppTemplateParamsToXmlPayload.java">
+<violation beginline="19" endline="218" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/binders/BindVAppConfigurationToXmlPayload.java">
+<violation beginline="19" endline="221" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/compute/TerremarkVCloudComputeClient.java">
+<violation beginline="317" endline="319" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.trmk.vcloud_0_8.compute" class="TerremarkVCloudComputeClient" method="blockOnLastTask" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="380" endline="381" begincolumn="10" endcolumn="109" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.trmk.vcloud_0_8.compute" class="TerremarkVCloudComputeClient" method="deleteVApp" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/compute/TerremarkVCloudComputeService.java">
+<violation beginline="71" endline="92" begincolumn="14" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.trmk.vcloud_0_8.compute" class="TerremarkVCloudComputeService" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'credentialsMap'.
+</violation>
+<violation beginline="71" endline="92" begincolumn="14" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.trmk.vcloud_0_8.compute" class="TerremarkVCloudComputeService" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'nodeToOrgAndName'.
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/compute/strategy/CleanupOrphanKeys.java">
+<violation beginline="19" endline="80" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/config/TerremarkVCloudRestClientModule.java">
+<violation beginline="19" endline="542" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/options/InstantiateVAppTemplateOptions.java">
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="38" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ovf.NetworkSection'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/xml/CatalogItemHandler.java">
+<violation beginline="66" endline="72" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.trmk.vcloud_0_8.xml" class="CatalogItemHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/xml/OrgListHandler.java">
+<violation beginline="50" endline="52" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.trmk.vcloud_0_8.xml" class="OrgListHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/xml/VDCHandler.java">
+<violation beginline="19" endline="97" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.xml" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T17:06:53.640">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/nova/src/main/java/org/jclouds/openstack/nova/NovaClient.java">
+<violation beginline="36" endline="36" begincolumn="1" endcolumn="50" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.ResourceNotFoundException'
+</violation>
+</file>
+</pmd>

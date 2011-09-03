@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T17:31:58.454">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/compute/functions/ServerInfoToNodeMetadata.java">
+<violation beginline="159" endline="161" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.cloudsigma.compute.functions" class="ServerInfoToNodeMetadata$GetImageIdFromServer" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/functions/MapToDriveInfo.java">
+<violation beginline="91" endline="91" begincolumn="32" endcolumn="69" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.cloudsigma.functions" class="MapToDriveInfo" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+<violation beginline="93" endline="93" begincolumn="23" endcolumn="51" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.cloudsigma.functions" class="MapToDriveInfo" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+</file>
+</pmd>

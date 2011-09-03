@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T14:52:51.464">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/cim/xml/ResourceAllocationSettingDataHandler.java">
+<violation beginline="89" endline="89" begincolumn="41" endcolumn="60" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.cim.xml" class="ResourceAllocationSettingDataHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+<violation beginline="91" endline="91" begincolumn="43" endcolumn="62" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.cim.xml" class="ResourceAllocationSettingDataHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/cim/xml/VirtualSystemSettingDataHandler.java">
+<violation beginline="19" endline="124" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cim.xml" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/ComputeService.java">
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.NoSuchElementException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/callables/RunScriptOnNodeUsingSsh.java">
+<violation beginline="103" endline="104" begincolumn="58" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.compute.callables" class="RunScriptOnNodeUsingSsh" method="execAsRoot" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/domain/TemplateBuilder.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.compute.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.NoSuchElementException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/domain/internal/TemplateBuilderImpl.java">
+<violation beginline="19" endline="894" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.compute.domain.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/internal/BaseComputeService.java">
+<violation beginline="19" endline="667" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.compute.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/predicates/ImagePredicates.java">
+<violation beginline="54" endline="54" begincolumn="22" endcolumn="49" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.compute.predicates" class="ImagePredicates$Is64BitPredicate" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/predicates/ScriptStatusReturnsZero.java">
+<violation beginline="67" endline="67" begincolumn="31" endcolumn="36" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.compute.predicates" class="ScriptStatusReturnsZero$CommandUsingClient" variable="client" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'client'.
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/strategy/CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.java">
+<violation beginline="19" endline="173" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/strategy/impl/CreateNodesWithGroupEncodedIntoNameThenAddToSet.java">
+<violation beginline="19" endline="172" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.compute.strategy.impl" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/compute/util/ComputeServiceUtils.java">
+<violation beginline="19" endline="238" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.compute.util" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="218" endline="219" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.compute.util" class="ComputeServiceUtils" method="parseVersionOrReturnEmptyString" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/ovf/xml/NetworkSectionHandler.java">
+<violation beginline="31" endline="31" begincolumn="1" endcolumn="42" rule="ImportFromSamePackage" ruleset="Import Statement Rules" package="org.jclouds.ovf.xml" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#ImportFromSamePackage" priority="3">
+No need to import a type that lives in the same package
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/ovf/xml/OperatingSystemSectionHandler.java">
+<violation beginline="47" endline="48" begincolumn="10" endcolumn="63" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.ovf.xml" class="OperatingSystemSectionHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T18:36:32.259">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudloadbalancers-us/src/main/java/org/jclouds/cloudloadbalancers/CloudLoadBalancersUSPropertiesBuilder.java">
+<violation beginline="19" endline="68" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudloadbalancers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudloadbalancers-us/src/main/java/org/jclouds/cloudloadbalancers/features/LoadBalancerClient.java">
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudloadbalancers.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.http.HttpResponseException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/cloudloadbalancers-us/src/main/java/org/jclouds/cloudloadbalancers/functions/UnwrapLoadBalancers.java">
+<violation beginline="55" endline="55" begincolumn="7" endcolumn="7" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.cloudloadbalancers.functions" class="UnwrapLoadBalancers" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+</pmd>

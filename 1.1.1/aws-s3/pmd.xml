@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T17:57:45.380">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/aws-s3/src/main/java/org/jclouds/aws/s3/AWSS3PropertiesBuilder.java">
+<violation beginline="19" endline="63" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

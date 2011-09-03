@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="20" tokens="105">
+<file line="113" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/domain/internal/CatalogImpl.java"/>
+<file line="81" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/domain/internal/ReferenceTypeImpl.java"/>
+<codefragment>
+<![CDATA[
+      if (href == null) {
+         if (other.href != null)
+            return false;
+      } else if (!href.equals(other.href))
+         return false;
+      if (name == null) {
+         if (other.name != null)
+            return false;
+      } else if (!name.equals(other.name))
+         return false;
+      if (type == null) {
+         if (other.type != null)
+            return false;
+      } else if (!type.equals(other.type))
+         return false;
+      return true;
+   }
+
+   @Override
+   public String toString() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="14" tokens="101">
+<file line="53" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/functions/OrgNameCatalogNameItemNameToEndpoint.java"/>
+<file line="54" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/functions/OrgNameCatalogNameVAppTemplateNameToEndpoint.java"/>
+<codefragment>
+<![CDATA[
+      this.defaultOrg = defaultOrg;
+      this.defaultCatalog = defaultCatalog;
+   }
+
+   @SuppressWarnings("unchecked")
+   public URI apply(Object from) {
+      Iterable<Object> orgCatalog = (Iterable<Object>) checkNotNull(from, "args");
+      Object org = Iterables.get(orgCatalog, 0);
+      Object catalog = Iterables.get(orgCatalog, 1);
+      Object catalogItem = Iterables.get(orgCatalog, 2);
+      if (org == null)
+         org = defaultOrg.getName();
+      if (catalog == null)
+         catalog = defaultCatalog.getName();
+]]>
+</codefragment>
+</duplication>
+<duplication lines="16" tokens="101">
+<file line="156" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/domain/NetworkExtendedInfo.java"/>
+<file line="95" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/domain/VAppExtendedInfo.java"/>
+<codefragment>
+<![CDATA[
+      if (href == null) {
+         if (other.href != null)
+            return false;
+      } else if (!href.equals(other.href))
+         return false;
+      if (id == null) {
+         if (other.id != null)
+            return false;
+      } else if (!id.equals(other.id))
+         return false;
+      if (name == null) {
+         if (other.name != null)
+            return false;
+      } else if (!name.equals(other.name))
+         return false;
+      if (tags == null) {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

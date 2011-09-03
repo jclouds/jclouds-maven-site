@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="210" tokens="676">
+<file line="63" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/domain/ovf/EditableResourceAllocationSettingData.java"/>
+<file line="80" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/domain/ovf/VCloudHardDisk.java"/>
+<file line="82" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/domain/ovf/VCloudNetworkAdapter.java"/>
+<codefragment>
+<![CDATA[
+                  .ipAddressingMode(in.getIpAddressingMode()).fromResourceAllocationSettingData(in);
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder caption(String caption) {
+         return Builder.class.cast(super.caption(caption));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder description(String description) {
+         return Builder.class.cast(super.description(description));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder elementName(String elementName) {
+         return Builder.class.cast(super.elementName(elementName));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder instanceID(String instanceID) {
+         return Builder.class.cast(super.instanceID(instanceID));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder address(String address) {
+         return Builder.class.cast(super.address(address));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder addressOnParent(String addressOnParent) {
+         return Builder.class.cast(super.addressOnParent(addressOnParent));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder allocationUnits(String allocationUnits) {
+         return Builder.class.cast(super.allocationUnits(allocationUnits));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder automaticAllocation(Boolean automaticAllocation) {
+         return Builder.class.cast(super.automaticAllocation(automaticAllocation));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder automaticDeallocation(Boolean automaticDeallocation) {
+         return Builder.class.cast(super.automaticDeallocation(automaticDeallocation));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder connection(String connection) {
+         return Builder.class.cast(super.connection(connection));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder connections(List<String> connections) {
+         return Builder.class.cast(super.connections(connections));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder consumerVisibility(ConsumerVisibility consumerVisibility) {
+         return Builder.class.cast(super.consumerVisibility(consumerVisibility));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder hostResource(String hostResource) {
+         return Builder.class.cast(super.hostResource(hostResource));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder hostResources(List<String> hostResources) {
+         return Builder.class.cast(super.hostResources(hostResources));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder limit(Long limit) {
+         return Builder.class.cast(super.limit(limit));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder mappingBehavior(MappingBehavior mappingBehavior) {
+         return Builder.class.cast(super.mappingBehavior(mappingBehavior));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder otherResourceType(String otherResourceType) {
+         return Builder.class.cast(super.otherResourceType(otherResourceType));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder parent(String parent) {
+         return Builder.class.cast(super.parent(parent));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder poolID(String poolID) {
+         return Builder.class.cast(super.poolID(poolID));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder reservation(Long reservation) {
+         return Builder.class.cast(super.reservation(reservation));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder resourceSubType(String resourceSubType) {
+         return Builder.class.cast(super.resourceSubType(resourceSubType));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder resourceType(org.jclouds.cim.ResourceAllocationSettingData.ResourceType resourceType) {
+         return Builder.class.cast(super.resourceType(resourceType));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder virtualQuantity(Long virtualQuantity) {
+         return Builder.class.cast(super.virtualQuantity(virtualQuantity));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder virtualQuantityUnits(String virtualQuantityUnits) {
+         return Builder.class.cast(super.virtualQuantityUnits(virtualQuantityUnits));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder weight(Integer weight) {
+         return Builder.class.cast(super.weight(weight));
+      }
+
+      @Override
+      public Builder fromResourceAllocationSettingData(ResourceAllocationSettingData in) {
+         return Builder.class.cast(super.fromResourceAllocationSettingData(in));
+      }
+   }
+
+   private final String ipAddress;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="42" tokens="195">
+<file line="154" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/VCloudAsyncClient.java"/>
+<file line="66" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/features/CatalogAsyncClient.java"/>
+<codefragment>
+<![CDATA[
+   @GET
+   @XMLResponseParser(CatalogHandler.class)
+   @ExceptionParser(ReturnNullOnNotFoundOr404.class)
+   @Consumes(CATALOG_XML)
+   ListenableFuture<? extends Catalog> getCatalog(@EndpointParam URI catalogId);
+
+   /**
+    * @see CatalogClient#findCatalogInOrgNamed
+    */
+   @GET
+   @XMLResponseParser(CatalogHandler.class)
+   @ExceptionParser(ReturnNullOnNotFoundOr404.class)
+   @Consumes(CATALOG_XML)
+   ListenableFuture<? extends Catalog> findCatalogInOrgNamed(
+            @Nullable @EndpointParam(parser = OrgNameAndCatalogNameToEndpoint.class) String orgName,
+            @Nullable @EndpointParam(parser = OrgNameAndCatalogNameToEndpoint.class) String catalogName);
+
+   /**
+    * @see CatalogClient#getCatalogItem
+    */
+   @GET
+   @Consumes(CATALOGITEM_XML)
+   @XMLResponseParser(CatalogItemHandler.class)
+   @ExceptionParser(ReturnNullOnNotFoundOr404.class)
+   ListenableFuture<? extends CatalogItem> getCatalogItem(@EndpointParam URI catalogItem);
+
+   /**
+    * @see CatalogClient#getCatalogItemInOrg
+    */
+   @GET
+   @Consumes(CATALOGITEM_XML)
+   @XMLResponseParser(CatalogItemHandler.class)
+   @ExceptionParser(ReturnNullOnNotFoundOr404.class)
+   ListenableFuture<? extends CatalogItem> findCatalogItemInOrgCatalogNamed(
+            @Nullable @EndpointParam(parser = OrgNameCatalogNameItemNameToEndpoint.class) String orgName,
+            @Nullable @EndpointParam(parser = OrgNameCatalogNameItemNameToEndpoint.class) String catalogName,
+            @EndpointParam(parser = OrgNameCatalogNameItemNameToEndpoint.class) String itemName);
+
+   /**
+    * @see CatalogClient#addVAppTemplateOrMediaImageToCatalog
+    */
+   @POST
+]]>
+</codefragment>
+</duplication>
+<duplication lines="31" tokens="129">
+<file line="236" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/VCloudAsyncClient.java"/>
+<file line="58" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/features/TaskAsyncClient.java"/>
+<codefragment>
+<![CDATA[
+   @GET
+   @Consumes(TASKSLIST_XML)
+   @XMLResponseParser(TasksListHandler.class)
+   @ExceptionParser(ReturnNullOnNotFoundOr404.class)
+   ListenableFuture<? extends TasksList> getTasksList(@EndpointParam URI tasksListId);
+
+   /**
+    * @see TaskClient#findTasksListInOrgNamed
+    */
+   @GET
+   @Consumes(TASKSLIST_XML)
+   @XMLResponseParser(TasksListHandler.class)
+   @ExceptionParser(ReturnNullOnNotFoundOr404.class)
+   ListenableFuture<? extends TasksList> findTasksListInOrgNamed(
+            @Nullable @EndpointParam(parser = OrgNameToTasksListEndpoint.class) String orgName);
+
+   /**
+    * @see TaskClient#getTask
+    */
+   @GET
+   @Consumes(TASK_XML)
+   @XMLResponseParser(TaskHandler.class)
+   @ExceptionParser(ReturnNullOnNotFoundOr404.class)
+   ListenableFuture<? extends Task> getTask(@EndpointParam URI taskId);
+
+   /**
+    * @see TaskClient#cancelTask
+    */
+   @POST
+   @Path("/action/cancel")
+   ListenableFuture<Void> cancelTask(@EndpointParam URI taskId);
+]]>
+</codefragment>
+</duplication>
+<duplication lines="14" tokens="115">
+<file line="60" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindCatalogItemToXmlPayload.java"/>
+<file line="60" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindCloneParamsToXmlPayload.java"/>
+<codefragment>
+<![CDATA[
+   public BindCloneParamsToXmlPayload(BindToStringPayload stringBinder,
+            @Named(PROPERTY_VCLOUD_XML_NAMESPACE) String ns, @Named(PROPERTY_VCLOUD_XML_SCHEMA) String schema) {
+      this.ns = ns;
+      this.schema = schema;
+      this.stringBinder = stringBinder;
+   }
+
+   @Override
+   public <R extends HttpRequest> R bindToRequest(R request, Map<String, String> postParams) {
+      checkArgument(checkNotNull(request, "request") instanceof GeneratedHttpRequest<?>,
+               "this binder is only valid for GeneratedHttpRequests!");
+      GeneratedHttpRequest<?> gRequest = (GeneratedHttpRequest<?>) request;
+      checkState(gRequest.getArgs() != null, "args should be initialized at this point");
+      String name = checkNotNull(postParams.get("name"), "name");
+]]>
+</codefragment>
+</duplication>
+<duplication lines="14" tokens="102">
+<file line="59" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindCaptureVAppParamsToXmlPayload.java"/>
+<file line="60" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindCatalogItemToXmlPayload.java"/>
+<codefragment>
+<![CDATA[
+   public BindCatalogItemToXmlPayload(BindToStringPayload stringBinder,
+            @Named(PROPERTY_VCLOUD_XML_NAMESPACE) String ns, @Named(PROPERTY_VCLOUD_XML_SCHEMA) String schema) {
+      this.ns = ns;
+      this.schema = schema;
+      this.stringBinder = stringBinder;
+   }
+
+   @Override
+   public <R extends HttpRequest> R bindToRequest(R request, Map<String, String> postParams) {
+      checkArgument(checkNotNull(request, "request") instanceof GeneratedHttpRequest<?>,
+               "this binder is only valid for GeneratedHttpRequests!");
+      GeneratedHttpRequest<?> gRequest = (GeneratedHttpRequest<?>) request;
+      checkState(gRequest.getArgs() != null, "args should be initialized at this point");
+      String name = checkNotNull(postParams.get("name"), "name");
+]]>
+</codefragment>
+</duplication>
+<duplication lines="14" tokens="101">
+<file line="53" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/functions/OrgNameCatalogNameItemNameToEndpoint.java"/>
+<file line="54" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/functions/OrgNameCatalogNameVAppTemplateNameToEndpoint.java"/>
+<codefragment>
+<![CDATA[
+      this.defaultOrg = defaultOrg;
+      this.defaultCatalog = defaultCatalog;
+   }
+
+   @SuppressWarnings("unchecked")
+   public URI apply(Object from) {
+      Iterable<Object> orgCatalog = (Iterable<Object>) checkNotNull(from, "args");
+      Object org = Iterables.get(orgCatalog, 0);
+      Object catalog = Iterables.get(orgCatalog, 1);
+      Object catalogItem = Iterables.get(orgCatalog, 2);
+      if (org == null)
+         org = defaultOrg.getName();
+      if (catalog == null)
+         catalog = defaultCatalog.getName();
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

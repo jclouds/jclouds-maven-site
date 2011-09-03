@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="21" tokens="134">
+<file line="62" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/cim/xml/ResourceAllocationSettingDataHandler.java"/>
+<file line="52" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/cim/xml/VirtualSystemSettingDataHandler.java"/>
+<codefragment>
+<![CDATA[
+         builder = VirtualSystemSettingData.builder();
+      }
+   }
+
+   @Override
+   public void startElement(String uri, String localName, String qName, Attributes attrs) {
+   }
+
+   @Override
+   public void endElement(String uri, String localName, String qName) {
+      String current = currentOrNull(currentText);
+      if (current != null) {
+         if (equalsOrSuffix(qName, "ElementName")) {
+            builder.elementName(current);
+         } else if (equalsOrSuffix(qName, "InstanceID")) {
+            builder.instanceID(current);
+         } else if (equalsOrSuffix(qName, "Caption")) {
+            builder.caption(current);
+         } else if (equalsOrSuffix(qName, "Description")) {
+            builder.description(current);
+         } else if (equalsOrSuffix(qName, "AutomaticRecoveryAction")) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="51" tokens="133">
+<file line="269" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/cim/ResourceAllocationSettingData.java"/>
+<file line="194" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/compute/src/main/java/org/jclouds/cim/VirtualSystemSettingData.java"/>
+<codefragment>
+<![CDATA[
+                           in.getNotes());
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder fromManagedElement(ManagedElement in) {
+         return Builder.class.cast(super.fromManagedElement(in));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder caption(String caption) {
+         return Builder.class.cast(super.caption(caption));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder description(String description) {
+         return Builder.class.cast(super.description(description));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder elementName(String elementName) {
+         return Builder.class.cast(super.elementName(elementName));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder instanceID(String instanceID) {
+         return Builder.class.cast(super.instanceID(instanceID));
+      }
+
+   }
+
+   /**
+    * Action to take for the virtual system when the software executed by the virtual system fails.
+    * Failures in this case means a failure that is detectable by the host platform, such as a
+    * non-interuptable wait state condition.
+    */
+   public static enum AutomaticRecoveryAction {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

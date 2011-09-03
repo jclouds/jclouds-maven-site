@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T19:09:46.660">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/drivers/jsch/src/main/java/org/jclouds/ssh/jsch/JschSshClient.java">
+<violation beginline="19" endline="454" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ssh.jsch" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

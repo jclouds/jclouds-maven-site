@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="27" tokens="114">
+<file line="110" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/domain/internal/MutableObjectInfoWithMetadataImpl.java"/>
+<file line="159" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/domain/internal/ObjectInfoImpl.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   /**
+    * {@inheritDoc}
+    */
+   @Override
+   public Date getLastModified() {
+      return lastModified;
+   }
+
+   @Override
+   public int hashCode() {
+      final int prime = 31;
+      int result = 1;
+      result = prime * result + ((container == null) ? 0 : container.hashCode());
+      result = prime * result + ((name == null) ? 0 : name.hashCode());
+      return result;
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj)
+         return true;
+      if (obj == null)
+         return false;
+      if (getClass() != obj.getClass())
+         return false;
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

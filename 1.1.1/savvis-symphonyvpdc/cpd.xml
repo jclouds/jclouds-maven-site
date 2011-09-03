@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="28" tokens="185">
+<file line="48" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/binders/BindCaptureVAppTemplateToXmlPayload.java"/>
+<file line="48" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/binders/BindCloneVMToXmlPayload.java"/>
+<codefragment>
+<![CDATA[
+public class BindCloneVMToXmlPayload extends BindToStringPayload implements MapBinder {
+   @Override
+   public <R extends HttpRequest> R bindToRequest(R request, Object toBind) {
+      throw new IllegalStateException("BindFirewallRuleToXmlPayload needs parameters");
+
+   }
+
+   protected URI findVAppURIInArgsOrNull(GeneratedHttpRequest<?> gRequest) {
+      for (Object arg : gRequest.getArgs()) {
+         if (arg instanceof URI) {
+            return (URI) arg;
+         } else if (arg instanceof FirewallRule[]) {
+        	 URI[] rules = (URI[]) arg;
+            return (rules.length > 0) ? rules[0] : null;
+         }
+      }
+      return null;
+   }
+
+   @Override
+   public <R extends HttpRequest> R bindToRequest(R request, Map<String, String> postParams) {
+      checkArgument(checkNotNull(request, "request") instanceof GeneratedHttpRequest<?>,
+            "this binder is only valid for GeneratedHttpRequests!");
+      GeneratedHttpRequest<?> gRequest = (GeneratedHttpRequest<?>) request;
+      checkState(gRequest.getArgs() != null, "args should be initialized at this point");
+
+      request = super.bindToRequest(request,
+            generateXml(findVAppURIInArgsOrNull(gRequest), postParams.get("name"), postParams.get("networkTierName")));
+]]>
+</codefragment>
+</duplication>
+<duplication lines="27" tokens="110">
+<file line="75" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/Network.java"/>
+<file line="90" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/Org.java"/>
+<codefragment>
+<![CDATA[
+               .description(in.getDescription()).images(in.getImages()).vDCs(in.getVDCs());
+      }
+
+      @Override
+      public Builder id(String id) {
+         return Builder.class.cast(super.id(id));
+      }
+
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      @Override
+      public Builder type(String type) {
+         return Builder.class.cast(super.type(type));
+      }
+
+      @Override
+      public Builder href(URI href) {
+         return Builder.class.cast(super.href(href));
+      }
+
+   }
+
+   @Nullable
+   private final String description;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="8" tokens="109">
+<file line="56" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/xml/NetworkHandler.java"/>
+<file line="57" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/xml/OrgHandler.java"/>
+<codefragment>
+<![CDATA[
+      if (equalsOrSuffix(qName, "Org")) {
+         // savvis doesn't add href in the header for some reason
+         if (!attributes.containsKey("href") && getRequest() != null)
+            attributes = ImmutableMap.<String, String> builder().putAll(attributes)
+                  .put("href", getRequest().getEndpoint().toASCIIString()).build();
+         Resource org = newResource(attributes);
+         builder.name(org.getName()).type(org.getType()).id(org.getId()).href(org.getHref());
+      } else if (equalsOrSuffix(qName, "Link")) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="26" tokens="107">
+<file line="101" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/FirewallRule.java"/>
+<file line="66" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/FirewallService.java"/>
+<codefragment>
+<![CDATA[
+	        	.isEnabled(in.isEnabled()).firewallRules(in.getFirewallRules());
+	    }
+		
+		@Override
+		public Builder id(String id) {
+			return Builder.class.cast(super.id(id));
+		}
+
+		@Override
+		public Builder name(String name) {
+			return Builder.class.cast(super.name(name));
+		}
+
+		@Override
+		public Builder type(String type) {
+			return Builder.class.cast(super.type(type));
+		}
+
+		@Override
+		public Builder href(URI href) {
+			return Builder.class.cast(super.href(href));
+		}
+		
+	}
+	
+	private final boolean isEnabled;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="24" tokens="105">
+<file line="101" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/FirewallRule.java"/>
+<file line="75" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/Network.java"/>
+<file line="86" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/VDC.java"/>
+<codefragment>
+<![CDATA[
+               .resourceEntities(in.getResourceEntities());
+      }
+
+      @Override
+      public Builder id(String id) {
+         return Builder.class.cast(super.id(id));
+      }
+
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      @Override
+      public Builder type(String type) {
+         return Builder.class.cast(super.type(type));
+      }
+
+      @Override
+      public Builder href(URI href) {
+         return Builder.class.cast(super.href(href));
+      }
+
+   }
+]]>
+</codefragment>
+</duplication>
+<duplication lines="21" tokens="101">
+<file line="102" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/FirewallRule.java"/>
+<file line="76" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/domain/Task.java"/>
+<codefragment>
+<![CDATA[
+      }
+
+      @Override
+      public Builder id(String id) {
+         return Builder.class.cast(super.id(id));
+      }
+
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      @Override
+      public Builder type(String type) {
+         return Builder.class.cast(super.type(type));
+      }
+
+      @Override
+      public Builder href(URI href) {
+         return Builder.class.cast(super.href(href));
+      }
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

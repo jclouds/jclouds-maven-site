@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T14:15:07.651">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/PropertiesBuilder.java">
+<violation beginline="19" endline="268" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/concurrent/Futures.java">
+<violation beginline="68" endline="71" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.concurrent" class="Futures$CallGetAndRunExecutionList" method="run" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/encryption/internal/Base64.java">
+<violation beginline="374" endline="374" begincolumn="35" endcolumn="56" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeObject" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="375" endline="375" begincolumn="35" endcolumn="56" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeObject" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="376" endline="376" begincolumn="35" endcolumn="56" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeObject" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="377" endline="377" begincolumn="35" endcolumn="56" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeObject" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="503" endline="503" begincolumn="39" endcolumn="60" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeBytes" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="504" endline="504" begincolumn="39" endcolumn="60" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeBytes" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="505" endline="505" begincolumn="39" endcolumn="60" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeBytes" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="774" endline="777" begincolumn="17" endcolumn="17" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="decode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="780" endline="780" begincolumn="42" endcolumn="63" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="decode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="781" endline="781" begincolumn="42" endcolumn="63" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="decode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="782" endline="782" begincolumn="42" endcolumn="63" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="decode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="830" endline="830" begincolumn="34" endcolumn="55" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="decodeToObject" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="831" endline="831" begincolumn="34" endcolumn="55" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="decodeToObject" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="866" endline="866" begincolumn="33" endcolumn="54" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeToFile" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="899" endline="899" begincolumn="37" endcolumn="58" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="decodeToFile" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="957" endline="957" begincolumn="33" endcolumn="54" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="decodeFromFile" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="1005" endline="1005" begincolumn="33" endcolumn="54" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="Base64" method="encodeFromFile" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/http/HttpResponseException.java">
+<violation beginline="93" endline="94" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.http" class="HttpResponseException" method="requestPayloadIfStringOrFormIfNotReturnEmptyString" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/http/HttpUtils.java">
+<violation beginline="19" endline="446" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/http/config/SSLModule.java">
+<violation beginline="114" endline="114" begincolumn="10" endcolumn="16" rule="UnnecessaryReturn" ruleset="Basic Rules" package="org.jclouds.http.config" class="SSLModule$TrustAllCerts" method="checkClientTrusted" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UnnecessaryReturn" priority="3">
+Avoid unnecessary return statements
+</violation>
+<violation beginline="118" endline="118" begincolumn="10" endcolumn="16" rule="UnnecessaryReturn" ruleset="Basic Rules" package="org.jclouds.http.config" class="SSLModule$TrustAllCerts" method="checkServerTrusted" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UnnecessaryReturn" priority="3">
+Avoid unnecessary return statements
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/http/filters/BasicAuthentication.java">
+<violation beginline="52" endline="57" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.http.filters" class="BasicAuthentication" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'crypto'.
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/http/internal/BaseHttpCommandExecutorService.java">
+<violation beginline="109" endline="110" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.http.internal" class="BaseHttpCommandExecutorService$ConsumeOnCloseInputStream" method="close" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/http/internal/JavaUrlHttpCommandExecutorService.java">
+<violation beginline="19" endline="267" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/http/options/GetOptions.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="44" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.http.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.UnsupportedEncodingException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/http/utils/ModifyRequest.java">
+<violation beginline="140" endline="141" begincolumn="23" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.http.utils" class="ModifyRequest" method="parseQueryToMap" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/location/Provider.java">
+<violation beginline="19" endline="42" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.location" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/location/config/ProvideIso3166CodesByLocationIdViaProperties.java">
+<violation beginline="19" endline="85" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.location.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="74" endline="77" begincolumn="18" endcolumn="16" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.location.config" class="ProvideIso3166CodesByLocationIdViaProperties" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="79" endline="82" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.location.config" class="ProvideIso3166CodesByLocationIdViaProperties" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/predicates/InetSocketAddressConnect.java">
+<violation beginline="68" endline="70" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.predicates" class="InetSocketAddressConnect" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/rest/Providers.java">
+<violation beginline="19" endline="151" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="95" endline="96" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.rest" class="Providers" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/rest/RestContextBuilder.java">
+<violation beginline="19" endline="319" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/rest/RestContextFactory.java">
+<violation beginline="19" endline="477" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/rest/internal/RestAnnotationProcessor.java">
+<violation beginline="19" endline="1227" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="363" endline="364" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.rest.internal" class="RestAnnotationProcessor" method="setCaller" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="820" endline="821" begincolumn="45" endcolumn="16" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.rest.internal" class="RestAnnotationProcessor" method="getMapPayloadBinderOrNull" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="953" endline="954" begincolumn="41" endcolumn="16" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.rest.internal" class="RestAnnotationProcessor" method="findOptionsIn" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/rest/internal/SeedAnnotationCache.java">
+<violation beginline="19" endline="126" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/core/src/main/java/org/jclouds/util/Strings2.java">
+<violation beginline="19" endline="202" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.util" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

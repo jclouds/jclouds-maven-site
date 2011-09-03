@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="16" tokens="101">
+<file line="100" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/deltacloud/src/main/java/org/jclouds/deltacloud/domain/HardwareProfile.java"/>
+<file line="135" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/deltacloud/src/main/java/org/jclouds/deltacloud/domain/Image.java"/>
+<codefragment>
+<![CDATA[
+      if (href == null) {
+         if (other.href != null)
+            return false;
+      } else if (!href.equals(other.href))
+         return false;
+      if (id == null) {
+         if (other.id != null)
+            return false;
+      } else if (!id.equals(other.id))
+         return false;
+      if (name == null) {
+         if (other.name != null)
+            return false;
+      } else if (!name.equals(other.name))
+         return false;
+      if (ownerId == null) {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

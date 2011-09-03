@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T15:53:31.666">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/functions/CreateUniqueKeyPair.java">
+<violation beginline="71" endline="73" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.ec2.compute.functions" class="CreateUniqueKeyPair" method="createNewKeyPairInRegion" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/functions/RunningInstanceToNodeMetadata.java">
+<violation beginline="112" endline="120" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.ec2.compute.functions" class="RunningInstanceToNodeMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/EC2ListNodesStrategy.java">
+<violation beginline="19" endline="107" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/suppliers/EC2HardwareSupplier.java">
+<violation beginline="19" endline="48" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/suppliers/RegionAndNameToImageSupplier.java">
+<violation beginline="19" endline="141" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/config/EC2RestClientModule.java">
+<violation beginline="126" endline="129" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.ec2.config" class="EC2RestClientModule$RegionIdsToURI" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/options/RunInstancesOptions.java">
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ec2.domain.InstanceType'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/services/ElasticIPAddressClient.java">
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="44" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.aws.AWSResponseException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/xml/BaseReservationHandler.java">
+<violation beginline="117" endline="117" begincolumn="15" endcolumn="23" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.ec2.xml" class="BaseReservationHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+<violation beginline="144" endline="144" begincolumn="15" endcolumn="23" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.ec2.xml" class="BaseReservationHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/xml/CreateVolumeResponseHandler.java">
+<violation beginline="128" endline="135" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.ec2.xml" class="CreateVolumeResponseHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

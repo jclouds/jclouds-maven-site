@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="27" tokens="169">
+<file line="433" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/domain/Image.java"/>
+<file line="547" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/domain/RunningInstance.java"/>
+<codefragment>
+<![CDATA[
+      } else if (!privateIpAddress.equals(other.privateIpAddress))
+         return false;
+      if (ramdiskId == null) {
+         if (other.ramdiskId != null)
+            return false;
+      } else if (!ramdiskId.equals(other.ramdiskId))
+         return false;
+      if (region == null) {
+         if (other.region != null)
+            return false;
+      } else if (!region.equals(other.region))
+         return false;
+      if (rootDeviceName == null) {
+         if (other.rootDeviceName != null)
+            return false;
+      } else if (!rootDeviceName.equals(other.rootDeviceName))
+         return false;
+      if (rootDeviceType == null) {
+         if (other.rootDeviceType != null)
+            return false;
+      } else if (!rootDeviceType.equals(other.rootDeviceType))
+         return false;
+      if (virtualizationType == null) {
+         if (other.virtualizationType != null)
+            return false;
+      } else if (!virtualizationType.equals(other.virtualizationType))
+         return false;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="6" tokens="110">
+<file line="354" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/domain/Image.java"/>
+<file line="456" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/domain/RunningInstance.java"/>
+<codefragment>
+<![CDATA[
+      result = prime * result + ((privateIpAddress == null) ? 0 : privateIpAddress.hashCode());
+      result = prime * result + ((ramdiskId == null) ? 0 : ramdiskId.hashCode());
+      result = prime * result + ((region == null) ? 0 : region.hashCode());
+      result = prime * result + ((rootDeviceName == null) ? 0 : rootDeviceName.hashCode());
+      result = prime * result + ((rootDeviceType == null) ? 0 : rootDeviceType.hashCode());
+      result = prime * result + ((virtualizationType == null) ? 0 : virtualizationType.hashCode());
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

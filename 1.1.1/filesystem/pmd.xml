@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-26T15:37:07.026">
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/filesystem/src/main/java/org/jclouds/filesystem/FilesystemAsyncBlobStore.java">
+<violation beginline="19" endline="663" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="526" endline="527" begincolumn="13" endcolumn="74" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem" class="FilesystemAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="530" endline="531" begincolumn="13" endcolumn="74" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem" class="FilesystemAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/filesystem/src/main/java/org/jclouds/filesystem/FilesystemBlobStorePropertiesBuilder.java">
+<violation beginline="24" endline="55" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/filesystem/src/main/java/org/jclouds/filesystem/config/FilesystemBlobStoreModule.java">
+<violation beginline="37" endline="39" begincolumn="15" endcolumn="5" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.filesystem.config" class="FilesystemBlobStoreModule" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/filesystem/src/main/java/org/jclouds/filesystem/strategy/internal/FilesystemStorageStrategyImpl.java">
+<violation beginline="337" endline="339" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem.strategy.internal" class="FilesystemStorageStrategyImpl" method="normalize" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="361" endline="362" begincolumn="10" endcolumn="27" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem.strategy.internal" class="FilesystemStorageStrategyImpl" method="removeFileSeparatorFromBorders" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="405" endline="407" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem.strategy.internal" class="FilesystemStorageStrategyImpl" method="openFolder" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="438" endline="440" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem.strategy.internal" class="FilesystemStorageStrategyImpl$FileIterator" method="remove" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

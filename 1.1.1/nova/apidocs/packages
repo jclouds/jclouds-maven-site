@@ -1,0 +1,10 @@
+org.jclouds.openstack.nova.compute.config
+org.jclouds.openstack.nova.compute.functions
+org.jclouds.openstack.nova.compute.strategy
+org.jclouds.openstack.nova.compute.suppliers
+org.jclouds.openstack.nova.config
+org.jclouds.openstack.nova.domain
+org.jclouds.openstack.nova.handlers
+org.jclouds.openstack.nova.options
+org.jclouds.openstack.nova.predicates
+org.jclouds.openstack.nova

@@ -1,0 +1,8 @@
+org.jclouds.aws.s3.binders
+org.jclouds.aws.s3.blobstore.config
+org.jclouds.aws.s3.blobstore.strategy.internal
+org.jclouds.aws.s3.blobstore.strategy
+org.jclouds.aws.s3.blobstore
+org.jclouds.aws.s3.config
+org.jclouds.aws.s3.functions
+org.jclouds.aws.s3

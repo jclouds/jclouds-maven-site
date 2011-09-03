@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="20" tokens="148">
+<file line="57" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/domain/AppendFile.java"/>
+<file line="107" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/domain/CreateRunScript.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   public static String escapeVarTokens(String toEscape, OsFamily family) {
+      Map<String, String> inputToEscape = Maps.newHashMap();
+      for (ShellToken token : ImmutableList.of(ShellToken.VARL, ShellToken.VARR)) {
+         if (!token.to(family).equals("")) {
+            String tokenS = "{" + token.toString().toLowerCase() + "}";
+            inputToEscape.put(tokenS, "{escvar}" + tokenS);
+         }
+      }
+      for (Entry<String, String> entry : inputToEscape.entrySet()) {
+         toEscape = toEscape.replace(entry.getKey(), entry.getValue());
+      }
+      return toEscape;
+   }
+
+   @Override
+   public Iterable<String> functionDependencies(OsFamily family) {
+      return Collections.emptyList();
+   }
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

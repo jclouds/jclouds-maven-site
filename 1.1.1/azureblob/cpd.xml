@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="16" tokens="169">
+<file line="88" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/xml/AccountNameEnumerationResultsHandler.java"/>
+<file line="106" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/xml/ContainerNameEnumerationResultsHandler.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   public void endElement(String uri, String name, String qName) {
+      if (inMetadata && !qName.equals("Metadata")) {
+         currentMetadata.put(qName, currentText.toString().trim());
+      } else if (qName.equals("Metadata")) {
+         inMetadata = false;
+      } else if (qName.equals("MaxResults")) {
+         maxResults = Integer.parseInt(currentText.toString().trim());
+      } else if (qName.equals("Marker")) {
+         marker = currentText.toString().trim();
+         marker = (marker.equals("")) ? null : marker;
+      } else if (qName.equals("Prefix")) {
+         prefix = currentText.toString().trim();
+         prefix = (prefix.equals("")) ? null : prefix;
+      } else if (qName.equals("Delimiter")) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="43" tokens="110">
+<file line="129" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/domain/internal/MutableBlobPropertiesImpl.java"/>
+<file line="85" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/domain/internal/MutableContainerPropertiesWithMetadataImpl.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public void setETag(String eTag) {
+      this.eTag = eTag;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public void setName(String name) {
+      this.name = name;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public void setLastModified(Date lastModified) {
+      this.lastModified = lastModified;
+   }
+
+   /**
+    *{@inheritDoc}
+    */
+   public void setMetadata(Map<String, String> metadata) {
+      this.metadata = metadata;
+   }
+
+   public void setUrl(URI url) {
+      this.url = url;
+   }
+
+   public URI getUrl() {
+      return url;
+   }
+
+   @Override
+   public int hashCode() {
+      final int prime = 31;
+      int result = 1;
+      result = prime * result + ((eTag == null) ? 0 : eTag.hashCode());
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

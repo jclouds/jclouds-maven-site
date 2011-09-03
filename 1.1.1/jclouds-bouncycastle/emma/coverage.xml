@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Aug 26 14:14:05 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="2"/>
+    <classes value="2"/>
+    <methods value="3"/>
+    <srcfiles value="2"/>
+    <srclines value="5"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100% (2/2)"/>
+      <coverage type="method, %" value="100% (3/3)"/>
+      <coverage type="block, %" value="100% (16/16)"/>
+      <coverage type="line, %" value="100% (5/5)"/>
+
+      <package name="org.jclouds.encryption.bouncycastle">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (1/1)"/>
+        <coverage type="block, %" value="100% (6/6)"/>
+        <coverage type="line, %" value="100% (2/2)"/>
+
+        <srcfile name="BouncyCastleCrypto.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (1/1)"/>
+          <coverage type="block, %" value="100% (6/6)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="BouncyCastleCrypto">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="BouncyCastleCrypto (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.encryption.bouncycastle.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (10/10)"/>
+        <coverage type="line, %" value="100% (3/3)"/>
+
+        <srcfile name="BouncyCastleCryptoModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (10/10)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="BouncyCastleCryptoModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (10/10)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="BouncyCastleCryptoModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

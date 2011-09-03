@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="23" tokens="207">
+<file line="74" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/s3/src/main/java/org/jclouds/s3/binders/BindACLToXMLPayload.java"/>
+<file line="69" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/s3/src/main/java/org/jclouds/s3/binders/BindBucketLoggingToXmlPayload.java"/>
+<codefragment>
+<![CDATA[
+      for (Grant grant : bucketLogging.getTargetGrants()) {
+         XMLBuilder grantBuilder = grantsBuilder.elem("Grant");
+         XMLBuilder granteeBuilder = grantBuilder.elem("Grantee").attr("xmlns:xsi",
+               "http://www.w3.org/2001/XMLSchema-instance");
+
+         if (grant.getGrantee() instanceof GroupGrantee) {
+            granteeBuilder.attr("xsi:type", "Group").elem("URI").text(grant.getGrantee().getIdentifier());
+         } else if (grant.getGrantee() instanceof CanonicalUserGrantee) {
+            CanonicalUserGrantee grantee = (CanonicalUserGrantee) grant.getGrantee();
+            granteeBuilder.attr("xsi:type", "CanonicalUser").elem("ID").text(grantee.getIdentifier()).up();
+            if (grantee.getDisplayName() != null) {
+               granteeBuilder.elem("DisplayName").text(grantee.getDisplayName());
+            }
+         } else if (grant.getGrantee() instanceof EmailAddressGrantee) {
+            granteeBuilder.attr("xsi:type", "AmazonCustomerByEmail").elem("EmailAddress")
+                  .text(grant.getGrantee().getIdentifier());
+         }
+         grantBuilder.elem("Permission").text(grant.getPermission().toString());
+      }
+      return grantsBuilder;
+   }
+
+}
+]]>
+</codefragment>
+</duplication>
+<duplication lines="15" tokens="105">
+<file line="79" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/s3/src/main/java/org/jclouds/s3/xml/AccessControlListHandler.java"/>
+<file line="84" path="/scratch/hudson/workspace/jclouds-1.1.1-maven-site/apis/s3/src/main/java/org/jclouds/s3/xml/BucketLoggingHandler.java"/>
+<codefragment>
+<![CDATA[
+         targetGrants.add(new Grant(currentGrantee, currentPermission));
+      } else if (qName.equals("ID") || qName.equals("EmailAddress") || qName.equals("URI")) {
+         currentId = currentOrNull(currentText);
+      } else if (qName.equals("DisplayName")) {
+         currentDisplayName = currentOrNull(currentText);
+      } else if (qName.equals("Permission")) {
+         currentPermission = currentOrNull(currentText);
+      }
+      currentText = new StringBuilder();
+   }
+
+   public void characters(char ch[], int start, int length) {
+      currentText.append(ch, start, length);
+   }
+}
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
