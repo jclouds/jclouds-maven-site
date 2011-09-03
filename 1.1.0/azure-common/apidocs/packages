@@ -1,0 +1,10 @@
+org.jclouds.azure.storage.config
+org.jclouds.azure.storage.domain.internal
+org.jclouds.azure.storage.domain
+org.jclouds.azure.storage.filters
+org.jclouds.azure.storage.handlers
+org.jclouds.azure.storage.options
+org.jclouds.azure.storage.reference
+org.jclouds.azure.storage.util
+org.jclouds.azure.storage.xml
+org.jclouds.azure.storage
