@@ -1,0 +1,6 @@
+org.jclouds.openstack.config
+org.jclouds.openstack.filters
+org.jclouds.openstack.functions
+org.jclouds.openstack.options
+org.jclouds.openstack.reference
+org.jclouds.openstack

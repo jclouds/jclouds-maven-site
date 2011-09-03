@@ -1,0 +1,14 @@
+org.jclouds.blobstore.attr
+org.jclouds.blobstore.binders
+org.jclouds.blobstore.config
+org.jclouds.blobstore.domain.internal
+org.jclouds.blobstore.domain
+org.jclouds.blobstore.functions
+org.jclouds.blobstore.internal
+org.jclouds.blobstore.options
+org.jclouds.blobstore.reference
+org.jclouds.blobstore.strategy.internal
+org.jclouds.blobstore.strategy
+org.jclouds.blobstore.util.internal
+org.jclouds.blobstore.util
+org.jclouds.blobstore

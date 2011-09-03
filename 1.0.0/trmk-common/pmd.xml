@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-06-22T22:59:58.246">
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/common/trmk/src/main/java/org/jclouds/vcloud/terremark/TerremarkVCloudAsyncClient.java">
+<violation beginline="19" endline="342" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.terremark" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/common/trmk/src/main/java/org/jclouds/vcloud/terremark/binders/BindVAppConfigurationToXmlPayload.java">
+<violation beginline="19" endline="221" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.terremark.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/common/trmk/src/main/java/org/jclouds/vcloud/terremark/compute/TerremarkVCloudComputeClient.java">
+<violation beginline="247" endline="249" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.vcloud.terremark.compute" class="TerremarkVCloudComputeClient" method="blockOnLastTask" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/common/trmk/src/main/java/org/jclouds/vcloud/terremark/compute/TerremarkVCloudComputeService.java">
+<violation beginline="71" endline="92" begincolumn="14" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.terremark.compute" class="TerremarkVCloudComputeService" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'credentialsMap'.
+</violation>
+<violation beginline="71" endline="92" begincolumn="14" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.terremark.compute" class="TerremarkVCloudComputeService" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'nodeToOrgAndName'.
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/common/trmk/src/main/java/org/jclouds/vcloud/terremark/compute/strategy/CleanupOrphanKeys.java">
+<violation beginline="19" endline="80" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.terremark.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/common/trmk/src/main/java/org/jclouds/vcloud/terremark/xml/TerremarkCatalogItemHandler.java">
+<violation beginline="51" endline="57" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.vcloud.terremark.xml" class="TerremarkCatalogItemHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/common/trmk/src/main/java/org/jclouds/vcloud/terremark/xml/TerremarkOrgHandler.java">
+<violation beginline="57" endline="62" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.vcloud.terremark.xml" class="TerremarkOrgHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

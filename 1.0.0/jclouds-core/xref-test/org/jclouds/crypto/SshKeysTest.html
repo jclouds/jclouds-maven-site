@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>SshKeysTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../testapidocs/org/jclouds/crypto/SshKeysTest.html">View Javadoc</a></div><pre>
+
+<a class="jxr_linenumber" name="1" href="#1">1</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="2" href="#2">2</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_javadoccomment"> * Copyright (C) 2011 Cloud Conscious, LLC. &lt;info@cloudconscious.com&gt;</em>
+<a class="jxr_linenumber" name="4" href="#4">4</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="5" href="#5">5</a>   <em class="jxr_javadoccomment"> * ====================================================================</em>
+<a class="jxr_linenumber" name="6" href="#6">6</a>   <em class="jxr_javadoccomment"> * Licensed under the Apache License, Version 2.0 (the "License");</em>
+<a class="jxr_linenumber" name="7" href="#7">7</a>   <em class="jxr_javadoccomment"> * you may not use this file except in compliance with the License.</em>
+<a class="jxr_linenumber" name="8" href="#8">8</a>   <em class="jxr_javadoccomment"> * You may obtain a copy of the License at</em>
+<a class="jxr_linenumber" name="9" href="#9">9</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="10" href="#10">10</a>  <em class="jxr_javadoccomment"> * <a href="http://www.apache.org/licenses/LICENSE-2.0" target="alexandria_uri">http://www.apache.org/licenses/LICENSE-2.0</a></em>
+<a class="jxr_linenumber" name="11" href="#11">11</a>  <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="12" href="#12">12</a>  <em class="jxr_javadoccomment"> * Unless required by applicable law or agreed to in writing, software</em>
+<a class="jxr_linenumber" name="13" href="#13">13</a>  <em class="jxr_javadoccomment"> * distributed under the License is distributed on an "AS IS" BASIS,</em>
+<a class="jxr_linenumber" name="14" href="#14">14</a>  <em class="jxr_javadoccomment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</em>
+<a class="jxr_linenumber" name="15" href="#15">15</a>  <em class="jxr_javadoccomment"> * See the License for the specific language governing permissions and</em>
+<a class="jxr_linenumber" name="16" href="#16">16</a>  <em class="jxr_javadoccomment"> * limitations under the License.</em>
+<a class="jxr_linenumber" name="17" href="#17">17</a>  <em class="jxr_javadoccomment"> * ====================================================================</em>
+<a class="jxr_linenumber" name="18" href="#18">18</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="19" href="#19">19</a>  <strong class="jxr_keyword">package</strong> org.jclouds.crypto;
+<a class="jxr_linenumber" name="20" href="#20">20</a>  
+<a class="jxr_linenumber" name="21" href="#21">21</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.testng.Assert.assertEquals;
+<a class="jxr_linenumber" name="22" href="#22">22</a>  
+<a class="jxr_linenumber" name="23" href="#23">23</a>  <strong class="jxr_keyword">import</strong> java.io.IOException;
+<a class="jxr_linenumber" name="24" href="#24">24</a>  <strong class="jxr_keyword">import</strong> java.security.KeyFactory;
+<a class="jxr_linenumber" name="25" href="#25">25</a>  <strong class="jxr_keyword">import</strong> java.security.NoSuchAlgorithmException;
+<a class="jxr_linenumber" name="26" href="#26">26</a>  <strong class="jxr_keyword">import</strong> java.security.interfaces.RSAPrivateCrtKey;
+<a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">import</strong> java.security.interfaces.RSAPublicKey;
+<a class="jxr_linenumber" name="28" href="#28">28</a>  <strong class="jxr_keyword">import</strong> java.security.spec.InvalidKeySpecException;
+<a class="jxr_linenumber" name="29" href="#29">29</a>  <strong class="jxr_keyword">import</strong> java.util.Map;
+<a class="jxr_linenumber" name="30" href="#30">30</a>  
+<a class="jxr_linenumber" name="31" href="#31">31</a>  <strong class="jxr_keyword">import</strong> org.jclouds.io.Payloads;
+<a class="jxr_linenumber" name="32" href="#32">32</a>  <strong class="jxr_keyword">import</strong> org.testng.annotations.Test;
+<a class="jxr_linenumber" name="33" href="#33">33</a>  
+<a class="jxr_linenumber" name="34" href="#34">34</a>  <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="35" href="#35">35</a>  <em class="jxr_javadoccomment"> * </em>
+<a class="jxr_linenumber" name="36" href="#36">36</a>  <em class="jxr_javadoccomment"> * @author Adrian Cole</em>
+<a class="jxr_linenumber" name="37" href="#37">37</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="38" href="#38">38</a>  @Test(groups = <span class="jxr_string">"unit"</span>, singleThreaded = <strong class="jxr_keyword">true</strong>)
+<a class="jxr_linenumber" name="39" href="#39">39</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../org/jclouds/crypto/SshKeysTest.html">SshKeysTest</a> {
+<a class="jxr_linenumber" name="40" href="#40">40</a>  
+<a class="jxr_linenumber" name="41" href="#41">41</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String SSH_PUBLIC_KEY = <span class="jxr_string">"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJvZkkmoabQopH7yd9Ak2xJ34X21c0xXsJ85xbqOyqzwRmCJVHT2EPUhg6PhiozSok42WDKDjFFZ7B1IbtBM+PWUmlUCJ1r2xfLb6TPJqBkDUCbQ5lxupvmGh4gOBxf54Nrv2zS7QOiaNx870QqG8csHP7Mz7dCo9GQ9XydhNt+z4eNXPM5ToPUHRdHf4g9lmXYCdazZ3SqGdK0dwNS+dFVDQ/jzZjA31WBx45m2k/PQMIoQnlPHlJO5vyTT/O39UAwdBp8tK5Awt3azhku45mm03/+4CxObGKt6p3fvP7xlN0FsnwsSkn6IJe5J+blpSHuLDqjG9OhjYAvnf6MrZR"</span>;
+<a class="jxr_linenumber" name="42" href="#42">42</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String SSH_PRIVATE_KEY = <span class="jxr_string">"-----BEGIN RSA PRIVATE KEY-----&#92;&#92;nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDJvZkkmoabQopH&#92;&#92;n7yd9Ak2xJ34X21c0xXsJ85xbqOyqzwRmCJVHT2EPUhg6PhiozSok42WDKDjFFZ7B&#92;&#92;n1IbtBM+PWUmlUCJ1r2xfLb6TPJqBkDUCbQ5lxupvmGh4gOBxf54Nrv2zS7QOiaNx&#92;&#92;n870QqG8csHP7Mz7dCo9GQ9XydhNt+z4eNXPM5ToPUHRdHf4g9lmXYCdazZ3SqGdK&#92;&#92;n0dwNS+dFVDQ/jzZjA31WBx45m2k/PQMIoQnlPHlJO5vyTT/O39UAwdBp8tK5Awt3&#92;&#92;nazhku45mm03/+4CxObGKt6p3fvP7xlN0FsnwsSkn6IJe5J+blpSHuLDqjG9OhjYA&#92;&#92;nvnf6MrZRAgMBAAECggEBAMDzwHeL/FafS9cFXEVqYJih5y42MbBdeRLJl7DrXoD4&#92;&#92;nQ4K7jtuHhpO6t0VtgvRgVoC1pa/OVo3Z4eANv4cO5N58Tb35aRwaTpKyE+aLPlPR&#92;&#92;nc4IAgJbDrBJUOQeYbBLiNm9sAWbtbyfAaT1iHGDEWJGeCzAlkWik4ugXlZeza13y&#92;&#92;nC4hg2yUymju27nSIWcEfAo7Zmw8CTy32edLGUNq8qu7KYSaocKvf522Kjl5p6cly&#92;&#92;nnd+OhcFA4pSTeKkgjb1dEHw2p4JVX/srHCpySo4ERtHAFyVyTIhsP5GICAq856U5&#92;&#92;nGMSIT1Hja+6q/FEDqT2R32ju62VfQBS2kSfeBlzot6kCgYEA/1p6Xljvn6wrYklQ&#92;&#92;n046E7xp7jlx2yKWnbIjRf5QFpK5Czb53I+mSkQcDF3imaZK+f/xz1OURmGv6phsA&#92;&#92;nFdU+UOdzGki7DYCNuTuz9LhdpIqxGqlcvnvOP9A6ouRGTz45VX2rqUx5A2ou0SPW&#92;&#92;n7ok++JfvRGj4VC1G2005ht90/98CgYEAykBeNHnChXmxRv5ESD28S5ijxFLI5qvG&#92;&#92;nooUIhdVQ2ws7H7bb4Arj4JClu55Y3uOi2uVgPq5Pqy9aLcAALuSJjRQj9+NU9EJS&#92;&#92;nLy1WhBQTRNpTlUshNpg4H5b9sFoMTgz3nrTU24NY73RtoDl19TjiK7O9rTasYlcr&#92;&#92;n36dLejyeT88CgYEAs4vp2OcN7ibABobolyhx3jGvyOTI/MJFm7IEJIFvCmEhRctz&#92;&#92;nuEOms+TLTridwkPVQObAh2Rd39+kySDZCYD8JSTosQWMyKyoeiM5oIv2BBkk+Es3&#92;&#92;nlBQ3bHU8lYaOzW9CHxOTHSJRQI5rxtA9c1H7fg5OxbpNSdrgJJkDJwt+F98CgYEA&#92;&#92;niCBWx58EK+5CQXQ15SGYMJFl+Gd3zLnlEdHUcK+ooiWm/6uFxf/ObIEu616iljJE&#92;&#92;nlGw6ITYVbTSLz6sg9G7hndDmfJvHvDc/NX2gc3lHltoT07IjgqllbO2lhiK1kXrs&#92;&#92;n1ycC9VQscc69UlAacph8scliaskXsYDWiMwC4x0VuMUCgYA/FSHHAXLyBqoFqEpQ&#92;&#92;nRmfgXzUcU/mKEaGRPhAvoAU87Z74mEgaO5Hbv7zmFwWpD4cdW0WybzVv9r5Hs/hS&#92;&#92;n4JGBzx4KPFAygnVeXiftVuM9scycg3RHK907hmlYNZicI7TbUlM5RQ4ngn/LTjXo&#92;&#92;nG+TDTPn3Luw1fvAMEEcdsr9cJw==&#92;&#92;n-----END RSA PRIVATE KEY-----"</span>;
+<a class="jxr_linenumber" name="43" href="#43">43</a>  
+<a class="jxr_linenumber" name="44" href="#44">44</a>     @Test
+<a class="jxr_linenumber" name="45" href="#45">45</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testCanGenerate() {
+<a class="jxr_linenumber" name="46" href="#46">46</a>        Map&lt;String, String&gt; map = SshKeys.generate();
+<a class="jxr_linenumber" name="47" href="#47">47</a>        assert map.get(<span class="jxr_string">"public"</span>).startsWith(<span class="jxr_string">"ssh-rsa "</span>) : map;
+<a class="jxr_linenumber" name="48" href="#48">48</a>        assert map.get(<span class="jxr_string">"private"</span>).startsWith(<span class="jxr_string">"-----BEGIN RSA PRIVATE KEY-----"</span>) : map;
+<a class="jxr_linenumber" name="49" href="#49">49</a>     }
+<a class="jxr_linenumber" name="50" href="#50">50</a>  
+<a class="jxr_linenumber" name="51" href="#51">51</a>     @Test
+<a class="jxr_linenumber" name="52" href="#52">52</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testEncodeAsPem() <strong class="jxr_keyword">throws</strong> IOException, InvalidKeySpecException, NoSuchAlgorithmException {
+<a class="jxr_linenumber" name="53" href="#53">53</a>        String encoded = SshKeys.encodeAsPem((RSAPrivateCrtKey) KeyFactory.getInstance(<span class="jxr_string">"RSA"</span>).generatePrivate(
+<a class="jxr_linenumber" name="54" href="#54">54</a>              Pems.privateKeySpec(Payloads.newStringPayload(PemsTest.PRIVATE_KEY))));
+<a class="jxr_linenumber" name="55" href="#55">55</a>        assertEquals(encoded.replace(<span class="jxr_string">"\n"</span>, <span class="jxr_string">"&#92;&#92;n"</span>).trim(), SSH_PRIVATE_KEY);
+<a class="jxr_linenumber" name="56" href="#56">56</a>     }
+<a class="jxr_linenumber" name="57" href="#57">57</a>  
+<a class="jxr_linenumber" name="58" href="#58">58</a>     @Test
+<a class="jxr_linenumber" name="59" href="#59">59</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testEncodeAsOpenSSH() <strong class="jxr_keyword">throws</strong> IOException, InvalidKeySpecException, NoSuchAlgorithmException {
+<a class="jxr_linenumber" name="60" href="#60">60</a>        String encoded = SshKeys.encodeAsOpenSSH((RSAPublicKey) KeyFactory.getInstance(<span class="jxr_string">"RSA"</span>).generatePublic(
+<a class="jxr_linenumber" name="61" href="#61">61</a>              Pems.publicKeySpec(Payloads.newStringPayload(PemsTest.PUBLIC_KEY))));
+<a class="jxr_linenumber" name="62" href="#62">62</a>        assertEquals(encoded, SSH_PUBLIC_KEY);
+<a class="jxr_linenumber" name="63" href="#63">63</a>     }
+<a class="jxr_linenumber" name="64" href="#64">64</a>  
+<a class="jxr_linenumber" name="65" href="#65">65</a>  }
+</pre>
+<hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
+</html>
+

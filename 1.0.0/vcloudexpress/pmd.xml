@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-06-22T22:41:09.539">
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/apis/vcloudexpress/src/main/java/org/jclouds/vcloud/VCloudExpressAsyncClient.java">
+<violation beginline="19" endline="260" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/apis/vcloudexpress/src/main/java/org/jclouds/vcloud/VCloudExpressClient.java">
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.NoSuchElementException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/apis/vcloudexpress/src/main/java/org/jclouds/vcloud/VCloudExpressPropertiesBuilder.java">
+<violation beginline="19" endline="89" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/apis/vcloudexpress/src/main/java/org/jclouds/vcloud/binders/BindCloneVAppParamsToXmlPayload.java">
+<violation beginline="19" endline="130" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/apis/vcloudexpress/src/main/java/org/jclouds/vcloud/binders/BindInstantiateVCloudExpressVAppTemplateParamsToXmlPayload.java">
+<violation beginline="19" endline="211" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/apis/vcloudexpress/src/main/java/org/jclouds/vcloud/compute/internal/VCloudExpressComputeClientImpl.java">
+<violation beginline="65" endline="66" begincolumn="10" endcolumn="109" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.vcloud.compute.internal" class="VCloudExpressComputeClientImpl" method="deleteVApp" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.0.0-maven-site/apis/vcloudexpress/src/main/java/org/jclouds/vcloud/xml/VCloudExpressNetworkHandler.java">
+<violation beginline="105" endline="105" begincolumn="17" endcolumn="55" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.vcloud.xml" class="VCloudExpressNetworkHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+</file>
+</pmd>
