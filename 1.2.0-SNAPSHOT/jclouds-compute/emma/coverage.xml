@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sun Sep 04 11:05:31 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Sep 06 14:23:11 EDT 2011 -->
 
 <report>
   <stats>
@@ -6,14 +6,14 @@
     <classes value="240"/>
     <methods value="1395"/>
     <srcfiles value="105"/>
-    <srclines value="3886"/>
+    <srclines value="3893"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="68%  (162/240)"/>
       <coverage type="method, %" value="40%  (557/1395)"/>
-      <coverage type="block, %" value="42%  (9329/22438)"/>
-      <coverage type="line, %" value="41%  (1595.1/3886)"/>
+      <coverage type="block, %" value="42%  (9329/22464)"/>
+      <coverage type="line, %" value="41%  (1595.1/3893)"/>
 
       <package name="org.jclouds.cim.functions">
         <coverage type="class, %" value="0%   (0/3)"/>
@@ -2973,8 +2973,8 @@
       <package name="org.jclouds.compute.stub.config">
         <coverage type="class, %" value="71%  (5/7)"/>
         <coverage type="method, %" value="50%  (17/34)"/>
-        <coverage type="block, %" value="32%  (229/725)"/>
-        <coverage type="line, %" value="36%  (45/126)"/>
+        <coverage type="block, %" value="30%  (229/751)"/>
+        <coverage type="line, %" value="34%  (45/133)"/>
 
         <srcfile name="StubComputeServiceDependenciesModule.java">
           <coverage type="class, %" value="67%  (2/3)"/>
@@ -3087,8 +3087,8 @@
         <srcfile name="StubComputeServiceAdapter.java">
           <coverage type="class, %" value="50%  (1/2)"/>
           <coverage type="method, %" value="29%  (4/14)"/>
-          <coverage type="block, %" value="30%  (163/541)"/>
-          <coverage type="line, %" value="27%  (23/85)"/>
+          <coverage type="block, %" value="29%  (163/567)"/>
+          <coverage type="line, %" value="25%  (23/92)"/>
 
           <class name="StubComputeServiceAdapter$1">
             <coverage type="class, %" value="0%   (0/1)"/>
@@ -3110,8 +3110,8 @@
           <class name="StubComputeServiceAdapter">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="33%  (4/12)"/>
-            <coverage type="block, %" value="33%  (163/499)"/>
-            <coverage type="line, %" value="29%  (23/79)"/>
+            <coverage type="block, %" value="31%  (163/525)"/>
+            <coverage type="line, %" value="27%  (23/86)"/>
 
             <method name="access$000 (StubComputeServiceAdapter): ConcurrentMap">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3120,8 +3120,8 @@
             </method>
             <method name="createNodeWithGroupEncodedIntoNameThenStoreCredentials (String, String, Template, Map): NodeMetadata">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/132)"/>
-              <coverage type="line, %" value="0%   (0/19)"/>
+              <coverage type="block, %" value="0%   (0/158)"/>
+              <coverage type="line, %" value="0%   (0/26)"/>
             </method>
             <method name="destroyNode (String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
