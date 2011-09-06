@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-09-04T12:38:00.621">
+<pmd version="4.2.5" timestamp="2011-09-06T15:42:26.990">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/common/azure/src/main/java/org/jclouds/azure/storage/handlers/AzureStorageClientErrorRetryHandler.java">
 <violation beginline="76" endline="88" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.azure.storage.handlers" class="AzureStorageClientErrorRetryHandler" method="shouldRetryRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
 These nested if statements could be combined
