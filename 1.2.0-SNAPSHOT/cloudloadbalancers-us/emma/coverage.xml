@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sun Sep 04 11:05:31 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Sep 06 14:23:11 EDT 2011 -->
 
 <report>
   <stats>
@@ -11,9 +11,9 @@
   <data>
     <all name="all classes">
       <coverage type="class, %" value="74%  (37/50)"/>
-      <coverage type="method, %" value="57%  (150/262)"/>
-      <coverage type="block, %" value="54%  (1803/3312)"/>
-      <coverage type="line, %" value="54%  (333.1/621)"/>
+      <coverage type="method, %" value="58%  (152/262)"/>
+      <coverage type="block, %" value="55%  (1836/3312)"/>
+      <coverage type="line, %" value="55%  (343.1/621)"/>
 
       <package name="org.jclouds.cloudloadbalancers.loadbalancer.functions">
         <coverage type="class, %" value="0%   (0/2)"/>
@@ -272,9 +272,9 @@
       </package>
       <package name="org.jclouds.cloudloadbalancers.domain.internal">
         <coverage type="class, %" value="100% (5/5)"/>
-        <coverage type="method, %" value="54%  (25/46)"/>
-        <coverage type="block, %" value="47%  (253/541)"/>
-        <coverage type="line, %" value="51%  (59.6/116)"/>
+        <coverage type="method, %" value="57%  (26/46)"/>
+        <coverage type="block, %" value="51%  (277/541)"/>
+        <coverage type="line, %" value="57%  (66.6/116)"/>
 
         <srcfile name="BaseLoadBalancer.java">
           <coverage type="class, %" value="100% (2/2)"/>
@@ -409,77 +409,10 @@
         </srcfile>
         <srcfile name="BaseNode.java">
           <coverage type="class, %" value="100% (3/3)"/>
-          <coverage type="method, %" value="46%  (11/24)"/>
-          <coverage type="block, %" value="49%  (149/307)"/>
-          <coverage type="line, %" value="46%  (29.7/64)"/>
+          <coverage type="method, %" value="50%  (12/24)"/>
+          <coverage type="block, %" value="56%  (173/307)"/>
+          <coverage type="line, %" value="57%  (36.7/64)"/>
 
-          <class name="BaseNode">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="33%  (4/12)"/>
-            <coverage type="block, %" value="39%  (72/185)"/>
-            <coverage type="line, %" value="37%  (15.8/43)"/>
-
-            <method name="builder (): BaseNode$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/60)"/>
-              <coverage type="line, %" value="0%   (0/20)"/>
-            </method>
-            <method name="getAddress (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getCondition (): BaseNode$Condition">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getPort (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getWeight (): Integer">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toBuilder (): BaseNode$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/26)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="90%  (35/39)"/>
-              <coverage type="line, %" value="97%  (5.8/6)"/>
-            </method>
-            <method name="BaseNode (String, int, BaseNode$Condition, Integer): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="97%  (28/29)"/>
-              <coverage type="line, %" value="99%  (7/7)"/>
-            </method>
-            <method name="BaseNode (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="compareTo (BaseNode): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
           <class name="BaseNode$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="57%  (4/7)"/>
@@ -522,6 +455,73 @@
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
+          <class name="BaseNode">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="42%  (5/12)"/>
+            <coverage type="block, %" value="52%  (96/185)"/>
+            <coverage type="line, %" value="53%  (22.8/43)"/>
+
+            <method name="builder (): BaseNode$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getAddress (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCondition (): BaseNode$Condition">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPort (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getWeight (): Integer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): BaseNode$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/26)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="40%  (24/60)"/>
+              <coverage type="line, %" value="35%  (7/20)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (35/39)"/>
+              <coverage type="line, %" value="97%  (5.8/6)"/>
+            </method>
+            <method name="BaseNode (String, int, BaseNode$Condition, Integer): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="97%  (28/29)"/>
+              <coverage type="line, %" value="99%  (7/7)"/>
+            </method>
+            <method name="BaseNode (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="compareTo (BaseNode): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
           <class name="BaseNode$Condition">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="60%  (3/5)"/>
@@ -558,9 +558,9 @@
       </package>
       <package name="org.jclouds.cloudloadbalancers.domain">
         <coverage type="class, %" value="82%  (14/17)"/>
-        <coverage type="method, %" value="52%  (69/133)"/>
-        <coverage type="block, %" value="57%  (900/1590)"/>
-        <coverage type="line, %" value="49%  (138.4/281)"/>
+        <coverage type="method, %" value="53%  (70/133)"/>
+        <coverage type="block, %" value="57%  (909/1590)"/>
+        <coverage type="line, %" value="50%  (141.4/281)"/>
 
         <srcfile name="NodeRequest.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -856,149 +856,6 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="Node.java">
-          <coverage type="class, %" value="100% (3/3)"/>
-          <coverage type="method, %" value="65%  (15/23)"/>
-          <coverage type="block, %" value="71%  (187/264)"/>
-          <coverage type="line, %" value="61%  (27.9/46)"/>
-
-          <class name="Node">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="56%  (5/9)"/>
-            <coverage type="block, %" value="65%  (81/124)"/>
-            <coverage type="line, %" value="50%  (13/26)"/>
-
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/30)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
-            </method>
-            <method name="getId (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getStatus (): Node$Status">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toBuilder (): Node$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="Node (int, String, int, BaseNode$Condition, Node$Status, Integer): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="96%  (23/24)"/>
-              <coverage type="line, %" value="99%  (5/5)"/>
-            </method>
-            <method name="Node (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="builder (): Node$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (37/37)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="Node$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="78%  (7/9)"/>
-            <coverage type="block, %" value="73%  (53/73)"/>
-            <coverage type="line, %" value="83%  (10/12)"/>
-
-            <method name="from (Node): Node$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/13)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="weight (Integer): Node$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="Node$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="address (String): Node$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="build (): Node">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="condition (BaseNode$Condition): Node$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="id (int): Node$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="port (int): Node$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="status (Node$Status): Node$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-          <class name="Node$Status">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="60%  (3/5)"/>
-            <coverage type="block, %" value="79%  (53/67)"/>
-            <coverage type="line, %" value="61%  (4.9/8)"/>
-
-            <method name="fromValue (String): Node$Status">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="valueOf (String): Node$Status">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (44/44)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-            <method name="Node$Status (String, int): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="values (): Node$Status []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="VirtualIP.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="63%  (17/27)"/>
@@ -1166,6 +1023,149 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Node.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="70%  (16/23)"/>
+          <coverage type="block, %" value="74%  (196/264)"/>
+          <coverage type="line, %" value="67%  (30.9/46)"/>
+
+          <class name="Node">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (6/9)"/>
+            <coverage type="block, %" value="73%  (90/124)"/>
+            <coverage type="line, %" value="61%  (16/26)"/>
+
+            <method name="getId (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStatus (): Node$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): Node$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="30%  (9/30)"/>
+              <coverage type="line, %" value="30%  (3/10)"/>
+            </method>
+            <method name="Node (int, String, int, BaseNode$Condition, Node$Status, Integer): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (23/24)"/>
+              <coverage type="line, %" value="99%  (5/5)"/>
+            </method>
+            <method name="Node (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Node$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="78%  (7/9)"/>
+            <coverage type="block, %" value="73%  (53/73)"/>
+            <coverage type="line, %" value="83%  (10/12)"/>
+
+            <method name="from (Node): Node$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="weight (Integer): Node$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Node$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="address (String): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): Node">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="condition (BaseNode$Condition): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="id (int): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="port (int): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="status (Node$Status): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="Node$Status">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="79%  (53/67)"/>
+            <coverage type="line, %" value="61%  (4.9/8)"/>
+
+            <method name="fromValue (String): Node$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="valueOf (String): Node$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (44/44)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="Node$Status (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): Node$Status []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
