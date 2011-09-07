@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-09-04T18:17:34.225">
+<pmd version="4.2.5" timestamp="2011-09-06T20:48:45.400">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/CommonSwiftClient.java">
 <violation beginline="25" endline="25" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.swift" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'org.jclouds.blobstore.ContainerNotFoundException'
