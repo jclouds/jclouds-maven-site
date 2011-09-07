@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-09-05T01:33:49.763">
+<pmd version="4.2.5" timestamp="2011-09-07T03:29:14.875">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/providers/trmk-ecloud/src/main/java/org/jclouds/trmk/ecloud/TerremarkECloudAsyncClient.java">
 <violation beginline="19" endline="305" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.ecloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
