@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-09-04T22:01:43.686">
+<pmd version="4.2.5" timestamp="2011-09-07T00:08:19.485">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/providers/cloudsigma-zrh/src/main/java/org/jclouds/cloudsigma/compute/functions/ServerInfoToNodeMetadata.java">
 <violation beginline="159" endline="161" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.cloudsigma.compute.functions" class="ServerInfoToNodeMetadata$GetImageIdFromServer" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks

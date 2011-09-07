@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sun Sep 04 11:05:31 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Sep 06 14:23:11 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="82%  (98/119)"/>
       <coverage type="method, %" value="66%  (344/520)"/>
-      <coverage type="block, %" value="58%  (6032/10449)"/>
-      <coverage type="line, %" value="58%  (1095.6/1899)"/>
+      <coverage type="block, %" value="58%  (6026/10449)"/>
+      <coverage type="line, %" value="58%  (1092.6/1899)"/>
 
       <package name="org.jclouds.cloudsigma.compute">
         <coverage type="class, %" value="0%   (0/4)"/>
@@ -415,8 +415,8 @@
       <package name="org.jclouds.cloudsigma.domain">
         <coverage type="class, %" value="86%  (36/42)"/>
         <coverage type="method, %" value="64%  (218/340)"/>
-        <coverage type="block, %" value="51%  (2965/5840)"/>
-        <coverage type="line, %" value="50%  (584.5/1168)"/>
+        <coverage type="block, %" value="51%  (2959/5840)"/>
+        <coverage type="line, %" value="50%  (581.5/1168)"/>
 
         <srcfile name="BlockDevice.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -922,8 +922,8 @@
         <srcfile name="Item.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="64%  (9/14)"/>
-          <coverage type="block, %" value="40%  (113/284)"/>
-          <coverage type="line, %" value="43%  (29.8/70)"/>
+          <coverage type="block, %" value="39%  (111/284)"/>
+          <coverage type="line, %" value="41%  (28.8/70)"/>
 
           <class name="Item$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
@@ -970,8 +970,8 @@
           <class name="Item">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="71%  (5/7)"/>
-            <coverage type="block, %" value="65%  (88/135)"/>
-            <coverage type="line, %" value="68%  (21.8/32)"/>
+            <coverage type="block, %" value="64%  (86/135)"/>
+            <coverage type="line, %" value="65%  (20.8/32)"/>
 
             <method name="getUuid (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -985,8 +985,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="66%  (35/53)"/>
-              <coverage type="line, %" value="56%  (10/18)"/>
+              <coverage type="block, %" value="62%  (33/53)"/>
+              <coverage type="line, %" value="50%  (9/18)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1466,14 +1466,14 @@
         <srcfile name="Server.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="86%  (24/28)"/>
-          <coverage type="block, %" value="67%  (369/547)"/>
-          <coverage type="line, %" value="74%  (77.5/104)"/>
+          <coverage type="block, %" value="67%  (367/547)"/>
+          <coverage type="line, %" value="74%  (76.5/104)"/>
 
           <class name="Server">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="85%  (11/13)"/>
-            <coverage type="block, %" value="66%  (258/392)"/>
-            <coverage type="line, %" value="68%  (52.5/77)"/>
+            <coverage type="block, %" value="65%  (256/392)"/>
+            <coverage type="line, %" value="67%  (51.5/77)"/>
 
             <method name="getDescription (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1487,8 +1487,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="63%  (88/140)"/>
-              <coverage type="line, %" value="50%  (22/44)"/>
+              <coverage type="block, %" value="61%  (86/140)"/>
+              <coverage type="line, %" value="48%  (21/44)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1624,66 +1624,17 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="VNC.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="86%  (6/7)"/>
-          <coverage type="block, %" value="68%  (99/146)"/>
-          <coverage type="line, %" value="70%  (24.7/35)"/>
-
-          <class name="VNC">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="86%  (6/7)"/>
-            <coverage type="block, %" value="68%  (99/146)"/>
-            <coverage type="line, %" value="70%  (24.7/35)"/>
-
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/22)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="68%  (41/60)"/>
-              <coverage type="line, %" value="55%  (11/20)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="86%  (37/43)"/>
-              <coverage type="line, %" value="94%  (5.7/6)"/>
-            </method>
-            <method name="VNC (String, String, boolean): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-            <method name="getIp (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getPassword (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="isTls (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="ServerInfo.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="77%  (20/26)"/>
-          <coverage type="block, %" value="68%  (273/401)"/>
-          <coverage type="line, %" value="75%  (48.7/65)"/>
+          <coverage type="block, %" value="68%  (271/401)"/>
+          <coverage type="line, %" value="73%  (47.7/65)"/>
 
           <class name="ServerInfo">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="38%  (3/8)"/>
-            <coverage type="block, %" value="53%  (137/258)"/>
-            <coverage type="line, %" value="64%  (27.7/43)"/>
+            <coverage type="block, %" value="52%  (135/258)"/>
+            <coverage type="line, %" value="62%  (26.7/43)"/>
 
             <method name="getMetrics (): ServerMetrics">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1712,8 +1663,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="73%  (57/78)"/>
-              <coverage type="line, %" value="60%  (15/25)"/>
+              <coverage type="block, %" value="71%  (55/78)"/>
+              <coverage type="line, %" value="56%  (14/25)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1820,6 +1771,55 @@
             <method name="vnc (VNC): ServerInfo$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="VNC.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="86%  (6/7)"/>
+          <coverage type="block, %" value="68%  (99/146)"/>
+          <coverage type="line, %" value="70%  (24.7/35)"/>
+
+          <class name="VNC">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="86%  (6/7)"/>
+            <coverage type="block, %" value="68%  (99/146)"/>
+            <coverage type="line, %" value="70%  (24.7/35)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="68%  (41/60)"/>
+              <coverage type="line, %" value="55%  (11/20)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="86%  (37/43)"/>
+              <coverage type="line, %" value="94%  (5.7/6)"/>
+            </method>
+            <method name="VNC (String, String, boolean): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="getIp (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getPassword (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="isTls (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
