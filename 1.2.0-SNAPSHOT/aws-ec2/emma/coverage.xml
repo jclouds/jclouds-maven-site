@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Sep 06 14:23:11 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="76%  (68/89)"/>
       <coverage type="method, %" value="68%  (371/546)"/>
-      <coverage type="block, %" value="69%  (6707/9747)"/>
-      <coverage type="line, %" value="68%  (1271.9/1877)"/>
+      <coverage type="block, %" value="69%  (6719/9747)"/>
+      <coverage type="line, %" value="68%  (1275.9/1877)"/>
 
       <package name="org.jclouds.aws.ec2.compute.predicates">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -1266,8 +1266,8 @@
       <package name="org.jclouds.aws.ec2.domain">
         <coverage type="class, %" value="100% (14/14)"/>
         <coverage type="method, %" value="74%  (139/187)"/>
-        <coverage type="block, %" value="78%  (2508/3200)"/>
-        <coverage type="line, %" value="68%  (416.4/613)"/>
+        <coverage type="block, %" value="79%  (2520/3200)"/>
+        <coverage type="line, %" value="69%  (420.4/613)"/>
 
         <srcfile name="PlacementGroup.java">
           <coverage type="class, %" value="100% (2/2)"/>
@@ -1510,17 +1510,243 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="LaunchSpecification.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="90%  (37/41)"/>
+          <coverage type="block, %" value="79%  (648/821)"/>
+          <coverage type="line, %" value="75%  (126.9/170)"/>
+
+          <class name="LaunchSpecification">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="89%  (16/18)"/>
+            <coverage type="block, %" value="77%  (411/534)"/>
+            <coverage type="line, %" value="63%  (68.9/109)"/>
+
+            <method name="getSecurityGroupIdToNames (): Map">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): LaunchSpecification$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="54%  (111/205)"/>
+              <coverage type="line, %" value="43%  (28/65)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="85%  (134/157)"/>
+              <coverage type="line, %" value="93%  (13.9/15)"/>
+            </method>
+            <method name="LaunchSpecification (String, String, String, String, String, String, Map, Iterable, Boolean, Set, Set, byte []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (61/61)"/>
+              <coverage type="line, %" value="100% (14/14)"/>
+            </method>
+            <method name="builder (): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getAvailabilityZone (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getBlockDeviceMappings (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getImageId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getInstanceType (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getKernelId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getKeyName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getRamdiskId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getSecurityGroupIds (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getSecurityGroupNames (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getUserData (): byte []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="isMonitoringEnabled (): Boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (68/68)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="LaunchSpecification$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="91%  (21/23)"/>
+            <coverage type="block, %" value="83%  (237/287)"/>
+            <coverage type="line, %" value="95%  (58/61)"/>
+
+            <method name="fromLaunchSpecification (LaunchSpecification): LaunchSpecification$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/40)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="securityGroupIdToNames (Map): LaunchSpecification$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="LaunchSpecification$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="availabilityZone (String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="blockDeviceMapping (BlockDeviceMapping): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="blockDeviceMappings (Iterable): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): LaunchSpecification">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (32/32)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="clear (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (38/38)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+            <method name="imageId (String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="instanceType (String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="kernelId (String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="keyName (String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="mapEBSSnapshotToDevice (String, String, Integer, boolean): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="mapEphemeralDeviceToDevice (String, String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="mapNewVolumeToDevice (String, int, boolean): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="monitoringEnabled (Boolean): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ramdiskId (String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="securityGroupId (String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="securityGroupIdToName (String, String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="securityGroupIds (Iterable): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="securityGroupName (String): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="securityGroupNames (Iterable): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="userData (byte []): LaunchSpecification$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="SpotInstanceRequest.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="69%  (38/55)"/>
-          <coverage type="block, %" value="79%  (783/996)"/>
-          <coverage type="line, %" value="65%  (129.7/200)"/>
+          <coverage type="block, %" value="80%  (793/996)"/>
+          <coverage type="line, %" value="66%  (132.7/200)"/>
 
           <class name="SpotInstanceRequest">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="41%  (9/22)"/>
-            <coverage type="block, %" value="72%  (482/669)"/>
-            <coverage type="line, %" value="57%  (76.7/135)"/>
+            <coverage type="block, %" value="74%  (492/669)"/>
+            <coverage type="line, %" value="59%  (79.7/135)"/>
 
             <method name="compareTo (SpotInstanceRequest): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1589,8 +1815,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="53%  (133/252)"/>
-              <coverage type="line, %" value="44%  (35/79)"/>
+              <coverage type="block, %" value="57%  (143/252)"/>
+              <coverage type="line, %" value="48%  (38/79)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1820,243 +2046,17 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="LaunchSpecification.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="90%  (37/41)"/>
-          <coverage type="block, %" value="79%  (648/821)"/>
-          <coverage type="line, %" value="75%  (126.9/170)"/>
-
-          <class name="LaunchSpecification">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="89%  (16/18)"/>
-            <coverage type="block, %" value="77%  (411/534)"/>
-            <coverage type="line, %" value="63%  (68.9/109)"/>
-
-            <method name="getSecurityGroupIdToNames (): Map">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toBuilder (): LaunchSpecification$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="54%  (111/205)"/>
-              <coverage type="line, %" value="43%  (28/65)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="85%  (134/157)"/>
-              <coverage type="line, %" value="93%  (13.9/15)"/>
-            </method>
-            <method name="LaunchSpecification (String, String, String, String, String, String, Map, Iterable, Boolean, Set, Set, byte []): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (61/61)"/>
-              <coverage type="line, %" value="100% (14/14)"/>
-            </method>
-            <method name="builder (): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getAvailabilityZone (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getBlockDeviceMappings (): Set">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getImageId (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getInstanceType (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getKernelId (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getKeyName (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getRamdiskId (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getSecurityGroupIds (): Set">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getSecurityGroupNames (): Set">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getUserData (): byte []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="isMonitoringEnabled (): Boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (68/68)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="LaunchSpecification$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="91%  (21/23)"/>
-            <coverage type="block, %" value="83%  (237/287)"/>
-            <coverage type="line, %" value="95%  (58/61)"/>
-
-            <method name="fromLaunchSpecification (LaunchSpecification): LaunchSpecification$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/40)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="securityGroupIdToNames (Map): LaunchSpecification$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="LaunchSpecification$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (15/15)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-            <method name="availabilityZone (String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="blockDeviceMapping (BlockDeviceMapping): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="blockDeviceMappings (Iterable): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="build (): LaunchSpecification">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (32/32)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="clear (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (38/38)"/>
-              <coverage type="line, %" value="100% (13/13)"/>
-            </method>
-            <method name="imageId (String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="instanceType (String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="kernelId (String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="keyName (String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="mapEBSSnapshotToDevice (String, String, Integer, boolean): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="mapEphemeralDeviceToDevice (String, String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (11/11)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="mapNewVolumeToDevice (String, int, boolean): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="monitoringEnabled (Boolean): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="ramdiskId (String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="securityGroupId (String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="securityGroupIdToName (String, String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="securityGroupIds (Iterable): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="securityGroupName (String): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="securityGroupNames (Iterable): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="userData (byte []): LaunchSpecification$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="AWSRunningInstance.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="77%  (36/47)"/>
-          <coverage type="block, %" value="84%  (576/682)"/>
-          <coverage type="line, %" value="71%  (75.6/107)"/>
+          <coverage type="block, %" value="85%  (578/682)"/>
+          <coverage type="line, %" value="72%  (76.6/107)"/>
 
           <class name="AWSRunningInstance">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="50%  (6/12)"/>
-            <coverage type="block, %" value="81%  (307/380)"/>
-            <coverage type="line, %" value="60%  (35.6/59)"/>
+            <coverage type="block, %" value="81%  (309/380)"/>
+            <coverage type="line, %" value="62%  (36.6/59)"/>
 
             <method name="getMonitoringState (): MonitoringState">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2090,8 +2090,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="54%  (56/103)"/>
-              <coverage type="line, %" value="48%  (16/33)"/>
+              <coverage type="block, %" value="56%  (58/103)"/>
+              <coverage type="line, %" value="52%  (17/33)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
