@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Sep 06 14:23:11 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="20"/>
     <classes value="196"/>
-    <methods value="1004"/>
+    <methods value="1005"/>
     <srcfiles value="128"/>
-    <srclines value="3708"/>
+    <srclines value="3716"/>
   </stats>
   <data>
     <all name="all classes">
-      <coverage type="class, %" value="77%  (150/196)"/>
-      <coverage type="method, %" value="61%  (608/1004)"/>
-      <coverage type="block, %" value="64%  (12364/19384)"/>
-      <coverage type="line, %" value="62%  (2300/3708)"/>
+      <coverage type="class, %" value="77%  (151/196)"/>
+      <coverage type="method, %" value="61%  (618/1005)"/>
+      <coverage type="block, %" value="64%  (12459/19434)"/>
+      <coverage type="line, %" value="62%  (2321/3716)"/>
 
       <package name="org.jclouds.ec2.compute">
         <coverage type="class, %" value="0%   (0/4)"/>
@@ -900,10 +900,10 @@
         </srcfile>
       </package>
       <package name="org.jclouds.ec2.domain">
-        <coverage type="class, %" value="73%  (32/44)"/>
-        <coverage type="method, %" value="47%  (186/395)"/>
-        <coverage type="block, %" value="55%  (4445/8136)"/>
-        <coverage type="line, %" value="48%  (790.8/1654)"/>
+        <coverage type="class, %" value="75%  (33/44)"/>
+        <coverage type="method, %" value="49%  (195/395)"/>
+        <coverage type="block, %" value="55%  (4490/8136)"/>
+        <coverage type="line, %" value="49%  (803.8/1654)"/>
 
         <srcfile name="BundleInstanceS3Storage.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -1385,117 +1385,6 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="KeyPair.java">
-          <coverage type="class, %" value="50%  (1/2)"/>
-          <coverage type="method, %" value="17%  (3/18)"/>
-          <coverage type="block, %" value="46%  (127/279)"/>
-          <coverage type="line, %" value="44%  (26.5/60)"/>
-
-          <class name="KeyPair$Builder">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/7)"/>
-            <coverage type="block, %" value="0%   (0/51)"/>
-            <coverage type="line, %" value="0%   (0/11)"/>
-
-            <method name="KeyPair$Builder (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="build (): KeyPair">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="fromKeyPair (KeyPair): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="keyFingerprint (String): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="keyMaterial (String): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="keyName (String): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="region (String): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-          </class>
-          <class name="KeyPair">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="27%  (3/11)"/>
-            <coverage type="block, %" value="56%  (127/228)"/>
-            <coverage type="line, %" value="54%  (26.5/49)"/>
-
-            <method name="builder (): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="compareTo (KeyPair): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getKeyFingerprint (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getKeyMaterial (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getKeyName (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getRegion (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toBuilder (): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/31)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="64%  (54/85)"/>
-              <coverage type="line, %" value="50%  (14/28)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="84%  (49/58)"/>
-              <coverage type="line, %" value="93%  (6.5/7)"/>
-            </method>
-            <method name="KeyPair (String, String, String, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (24/24)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="IpPermissionImpl.java">
           <coverage type="class, %" value="50%  (1/2)"/>
           <coverage type="method, %" value="38%  (9/24)"/>
@@ -1766,14 +1655,14 @@
         <srcfile name="SecurityGroup.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="27%  (3/11)"/>
-          <coverage type="block, %" value="55%  (161/291)"/>
-          <coverage type="line, %" value="53%  (33.3/63)"/>
+          <coverage type="block, %" value="56%  (163/291)"/>
+          <coverage type="line, %" value="55%  (34.3/63)"/>
 
           <class name="SecurityGroup">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="27%  (3/11)"/>
-            <coverage type="block, %" value="55%  (161/291)"/>
-            <coverage type="line, %" value="53%  (33.3/63)"/>
+            <coverage type="block, %" value="56%  (163/291)"/>
+            <coverage type="line, %" value="55%  (34.3/63)"/>
 
             <method name="compareTo (SecurityGroup): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1817,8 +1706,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="56%  (66/117)"/>
-              <coverage type="line, %" value="45%  (17/38)"/>
+              <coverage type="block, %" value="58%  (68/117)"/>
+              <coverage type="line, %" value="47%  (18/38)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1947,6 +1836,117 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (32/32)"/>
               <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="KeyPair.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="67%  (12/18)"/>
+          <coverage type="block, %" value="62%  (172/279)"/>
+          <coverage type="line, %" value="66%  (39.5/60)"/>
+
+          <class name="KeyPair">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="55%  (6/11)"/>
+            <coverage type="block, %" value="60%  (137/228)"/>
+            <coverage type="line, %" value="60%  (29.5/49)"/>
+
+            <method name="compareTo (KeyPair): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getKeyFingerprint (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getKeyMaterial (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): KeyPair$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/31)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="64%  (54/85)"/>
+              <coverage type="line, %" value="50%  (14/28)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="84%  (49/58)"/>
+              <coverage type="line, %" value="93%  (6.5/7)"/>
+            </method>
+            <method name="KeyPair (String, String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="builder (): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getKeyName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getRegion (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="KeyPair$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="86%  (6/7)"/>
+            <coverage type="block, %" value="69%  (35/51)"/>
+            <coverage type="line, %" value="91%  (10/11)"/>
+
+            <method name="fromKeyPair (KeyPair): KeyPair$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="KeyPair$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): KeyPair">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="keyFingerprint (String): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="keyMaterial (String): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="keyName (String): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="region (String): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>
@@ -2802,14 +2802,14 @@
         <srcfile name="RunningInstance.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="74%  (43/58)"/>
-          <coverage type="block, %" value="72%  (782/1091)"/>
-          <coverage type="line, %" value="69%  (166.6/240)"/>
+          <coverage type="block, %" value="71%  (780/1091)"/>
+          <coverage type="line, %" value="69%  (165.6/240)"/>
 
           <class name="RunningInstance">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="54%  (15/28)"/>
-            <coverage type="block, %" value="66%  (582/877)"/>
-            <coverage type="line, %" value="61%  (110.6/180)"/>
+            <coverage type="block, %" value="66%  (580/877)"/>
+            <coverage type="line, %" value="61%  (109.6/180)"/>
 
             <method name="builder (): RunningInstance$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2878,8 +2878,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="63%  (215/341)"/>
-              <coverage type="line, %" value="49%  (53/108)"/>
+              <coverage type="block, %" value="62%  (213/341)"/>
+              <coverage type="line, %" value="48%  (52/108)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -3373,9 +3373,9 @@
       </package>
       <package name="org.jclouds.ec2.compute.strategy">
         <coverage type="class, %" value="36%  (5/14)"/>
-        <coverage type="method, %" value="47%  (20/43)"/>
-        <coverage type="block, %" value="55%  (546/986)"/>
-        <coverage type="line, %" value="56%  (106.4/190)"/>
+        <coverage type="method, %" value="48%  (21/44)"/>
+        <coverage type="block, %" value="58%  (596/1036)"/>
+        <coverage type="line, %" value="58%  (114.4/198)"/>
 
         <srcfile name="DescribeImagesParallel.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -3686,15 +3686,15 @@
         </srcfile>
         <srcfile name="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions.java">
           <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="89%  (8/9)"/>
-          <coverage type="block, %" value="94%  (236/252)"/>
-          <coverage type="line, %" value="94%  (49/52)"/>
+          <coverage type="method, %" value="90%  (9/10)"/>
+          <coverage type="block, %" value="95%  (286/302)"/>
+          <coverage type="line, %" value="95%  (57/60)"/>
 
           <class name="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="89%  (8/9)"/>
-            <coverage type="block, %" value="94%  (236/252)"/>
-            <coverage type="line, %" value="94%  (49/52)"/>
+            <coverage type="method, %" value="90%  (9/10)"/>
+            <coverage type="block, %" value="95%  (286/302)"/>
+            <coverage type="line, %" value="95%  (57/60)"/>
 
             <method name="getOptionsProvider (): Provider">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3718,8 +3718,8 @@
             </method>
             <method name="createNewKeyPairUnlessUserSpecifiedOtherwise (String, String, TemplateOptions): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (33/33)"/>
-              <coverage type="line, %" value="100% (9/9)"/>
+              <coverage type="block, %" value="100% (80/80)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
             </method>
             <method name="createOrImportKeyPair (String, String, TemplateOptions): String">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -3728,13 +3728,18 @@
             </method>
             <method name="createUniqueKeyPairAndPutIntoMap (String, String): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (28/28)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
             </method>
             <method name="getSecurityGroupsForTagAndOptions (String, String, TemplateOptions): Set">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (69/69)"/>
               <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+            <method name="putKeyPairIntoCredentialMap (KeyPair): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="userSpecifiedTheirOwnGroups (TemplateOptions): boolean">
               <coverage type="method, %" value="100% (1/1)"/>

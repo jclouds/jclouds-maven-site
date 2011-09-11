@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-09-06T19:37:56.970">
+<pmd version="4.2.5" timestamp="2011-09-11T03:29:45.145">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/functions/CreateUniqueKeyPair.java">
 <violation beginline="71" endline="73" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.ec2.compute.functions" class="CreateUniqueKeyPair" method="createNewKeyPairInRegion" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
@@ -8,6 +8,11 @@ Avoid empty catch blocks
 <file name="/scratch/hudson/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/functions/RunningInstanceToNodeMetadata.java">
 <violation beginline="112" endline="120" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.ec2.compute.functions" class="RunningInstanceToNodeMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions.java">
+<violation beginline="123" endline="127" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.ec2.compute.strategy" class="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions" method="createNewKeyPairUnlessUserSpecifiedOtherwise" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/EC2ListNodesStrategy.java">
