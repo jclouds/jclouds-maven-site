@@ -29,6 +29,8 @@ org.jclouds.internal
 org.jclouds.io
 org.jclouds.io.internal
 org.jclouds.io.payloads
+org.jclouds.javax.annotation
+org.jclouds.javax.annotation.concurrent
 org.jclouds.json
 org.jclouds.json.config
 org.jclouds.json.internal

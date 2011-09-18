@@ -28,26 +28,25 @@
 <a class="jxr_linenumber" name="18" href="#18">18</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="19" href="#19">19</a>  <strong class="jxr_keyword">package</strong> org.jclouds.predicates.validators;
 <a class="jxr_linenumber" name="20" href="#20">20</a>  
-<a class="jxr_linenumber" name="21" href="#21">21</a>  <strong class="jxr_keyword">import</strong> org.jclouds.predicates.Validator;
-<a class="jxr_linenumber" name="22" href="#22">22</a>  
-<a class="jxr_linenumber" name="23" href="#23">23</a>  <strong class="jxr_keyword">import</strong> javax.annotation.Nullable;
-<a class="jxr_linenumber" name="24" href="#24">24</a>  
-<a class="jxr_linenumber" name="25" href="#25">25</a>  <em class="jxr_javadoccomment">/**</em>
-<a class="jxr_linenumber" name="26" href="#26">26</a>  <em class="jxr_javadoccomment"> * Validates that the string paremeter doesn't have any uppercase letters.</em>
-<a class="jxr_linenumber" name="27" href="#27">27</a>  <em class="jxr_javadoccomment"> * </em>
-<a class="jxr_linenumber" name="28" href="#28">28</a>  <em class="jxr_javadoccomment"> * @see org.jclouds.rest.InputParamValidator</em>
-<a class="jxr_linenumber" name="29" href="#29">29</a>  <em class="jxr_javadoccomment"> * @see org.jclouds.predicates.Validator</em>
-<a class="jxr_linenumber" name="30" href="#30">30</a>  <em class="jxr_javadoccomment"> */</em>
-<a class="jxr_linenumber" name="31" href="#31">31</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/predicates/validators/AllLowerCaseValidator.html">AllLowerCaseValidator</a> <strong class="jxr_keyword">extends</strong> Validator&lt;String&gt; {
-<a class="jxr_linenumber" name="32" href="#32">32</a>  
-<a class="jxr_linenumber" name="33" href="#33">33</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> validate(@Nullable String s) {
-<a class="jxr_linenumber" name="34" href="#34">34</a>        <strong class="jxr_keyword">if</strong> (!(s == <strong class="jxr_keyword">null</strong> || s.toLowerCase().equals(s))) {
-<a class="jxr_linenumber" name="35" href="#35">35</a>           <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> IllegalArgumentException(String.format(
-<a class="jxr_linenumber" name="36" href="#36">36</a>                    <span class="jxr_string">"Object '%s' doesn't match the lower case"</span>, s));
-<a class="jxr_linenumber" name="37" href="#37">37</a>        }
-<a class="jxr_linenumber" name="38" href="#38">38</a>     }
-<a class="jxr_linenumber" name="39" href="#39">39</a>  
-<a class="jxr_linenumber" name="40" href="#40">40</a>  }
+<a class="jxr_linenumber" name="21" href="#21">21</a>  <strong class="jxr_keyword">import</strong> org.jclouds.javax.annotation.Nullable;
+<a class="jxr_linenumber" name="22" href="#22">22</a>  <strong class="jxr_keyword">import</strong> org.jclouds.predicates.Validator;
+<a class="jxr_linenumber" name="23" href="#23">23</a>  
+<a class="jxr_linenumber" name="24" href="#24">24</a>  <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="25" href="#25">25</a>  <em class="jxr_javadoccomment"> * Validates that the string paremeter doesn't have any uppercase letters.</em>
+<a class="jxr_linenumber" name="26" href="#26">26</a>  <em class="jxr_javadoccomment"> * </em>
+<a class="jxr_linenumber" name="27" href="#27">27</a>  <em class="jxr_javadoccomment"> * @see org.jclouds.rest.InputParamValidator</em>
+<a class="jxr_linenumber" name="28" href="#28">28</a>  <em class="jxr_javadoccomment"> * @see org.jclouds.predicates.Validator</em>
+<a class="jxr_linenumber" name="29" href="#29">29</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="30" href="#30">30</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/predicates/validators/AllLowerCaseValidator.html">AllLowerCaseValidator</a> <strong class="jxr_keyword">extends</strong> Validator&lt;String&gt; {
+<a class="jxr_linenumber" name="31" href="#31">31</a>  
+<a class="jxr_linenumber" name="32" href="#32">32</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> validate(@Nullable String s) {
+<a class="jxr_linenumber" name="33" href="#33">33</a>        <strong class="jxr_keyword">if</strong> (!(s == <strong class="jxr_keyword">null</strong> || s.toLowerCase().equals(s))) {
+<a class="jxr_linenumber" name="34" href="#34">34</a>           <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> IllegalArgumentException(String.format(
+<a class="jxr_linenumber" name="35" href="#35">35</a>                    <span class="jxr_string">"Object '%s' doesn't match the lower case"</span>, s));
+<a class="jxr_linenumber" name="36" href="#36">36</a>        }
+<a class="jxr_linenumber" name="37" href="#37">37</a>     }
+<a class="jxr_linenumber" name="38" href="#38">38</a>  
+<a class="jxr_linenumber" name="39" href="#39">39</a>  }
 </pre>
 <hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
 </html>

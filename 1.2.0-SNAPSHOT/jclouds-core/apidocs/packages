@@ -56,3 +56,5 @@ org.jclouds.rest
 org.jclouds.util
 org.jclouds.config
 org.jclouds
+org.jclouds.javax.annotation
+org.jclouds.javax.annotation.concurrent

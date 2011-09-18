@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 17 20:32:19 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="69%  (254/366)"/>
       <coverage type="method, %" value="55%  (974/1787)"/>
-      <coverage type="block, %" value="56%  (19010/33823)"/>
-      <coverage type="line, %" value="54%  (3457.7/6434)"/>
+      <coverage type="block, %" value="56%  (19002/33823)"/>
+      <coverage type="line, %" value="54%  (3453.8/6434)"/>
 
       <package name="net.oauth.signature.pem">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -1978,8 +1978,8 @@
       <package name="org.jclouds.concurrent">
         <coverage type="class, %" value="60%  (12/20)"/>
         <coverage type="method, %" value="41%  (38/93)"/>
-        <coverage type="block, %" value="30%  (424/1397)"/>
-        <coverage type="line, %" value="39%  (114.2/293)"/>
+        <coverage type="block, %" value="30%  (420/1397)"/>
+        <coverage type="line, %" value="38%  (112.2/293)"/>
 
         <srcfile name="FutureIterables.java">
           <coverage type="class, %" value="0%   (0/3)"/>
@@ -2182,98 +2182,11 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="MoreExecutors.java">
-          <coverage type="class, %" value="67%  (2/3)"/>
-          <coverage type="method, %" value="67%  (8/12)"/>
-          <coverage type="block, %" value="47%  (93/199)"/>
-          <coverage type="line, %" value="57%  (28.5/50)"/>
-
-          <class name="MoreExecutors$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="100% (0/0)"/>
-            <coverage type="block, %" value="100% (0/0)"/>
-            <coverage type="line, %" value="100% (0/0)"/>
-          </class>
-          <class name="MoreExecutors$SameThreadExecutorService">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="70%  (7/10)"/>
-            <coverage type="block, %" value="46%  (88/191)"/>
-            <coverage type="line, %" value="58%  (27.5/47)"/>
-
-            <method name="awaitTermination (long, TimeUnit): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/40)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
-            </method>
-            <method name="shutdown (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
-            </method>
-            <method name="shutdownNow (): List">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="isTerminated (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="54%  (13/24)"/>
-              <coverage type="line, %" value="74%  (2.2/3)"/>
-            </method>
-            <method name="startTask (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="61%  (17/28)"/>
-              <coverage type="line, %" value="80%  (5.6/7)"/>
-            </method>
-            <method name="execute (Runnable): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="62%  (8/13)"/>
-              <coverage type="line, %" value="92%  (4.6/5)"/>
-            </method>
-            <method name="isShutdown (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="65%  (11/17)"/>
-              <coverage type="line, %" value="88%  (2.6/3)"/>
-            </method>
-            <method name="endTask (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="65%  (17/26)"/>
-              <coverage type="line, %" value="77%  (5.4/7)"/>
-            </method>
-            <method name="MoreExecutors$SameThreadExecutorService (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (19/19)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-            <method name="MoreExecutors$SameThreadExecutorService (MoreExecutors$1): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="MoreExecutors">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="50%  (1/2)"/>
-            <coverage type="block, %" value="62%  (5/8)"/>
-            <coverage type="line, %" value="33%  (1/3)"/>
-
-            <method name="MoreExecutors (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="sameThreadExecutor (): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="Futures.java">
           <coverage type="class, %" value="80%  (4/5)"/>
           <coverage type="method, %" value="44%  (12/27)"/>
-          <coverage type="block, %" value="48%  (153/320)"/>
-          <coverage type="line, %" value="53%  (39/74)"/>
+          <coverage type="block, %" value="47%  (149/320)"/>
+          <coverage type="line, %" value="50%  (37/74)"/>
 
           <class name="Futures$LazyListenableFutureFunctionAdapter">
             <coverage type="class, %" value="0%   (0/1)"/>
@@ -2389,23 +2302,23 @@
           <class name="Futures$FutureListener">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="80%  (4/5)"/>
-            <coverage type="block, %" value="96%  (65/68)"/>
-            <coverage type="line, %" value="94%  (15/16)"/>
+            <coverage type="block, %" value="90%  (61/68)"/>
+            <coverage type="line, %" value="81%  (13/16)"/>
 
             <method name="getExecutor (): ExecutorService">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
+            <method name="addListener (Runnable, Executor): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="87%  (26/30)"/>
+              <coverage type="line, %" value="71%  (5/7)"/>
+            </method>
             <method name="Futures$FutureListener (Future, ExecutorService): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (26/26)"/>
               <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-            <method name="addListener (Runnable, Executor): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (30/30)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
             </method>
             <method name="create (Future, ExecutorService): Futures$FutureListener">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -2442,6 +2355,93 @@
             <method name="delegate (): Future">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="MoreExecutors.java">
+          <coverage type="class, %" value="67%  (2/3)"/>
+          <coverage type="method, %" value="67%  (8/12)"/>
+          <coverage type="block, %" value="47%  (93/199)"/>
+          <coverage type="line, %" value="57%  (28.5/50)"/>
+
+          <class name="MoreExecutors$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="MoreExecutors$SameThreadExecutorService">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="70%  (7/10)"/>
+            <coverage type="block, %" value="46%  (88/191)"/>
+            <coverage type="line, %" value="58%  (27.5/47)"/>
+
+            <method name="awaitTermination (long, TimeUnit): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/40)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="shutdown (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="shutdownNow (): List">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="isTerminated (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="54%  (13/24)"/>
+              <coverage type="line, %" value="74%  (2.2/3)"/>
+            </method>
+            <method name="startTask (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="61%  (17/28)"/>
+              <coverage type="line, %" value="80%  (5.6/7)"/>
+            </method>
+            <method name="execute (Runnable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="62%  (8/13)"/>
+              <coverage type="line, %" value="92%  (4.6/5)"/>
+            </method>
+            <method name="isShutdown (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="65%  (11/17)"/>
+              <coverage type="line, %" value="88%  (2.6/3)"/>
+            </method>
+            <method name="endTask (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="65%  (17/26)"/>
+              <coverage type="line, %" value="77%  (5.4/7)"/>
+            </method>
+            <method name="MoreExecutors$SameThreadExecutorService (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="MoreExecutors$SameThreadExecutorService (MoreExecutors$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="MoreExecutors">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="62%  (5/8)"/>
+            <coverage type="line, %" value="33%  (1/3)"/>
+
+            <method name="MoreExecutors (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="sameThreadExecutor (): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
@@ -3068,8 +3068,8 @@
       <package name="org.jclouds.util">
         <coverage type="class, %" value="61%  (14/23)"/>
         <coverage type="method, %" value="31%  (36/117)"/>
-        <coverage type="block, %" value="43%  (749/1727)"/>
-        <coverage type="line, %" value="47%  (143.2/303)"/>
+        <coverage type="block, %" value="43%  (751/1727)"/>
+        <coverage type="line, %" value="47%  (143.3/303)"/>
 
         <srcfile name="Assertions.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -3662,14 +3662,14 @@
         <srcfile name="Throwables2.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="57%  (4/7)"/>
-          <coverage type="block, %" value="68%  (130/190)"/>
-          <coverage type="line, %" value="61%  (19.4/32)"/>
+          <coverage type="block, %" value="69%  (132/190)"/>
+          <coverage type="line, %" value="61%  (19.5/32)"/>
 
           <class name="Throwables2">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="57%  (4/7)"/>
-            <coverage type="block, %" value="68%  (130/190)"/>
-            <coverage type="line, %" value="61%  (19.4/32)"/>
+            <coverage type="block, %" value="69%  (132/190)"/>
+            <coverage type="line, %" value="61%  (19.5/32)"/>
 
             <method name="Throwables2 (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3698,8 +3698,8 @@
             </method>
             <method name="returnFirstExceptionIfInListOrThrowStandardExceptionOrCause (Class [], Exception): Exception">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="91%  (77/85)"/>
-              <coverage type="line, %" value="79%  (7.9/10)"/>
+              <coverage type="block, %" value="93%  (79/85)"/>
+              <coverage type="line, %" value="80%  (8/10)"/>
             </method>
             <method name="getFirstThrowableOfType (Throwable, Class): Throwable">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -11918,20 +11918,20 @@
       <package name="org.jclouds.concurrent.internal">
         <coverage type="class, %" value="100% (1/1)"/>
         <coverage type="method, %" value="75%  (6/8)"/>
-        <coverage type="block, %" value="84%  (279/331)"/>
-        <coverage type="line, %" value="75%  (46/61)"/>
+        <coverage type="block, %" value="82%  (273/331)"/>
+        <coverage type="line, %" value="72%  (44/61)"/>
 
         <srcfile name="SyncProxy.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="75%  (6/8)"/>
-          <coverage type="block, %" value="84%  (279/331)"/>
-          <coverage type="line, %" value="75%  (46/61)"/>
+          <coverage type="block, %" value="82%  (273/331)"/>
+          <coverage type="line, %" value="72%  (44/61)"/>
 
           <class name="SyncProxy">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="75%  (6/8)"/>
-            <coverage type="block, %" value="84%  (279/331)"/>
-            <coverage type="line, %" value="75%  (46/61)"/>
+            <coverage type="block, %" value="82%  (273/331)"/>
+            <coverage type="line, %" value="72%  (44/61)"/>
 
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -11945,8 +11945,8 @@
             </method>
             <method name="invoke (Object, Method, Object []): Object">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="82%  (97/119)"/>
-              <coverage type="line, %" value="70%  (14/20)"/>
+              <coverage type="block, %" value="76%  (91/119)"/>
+              <coverage type="line, %" value="60%  (12/20)"/>
             </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
