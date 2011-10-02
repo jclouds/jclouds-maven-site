@@ -79,7 +79,7 @@
 <a class="jxr_linenumber" name="69" href="#69">69</a>              <em class="jxr_comment">// ExecutionException / CancellationException / RuntimeException</em>
 <a class="jxr_linenumber" name="70" href="#70">70</a>              <em class="jxr_comment">// The task is done, run the listeners.</em>
 <a class="jxr_linenumber" name="71" href="#71">71</a>           }
-<a class="jxr_linenumber" name="72" href="#72">72</a>           executionList.run();
+<a class="jxr_linenumber" name="72" href="#72">72</a>           executionList.execute();
 <a class="jxr_linenumber" name="73" href="#73">73</a>        }
 <a class="jxr_linenumber" name="74" href="#74">74</a>  
 <a class="jxr_linenumber" name="75" href="#75">75</a>        @Override
@@ -126,7 +126,7 @@
 <a class="jxr_linenumber" name="116" href="#116">116</a>             <strong class="jxr_keyword">if</strong> (delegate.isDone()) {
 <a class="jxr_linenumber" name="117" href="#117">117</a>                <em class="jxr_comment">// If the delegate is already done, run the execution list</em>
 <a class="jxr_linenumber" name="118" href="#118">118</a>                <em class="jxr_comment">// immediately on the current thread.</em>
-<a class="jxr_linenumber" name="119" href="#119">119</a>                executionList.run();
+<a class="jxr_linenumber" name="119" href="#119">119</a>                executionList.execute();
 <a class="jxr_linenumber" name="120" href="#120">120</a>                <strong class="jxr_keyword">return</strong>;
 <a class="jxr_linenumber" name="121" href="#121">121</a>             }
 <a class="jxr_linenumber" name="122" href="#122">122</a>             adapterExecutor.execute(<strong class="jxr_keyword">new</strong> CallGetAndRunExecutionList&lt;T&gt;(delegate, executionList));

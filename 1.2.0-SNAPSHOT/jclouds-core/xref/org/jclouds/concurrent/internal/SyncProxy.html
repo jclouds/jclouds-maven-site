@@ -36,18 +36,18 @@
 <a class="jxr_linenumber" name="26" href="#26">26</a>  <strong class="jxr_keyword">import</strong> java.util.Arrays;
 <a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">import</strong> java.util.Map;
 <a class="jxr_linenumber" name="28" href="#28">28</a>  <strong class="jxr_keyword">import</strong> java.util.Set;
-<a class="jxr_linenumber" name="29" href="#29">29</a>  <strong class="jxr_keyword">import</strong> java.util.concurrent.ConcurrentMap;
-<a class="jxr_linenumber" name="30" href="#30">30</a>  <strong class="jxr_keyword">import</strong> java.util.concurrent.ExecutionException;
-<a class="jxr_linenumber" name="31" href="#31">31</a>  <strong class="jxr_keyword">import</strong> java.util.concurrent.TimeUnit;
-<a class="jxr_linenumber" name="32" href="#32">32</a>  
-<a class="jxr_linenumber" name="33" href="#33">33</a>  <strong class="jxr_keyword">import</strong> javax.inject.Inject;
-<a class="jxr_linenumber" name="34" href="#34">34</a>  <strong class="jxr_keyword">import</strong> javax.inject.Named;
-<a class="jxr_linenumber" name="35" href="#35">35</a>  
-<a class="jxr_linenumber" name="36" href="#36">36</a>  <strong class="jxr_keyword">import</strong> org.jclouds.concurrent.Timeout;
-<a class="jxr_linenumber" name="37" href="#37">37</a>  <strong class="jxr_keyword">import</strong> org.jclouds.internal.ClassMethodArgs;
-<a class="jxr_linenumber" name="38" href="#38">38</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.annotations.Delegate;
-<a class="jxr_linenumber" name="39" href="#39">39</a>  <strong class="jxr_keyword">import</strong> org.jclouds.util.Throwables2;
-<a class="jxr_linenumber" name="40" href="#40">40</a>  
+<a class="jxr_linenumber" name="29" href="#29">29</a>  <strong class="jxr_keyword">import</strong> java.util.concurrent.ExecutionException;
+<a class="jxr_linenumber" name="30" href="#30">30</a>  <strong class="jxr_keyword">import</strong> java.util.concurrent.TimeUnit;
+<a class="jxr_linenumber" name="31" href="#31">31</a>  
+<a class="jxr_linenumber" name="32" href="#32">32</a>  <strong class="jxr_keyword">import</strong> javax.inject.Inject;
+<a class="jxr_linenumber" name="33" href="#33">33</a>  <strong class="jxr_keyword">import</strong> javax.inject.Named;
+<a class="jxr_linenumber" name="34" href="#34">34</a>  
+<a class="jxr_linenumber" name="35" href="#35">35</a>  <strong class="jxr_keyword">import</strong> org.jclouds.concurrent.Timeout;
+<a class="jxr_linenumber" name="36" href="#36">36</a>  <strong class="jxr_keyword">import</strong> org.jclouds.internal.ClassMethodArgs;
+<a class="jxr_linenumber" name="37" href="#37">37</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.annotations.Delegate;
+<a class="jxr_linenumber" name="38" href="#38">38</a>  <strong class="jxr_keyword">import</strong> org.jclouds.util.Throwables2;
+<a class="jxr_linenumber" name="39" href="#39">39</a>  
+<a class="jxr_linenumber" name="40" href="#40">40</a>  <strong class="jxr_keyword">import</strong> com.google.common.cache.Cache;
 <a class="jxr_linenumber" name="41" href="#41">41</a>  <strong class="jxr_keyword">import</strong> com.google.common.collect.ImmutableSet;
 <a class="jxr_linenumber" name="42" href="#42">42</a>  <strong class="jxr_keyword">import</strong> com.google.common.collect.Maps;
 <a class="jxr_linenumber" name="43" href="#43">43</a>  <strong class="jxr_keyword">import</strong> com.google.common.util.concurrent.ListenableFuture;
@@ -72,13 +72,13 @@
 <a class="jxr_linenumber" name="62" href="#62">62</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Map&lt;Method, Method&gt; methodMap;
 <a class="jxr_linenumber" name="63" href="#63">63</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Map&lt;Method, Method&gt; syncMethodMap;
 <a class="jxr_linenumber" name="64" href="#64">64</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Map&lt;Method, Long&gt; timeoutMap;
-<a class="jxr_linenumber" name="65" href="#65">65</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> ConcurrentMap&lt;ClassMethodArgs, Object&gt; delegateMap;
+<a class="jxr_linenumber" name="65" href="#65">65</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Cache&lt;ClassMethodArgs, Object&gt; delegateMap;
 <a class="jxr_linenumber" name="66" href="#66">66</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Map&lt;Class&lt;?&gt;, Class&lt;?&gt;&gt; sync2Async;
 <a class="jxr_linenumber" name="67" href="#67">67</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> Set&lt;Method&gt; objectMethods = ImmutableSet.of(Object.<strong class="jxr_keyword">class</strong>.getMethods());
 <a class="jxr_linenumber" name="68" href="#68">68</a>  
 <a class="jxr_linenumber" name="69" href="#69">69</a>     @Inject
 <a class="jxr_linenumber" name="70" href="#70">70</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/concurrent/internal/SyncProxy.html">SyncProxy</a>(Class&lt;?&gt; declaring, Object async,
-<a class="jxr_linenumber" name="71" href="#71">71</a>           @Named(<span class="jxr_string">"sync"</span>) ConcurrentMap&lt;ClassMethodArgs, Object&gt; delegateMap, Map&lt;Class&lt;?&gt;, Class&lt;?&gt;&gt; sync2Async)
+<a class="jxr_linenumber" name="71" href="#71">71</a>           @Named(<span class="jxr_string">"sync"</span>) Cache&lt;ClassMethodArgs, Object&gt; delegateMap, Map&lt;Class&lt;?&gt;, Class&lt;?&gt;&gt; sync2Async)
 <a class="jxr_linenumber" name="72" href="#72">72</a>           <strong class="jxr_keyword">throws</strong> SecurityException, NoSuchMethodException {
 <a class="jxr_linenumber" name="73" href="#73">73</a>        <strong class="jxr_keyword">this</strong>.delegateMap = delegateMap;
 <a class="jxr_linenumber" name="74" href="#74">74</a>        <strong class="jxr_keyword">this</strong>.delegate = async;

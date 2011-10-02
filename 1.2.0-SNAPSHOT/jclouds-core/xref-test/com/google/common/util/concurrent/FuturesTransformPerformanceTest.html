@@ -77,7 +77,7 @@
 <a class="jxr_linenumber" name="67" href="#67">67</a>  <em class="jxr_javadoccomment"> * </em>
 <a class="jxr_linenumber" name="68" href="#68">68</a>  <em class="jxr_javadoccomment"> * @author Adrian Cole</em>
 <a class="jxr_linenumber" name="69" href="#69">69</a>  <em class="jxr_javadoccomment"> */</em>
-<a class="jxr_linenumber" name="70" href="#70">70</a>  @Test(groups = <span class="jxr_string">"performance"</span>, enabled = false, sequential = <strong class="jxr_keyword">true</strong>, testName = <span class="jxr_string">"FuturesTransformPerformanceTest"</span>)
+<a class="jxr_linenumber" name="70" href="#70">70</a>  @Test(groups = <span class="jxr_string">"performance"</span>, enabled = false, singleThreaded = <strong class="jxr_keyword">true</strong>, testName = <span class="jxr_string">"FuturesTransformPerformanceTest"</span>)
 <a class="jxr_linenumber" name="71" href="#71">71</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../com/google/common/util/concurrent/FuturesTransformPerformanceTest.html">FuturesTransformPerformanceTest</a> {
 <a class="jxr_linenumber" name="72" href="#72">72</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> FUDGE = 5;
 <a class="jxr_linenumber" name="73" href="#73">73</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> COUNT = 100;
@@ -185,7 +185,7 @@
 <a class="jxr_linenumber" name="175" href="#175">175</a>       <strong class="jxr_keyword">long</strong> start = System.currentTimeMillis();
 <a class="jxr_linenumber" name="176" href="#176">176</a>       Map&lt;String, Future&lt;Long&gt;&gt; responses = newHashMap();
 <a class="jxr_linenumber" name="177" href="#177">177</a>       <strong class="jxr_keyword">for</strong> (<strong class="jxr_keyword">int</strong> i = 0; i &lt; COUNT; i++)
-<a class="jxr_linenumber" name="178" href="#178">178</a>          responses.put(i + <span class="jxr_string">""</span>, Futures.transform(Futures.makeListenable(simultateIO(), chainExecutor),
+<a class="jxr_linenumber" name="178" href="#178">178</a>          responses.put(i + <span class="jxr_string">""</span>, Futures.transform(JdkFutureAdapters.listenInPoolThread(simultateIO(), chainExecutor),
 <a class="jxr_linenumber" name="179" href="#179">179</a>                   <strong class="jxr_keyword">new</strong> Function&lt;Long, Long&gt;() {
 <a class="jxr_linenumber" name="180" href="#180">180</a> 
 <a class="jxr_linenumber" name="181" href="#181">181</a>                      @Override

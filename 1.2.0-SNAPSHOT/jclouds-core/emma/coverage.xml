@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 17 20:32:19 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 01 20:33:36 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="52"/>
     <classes value="366"/>
-    <methods value="1787"/>
+    <methods value="1790"/>
     <srcfiles value="207"/>
-    <srclines value="6434"/>
+    <srclines value="6495"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="69%  (254/366)"/>
-      <coverage type="method, %" value="55%  (974/1787)"/>
-      <coverage type="block, %" value="56%  (19002/33823)"/>
-      <coverage type="line, %" value="54%  (3453.8/6434)"/>
+      <coverage type="method, %" value="55%  (978/1790)"/>
+      <coverage type="block, %" value="56%  (19203/34146)"/>
+      <coverage type="line, %" value="54%  (3494.6/6495)"/>
 
       <package name="net.oauth.signature.pem">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -3068,8 +3068,8 @@
       <package name="org.jclouds.util">
         <coverage type="class, %" value="61%  (14/23)"/>
         <coverage type="method, %" value="31%  (36/117)"/>
-        <coverage type="block, %" value="43%  (751/1727)"/>
-        <coverage type="line, %" value="47%  (143.3/303)"/>
+        <coverage type="block, %" value="42%  (750/1767)"/>
+        <coverage type="line, %" value="47%  (146.3/311)"/>
 
         <srcfile name="Assertions.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -3578,14 +3578,14 @@
         <srcfile name="Strings2.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="71%  (10/14)"/>
-          <coverage type="block, %" value="64%  (190/297)"/>
-          <coverage type="line, %" value="65%  (36.4/56)"/>
+          <coverage type="block, %" value="56%  (191/343)"/>
+          <coverage type="line, %" value="58%  (37.4/64)"/>
 
           <class name="Strings2">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="71%  (10/14)"/>
-            <coverage type="block, %" value="64%  (190/297)"/>
-            <coverage type="line, %" value="65%  (36.4/56)"/>
+            <coverage type="block, %" value="56%  (191/343)"/>
+            <coverage type="line, %" value="58%  (37.4/64)"/>
 
             <method name="Strings2 (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3604,8 +3604,8 @@
             </method>
             <method name="replaceAll (String, char, String): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
             </method>
             <method name="urlDecode (String): String">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -3617,10 +3617,15 @@
               <coverage type="block, %" value="38%  (15/40)"/>
               <coverage type="line, %" value="30%  (2.4/8)"/>
             </method>
+            <method name="replaceTokens (String, Iterable): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="61%  (25/41)"/>
+              <coverage type="line, %" value="68%  (4/6)"/>
+            </method>
             <method name="urlEncode (String, char []): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="81%  (60/74)"/>
-              <coverage type="line, %" value="82%  (9/11)"/>
+              <coverage type="block, %" value="68%  (60/88)"/>
+              <coverage type="line, %" value="69%  (9/13)"/>
             </method>
             <method name="replaceTokens (String, Map): String">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -3647,11 +3652,6 @@
               <coverage type="block, %" value="100% (13/13)"/>
               <coverage type="line, %" value="100% (3/3)"/>
             </method>
-            <method name="replaceTokens (String, Iterable): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (24/24)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
             <method name="toInputStream (String): InputStream">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
@@ -3662,14 +3662,14 @@
         <srcfile name="Throwables2.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="57%  (4/7)"/>
-          <coverage type="block, %" value="69%  (132/190)"/>
-          <coverage type="line, %" value="61%  (19.5/32)"/>
+          <coverage type="block, %" value="72%  (136/190)"/>
+          <coverage type="line, %" value="67%  (21.4/32)"/>
 
           <class name="Throwables2">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="57%  (4/7)"/>
-            <coverage type="block, %" value="69%  (132/190)"/>
-            <coverage type="line, %" value="61%  (19.5/32)"/>
+            <coverage type="block, %" value="72%  (136/190)"/>
+            <coverage type="line, %" value="67%  (21.4/32)"/>
 
             <method name="Throwables2 (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3698,8 +3698,8 @@
             </method>
             <method name="returnFirstExceptionIfInListOrThrowStandardExceptionOrCause (Class [], Exception): Exception">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="93%  (79/85)"/>
-              <coverage type="line, %" value="80%  (8/10)"/>
+              <coverage type="block, %" value="98%  (83/85)"/>
+              <coverage type="line, %" value="99%  (9.9/10)"/>
             </method>
             <method name="getFirstThrowableOfType (Throwable, Class): Throwable">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -3772,7 +3772,7 @@
         <srcfile name="Patterns.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="75%  (6/8)"/>
-          <coverage type="block, %" value="80%  (108/135)"/>
+          <coverage type="block, %" value="79%  (102/129)"/>
           <coverage type="line, %" value="86%  (25/29)"/>
 
           <class name="Patterns$2">
@@ -3781,7 +3781,7 @@
             <coverage type="block, %" value="23%  (3/13)"/>
             <coverage type="line, %" value="50%  (1/2)"/>
 
-            <method name="apply (Character): Pattern">
+            <method name="load (Character): Pattern">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/10)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
@@ -3798,7 +3798,7 @@
             <coverage type="block, %" value="55%  (17/31)"/>
             <coverage type="line, %" value="60%  (3/5)"/>
 
-            <method name="apply (Character): Pattern">
+            <method name="load (Character): Pattern">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="50%  (14/28)"/>
               <coverage type="line, %" value="50%  (2/4)"/>
@@ -3812,7 +3812,7 @@
           <class name="Patterns">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="50%  (1/2)"/>
-            <coverage type="block, %" value="96%  (73/76)"/>
+            <coverage type="block, %" value="96%  (67/70)"/>
             <coverage type="line, %" value="95%  (19/20)"/>
 
             <method name="Patterns (): void">
@@ -3822,7 +3822,7 @@
             </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (73/73)"/>
+              <coverage type="block, %" value="100% (67/67)"/>
               <coverage type="line, %" value="100% (19/19)"/>
             </method>
           </class>
@@ -3837,7 +3837,7 @@
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="apply (String): Pattern">
+            <method name="load (String): Pattern">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (12/12)"/>
               <coverage type="line, %" value="100% (1/1)"/>
@@ -6834,254 +6834,6 @@
           </class>
         </srcfile>
       </package>
-      <package name="org.jclouds.concurrent.config">
-        <coverage type="class, %" value="80%  (4/5)"/>
-        <coverage type="method, %" value="57%  (23/40)"/>
-        <coverage type="block, %" value="54%  (169/313)"/>
-        <coverage type="line, %" value="64%  (43.1/67)"/>
-
-        <srcfile name="ExecutorServiceModule.java">
-          <coverage type="class, %" value="80%  (4/5)"/>
-          <coverage type="method, %" value="57%  (23/40)"/>
-          <coverage type="block, %" value="54%  (169/313)"/>
-          <coverage type="line, %" value="64%  (43.1/67)"/>
-
-          <class name="ExecutorServiceModule$AddToStringOnSubmitExecutorService">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="29%  (5/17)"/>
-            <coverage type="block, %" value="31%  (32/104)"/>
-            <coverage type="line, %" value="38%  (8/21)"/>
-
-            <method name="awaitTermination (long, TimeUnit): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="invokeAll (Collection): List">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="invokeAll (Collection, long, TimeUnit): List">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="invokeAny (Collection): Object">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="invokeAny (Collection, long, TimeUnit): Object">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isTerminated (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="shutdown (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="submit (Runnable): Future">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="submit (Runnable, Object): Future">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="ExecutorServiceModule$AddToStringOnSubmitExecutorService (ExecutorService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="execute (Runnable): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="isShutdown (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="shutdownNow (): List">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="submit (Callable): Future">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="ExecutorServiceModule$AddToStringFuture">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="44%  (4/9)"/>
-            <coverage type="block, %" value="52%  (23/44)"/>
-            <coverage type="line, %" value="58%  (7/12)"/>
-
-            <method name="cancel (boolean): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isCancelled (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="ExecutorServiceModule$AddToStringFuture (Future, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="get (): Object">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="get (long, TimeUnit): Object">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="isDone (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="ExecutorServiceModule$ShutdownExecutorOnClose">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (3/3)"/>
-            <coverage type="block, %" value="58%  (21/36)"/>
-            <coverage type="line, %" value="89%  (8/9)"/>
-
-            <method name="close (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="35%  (8/23)"/>
-              <coverage type="line, %" value="75%  (3/4)"/>
-            </method>
-            <method name="ExecutorServiceModule$ShutdownExecutorOnClose (ExecutorService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="ExecutorServiceModule$ShutdownExecutorOnClose (ExecutorService, ExecutorServiceModule$1): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="ExecutorServiceModule">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (11/11)"/>
-            <coverage type="block, %" value="72%  (93/129)"/>
-            <coverage type="line, %" value="81%  (20.1/25)"/>
-
-            <method name="checkNotGuavaSameThreadExecutor (ExecutorService): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="12%  (4/34)"/>
-              <coverage type="line, %" value="28%  (1.1/4)"/>
-            </method>
-            <method name="provideExecutorService (int, Closer): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="77%  (10/13)"/>
-              <coverage type="line, %" value="67%  (2/3)"/>
-            </method>
-            <method name="provideIOExecutor (int, Closer): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="77%  (10/13)"/>
-              <coverage type="line, %" value="67%  (2/3)"/>
-            </method>
-            <method name="ExecutorServiceModule (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="ExecutorServiceModule (ExecutorService, ExecutorService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="addToStringOnSubmit (ExecutorService): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="configure (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (1/1)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="newCachedThreadPoolNamed (String): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="newScalingThreadPoolNamed (String, int): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="newThreadPoolNamed (String, int): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="shutdownOnClose (ExecutorService, Closer): ExecutorService">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-          <class name="ExecutorServiceModule$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="100% (0/0)"/>
-            <coverage type="block, %" value="100% (0/0)"/>
-            <coverage type="line, %" value="100% (0/0)"/>
-          </class>
-        </srcfile>
-      </package>
       <package name="org.jclouds.http.functions">
         <coverage type="class, %" value="60%  (12/20)"/>
         <coverage type="method, %" value="51%  (29/57)"/>
@@ -7795,6 +7547,62 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="88%  (35/40)"/>
               <coverage type="line, %" value="87%  (0.9/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.internal">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="86%  (6/7)"/>
+        <coverage type="block, %" value="58%  (88/153)"/>
+        <coverage type="line, %" value="42%  (14.8/35)"/>
+
+        <srcfile name="ClassMethodArgs.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="86%  (6/7)"/>
+          <coverage type="block, %" value="58%  (88/153)"/>
+          <coverage type="line, %" value="42%  (14.8/35)"/>
+
+          <class name="ClassMethodArgs">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="86%  (6/7)"/>
+            <coverage type="block, %" value="58%  (88/153)"/>
+            <coverage type="line, %" value="42%  (14.8/35)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/61)"/>
+              <coverage type="line, %" value="0%   (0/20)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (36/40)"/>
+              <coverage type="line, %" value="97%  (5.8/6)"/>
+            </method>
+            <method name="ClassMethodArgs (Class, Method, Object []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="getArgs (): Object []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getAsyncClass (): Class">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMethod (): Method">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -8587,62 +8395,6 @@
           </class>
         </srcfile>
       </package>
-      <package name="org.jclouds.internal">
-        <coverage type="class, %" value="100% (1/1)"/>
-        <coverage type="method, %" value="100% (7/7)"/>
-        <coverage type="block, %" value="61%  (93/153)"/>
-        <coverage type="line, %" value="48%  (16.8/35)"/>
-
-        <srcfile name="ClassMethodArgs.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (7/7)"/>
-          <coverage type="block, %" value="61%  (93/153)"/>
-          <coverage type="line, %" value="48%  (16.8/35)"/>
-
-          <class name="ClassMethodArgs">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (7/7)"/>
-            <coverage type="block, %" value="61%  (93/153)"/>
-            <coverage type="line, %" value="48%  (16.8/35)"/>
-
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="8%   (5/61)"/>
-              <coverage type="line, %" value="10%  (2/20)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="90%  (36/40)"/>
-              <coverage type="line, %" value="97%  (5.8/6)"/>
-            </method>
-            <method name="ClassMethodArgs (Class, Method, Object []): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-            <method name="getArgs (): Object []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getAsyncClass (): Class">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getMethod (): Method">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (25/25)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
       <package name="org.jclouds.http.config">
         <coverage type="class, %" value="100% (7/7)"/>
         <coverage type="method, %" value="64%  (9/14)"/>
@@ -9167,6 +8919,269 @@
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.concurrent.config">
+        <coverage type="class, %" value="80%  (4/5)"/>
+        <coverage type="method, %" value="65%  (28/43)"/>
+        <coverage type="block, %" value="65%  (308/471)"/>
+        <coverage type="line, %" value="69%  (68.7/100)"/>
+
+        <srcfile name="ExecutorServiceModule.java">
+          <coverage type="class, %" value="80%  (4/5)"/>
+          <coverage type="method, %" value="65%  (28/43)"/>
+          <coverage type="block, %" value="65%  (308/471)"/>
+          <coverage type="line, %" value="69%  (68.7/100)"/>
+
+          <class name="ExecutorServiceModule$DescribingExecutorService">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="35%  (6/17)"/>
+            <coverage type="block, %" value="42%  (45/107)"/>
+            <coverage type="line, %" value="43%  (9/21)"/>
+
+            <method name="awaitTermination (long, TimeUnit): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="invokeAll (Collection): List">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="invokeAll (Collection, long, TimeUnit): List">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="invokeAny (Collection): Object">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="invokeAny (Collection, long, TimeUnit): Object">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isTerminated (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="shutdown (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="submit (Runnable): Future">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ExecutorServiceModule$DescribingExecutorService (ExecutorService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="execute (Runnable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="isShutdown (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="shutdownNow (): List">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="submit (Callable): Future">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="submit (Runnable, Object): Future">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ExecutorServiceModule$ShutdownExecutorOnClose">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="58%  (21/36)"/>
+            <coverage type="line, %" value="89%  (8/9)"/>
+
+            <method name="close (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="35%  (8/23)"/>
+              <coverage type="line, %" value="75%  (3/4)"/>
+            </method>
+            <method name="ExecutorServiceModule$ShutdownExecutorOnClose (ExecutorService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="ExecutorServiceModule$ShutdownExecutorOnClose (ExecutorService, ExecutorServiceModule$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ExecutorServiceModule$DescribedFuture">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="64%  (7/11)"/>
+            <coverage type="block, %" value="72%  (131/181)"/>
+            <coverage type="line, %" value="67%  (27.6/41)"/>
+
+            <method name="cancel (boolean): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isCancelled (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="get (long, TimeUnit): Object">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="50%  (12/24)"/>
+              <coverage type="line, %" value="43%  (3/7)"/>
+            </method>
+            <method name="get (): Object">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="62%  (10/16)"/>
+              <coverage type="line, %" value="60%  (3/5)"/>
+            </method>
+            <method name="ensureCauseHasSubmissionTrace (Exception): Exception">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="82%  (66/80)"/>
+              <coverage type="line, %" value="76%  (10.6/14)"/>
+            </method>
+            <method name="ExecutorServiceModule$DescribedFuture (Future, String, StackTraceElement []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="isDone (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="merge (StackTraceElement [], StackTraceElement []): StackTraceElement []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ExecutorServiceModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (12/12)"/>
+            <coverage type="block, %" value="76%  (111/147)"/>
+            <coverage type="line, %" value="83%  (24.1/29)"/>
+
+            <method name="checkNotGuavaSameThreadExecutor (ExecutorService): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="12%  (4/34)"/>
+              <coverage type="line, %" value="28%  (1.1/4)"/>
+            </method>
+            <method name="provideExecutorService (int, Closer): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="77%  (10/13)"/>
+              <coverage type="line, %" value="67%  (2/3)"/>
+            </method>
+            <method name="provideIOExecutor (int, Closer): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="77%  (10/13)"/>
+              <coverage type="line, %" value="67%  (2/3)"/>
+            </method>
+            <method name="ExecutorServiceModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ExecutorServiceModule (ExecutorService, ExecutorService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="addToStringOnSubmit (ExecutorService): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (1/1)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getStackTraceHere (): StackTraceElement []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="newCachedThreadPoolNamed (String): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="newScalingThreadPoolNamed (String, int): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="newThreadPoolNamed (String, int): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="shutdownOnClose (ExecutorService, Closer): ExecutorService">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="ExecutorServiceModule$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
           </class>
         </srcfile>
       </package>
@@ -10387,382 +10402,11 @@
           </class>
         </srcfile>
       </package>
-      <package name="org.jclouds.logging.config">
-        <coverage type="class, %" value="62%  (5/8)"/>
-        <coverage type="method, %" value="58%  (11/19)"/>
-        <coverage type="block, %" value="79%  (142/180)"/>
-        <coverage type="line, %" value="82%  (37/45)"/>
-
-        <srcfile name="ConsoleLoggingModule.java">
-          <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/5)"/>
-          <coverage type="block, %" value="0%   (0/17)"/>
-          <coverage type="line, %" value="0%   (0/4)"/>
-
-          <class name="ConsoleLoggingModule">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/9)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
-
-            <method name="ConsoleLoggingModule (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="configure (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/1)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="createLoggerFactory (): Logger$LoggerFactory">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="ConsoleLoggingModule$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/8)"/>
-            <coverage type="line, %" value="0%   (0/2)"/>
-
-            <method name="ConsoleLoggingModule$1 (ConsoleLoggingModule): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getLogger (String): Logger">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="NullLoggingModule.java">
-          <coverage type="class, %" value="50%  (1/2)"/>
-          <coverage type="method, %" value="40%  (2/5)"/>
-          <coverage type="block, %" value="24%  (4/17)"/>
-          <coverage type="line, %" value="50%  (2/4)"/>
-
-          <class name="NullLoggingModule$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/8)"/>
-            <coverage type="line, %" value="0%   (0/2)"/>
-
-            <method name="NullLoggingModule$1 (NullLoggingModule): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getLogger (String): Logger">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="NullLoggingModule">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="67%  (2/3)"/>
-            <coverage type="block, %" value="44%  (4/9)"/>
-            <coverage type="line, %" value="67%  (2/3)"/>
-
-            <method name="createLoggerFactory (): Logger$LoggerFactory">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="NullLoggingModule (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="configure (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (1/1)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="BindLoggersAnnotatedWithResource.java">
-          <coverage type="class, %" value="100% (3/3)"/>
-          <coverage type="method, %" value="100% (7/7)"/>
-          <coverage type="block, %" value="94%  (126/134)"/>
-          <coverage type="line, %" value="94%  (32/34)"/>
-
-          <class name="BindLoggersAnnotatedWithResource$AssignLoggerToField">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="72%  (21/29)"/>
-            <coverage type="line, %" value="80%  (8/10)"/>
-
-            <method name="afterInjection (Object): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="60%  (12/20)"/>
-              <coverage type="line, %" value="67%  (4/6)"/>
-            </method>
-            <method name="BindLoggersAnnotatedWithResource$AssignLoggerToField (Logger, Field): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-          </class>
-          <class name="BindLoggersAnnotatedWithResource">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (3/3)"/>
-            <coverage type="block, %" value="100% (87/87)"/>
-            <coverage type="line, %" value="100% (21/21)"/>
-
-            <method name="BindLoggersAnnotatedWithResource (Logger$LoggerFactory): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="getLoggerFieldsAnnotatedWithResource (Class): Set">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (24/24)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-            <method name="hear (TypeLiteral, TypeEncounter): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (57/57)"/>
-              <coverage type="line, %" value="100% (12/12)"/>
-            </method>
-          </class>
-          <class name="BindLoggersAnnotatedWithResource$LoggerFieldsAnnotatedWithResource">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (18/18)"/>
-            <coverage type="line, %" value="100% (3/3)"/>
-
-            <method name="BindLoggersAnnotatedWithResource$LoggerFieldsAnnotatedWithResource (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (Field): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (15/15)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="LoggingModule.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (2/2)"/>
-          <coverage type="block, %" value="100% (12/12)"/>
-          <coverage type="line, %" value="100% (3/3)"/>
-
-          <class name="LoggingModule">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (12/12)"/>
-            <coverage type="line, %" value="100% (3/3)"/>
-
-            <method name="LoggingModule (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="configure (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
-      <package name="org.jclouds.json.internal">
-        <coverage type="class, %" value="100% (5/5)"/>
-        <coverage type="method, %" value="78%  (18/23)"/>
-        <coverage type="block, %" value="79%  (203/256)"/>
-        <coverage type="line, %" value="79%  (45.3/57)"/>
-
-        <srcfile name="JsonObjectAsMap.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="60%  (3/5)"/>
-          <coverage type="block, %" value="54%  (35/65)"/>
-          <coverage type="line, %" value="54%  (7.6/14)"/>
-
-          <class name="JsonObjectAsMap">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="60%  (3/5)"/>
-            <coverage type="block, %" value="54%  (35/65)"/>
-            <coverage type="line, %" value="54%  (7.6/14)"/>
-
-            <method name="valueOf (String): JsonObjectAsMap">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="values (): JsonObjectAsMap []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (JsonObject): Map">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="30%  (6/20)"/>
-              <coverage type="line, %" value="20%  (1/5)"/>
-            </method>
-            <method name="JsonObjectAsMap (String, int): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="68%  (15/22)"/>
-              <coverage type="line, %" value="71%  (5/7)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="EnumTypeAdapterThatReturnsFromValue.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="86%  (6/7)"/>
-          <coverage type="block, %" value="85%  (62/73)"/>
-          <coverage type="line, %" value="78%  (14/18)"/>
-
-          <class name="EnumTypeAdapterThatReturnsFromValue">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="80%  (4/5)"/>
-            <coverage type="block, %" value="79%  (41/52)"/>
-            <coverage type="line, %" value="67%  (8/12)"/>
-
-            <method name="serialize (Enum, Type, JsonSerializationContext): JsonElement">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="deserialize (JsonElement, Type, JsonDeserializationContext): Enum">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="84%  (26/31)"/>
-              <coverage type="line, %" value="62%  (5/8)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="EnumTypeAdapterThatReturnsFromValue (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="EnumTypeAdapterThatReturnsFromValue$1">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (21/21)"/>
-            <coverage type="line, %" value="100% (6/6)"/>
-
-            <method name="EnumTypeAdapterThatReturnsFromValue$1 (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (Class): Method">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="ParseObjectFromElement.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="60%  (3/5)"/>
-          <coverage type="block, %" value="86%  (74/86)"/>
-          <coverage type="line, %" value="92%  (15.7/17)"/>
-
-          <class name="ParseObjectFromElement">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="60%  (3/5)"/>
-            <coverage type="block, %" value="86%  (74/86)"/>
-            <coverage type="line, %" value="92%  (15.7/17)"/>
-
-            <method name="valueOf (String): ParseObjectFromElement">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="values (): ParseObjectFromElement []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (JsonElement): Object">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="95%  (55/58)"/>
-              <coverage type="line, %" value="93%  (14/15)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="ParseObjectFromElement (String, int): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="GsonWrapper.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (6/6)"/>
-          <coverage type="block, %" value="100% (32/32)"/>
-          <coverage type="line, %" value="100% (8/8)"/>
-
-          <class name="GsonWrapper">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (6/6)"/>
-            <coverage type="block, %" value="100% (32/32)"/>
-            <coverage type="line, %" value="100% (8/8)"/>
-
-            <method name="GsonWrapper (Gson): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="delegate (): Gson">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="fromJson (String, Class): Object">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="fromJson (String, Type): Object">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toJson (Object): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toJson (Object, Type): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
       <package name="org.jclouds.rest.internal">
         <coverage type="class, %" value="100% (23/23)"/>
         <coverage type="method, %" value="74%  (112/151)"/>
-        <coverage type="block, %" value="79%  (3793/4780)"/>
-        <coverage type="line, %" value="78%  (662.1/853)"/>
+        <coverage type="block, %" value="79%  (3858/4913)"/>
+        <coverage type="line, %" value="77%  (673.4/875)"/>
 
         <srcfile name="RestContextImpl.java">
           <coverage type="class, %" value="100% (1/1)"/>
@@ -11019,7 +10663,7 @@
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="AsyncRestClientProxy (Injector, AsyncRestClientProxy$Factory, RestAnnotationProcessor, TypeLiteral, ConcurrentMap): void">
+            <method name="AsyncRestClientProxy (Injector, AsyncRestClientProxy$Factory, RestAnnotationProcessor, TypeLiteral, Cache): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (25/25)"/>
               <coverage type="line, %" value="100% (9/9)"/>
@@ -11065,7 +10709,7 @@
               <coverage type="block, %" value="50%  (6/12)"/>
               <coverage type="line, %" value="50%  (0.5/1)"/>
             </method>
-            <method name="apply (Class): Boolean">
+            <method name="load (Class): Boolean">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="87%  (168/193)"/>
               <coverage type="line, %" value="88%  (22.1/25)"/>
@@ -11085,8 +10729,8 @@
         <srcfile name="RestAnnotationProcessor.java">
           <coverage type="class, %" value="100% (16/16)"/>
           <coverage type="method, %" value="98%  (78/80)"/>
-          <coverage type="block, %" value="85%  (3062/3613)"/>
-          <coverage type="line, %" value="86%  (536.7/626)"/>
+          <coverage type="block, %" value="83%  (3127/3746)"/>
+          <coverage type="line, %" value="85%  (548/648)"/>
 
           <class name="RestAnnotationProcessor$MethodKey">
             <coverage type="class, %" value="100% (1/1)"/>
@@ -11113,10 +10757,10 @@
           <class name="RestAnnotationProcessor">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="96%  (52/54)"/>
-            <coverage type="block, %" value="84%  (2796/3321)"/>
-            <coverage type="line, %" value="86%  (491.9/571)"/>
+            <coverage type="block, %" value="83%  (2862/3455)"/>
+            <coverage type="line, %" value="85%  (503.2/593)"/>
 
-            <method name="indexWithOnlyOneAnnotation (Method, String, Map): Map">
+            <method name="indexWithOnlyOneAnnotation (Method, String, Cache): Map">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/31)"/>
               <coverage type="line, %" value="0%   (0/4)"/>
@@ -11141,15 +10785,15 @@
               <coverage type="block, %" value="56%  (59/106)"/>
               <coverage type="line, %" value="56%  (11.8/21)"/>
             </method>
+            <method name="decorateRequest (GeneratedHttpRequest): GeneratedHttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="58%  (179/307)"/>
+              <coverage type="line, %" value="61%  (23.2/38)"/>
+            </method>
             <method name="addProducesIfPresentOnTypeOrMethod (Multimap, Method): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="63%  (22/35)"/>
               <coverage type="line, %" value="71%  (5/7)"/>
-            </method>
-            <method name="decorateRequest (GeneratedHttpRequest): GeneratedHttpRequest">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="64%  (132/206)"/>
-              <coverage type="line, %" value="61%  (17/28)"/>
             </method>
             <method name="addForm (Multimap, FormParams, Collection): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -11173,7 +10817,7 @@
             </method>
             <method name="getMatrixParamKeyValues (Method, Object []): Multimap">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="70%  (84/120)"/>
+              <coverage type="block, %" value="70%  (85/121)"/>
               <coverage type="line, %" value="76%  (14.5/19)"/>
             </method>
             <method name="createResponseParser (ParseSax$Factory, Injector, Method, HttpRequest): Function">
@@ -11191,14 +10835,14 @@
               <coverage type="block, %" value="75%  (9/12)"/>
               <coverage type="line, %" value="75%  (3/4)"/>
             </method>
-            <method name="getFormParamKeyValues (Method, Object []): Multimap">
+            <method name="setCaller (ClassMethodArgs): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="77%  (92/120)"/>
-              <coverage type="line, %" value="82%  (15.5/19)"/>
+              <coverage type="block, %" value="75%  (24/32)"/>
+              <coverage type="line, %" value="64%  (7/11)"/>
             </method>
             <method name="getQueryParamKeyValues (Method, Object []): Multimap">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="77%  (92/120)"/>
+              <coverage type="block, %" value="77%  (93/121)"/>
               <coverage type="line, %" value="82%  (15.5/19)"/>
             </method>
             <method name="addMapPayload (Map, PayloadParams, Collection): void">
@@ -11208,23 +10852,28 @@
             </method>
             <method name="buildPostParams (Method, Object []): Map">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="77%  (75/97)"/>
+              <coverage type="block, %" value="78%  (76/98)"/>
               <coverage type="line, %" value="80%  (11.9/15)"/>
+            </method>
+            <method name="getFormParamKeyValues (Method, Object []): Multimap">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="78%  (99/127)"/>
+              <coverage type="line, %" value="83%  (17.5/21)"/>
             </method>
             <method name="getJsonParserKeyForMethodAnType (Method, Type): Key">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="85%  (93/110)"/>
               <coverage type="line, %" value="93%  (14/15)"/>
             </method>
+            <method name="createRequest (Method, Object []): GeneratedHttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="91%  (494/540)"/>
+              <coverage type="line, %" value="90%  (87/97)"/>
+            </method>
             <method name="findHttpRequestInArgs (Object []): HttpRequest">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="92%  (24/26)"/>
               <coverage type="line, %" value="83%  (5/6)"/>
-            </method>
-            <method name="createRequest (Method, Object []): GeneratedHttpRequest">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="93%  (494/534)"/>
-              <coverage type="line, %" value="93%  (87/94)"/>
             </method>
             <method name="findPayloadInArgs (Object []): Payload">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -11238,10 +10887,10 @@
             </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (83/83)"/>
+              <coverage type="block, %" value="100% (81/81)"/>
               <coverage type="line, %" value="100% (23/23)"/>
             </method>
-            <method name="RestAnnotationProcessor (Injector, ConcurrentMap, String, ParseSax$Factory, HttpUtils, TypeLiteral): void">
+            <method name="RestAnnotationProcessor (Injector, Cache, String, ParseSax$Factory, HttpUtils, TypeLiteral): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (53/53)"/>
               <coverage type="line, %" value="100% (14/14)"/>
@@ -11293,7 +10942,7 @@
             </method>
             <method name="buildHeaders (Collection, Method, Object []): Multimap">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (66/66)"/>
+              <coverage type="block, %" value="100% (67/67)"/>
               <coverage type="line, %" value="100% (12/12)"/>
             </method>
             <method name="createExceptionParserOrThrowResourceNotFoundOn404IfNoAnnotation (Method): Function">
@@ -11301,9 +10950,9 @@
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="createMethodToIndexOfParamToAnnotation (Class): Map">
+            <method name="createMethodToIndexOfParamToAnnotation (Class): Cache">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="createResponseParser (Method, HttpRequest): Function">
@@ -11348,12 +10997,12 @@
             </method>
             <method name="getParts (Method, Object [], Iterable): List">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (79/79)"/>
-              <coverage type="line, %" value="100% (14/14)"/>
+              <coverage type="block, %" value="100% (87/87)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
             </method>
             <method name="getPathParamKeyValues (Method, Object []): Multimap">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (120/120)"/>
+              <coverage type="block, %" value="100% (121/121)"/>
               <coverage type="line, %" value="100% (19/19)"/>
             </method>
             <method name="getReturnTypeForMethod (Method): Type">
@@ -11366,20 +11015,15 @@
               <coverage type="block, %" value="100% (54/54)"/>
               <coverage type="line, %" value="100% (10/10)"/>
             </method>
-            <method name="indexWithAtLeastOneAnnotation (Method, Map): Map">
+            <method name="indexWithAtLeastOneAnnotation (Method, Cache): Map">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="replaceQuery (Provider, URI, String, Comparator, char []): URI">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (19/19)"/>
               <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="setCaller (ClassMethodArgs): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (22/22)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
             </method>
             <method name="shouldAddHostHeader (Method): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -11390,7 +11034,7 @@
           <class name="RestAnnotationProcessor$1">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (17/17)"/>
+            <coverage type="block, %" value="100% (16/16)"/>
             <coverage type="line, %" value="100% (2/2)"/>
 
             <method name="RestAnnotationProcessor$1 (Class): void">
@@ -11398,9 +11042,9 @@
               <coverage type="block, %" value="100% (6/6)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="apply (Method): Map">
+            <method name="load (Method): Cache">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
@@ -11478,7 +11122,7 @@
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="apply (Method): Set">
+            <method name="load (Method): Set">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (32/32)"/>
               <coverage type="line, %" value="100% (6/6)"/>
@@ -11723,6 +11367,192 @@
           </class>
         </srcfile>
       </package>
+      <package name="org.jclouds.logging.config">
+        <coverage type="class, %" value="62%  (5/8)"/>
+        <coverage type="method, %" value="58%  (11/19)"/>
+        <coverage type="block, %" value="79%  (142/180)"/>
+        <coverage type="line, %" value="82%  (37/45)"/>
+
+        <srcfile name="ConsoleLoggingModule.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/5)"/>
+          <coverage type="block, %" value="0%   (0/17)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="ConsoleLoggingModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/9)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="ConsoleLoggingModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/1)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createLoggerFactory (): Logger$LoggerFactory">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="ConsoleLoggingModule$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/8)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="ConsoleLoggingModule$1 (ConsoleLoggingModule): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLogger (String): Logger">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="NullLoggingModule.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="40%  (2/5)"/>
+          <coverage type="block, %" value="24%  (4/17)"/>
+          <coverage type="line, %" value="50%  (2/4)"/>
+
+          <class name="NullLoggingModule$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/8)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="NullLoggingModule$1 (NullLoggingModule): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLogger (String): Logger">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="NullLoggingModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="44%  (4/9)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="createLoggerFactory (): Logger$LoggerFactory">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="NullLoggingModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (1/1)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BindLoggersAnnotatedWithResource.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="100% (7/7)"/>
+          <coverage type="block, %" value="94%  (126/134)"/>
+          <coverage type="line, %" value="94%  (32/34)"/>
+
+          <class name="BindLoggersAnnotatedWithResource$AssignLoggerToField">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="72%  (21/29)"/>
+            <coverage type="line, %" value="80%  (8/10)"/>
+
+            <method name="afterInjection (Object): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (12/20)"/>
+              <coverage type="line, %" value="67%  (4/6)"/>
+            </method>
+            <method name="BindLoggersAnnotatedWithResource$AssignLoggerToField (Logger, Field): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="BindLoggersAnnotatedWithResource">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (87/87)"/>
+            <coverage type="line, %" value="100% (21/21)"/>
+
+            <method name="BindLoggersAnnotatedWithResource (Logger$LoggerFactory): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="getLoggerFieldsAnnotatedWithResource (Class): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="hear (TypeLiteral, TypeEncounter): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (57/57)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+          </class>
+          <class name="BindLoggersAnnotatedWithResource$LoggerFieldsAnnotatedWithResource">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (18/18)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="BindLoggersAnnotatedWithResource$LoggerFieldsAnnotatedWithResource (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Field): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="LoggingModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (12/12)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="LoggingModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (12/12)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="LoggingModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
       <package name="org.jclouds.http.handlers">
         <coverage type="class, %" value="100% (5/5)"/>
         <coverage type="method, %" value="83%  (19/23)"/>
@@ -11915,23 +11745,208 @@
           </class>
         </srcfile>
       </package>
+      <package name="org.jclouds.json.internal">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="78%  (18/23)"/>
+        <coverage type="block, %" value="81%  (206/254)"/>
+        <coverage type="line, %" value="84%  (46.3/55)"/>
+
+        <srcfile name="JsonObjectAsMap.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="60%  (3/5)"/>
+          <coverage type="block, %" value="54%  (35/65)"/>
+          <coverage type="line, %" value="54%  (7.6/14)"/>
+
+          <class name="JsonObjectAsMap">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="54%  (35/65)"/>
+            <coverage type="line, %" value="54%  (7.6/14)"/>
+
+            <method name="valueOf (String): JsonObjectAsMap">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="values (): JsonObjectAsMap []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (JsonObject): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="30%  (6/20)"/>
+              <coverage type="line, %" value="20%  (1/5)"/>
+            </method>
+            <method name="JsonObjectAsMap (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="68%  (15/22)"/>
+              <coverage type="line, %" value="71%  (5/7)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseObjectFromElement.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="60%  (3/5)"/>
+          <coverage type="block, %" value="86%  (74/86)"/>
+          <coverage type="line, %" value="92%  (15.7/17)"/>
+
+          <class name="ParseObjectFromElement">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="86%  (74/86)"/>
+            <coverage type="line, %" value="92%  (15.7/17)"/>
+
+            <method name="valueOf (String): ParseObjectFromElement">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="values (): ParseObjectFromElement []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (JsonElement): Object">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="95%  (55/58)"/>
+              <coverage type="line, %" value="93%  (14/15)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ParseObjectFromElement (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="EnumTypeAdapterThatReturnsFromValue.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="86%  (6/7)"/>
+          <coverage type="block, %" value="92%  (65/71)"/>
+          <coverage type="line, %" value="94%  (15/16)"/>
+
+          <class name="EnumTypeAdapterThatReturnsFromValue">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="block, %" value="87%  (41/47)"/>
+            <coverage type="line, %" value="90%  (9/10)"/>
+
+            <method name="serialize (Enum, Type, JsonSerializationContext): JsonElement">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="EnumTypeAdapterThatReturnsFromValue (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="deserialize (JsonElement, Type, JsonDeserializationContext): Enum">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="EnumTypeAdapterThatReturnsFromValue$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (24/24)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="EnumTypeAdapterThatReturnsFromValue$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="load (Class): Method">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="GsonWrapper.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (6/6)"/>
+          <coverage type="block, %" value="100% (32/32)"/>
+          <coverage type="line, %" value="100% (8/8)"/>
+
+          <class name="GsonWrapper">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (6/6)"/>
+            <coverage type="block, %" value="100% (32/32)"/>
+            <coverage type="line, %" value="100% (8/8)"/>
+
+            <method name="GsonWrapper (Gson): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="delegate (): Gson">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromJson (String, Class): Object">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromJson (String, Type): Object">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toJson (Object): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toJson (Object, Type): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
       <package name="org.jclouds.concurrent.internal">
         <coverage type="class, %" value="100% (1/1)"/>
         <coverage type="method, %" value="75%  (6/8)"/>
-        <coverage type="block, %" value="82%  (273/331)"/>
-        <coverage type="line, %" value="72%  (44/61)"/>
+        <coverage type="block, %" value="84%  (279/331)"/>
+        <coverage type="line, %" value="75%  (46/61)"/>
 
         <srcfile name="SyncProxy.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="75%  (6/8)"/>
-          <coverage type="block, %" value="82%  (273/331)"/>
-          <coverage type="line, %" value="72%  (44/61)"/>
+          <coverage type="block, %" value="84%  (279/331)"/>
+          <coverage type="line, %" value="75%  (46/61)"/>
 
           <class name="SyncProxy">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="75%  (6/8)"/>
-            <coverage type="block, %" value="82%  (273/331)"/>
-            <coverage type="line, %" value="72%  (44/61)"/>
+            <coverage type="block, %" value="84%  (279/331)"/>
+            <coverage type="line, %" value="75%  (46/61)"/>
 
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -11945,15 +11960,15 @@
             </method>
             <method name="invoke (Object, Method, Object []): Object">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="76%  (91/119)"/>
-              <coverage type="line, %" value="60%  (12/20)"/>
+              <coverage type="block, %" value="82%  (97/119)"/>
+              <coverage type="line, %" value="70%  (14/20)"/>
             </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="SyncProxy (Class, Object, ConcurrentMap, Map): void">
+            <method name="SyncProxy (Class, Object, Cache, Map): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (145/145)"/>
               <coverage type="line, %" value="100% (27/27)"/>
@@ -12586,7 +12601,7 @@
       <package name="org.jclouds.rest.config">
         <coverage type="class, %" value="95%  (21/22)"/>
         <coverage type="method, %" value="92%  (45/49)"/>
-        <coverage type="block, %" value="90%  (561/624)"/>
+        <coverage type="block, %" value="90%  (555/618)"/>
         <coverage type="line, %" value="87%  (106.4/122)"/>
 
         <srcfile name="BinderUtils.java">
@@ -12698,12 +12713,12 @@
               <coverage type="block, %" value="75%  (6/8)"/>
               <coverage type="line, %" value="75%  (0.8/1)"/>
             </method>
-            <method name="apply (ClassMethodArgs): Object">
+            <method name="load (ClassMethodArgs): Object">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="80%  (59/74)"/>
               <coverage type="line, %" value="59%  (5.9/10)"/>
             </method>
-            <method name="CreateClientForCaller (ConcurrentMap, Provider): void">
+            <method name="CreateClientForCaller (Cache, Provider): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (9/9)"/>
               <coverage type="line, %" value="100% (4/4)"/>
@@ -12894,13 +12909,13 @@
         <srcfile name="RestClientModule.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="100% (9/9)"/>
-          <coverage type="block, %" value="100% (87/87)"/>
+          <coverage type="block, %" value="100% (85/85)"/>
           <coverage type="line, %" value="100% (21/21)"/>
 
           <class name="RestClientModule">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (8/8)"/>
-            <coverage type="block, %" value="100% (81/81)"/>
+            <coverage type="block, %" value="100% (79/79)"/>
             <coverage type="line, %" value="100% (21/21)"/>
 
             <method name="RestClientModule (Class, Class): void">
@@ -12938,9 +12953,9 @@
               <coverage type="block, %" value="100% (33/33)"/>
               <coverage type="line, %" value="100% (6/6)"/>
             </method>
-            <method name="provideSyncDelegateMap (CreateClientForCaller): ConcurrentMap">
+            <method name="provideSyncDelegateMap (CreateClientForCaller): Cache">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
@@ -12960,13 +12975,13 @@
         <srcfile name="RestModule.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="100% (9/9)"/>
-          <coverage type="block, %" value="100% (144/144)"/>
+          <coverage type="block, %" value="100% (140/140)"/>
           <coverage type="line, %" value="100% (27/27)"/>
 
           <class name="RestModule">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (4/4)"/>
-            <coverage type="block, %" value="100% (63/63)"/>
+            <coverage type="block, %" value="100% (59/59)"/>
             <coverage type="line, %" value="100% (13/13)"/>
 
             <method name="RestModule (): void">
@@ -12979,14 +12994,14 @@
               <coverage type="block, %" value="100% (48/48)"/>
               <coverage type="line, %" value="100% (9/9)"/>
             </method>
-            <method name="provideAsyncDelegateMap (RestModule$CreateAsyncClientForCaller): ConcurrentMap">
+            <method name="provideAsyncDelegateMap (RestModule$CreateAsyncClientForCaller): Cache">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="seedAnnotationCache (SeedAnnotationCache): ConcurrentMap">
+            <method name="seedAnnotationCache (SeedAnnotationCache): Cache">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
@@ -13001,7 +13016,7 @@
               <coverage type="block, %" value="100% (9/9)"/>
               <coverage type="line, %" value="100% (4/4)"/>
             </method>
-            <method name="apply (ClassMethodArgs): Object">
+            <method name="load (ClassMethodArgs): Object">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (55/55)"/>
               <coverage type="line, %" value="100% (8/8)"/>

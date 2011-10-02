@@ -29,19 +29,19 @@
 <a class="jxr_linenumber" name="19" href="#19">19</a>  <strong class="jxr_keyword">package</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.config;
 <a class="jxr_linenumber" name="20" href="#20">20</a>  
 <a class="jxr_linenumber" name="21" href="#21">21</a>  <strong class="jxr_keyword">import</strong> java.util.Map;
-<a class="jxr_linenumber" name="22" href="#22">22</a>  <strong class="jxr_keyword">import</strong> java.util.concurrent.ConcurrentMap;
-<a class="jxr_linenumber" name="23" href="#23">23</a>  
-<a class="jxr_linenumber" name="24" href="#24">24</a>  <strong class="jxr_keyword">import</strong> javax.inject.Named;
-<a class="jxr_linenumber" name="25" href="#25">25</a>  <strong class="jxr_keyword">import</strong> javax.inject.Singleton;
-<a class="jxr_linenumber" name="26" href="#26">26</a>  
-<a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">import</strong> org.jclouds.http.RequiresHttp;
-<a class="jxr_linenumber" name="28" href="#28">28</a>  <strong class="jxr_keyword">import</strong> org.jclouds.internal.ClassMethodArgs;
-<a class="jxr_linenumber" name="29" href="#29">29</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.ConfiguresRestClient;
-<a class="jxr_linenumber" name="30" href="#30">30</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.RestContext;
-<a class="jxr_linenumber" name="31" href="#31">31</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.internal.RestContextImpl;
-<a class="jxr_linenumber" name="32" href="#32">32</a>  
-<a class="jxr_linenumber" name="33" href="#33">33</a>  <strong class="jxr_keyword">import</strong> com.google.common.collect.ImmutableMap;
-<a class="jxr_linenumber" name="34" href="#34">34</a>  <strong class="jxr_keyword">import</strong> com.google.common.collect.MapMaker;
+<a class="jxr_linenumber" name="22" href="#22">22</a>  
+<a class="jxr_linenumber" name="23" href="#23">23</a>  <strong class="jxr_keyword">import</strong> javax.inject.Named;
+<a class="jxr_linenumber" name="24" href="#24">24</a>  <strong class="jxr_keyword">import</strong> javax.inject.Singleton;
+<a class="jxr_linenumber" name="25" href="#25">25</a>  
+<a class="jxr_linenumber" name="26" href="#26">26</a>  <strong class="jxr_keyword">import</strong> org.jclouds.http.RequiresHttp;
+<a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">import</strong> org.jclouds.internal.ClassMethodArgs;
+<a class="jxr_linenumber" name="28" href="#28">28</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.ConfiguresRestClient;
+<a class="jxr_linenumber" name="29" href="#29">29</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.RestContext;
+<a class="jxr_linenumber" name="30" href="#30">30</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.internal.RestContextImpl;
+<a class="jxr_linenumber" name="31" href="#31">31</a>  
+<a class="jxr_linenumber" name="32" href="#32">32</a>  <strong class="jxr_keyword">import</strong> com.google.common.cache.Cache;
+<a class="jxr_linenumber" name="33" href="#33">33</a>  <strong class="jxr_keyword">import</strong> com.google.common.cache.CacheBuilder;
+<a class="jxr_linenumber" name="34" href="#34">34</a>  <strong class="jxr_keyword">import</strong> com.google.common.collect.ImmutableMap;
 <a class="jxr_linenumber" name="35" href="#35">35</a>  <strong class="jxr_keyword">import</strong> com.google.inject.AbstractModule;
 <a class="jxr_linenumber" name="36" href="#36">36</a>  <strong class="jxr_keyword">import</strong> com.google.inject.Provides;
 <a class="jxr_linenumber" name="37" href="#37">37</a>  <strong class="jxr_keyword">import</strong> com.google.inject.Scopes;
@@ -135,10 +135,10 @@
 <a class="jxr_linenumber" name="125" href="#125">125</a>    @Provides
 <a class="jxr_linenumber" name="126" href="#126">126</a>    @Singleton
 <a class="jxr_linenumber" name="127" href="#127">127</a>    @Named(<span class="jxr_string">"sync"</span>)
-<a class="jxr_linenumber" name="128" href="#128">128</a>    ConcurrentMap&lt;ClassMethodArgs, Object&gt; provideSyncDelegateMap(
+<a class="jxr_linenumber" name="128" href="#128">128</a>    Cache&lt;ClassMethodArgs, Object&gt; provideSyncDelegateMap(
 <a class="jxr_linenumber" name="129" href="#129">129</a>          <a href="../../../../org/jclouds/rest/config/CreateClientForCaller.html">CreateClientForCaller</a> createClientForCaller) {
 <a class="jxr_linenumber" name="130" href="#130">130</a>       createClientForCaller.sync2Async = delegates;
-<a class="jxr_linenumber" name="131" href="#131">131</a>       <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> MapMaker().makeComputingMap(createClientForCaller);
+<a class="jxr_linenumber" name="131" href="#131">131</a>       <strong class="jxr_keyword">return</strong> CacheBuilder.newBuilder().build(createClientForCaller);
 <a class="jxr_linenumber" name="132" href="#132">132</a>    }
 <a class="jxr_linenumber" name="133" href="#133">133</a> 
 <a class="jxr_linenumber" name="134" href="#134">134</a> }

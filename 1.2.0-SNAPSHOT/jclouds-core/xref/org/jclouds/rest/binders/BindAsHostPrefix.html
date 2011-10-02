@@ -30,8 +30,8 @@
 <a class="jxr_linenumber" name="20" href="#20">20</a>  
 <a class="jxr_linenumber" name="21" href="#21">21</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> com.google.common.base.Preconditions.checkArgument;
 <a class="jxr_linenumber" name="22" href="#22">22</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> com.google.common.base.Preconditions.checkNotNull;
-<a class="jxr_linenumber" name="23" href="#23">23</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> com.google.common.net.InternetDomainName.fromLenient;
-<a class="jxr_linenumber" name="24" href="#24">24</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> com.google.common.net.InternetDomainName.isValidLenient;
+<a class="jxr_linenumber" name="23" href="#23">23</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> com.google.common.net.InternetDomainName.from;
+<a class="jxr_linenumber" name="24" href="#24">24</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> com.google.common.net.InternetDomainName.isValid;
 <a class="jxr_linenumber" name="25" href="#25">25</a>  
 <a class="jxr_linenumber" name="26" href="#26">26</a>  <strong class="jxr_keyword">import</strong> javax.inject.Inject;
 <a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">import</strong> javax.inject.Provider;
@@ -61,9 +61,9 @@
 <a class="jxr_linenumber" name="51" href="#51">51</a>     @SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
 <a class="jxr_linenumber" name="52" href="#52">52</a>     <strong class="jxr_keyword">public</strong> &lt;R <strong class="jxr_keyword">extends</strong> HttpRequest&gt; R bindToRequest(R request, Object payload) {
 <a class="jxr_linenumber" name="53" href="#53">53</a>        checkNotNull(payload, <span class="jxr_string">"hostprefix"</span>);
-<a class="jxr_linenumber" name="54" href="#54">54</a>        checkArgument(isValidLenient(request.getEndpoint().getHost()), <span class="jxr_string">"this is only valid for hostnames: "</span> + request);
+<a class="jxr_linenumber" name="54" href="#54">54</a>        checkArgument(isValid(request.getEndpoint().getHost()), <span class="jxr_string">"this is only valid for hostnames: "</span> + request);
 <a class="jxr_linenumber" name="55" href="#55">55</a>        UriBuilder builder = uriBuilderProvider.get().uri(request.getEndpoint());
-<a class="jxr_linenumber" name="56" href="#56">56</a>        InternetDomainName name = fromLenient(request.getEndpoint().getHost()).child(payload.toString());
+<a class="jxr_linenumber" name="56" href="#56">56</a>        InternetDomainName name = from(request.getEndpoint().getHost()).child(payload.toString());
 <a class="jxr_linenumber" name="57" href="#57">57</a>        builder.host(name.name());
 <a class="jxr_linenumber" name="58" href="#58">58</a>        <strong class="jxr_keyword">return</strong> (R) request.toBuilder().endpoint(builder.build()).build();
 <a class="jxr_linenumber" name="59" href="#59">59</a>     }
