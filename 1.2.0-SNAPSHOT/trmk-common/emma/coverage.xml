@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 01 20:33:36 EDT 2011 -->
 
 <report>
   <stats>
@@ -6,14 +6,14 @@
     <classes value="223"/>
     <methods value="961"/>
     <srcfiles value="140"/>
-    <srclines value="3674"/>
+    <srclines value="3680"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="40%  (90/223)"/>
       <coverage type="method, %" value="41%  (395/961)"/>
-      <coverage type="block, %" value="43%  (8186/19201)"/>
-      <coverage type="line, %" value="45%  (1635.6/3674)"/>
+      <coverage type="block, %" value="43%  (8193/19211)"/>
+      <coverage type="line, %" value="45%  (1639.6/3680)"/>
 
       <package name="org.jclouds.trmk.vcloud_0_8.compute.functions">
         <coverage type="class, %" value="20%  (2/10)"/>
@@ -4703,8 +4703,8 @@
       <package name="org.jclouds.trmk.vcloud_0_8.domain">
         <coverage type="class, %" value="83%  (19/23)"/>
         <coverage type="method, %" value="44%  (78/178)"/>
-        <coverage type="block, %" value="50%  (1753/3530)"/>
-        <coverage type="line, %" value="42%  (296.7/706)"/>
+        <coverage type="block, %" value="50%  (1758/3530)"/>
+        <coverage type="line, %" value="42%  (298.7/706)"/>
 
         <srcfile name="Capacity.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -5469,14 +5469,14 @@
         <srcfile name="InternetService.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="31%  (4/13)"/>
-          <coverage type="block, %" value="72%  (236/327)"/>
-          <coverage type="line, %" value="58%  (40.4/70)"/>
+          <coverage type="block, %" value="74%  (241/327)"/>
+          <coverage type="line, %" value="61%  (42.4/70)"/>
 
           <class name="InternetService">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="31%  (4/13)"/>
-            <coverage type="block, %" value="72%  (236/327)"/>
-            <coverage type="line, %" value="58%  (40.4/70)"/>
+            <coverage type="block, %" value="74%  (241/327)"/>
+            <coverage type="line, %" value="61%  (42.4/70)"/>
 
             <method name="compareTo (InternetService): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5525,8 +5525,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="64%  (78/122)"/>
-              <coverage type="line, %" value="49%  (19/39)"/>
+              <coverage type="block, %" value="68%  (83/122)"/>
+              <coverage type="line, %" value="54%  (21/39)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -5998,8 +5998,8 @@
       <package name="org.jclouds.trmk.vcloud_0_8.binders">
         <coverage type="class, %" value="86%  (6/7)"/>
         <coverage type="method, %" value="74%  (34/46)"/>
-        <coverage type="block, %" value="84%  (1293/1534)"/>
-        <coverage type="line, %" value="78%  (196.9/251)"/>
+        <coverage type="block, %" value="84%  (1295/1544)"/>
+        <coverage type="line, %" value="77%  (198.9/257)"/>
 
         <srcfile name="BindCreateKeyToXmlPayload.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -6168,6 +6168,35 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="BindAddNodeServiceToXmlPayload.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="87%  (76/87)"/>
+          <coverage type="line, %" value="77%  (10/13)"/>
+
+          <class name="BindAddNodeServiceToXmlPayload">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="87%  (76/87)"/>
+            <coverage type="line, %" value="77%  (10/13)"/>
+
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Map): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (73/79)"/>
+              <coverage type="line, %" value="82%  (9/11)"/>
+            </method>
+            <method name="BindAddNodeServiceToXmlPayload (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="BindNodeConfigurationToXmlPayload.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="75%  (3/4)"/>
@@ -6266,17 +6295,17 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="BindAddNodeServiceToXmlPayload.java">
+        <srcfile name="BindAddInternetServiceToXmlPayload.java">
           <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="67%  (2/3)"/>
-          <coverage type="block, %" value="91%  (75/82)"/>
-          <coverage type="line, %" value="90%  (9/10)"/>
+          <coverage type="method, %" value="75%  (3/4)"/>
+          <coverage type="block, %" value="92%  (103/112)"/>
+          <coverage type="line, %" value="83%  (15/18)"/>
 
-          <class name="BindAddNodeServiceToXmlPayload">
+          <class name="BindAddInternetServiceToXmlPayload">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="67%  (2/3)"/>
-            <coverage type="block, %" value="91%  (75/82)"/>
-            <coverage type="line, %" value="90%  (9/10)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="92%  (103/112)"/>
+            <coverage type="line, %" value="83%  (15/18)"/>
 
             <method name="bindToRequest (HttpRequest, Object): HttpRequest">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6285,42 +6314,13 @@
             </method>
             <method name="bindToRequest (HttpRequest, Map): HttpRequest">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="97%  (72/74)"/>
-              <coverage type="line, %" value="100% (8/8)"/>
-            </method>
-            <method name="BindAddNodeServiceToXmlPayload (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="BindAddInternetServiceToXmlPayload.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="75%  (3/4)"/>
-          <coverage type="block, %" value="95%  (102/107)"/>
-          <coverage type="line, %" value="93%  (14/15)"/>
-
-          <class name="BindAddInternetServiceToXmlPayload">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="75%  (3/4)"/>
-            <coverage type="block, %" value="95%  (102/107)"/>
-            <coverage type="line, %" value="93%  (14/15)"/>
-
-            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="96%  (85/89)"/>
+              <coverage type="line, %" value="83%  (10/12)"/>
             </method>
             <method name="BindAddInternetServiceToXmlPayload (): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="bindToRequest (HttpRequest, Map): HttpRequest">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (84/84)"/>
-              <coverage type="line, %" value="100% (9/9)"/>
             </method>
             <method name="getMonitorString (Map): String">
               <coverage type="method, %" value="100% (1/1)"/>
