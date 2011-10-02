@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 01 20:33:36 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="23"/>
     <classes value="240"/>
-    <methods value="1395"/>
+    <methods value="1396"/>
     <srcfiles value="105"/>
-    <srclines value="3893"/>
+    <srclines value="3896"/>
   </stats>
   <data>
     <all name="all classes">
-      <coverage type="class, %" value="68%  (162/240)"/>
-      <coverage type="method, %" value="40%  (557/1395)"/>
-      <coverage type="block, %" value="42%  (9329/22464)"/>
-      <coverage type="line, %" value="41%  (1595.1/3893)"/>
+      <coverage type="class, %" value="68%  (164/240)"/>
+      <coverage type="method, %" value="41%  (574/1396)"/>
+      <coverage type="block, %" value="43%  (9691/22498)"/>
+      <coverage type="line, %" value="42%  (1653.6/3896)"/>
 
       <package name="org.jclouds.cim.functions">
         <coverage type="class, %" value="0%   (0/3)"/>
@@ -80,197 +80,6 @@
             <method name="apply (ResourceAllocationSettingData): Processor">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
-      <package name="org.jclouds.compute.callables">
-        <coverage type="class, %" value="0%   (0/4)"/>
-        <coverage type="method, %" value="0%   (0/27)"/>
-        <coverage type="block, %" value="0%   (0/916)"/>
-        <coverage type="line, %" value="0%   (0/109)"/>
-
-        <srcfile name="RunScriptOnNodeAsInitScriptUsingSsh.java">
-          <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/16)"/>
-          <coverage type="block, %" value="0%   (0/543)"/>
-          <coverage type="line, %" value="0%   (0/68)"/>
-
-          <class name="RunScriptOnNodeAsInitScriptUsingSsh">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/14)"/>
-            <coverage type="block, %" value="0%   (0/532)"/>
-            <coverage type="line, %" value="0%   (0/66)"/>
-
-            <method name="RunScriptOnNodeAsInitScriptUsingSsh (Function, NodeMetadata, Statement, RunScriptOptions): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/77)"/>
-              <coverage type="line, %" value="0%   (0/14)"/>
-            </method>
-            <method name="call (): ExecResponse">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/31)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
-            </method>
-            <method name="createInitScript (String, Statement): InitBuilder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/19)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="doCall (): ExecResponse">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/127)"/>
-              <coverage type="line, %" value="0%   (0/15)"/>
-            </method>
-            <method name="execScriptAsDefaultUser (String): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/15)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="execScriptAsRoot (String): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/66)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-            <method name="getNode (): NodeMetadata">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getStatement (): Statement">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="init (): RunScriptOnNode">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="refreshSshIfNewAdminCredentialsConfigured (AdminAccess): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/51)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-            <method name="runAction (String): ExecResponse">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/52)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-            <method name="runCommand (String): ExecResponse">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/40)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="setupLinkToInitFile (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/20)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/18)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="RunScriptOnNodeAsInitScriptUsingSsh$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/11)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
-
-            <method name="RunScriptOnNodeAsInitScriptUsingSsh$1 (RunScriptOnNodeAsInitScriptUsingSsh): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="visit (AdminAccess): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="RunScriptOnNodeAsInitScriptUsingSshAndBlockUntilComplete.java">
-          <coverage type="class, %" value="0%   (0/1)"/>
-          <coverage type="method, %" value="0%   (0/2)"/>
-          <coverage type="block, %" value="0%   (0/143)"/>
-          <coverage type="line, %" value="0%   (0/10)"/>
-
-          <class name="RunScriptOnNodeAsInitScriptUsingSshAndBlockUntilComplete">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/143)"/>
-            <coverage type="line, %" value="0%   (0/10)"/>
-
-            <method name="RunScriptOnNodeAsInitScriptUsingSshAndBlockUntilComplete (Predicate, Function, NodeMetadata, Statement, RunScriptOptions): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/13)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="doCall (): ExecResponse">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/130)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="RunScriptOnNodeUsingSsh.java">
-          <coverage type="class, %" value="0%   (0/1)"/>
-          <coverage type="method, %" value="0%   (0/9)"/>
-          <coverage type="block, %" value="0%   (0/230)"/>
-          <coverage type="line, %" value="0%   (0/31)"/>
-
-          <class name="RunScriptOnNodeUsingSsh">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/9)"/>
-            <coverage type="block, %" value="0%   (0/230)"/>
-            <coverage type="line, %" value="0%   (0/31)"/>
-
-            <method name="RunScriptOnNodeUsingSsh (Function, NodeMetadata, Statement, RunScriptOptions): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/28)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-            <method name="call (): ExecResponse">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/88)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
-            </method>
-            <method name="execAsRoot (String): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/39)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
-            </method>
-            <method name="execScriptAsDefaultUser (String): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getNode (): NodeMetadata">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getStatement (): Statement">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="init (): RunScriptOnNode">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="runCommand (String): ExecResponse">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/40)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/17)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -1199,255 +1008,203 @@
           </class>
         </srcfile>
       </package>
-      <package name="org.jclouds.compute.options">
-        <coverage type="class, %" value="100% (6/6)"/>
-        <coverage type="method, %" value="23%  (31/134)"/>
-        <coverage type="block, %" value="23%  (286/1270)"/>
-        <coverage type="line, %" value="27%  (75.6/278)"/>
+      <package name="org.jclouds.compute.callables">
+        <coverage type="class, %" value="25%  (1/4)"/>
+        <coverage type="method, %" value="22%  (6/27)"/>
+        <coverage type="block, %" value="21%  (196/932)"/>
+        <coverage type="line, %" value="24%  (25.8/109)"/>
 
-        <srcfile name="RunScriptOptions.java">
-          <coverage type="class, %" value="100% (3/3)"/>
-          <coverage type="method, %" value="21%  (9/43)"/>
-          <coverage type="block, %" value="22%  (71/330)"/>
-          <coverage type="line, %" value="28%  (20.8/74)"/>
+        <srcfile name="RunScriptOnNodeAsInitScriptUsingSsh.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/16)"/>
+          <coverage type="block, %" value="0%   (0/543)"/>
+          <coverage type="line, %" value="0%   (0/68)"/>
 
-          <class name="RunScriptOptions$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="0%   (0/9)"/>
-            <coverage type="block, %" value="0%   (0/68)"/>
-            <coverage type="line, %" value="0%   (0/17)"/>
+          <class name="RunScriptOnNodeAsInitScriptUsingSsh">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/14)"/>
+            <coverage type="block, %" value="0%   (0/532)"/>
+            <coverage type="line, %" value="0%   (0/66)"/>
 
-            <method name="RunScriptOptions$Builder (): void">
+            <method name="RunScriptOnNodeAsInitScriptUsingSsh (Function, NodeMetadata, Statement, RunScriptOptions): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/77)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
+            </method>
+            <method name="call (): ExecResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/31)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="createInitScript (String, Statement): InitBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="doCall (): ExecResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/127)"/>
+              <coverage type="line, %" value="0%   (0/15)"/>
+            </method>
+            <method name="execScriptAsDefaultUser (String): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="execScriptAsRoot (String): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/66)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="getNode (): NodeMetadata">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="blockOnComplete (boolean): RunScriptOptions">
+            <method name="getStatement (): Statement">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="init (): RunScriptOnNode">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="blockOnPort (int, int): RunScriptOptions">
+            <method name="refreshSshIfNewAdminCredentialsConfigured (AdminAccess): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/51)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
-            <method name="nameTask (String): RunScriptOptions">
+            <method name="runAction (String): ExecResponse">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/52)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
             </method>
-            <method name="overrideCredentialsWith (Credentials): RunScriptOptions">
+            <method name="runCommand (String): ExecResponse">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="overrideLoginCredentialWith (String): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="overrideLoginUserWith (String): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="runAsRoot (boolean): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="wrapInInitScript (boolean): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-          </class>
-          <class name="RunScriptOptions$ImmutableRunScriptOptions">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="6%   (1/16)"/>
-            <coverage type="block, %" value="8%   (6/74)"/>
-            <coverage type="line, %" value="17%  (3/18)"/>
-
-            <method name="blockOnComplete (boolean): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="blockOnPort (int, int): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getOverridingCredentials (): Credentials">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getPort (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getSeconds (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getTaskName (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="nameTask (String): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="overrideCredentialsWith (Credentials): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="overrideLoginCredentialWith (String): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="overrideLoginUserWith (String): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="runAsRoot (boolean): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="shouldBlockOnComplete (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="shouldRunAsRoot (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="wrapInInitScript (boolean): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="RunScriptOptions$ImmutableRunScriptOptions (RunScriptOptions): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-          </class>
-          <class name="RunScriptOptions">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="44%  (8/18)"/>
-            <coverage type="block, %" value="35%  (65/188)"/>
-            <coverage type="line, %" value="45%  (17.9/40)"/>
-
-            <method name="blockOnComplete (boolean): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="nameTask (String): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="overrideCredentialsWith (Credentials): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="block, %" value="0%   (0/40)"/>
               <coverage type="line, %" value="0%   (0/3)"/>
             </method>
-            <method name="overrideLoginCredentialWith (String): RunScriptOptions">
+            <method name="setupLinkToInitFile (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/23)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="overrideLoginUserWith (String): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/23)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="runAsRoot (boolean): RunScriptOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="block, %" value="0%   (0/20)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="shouldRunAsRoot (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="shouldWrapInInitScript (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/41)"/>
+              <coverage type="block, %" value="0%   (0/18)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="wrapInInitScript (boolean): RunScriptOptions">
+          </class>
+          <class name="RunScriptOnNodeAsInitScriptUsingSsh$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/11)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="RunScriptOnNodeAsInitScriptUsingSsh$1 (RunScriptOnNodeAsInitScriptUsingSsh): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="visit (AdminAccess): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="blockOnPort (int, int): RunScriptOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="96%  (24/25)"/>
-              <coverage type="line, %" value="99%  (4.9/5)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="RunScriptOptions (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
-            </method>
-            <method name="getOverridingCredentials (): Credentials">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getPort (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getSeconds (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getTaskName (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="shouldBlockOnComplete (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
+        <srcfile name="RunScriptOnNodeAsInitScriptUsingSshAndBlockUntilComplete.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/143)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
+
+          <class name="RunScriptOnNodeAsInitScriptUsingSshAndBlockUntilComplete">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/143)"/>
+            <coverage type="line, %" value="0%   (0/10)"/>
+
+            <method name="RunScriptOnNodeAsInitScriptUsingSshAndBlockUntilComplete (Predicate, Function, NodeMetadata, Statement, RunScriptOptions): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="doCall (): ExecResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/130)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RunScriptOnNodeUsingSsh.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (6/9)"/>
+          <coverage type="block, %" value="80%  (196/246)"/>
+          <coverage type="line, %" value="83%  (25.8/31)"/>
+
+          <class name="RunScriptOnNodeUsingSsh">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (6/9)"/>
+            <coverage type="block, %" value="80%  (196/246)"/>
+            <coverage type="line, %" value="83%  (25.8/31)"/>
+
+            <method name="getNode (): NodeMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStatement (): Statement">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="call (): ExecResponse">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="70%  (62/88)"/>
+              <coverage type="line, %" value="80%  (8/10)"/>
+            </method>
+            <method name="execAsRoot (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="98%  (54/55)"/>
+              <coverage type="line, %" value="97%  (4.9/5)"/>
+            </method>
+            <method name="RunScriptOnNodeUsingSsh (Function, NodeMetadata, Statement, RunScriptOptions): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="execScriptAsDefaultUser (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="init (): RunScriptOnNode">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="runCommand (String): ExecResponse">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (40/40)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.compute.options">
+        <coverage type="class, %" value="100% (6/6)"/>
+        <coverage type="method, %" value="27%  (36/134)"/>
+        <coverage type="block, %" value="26%  (326/1270)"/>
+        <coverage type="line, %" value="31%  (86.5/278)"/>
+
         <srcfile name="TemplateOptions.java">
           <coverage type="class, %" value="100% (3/3)"/>
           <coverage type="method, %" value="24%  (22/91)"/>
@@ -1931,6 +1688,249 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="RunScriptOptions.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="33%  (14/43)"/>
+          <coverage type="block, %" value="34%  (111/330)"/>
+          <coverage type="line, %" value="43%  (31.6/74)"/>
+
+          <class name="RunScriptOptions$ImmutableRunScriptOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="6%   (1/16)"/>
+            <coverage type="block, %" value="8%   (6/74)"/>
+            <coverage type="line, %" value="17%  (3/18)"/>
+
+            <method name="blockOnComplete (boolean): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blockOnPort (int, int): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getOverridingCredentials (): Credentials">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPort (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSeconds (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTaskName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="nameTask (String): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="overrideCredentialsWith (Credentials): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="overrideLoginCredentialWith (String): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="overrideLoginUserWith (String): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="runAsRoot (boolean): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="shouldBlockOnComplete (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="shouldRunAsRoot (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="wrapInInitScript (boolean): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="RunScriptOptions$ImmutableRunScriptOptions (RunScriptOptions): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="RunScriptOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="11%  (1/9)"/>
+            <coverage type="block, %" value="12%  (8/68)"/>
+            <coverage type="line, %" value="12%  (2/17)"/>
+
+            <method name="RunScriptOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="blockOnComplete (boolean): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="blockOnPort (int, int): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="nameTask (String): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="overrideCredentialsWith (Credentials): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="overrideLoginCredentialWith (String): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="overrideLoginUserWith (String): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="runAsRoot (boolean): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="wrapInInitScript (boolean): RunScriptOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="RunScriptOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (12/18)"/>
+            <coverage type="block, %" value="52%  (97/188)"/>
+            <coverage type="line, %" value="67%  (26.8/40)"/>
+
+            <method name="blockOnComplete (boolean): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="nameTask (String): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="overrideCredentialsWith (Credentials): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="overrideLoginUserWith (String): RunScriptOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="shouldWrapInInitScript (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/41)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="overrideLoginCredentialWith (String): RunScriptOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="83%  (19/23)"/>
+              <coverage type="line, %" value="96%  (3.8/4)"/>
+            </method>
+            <method name="blockOnPort (int, int): RunScriptOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (24/25)"/>
+              <coverage type="line, %" value="99%  (4.9/5)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="RunScriptOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="getOverridingCredentials (): Credentials">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getPort (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getSeconds (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getTaskName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="runAsRoot (boolean): RunScriptOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="shouldBlockOnComplete (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="shouldRunAsRoot (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="wrapInInitScript (boolean): RunScriptOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
       </package>
       <package name="org.jclouds.ovf.internal">
         <coverage type="class, %" value="100% (4/4)"/>
@@ -2211,11 +2211,258 @@
           </class>
         </srcfile>
       </package>
+      <package name="org.jclouds.compute.stub.config">
+        <coverage type="class, %" value="71%  (5/7)"/>
+        <coverage type="method, %" value="50%  (17/34)"/>
+        <coverage type="block, %" value="30%  (229/751)"/>
+        <coverage type="line, %" value="34%  (45/133)"/>
+
+        <srcfile name="StubComputeServiceDependenciesModule.java">
+          <coverage type="class, %" value="67%  (2/3)"/>
+          <coverage type="method, %" value="56%  (9/16)"/>
+          <coverage type="block, %" value="23%  (35/153)"/>
+          <coverage type="line, %" value="44%  (15/34)"/>
+
+          <class name="StubComputeServiceDependenciesModule$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/26)"/>
+            <coverage type="line, %" value="0%   (0/7)"/>
+
+            <method name="StubComputeServiceDependenciesModule$1 (long, NodeMetadata, NodeState): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="run (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+          </class>
+          <class name="StubComputeServiceDependenciesModule$StubSocketOpen">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="22%  (9/41)"/>
+            <coverage type="line, %" value="44%  (4/9)"/>
+
+            <method name="apply (IPSocket): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="StubComputeServiceDependenciesModule$StubSocketOpen (ConcurrentMap, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="StubComputeServiceDependenciesModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (8/12)"/>
+            <coverage type="block, %" value="30%  (26/86)"/>
+            <coverage type="line, %" value="58%  (11/19)"/>
+
+            <method name="nodeWithState (NodeMetadata, NodeState): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="provideNodeId (): Integer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setState (NodeMetadata, NodeState, long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="stub (String, int, int, float): Hardware">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/28)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="StubComputeServiceDependenciesModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (1/1)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="passwordPrefix (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="privateIpPrefix (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="provideNodes (): ConcurrentMap">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="publicIpPrefix (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="socketOpen (StubComputeServiceDependenciesModule$StubSocketOpen): SocketOpen">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="StubComputeServiceAdapter.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="29%  (4/14)"/>
+          <coverage type="block, %" value="29%  (163/567)"/>
+          <coverage type="line, %" value="25%  (23/92)"/>
+
+          <class name="StubComputeServiceAdapter$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/42)"/>
+            <coverage type="line, %" value="0%   (0/7)"/>
+
+            <method name="StubComputeServiceAdapter$1 (StubComputeServiceAdapter, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="run (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/33)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+          </class>
+          <class name="StubComputeServiceAdapter">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (4/12)"/>
+            <coverage type="block, %" value="31%  (163/525)"/>
+            <coverage type="line, %" value="27%  (23/86)"/>
+
+            <method name="access$000 (StubComputeServiceAdapter): ConcurrentMap">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createNodeWithGroupEncodedIntoNameThenStoreCredentials (String, String, Template, Map): NodeMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/158)"/>
+              <coverage type="line, %" value="0%   (0/26)"/>
+            </method>
+            <method name="destroyNode (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/25)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="getNode (String): NodeMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/28)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="listHardwareProfiles (): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="rebootNode (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="resumeNode (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/51)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="suspendNode (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/51)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="StubComputeServiceAdapter (ConcurrentMap, Supplier, Provider, String, String, String, JustProvider, Map, Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+            <method name="listImages (): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (124/124)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="listLocations (): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="listNodes (): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="StubComputeServiceContextModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (31/31)"/>
+          <coverage type="line, %" value="100% (7/7)"/>
+
+          <class name="StubComputeServiceContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (25/25)"/>
+            <coverage type="line, %" value="100% (7/7)"/>
+
+            <method name="StubComputeServiceContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="provideApi (ConcurrentMap): ConcurrentMap">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="StubComputeServiceContextModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="StubComputeServiceContextModule$1 (StubComputeServiceContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
       <package name="org.jclouds.compute.predicates">
         <coverage type="class, %" value="59%  (16/27)"/>
-        <coverage type="method, %" value="27%  (27/100)"/>
-        <coverage type="block, %" value="29%  (338/1166)"/>
-        <coverage type="line, %" value="28%  (58.2/208)"/>
+        <coverage type="method, %" value="30%  (30/101)"/>
+        <coverage type="block, %" value="37%  (438/1184)"/>
+        <coverage type="line, %" value="33%  (70.1/211)"/>
 
         <srcfile name="ScriptStatusReturnsZero.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -2513,35 +2760,6 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="NodePresentAndInIntendedState.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="33%  (1/3)"/>
-          <coverage type="block, %" value="12%  (12/99)"/>
-          <coverage type="line, %" value="31%  (5/16)"/>
-
-          <class name="NodePresentAndInIntendedState">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="33%  (1/3)"/>
-            <coverage type="block, %" value="12%  (12/99)"/>
-            <coverage type="line, %" value="31%  (5/16)"/>
-
-            <method name="apply (NodeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/74)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
-            </method>
-            <method name="refresh (NodeMetadata): NodeMetadata">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/13)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="NodePresentAndInIntendedState (NodeState, ComputeService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
             </method>
           </class>
         </srcfile>
@@ -2931,21 +3149,55 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="NodePresentAndInIntendedState.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="96%  (109/114)"/>
+          <coverage type="line, %" value="89%  (16.9/19)"/>
+
+          <class name="NodePresentAndInIntendedState">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="96%  (109/114)"/>
+            <coverage type="line, %" value="89%  (16.9/19)"/>
+
+            <method name="refresh (NodeMetadata): NodeMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="85%  (11/13)"/>
+              <coverage type="line, %" value="67%  (2/3)"/>
+            </method>
+            <method name="apply (NodeMetadata): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (76/79)"/>
+              <coverage type="line, %" value="86%  (6.9/8)"/>
+            </method>
+            <method name="NodePresentAndInIntendedState (NodeState, ComputeService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="NodePresentAndInIntendedState (NodeState, Set, ComputeService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="NodeRunning.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (1/1)"/>
-          <coverage type="block, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (8/8)"/>
           <coverage type="line, %" value="100% (2/2)"/>
 
           <class name="NodeRunning">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (1/1)"/>
-            <coverage type="block, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
             <coverage type="line, %" value="100% (2/2)"/>
 
             <method name="NodeRunning (ComputeService): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
@@ -2966,253 +3218,6 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
-      <package name="org.jclouds.compute.stub.config">
-        <coverage type="class, %" value="71%  (5/7)"/>
-        <coverage type="method, %" value="50%  (17/34)"/>
-        <coverage type="block, %" value="30%  (229/751)"/>
-        <coverage type="line, %" value="34%  (45/133)"/>
-
-        <srcfile name="StubComputeServiceDependenciesModule.java">
-          <coverage type="class, %" value="67%  (2/3)"/>
-          <coverage type="method, %" value="56%  (9/16)"/>
-          <coverage type="block, %" value="23%  (35/153)"/>
-          <coverage type="line, %" value="44%  (15/34)"/>
-
-          <class name="StubComputeServiceDependenciesModule$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/26)"/>
-            <coverage type="line, %" value="0%   (0/7)"/>
-
-            <method name="StubComputeServiceDependenciesModule$1 (long, NodeMetadata, NodeState): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="run (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/14)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-          </class>
-          <class name="StubComputeServiceDependenciesModule$StubSocketOpen">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="50%  (1/2)"/>
-            <coverage type="block, %" value="22%  (9/41)"/>
-            <coverage type="line, %" value="44%  (4/9)"/>
-
-            <method name="apply (IPSocket): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/32)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
-            </method>
-            <method name="StubComputeServiceDependenciesModule$StubSocketOpen (ConcurrentMap, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-          </class>
-          <class name="StubComputeServiceDependenciesModule">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="67%  (8/12)"/>
-            <coverage type="block, %" value="30%  (26/86)"/>
-            <coverage type="line, %" value="58%  (11/19)"/>
-
-            <method name="nodeWithState (NodeMetadata, NodeState): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="provideNodeId (): Integer">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="setState (NodeMetadata, NodeState, long): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="stub (String, int, int, float): Hardware">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/28)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="StubComputeServiceDependenciesModule (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="configure (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (1/1)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="passwordPrefix (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (2/2)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="privateIpPrefix (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (2/2)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="provideNodes (): ConcurrentMap">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (2/2)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="publicIpPrefix (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (2/2)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="socketOpen (StubComputeServiceDependenciesModule$StubSocketOpen): SocketOpen">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (2/2)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="StubComputeServiceAdapter.java">
-          <coverage type="class, %" value="50%  (1/2)"/>
-          <coverage type="method, %" value="29%  (4/14)"/>
-          <coverage type="block, %" value="29%  (163/567)"/>
-          <coverage type="line, %" value="25%  (23/92)"/>
-
-          <class name="StubComputeServiceAdapter$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/42)"/>
-            <coverage type="line, %" value="0%   (0/7)"/>
-
-            <method name="StubComputeServiceAdapter$1 (StubComputeServiceAdapter, String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="run (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/33)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-          </class>
-          <class name="StubComputeServiceAdapter">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="33%  (4/12)"/>
-            <coverage type="block, %" value="31%  (163/525)"/>
-            <coverage type="line, %" value="27%  (23/86)"/>
-
-            <method name="access$000 (StubComputeServiceAdapter): ConcurrentMap">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="createNodeWithGroupEncodedIntoNameThenStoreCredentials (String, String, Template, Map): NodeMetadata">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/158)"/>
-              <coverage type="line, %" value="0%   (0/26)"/>
-            </method>
-            <method name="destroyNode (String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/25)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-            <method name="getNode (String): NodeMetadata">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/28)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="listHardwareProfiles (): Iterable">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="rebootNode (String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/29)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-            <method name="resumeNode (String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/51)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
-            </method>
-            <method name="suspendNode (String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/51)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
-            </method>
-            <method name="StubComputeServiceAdapter (ConcurrentMap, Supplier, Provider, String, String, String, JustProvider, Map, Map): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (30/30)"/>
-              <coverage type="line, %" value="100% (11/11)"/>
-            </method>
-            <method name="listImages (): Iterable">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (124/124)"/>
-              <coverage type="line, %" value="100% (10/10)"/>
-            </method>
-            <method name="listLocations (): Iterable">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="listNodes (): Iterable">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="StubComputeServiceContextModule.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="100% (4/4)"/>
-          <coverage type="block, %" value="100% (31/31)"/>
-          <coverage type="line, %" value="100% (7/7)"/>
-
-          <class name="StubComputeServiceContextModule">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (3/3)"/>
-            <coverage type="block, %" value="100% (25/25)"/>
-            <coverage type="line, %" value="100% (7/7)"/>
-
-            <method name="StubComputeServiceContextModule (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="configure (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (17/17)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="provideApi (ConcurrentMap): ConcurrentMap">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (2/2)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="StubComputeServiceContextModule$1">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (1/1)"/>
-            <coverage type="block, %" value="100% (6/6)"/>
-            <coverage type="line, %" value="100% (1/1)"/>
-
-            <method name="StubComputeServiceContextModule$1 (StubComputeServiceContextModule): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -4860,60 +4865,11 @@
         </srcfile>
       </package>
       <package name="org.jclouds.compute.domain">
-        <coverage type="class, %" value="50%  (9/18)"/>
-        <coverage type="method, %" value="43%  (69/162)"/>
-        <coverage type="block, %" value="45%  (1028/2260)"/>
-        <coverage type="line, %" value="34%  (123.1/360)"/>
+        <coverage type="class, %" value="56%  (10/18)"/>
+        <coverage type="method, %" value="44%  (71/162)"/>
+        <coverage type="block, %" value="46%  (1043/2260)"/>
+        <coverage type="line, %" value="36%  (129.1/360)"/>
 
-        <srcfile name="ExecResponse.java">
-          <coverage type="class, %" value="0%   (0/1)"/>
-          <coverage type="method, %" value="0%   (0/7)"/>
-          <coverage type="block, %" value="0%   (0/142)"/>
-          <coverage type="line, %" value="0%   (0/35)"/>
-
-          <class name="ExecResponse">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/7)"/>
-            <coverage type="block, %" value="0%   (0/142)"/>
-            <coverage type="line, %" value="0%   (0/35)"/>
-
-            <method name="ExecResponse (String, String, int): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/60)"/>
-              <coverage type="line, %" value="0%   (0/20)"/>
-            </method>
-            <method name="getError (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getExitCode (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getOutput (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/39)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/22)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="LoginType.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
@@ -5145,6 +5101,55 @@
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ExecResponse.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="29%  (2/7)"/>
+          <coverage type="block, %" value="11%  (15/142)"/>
+          <coverage type="line, %" value="17%  (6/35)"/>
+
+          <class name="ExecResponse">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="29%  (2/7)"/>
+            <coverage type="block, %" value="11%  (15/142)"/>
+            <coverage type="line, %" value="17%  (6/35)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/60)"/>
+              <coverage type="line, %" value="0%   (0/20)"/>
+            </method>
+            <method name="getError (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getOutput (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/39)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ExecResponse (String, String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="getExitCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -6999,9 +7004,9 @@
       </package>
       <package name="org.jclouds.cim">
         <coverage type="class, %" value="48%  (11/23)"/>
-        <coverage type="method, %" value="30%  (57/191)"/>
-        <coverage type="block, %" value="57%  (1817/3161)"/>
-        <coverage type="line, %" value="48%  (206.5/428)"/>
+        <coverage type="method, %" value="30%  (58/191)"/>
+        <coverage type="block, %" value="58%  (1828/3161)"/>
+        <coverage type="line, %" value="49%  (210.5/428)"/>
 
         <srcfile name="CIMPredicates.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -7566,14 +7571,14 @@
         <srcfile name="SettingData.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="46%  (6/13)"/>
-          <coverage type="block, %" value="55%  (95/172)"/>
-          <coverage type="line, %" value="56%  (22.8/41)"/>
+          <coverage type="block, %" value="56%  (97/172)"/>
+          <coverage type="line, %" value="58%  (23.8/41)"/>
 
           <class name="SettingData">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="33%  (3/9)"/>
-            <coverage type="block, %" value="52%  (76/145)"/>
-            <coverage type="line, %" value="51%  (17.8/35)"/>
+            <coverage type="block, %" value="54%  (78/145)"/>
+            <coverage type="line, %" value="54%  (18.8/35)"/>
 
             <method name="builder (): SettingData$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -7607,8 +7612,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="62%  (33/53)"/>
-              <coverage type="line, %" value="50%  (9/18)"/>
+              <coverage type="block, %" value="66%  (35/53)"/>
+              <coverage type="line, %" value="56%  (10/18)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -7651,9 +7656,9 @@
         </srcfile>
         <srcfile name="ResourceAllocationSettingData.java">
           <coverage type="class, %" value="50%  (4/8)"/>
-          <coverage type="method, %" value="37%  (29/78)"/>
-          <coverage type="block, %" value="61%  (839/1377)"/>
-          <coverage type="line, %" value="46%  (77.9/168)"/>
+          <coverage type="method, %" value="38%  (30/78)"/>
+          <coverage type="block, %" value="62%  (848/1377)"/>
+          <coverage type="line, %" value="48%  (80.9/168)"/>
 
           <class name="ResourceAllocationSettingData$ConsumerVisibility">
             <coverage type="class, %" value="0%   (0/1)"/>
@@ -7917,15 +7922,10 @@
           </class>
           <class name="ResourceAllocationSettingData">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="16%  (4/25)"/>
-            <coverage type="block, %" value="62%  (247/397)"/>
-            <coverage type="line, %" value="38%  (29.9/78)"/>
+            <coverage type="method, %" value="20%  (5/25)"/>
+            <coverage type="block, %" value="64%  (256/397)"/>
+            <coverage type="line, %" value="42%  (32.9/78)"/>
 
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/87)"/>
-              <coverage type="line, %" value="0%   (0/28)"/>
-            </method>
             <method name="getAddress (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
@@ -8025,6 +8025,11 @@
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="10%  (9/87)"/>
+              <coverage type="line, %" value="11%  (3/28)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
