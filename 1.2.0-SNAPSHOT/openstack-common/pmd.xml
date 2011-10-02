@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-09-10T22:52:31.964">
+<pmd version="4.2.5" timestamp="2011-10-01T22:29:39.407">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/common/openstack/src/main/java/org/jclouds/openstack/functions/ParseAuthenticationResponseFromHeaders.java">
 <violation beginline="85" endline="85" begincolumn="12" endcolumn="22" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.openstack.functions" class="ParseAuthenticationResponseFromHeaders" method="getURI" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
 Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
