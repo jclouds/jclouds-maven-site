@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 01 20:33:36 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="23"/>
     <classes value="240"/>
-    <methods value="1396"/>
+    <methods value="1404"/>
     <srcfiles value="105"/>
-    <srclines value="3896"/>
+    <srclines value="3916"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="68%  (164/240)"/>
-      <coverage type="method, %" value="41%  (574/1396)"/>
-      <coverage type="block, %" value="43%  (9691/22498)"/>
-      <coverage type="line, %" value="42%  (1653.6/3896)"/>
+      <coverage type="method, %" value="41%  (579/1404)"/>
+      <coverage type="block, %" value="43%  (9798/22606)"/>
+      <coverage type="line, %" value="43%  (1674.2/3916)"/>
 
       <package name="org.jclouds.cim.functions">
         <coverage type="class, %" value="0%   (0/3)"/>
@@ -1201,21 +1201,21 @@
       </package>
       <package name="org.jclouds.compute.options">
         <coverage type="class, %" value="100% (6/6)"/>
-        <coverage type="method, %" value="27%  (36/134)"/>
-        <coverage type="block, %" value="26%  (326/1270)"/>
-        <coverage type="line, %" value="31%  (86.5/278)"/>
+        <coverage type="method, %" value="26%  (36/139)"/>
+        <coverage type="block, %" value="25%  (330/1327)"/>
+        <coverage type="line, %" value="30%  (87.5/289)"/>
 
         <srcfile name="TemplateOptions.java">
           <coverage type="class, %" value="100% (3/3)"/>
-          <coverage type="method, %" value="24%  (22/91)"/>
-          <coverage type="block, %" value="23%  (215/940)"/>
-          <coverage type="line, %" value="27%  (54.8/204)"/>
+          <coverage type="method, %" value="23%  (22/96)"/>
+          <coverage type="block, %" value="22%  (219/997)"/>
+          <coverage type="line, %" value="26%  (55.9/215)"/>
 
           <class name="TemplateOptions$ImmutableTemplateOptions">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="3%   (1/37)"/>
-            <coverage type="block, %" value="4%   (6/171)"/>
-            <coverage type="line, %" value="8%   (3/40)"/>
+            <coverage type="method, %" value="2%   (1/40)"/>
+            <coverage type="block, %" value="3%   (6/185)"/>
+            <coverage type="line, %" value="7%   (3/43)"/>
 
             <method name="as (Class): TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1297,7 +1297,17 @@
               <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
+            <method name="getTags (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
             <method name="getTaskName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getUserMetadata (): Map">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
@@ -1315,11 +1325,6 @@
             <method name="installPrivateKey (String): TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isIncludeMetadata (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="nameTask (String): TemplateOptions">
@@ -1382,12 +1387,22 @@
               <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
+            <method name="tags (Iterable): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="withMetadata (): TemplateOptions">
+            <method name="userMetadata (Map): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="userMetadata (String, String): TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
@@ -1403,193 +1418,11 @@
               <coverage type="line, %" value="100% (3/3)"/>
             </method>
           </class>
-          <class name="TemplateOptions">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="46%  (16/35)"/>
-            <coverage type="block, %" value="27%  (168/622)"/>
-            <coverage type="line, %" value="33%  (42/128)"/>
-
-            <method name="as (Class): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="authorizePublicKey (Payload): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/15)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="blockOnComplete (boolean): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="clone (): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="dontAuthorizePublicKey (): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/89)"/>
-              <coverage type="line, %" value="0%   (0/11)"/>
-            </method>
-            <method name="installPrivateKey (Payload): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/15)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="nameTask (String): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="overrideCredentialsWith (Credentials): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="overrideLoginCredentialWith (String): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="overrideLoginUserWith (String): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="runAsRoot (boolean): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="runScript (Payload): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="runScript (Statement): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="runScript (byte []): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="tags (Iterable): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/65)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="withMetadata (): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="wrapInInitScript (boolean): TemplateOptions">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="5%   (5/105)"/>
-              <coverage type="line, %" value="6%   (2/33)"/>
-            </method>
-            <method name="copyTo (TemplateOptions): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="42%  (39/92)"/>
-              <coverage type="line, %" value="52%  (12/23)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="TemplateOptions (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (17/17)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-            <method name="authorizePublicKey (String): TemplateOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="blockOnPort (int, int): TemplateOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="blockUntilRunning (boolean): TemplateOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="getInboundPorts (): int []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getPrivateKey (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getPublicKey (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getRunScript (): Statement">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getTags (): Set">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="inboundPorts (int []): TemplateOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (31/31)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="installPrivateKey (String): TemplateOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="isIncludeMetadata (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="shouldBlockUntilRunning (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
           <class name="TemplateOptions$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="26%  (5/19)"/>
-            <coverage type="block, %" value="28%  (41/147)"/>
-            <coverage type="line, %" value="27%  (10/37)"/>
+            <coverage type="method, %" value="25%  (5/20)"/>
+            <coverage type="block, %" value="26%  (41/157)"/>
+            <coverage type="line, %" value="26%  (10/39)"/>
 
             <method name="TemplateOptions$Builder (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1656,9 +1489,14 @@
               <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="withDetails (): TemplateOptions">
+            <method name="userMetadata (Map): TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="userMetadata (String, String): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="authorizePublicKey (String): TemplateOptions">
@@ -1685,6 +1523,193 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (8/8)"/>
               <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="TemplateOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="44%  (16/36)"/>
+            <coverage type="block, %" value="26%  (172/655)"/>
+            <coverage type="line, %" value="32%  (43/134)"/>
+
+            <method name="as (Class): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="authorizePublicKey (Payload): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="blockOnComplete (boolean): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="clone (): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="dontAuthorizePublicKey (): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/91)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
+            </method>
+            <method name="installPrivateKey (Payload): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="nameTask (String): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="overrideCredentialsWith (Credentials): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="overrideLoginCredentialWith (String): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="overrideLoginUserWith (String): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="runAsRoot (boolean): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="runScript (Payload): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="runScript (Statement): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="runScript (byte []): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="tags (Iterable): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/65)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="userMetadata (Map): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="userMetadata (String, String): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="wrapInInitScript (boolean): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="4%   (5/114)"/>
+              <coverage type="line, %" value="6%   (2/36)"/>
+            </method>
+            <method name="copyTo (TemplateOptions): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="42%  (40/95)"/>
+              <coverage type="line, %" value="52%  (12/23)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="TemplateOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="authorizePublicKey (String): TemplateOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="blockOnPort (int, int): TemplateOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="blockUntilRunning (boolean): TemplateOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getInboundPorts (): int []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getPrivateKey (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getPublicKey (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getRunScript (): Statement">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getTags (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getUserMetadata (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="inboundPorts (int []): TemplateOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (31/31)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="installPrivateKey (String): TemplateOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="shouldBlockUntilRunning (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -2214,8 +2239,8 @@
       <package name="org.jclouds.compute.stub.config">
         <coverage type="class, %" value="71%  (5/7)"/>
         <coverage type="method, %" value="50%  (17/34)"/>
-        <coverage type="block, %" value="30%  (229/751)"/>
-        <coverage type="line, %" value="34%  (45/133)"/>
+        <coverage type="block, %" value="30%  (229/757)"/>
+        <coverage type="line, %" value="34%  (45/134)"/>
 
         <srcfile name="StubComputeServiceDependenciesModule.java">
           <coverage type="class, %" value="67%  (2/3)"/>
@@ -2328,8 +2353,8 @@
         <srcfile name="StubComputeServiceAdapter.java">
           <coverage type="class, %" value="50%  (1/2)"/>
           <coverage type="method, %" value="29%  (4/14)"/>
-          <coverage type="block, %" value="29%  (163/567)"/>
-          <coverage type="line, %" value="25%  (23/92)"/>
+          <coverage type="block, %" value="28%  (163/573)"/>
+          <coverage type="line, %" value="25%  (23/93)"/>
 
           <class name="StubComputeServiceAdapter$1">
             <coverage type="class, %" value="0%   (0/1)"/>
@@ -2351,8 +2376,8 @@
           <class name="StubComputeServiceAdapter">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="33%  (4/12)"/>
-            <coverage type="block, %" value="31%  (163/525)"/>
-            <coverage type="line, %" value="27%  (23/86)"/>
+            <coverage type="block, %" value="31%  (163/531)"/>
+            <coverage type="line, %" value="26%  (23/87)"/>
 
             <method name="access$000 (StubComputeServiceAdapter): ConcurrentMap">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2361,8 +2386,8 @@
             </method>
             <method name="createNodeWithGroupEncodedIntoNameThenStoreCredentials (String, String, Template, Map): NodeMetadata">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/158)"/>
-              <coverage type="line, %" value="0%   (0/26)"/>
+              <coverage type="block, %" value="0%   (0/164)"/>
+              <coverage type="line, %" value="0%   (0/27)"/>
             </method>
             <method name="destroyNode (String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2454,770 +2479,6 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (6/6)"/>
               <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
-      <package name="org.jclouds.compute.predicates">
-        <coverage type="class, %" value="59%  (16/27)"/>
-        <coverage type="method, %" value="30%  (30/101)"/>
-        <coverage type="block, %" value="37%  (438/1184)"/>
-        <coverage type="line, %" value="33%  (70.1/211)"/>
-
-        <srcfile name="ScriptStatusReturnsZero.java">
-          <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/6)"/>
-          <coverage type="block, %" value="0%   (0/95)"/>
-          <coverage type="line, %" value="0%   (0/14)"/>
-
-          <class name="ScriptStatusReturnsZero">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/80)"/>
-            <coverage type="line, %" value="0%   (0/10)"/>
-
-            <method name="ScriptStatusReturnsZero (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="apply (ScriptStatusReturnsZero$CommandUsingClient): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/68)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-            <method name="refresh (ScriptStatusReturnsZero$CommandUsingClient): ExecResponse">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="ScriptStatusReturnsZero$CommandUsingClient">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/15)"/>
-            <coverage type="line, %" value="0%   (0/5)"/>
-
-            <method name="ScriptStatusReturnsZero$CommandUsingClient (String, SshClient): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="access$000 (ScriptStatusReturnsZero$CommandUsingClient): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="access$100 (ScriptStatusReturnsZero$CommandUsingClient): SshClient">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="NodePredicates.java">
-          <coverage type="class, %" value="38%  (3/8)"/>
-          <coverage type="method, %" value="11%  (4/37)"/>
-          <coverage type="block, %" value="5%   (17/351)"/>
-          <coverage type="line, %" value="4%   (3/75)"/>
-
-          <class name="NodePredicates$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/24)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
-
-            <method name="NodePredicates$1 (Set): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (ComputeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="NodePredicates$2">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/24)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
-
-            <method name="NodePredicates$2 (String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (NodeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="NodePredicates$3">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/32)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
-
-            <method name="NodePredicates$3 (String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (NodeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/14)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="NodePredicates$LocationId">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/6)"/>
-            <coverage type="block, %" value="0%   (0/85)"/>
-            <coverage type="line, %" value="0%   (0/23)"/>
-
-            <method name="NodePredicates$LocationId (String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="NodePredicates$LocationId (String, NodePredicates$1): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (ComputeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/37)"/>
-              <coverage type="line, %" value="0%   (0/13)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/19)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="NodePredicates$ParentLocationId">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/6)"/>
-            <coverage type="block, %" value="0%   (0/92)"/>
-            <coverage type="line, %" value="0%   (0/25)"/>
-
-            <method name="NodePredicates$ParentLocationId (String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="NodePredicates$ParentLocationId (String, NodePredicates$1): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (ComputeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/14)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/37)"/>
-              <coverage type="line, %" value="0%   (0/13)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/19)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="NodePredicates">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="20%  (2/10)"/>
-            <coverage type="block, %" value="16%  (11/68)"/>
-            <coverage type="line, %" value="17%  (3/18)"/>
-
-            <method name="NodePredicates (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="inGroup (String): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="locationId (String): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="parentLocationId (String): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="runningInGroup (String): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="runningWithTag (String): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="withIds (String []): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="withTag (String): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="all (): Predicate">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (2/2)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="NodePredicates$4">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="33%  (1/3)"/>
-            <coverage type="block, %" value="23%  (3/13)"/>
-            <coverage type="line, %" value="33%  (1/3)"/>
-
-            <method name="apply (NodeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="NodePredicates$4 (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="NodePredicates$5">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="33%  (1/3)"/>
-            <coverage type="block, %" value="23%  (3/13)"/>
-            <coverage type="line, %" value="33%  (1/3)"/>
-
-            <method name="apply (NodeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="NodePredicates$5 (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="RetryIfSocketNotYetOpen.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="20%  (1/5)"/>
-          <coverage type="block, %" value="12%  (13/106)"/>
-          <coverage type="line, %" value="22%  (4.5/20)"/>
-
-          <class name="RetryIfSocketNotYetOpen">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="20%  (1/5)"/>
-            <coverage type="block, %" value="12%  (13/106)"/>
-            <coverage type="line, %" value="22%  (4.5/20)"/>
-
-            <method name="RetryIfSocketNotYetOpen (SocketOpen, Logger, long): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/15)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-            <method name="apply (IPSocket): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/61)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-            <method name="seconds (long): RetryIfSocketNotYetOpen">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="RetryIfSocketNotYetOpen (SocketOpen, ComputeServiceConstants$Timeouts): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="NodeTerminated.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="33%  (1/3)"/>
-          <coverage type="block, %" value="14%  (9/63)"/>
-          <coverage type="line, %" value="36%  (4/11)"/>
-
-          <class name="NodeTerminated">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="33%  (1/3)"/>
-            <coverage type="block, %" value="14%  (9/63)"/>
-            <coverage type="line, %" value="36%  (4/11)"/>
-
-            <method name="apply (NodeMetadata): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/48)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
-            </method>
-            <method name="refresh (NodeMetadata): NodeMetadata">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="NodeTerminated (ComputeService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="ImagePredicates.java">
-          <coverage type="class, %" value="60%  (3/5)"/>
-          <coverage type="method, %" value="35%  (7/20)"/>
-          <coverage type="block, %" value="38%  (55/143)"/>
-          <coverage type="line, %" value="38%  (8/21)"/>
-
-          <class name="ImagePredicates$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/24)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
-
-            <method name="ImagePredicates$1 (Set): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (Image): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="ImagePredicates$Is64BitPredicate">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/5)"/>
-            <coverage type="block, %" value="0%   (0/15)"/>
-            <coverage type="line, %" value="0%   (0/4)"/>
-
-            <method name="ImagePredicates$Is64BitPredicate (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="ImagePredicates$Is64BitPredicate (ImagePredicates$1): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (Image): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="ImagePredicates$3">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="67%  (2/3)"/>
-            <coverage type="block, %" value="50%  (12/24)"/>
-            <coverage type="line, %" value="67%  (2/3)"/>
-
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="ImagePredicates$3 (String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (Image): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="ImagePredicates$2">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="67%  (2/3)"/>
-            <coverage type="block, %" value="51%  (18/35)"/>
-            <coverage type="line, %" value="67%  (2/3)"/>
-
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="ImagePredicates$2 (String, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (Image): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="ImagePredicates">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="50%  (3/6)"/>
-            <coverage type="block, %" value="56%  (25/45)"/>
-            <coverage type="line, %" value="50%  (6/12)"/>
-
-            <method name="ImagePredicates (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="idIn (Iterable): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
-            </method>
-            <method name="is64Bit (): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="any (): Predicate">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (2/2)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="idEquals (String): Predicate">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="userMetadataContains (String, String): Predicate">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="OperatingSystemPredicates.java">
-          <coverage type="class, %" value="71%  (5/7)"/>
-          <coverage type="method, %" value="46%  (11/24)"/>
-          <coverage type="block, %" value="74%  (222/299)"/>
-          <coverage type="line, %" value="63%  (29.8/47)"/>
-
-          <class name="OperatingSystemPredicates$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/40)"/>
-            <coverage type="line, %" value="0%   (0/9)"/>
-
-            <method name="OperatingSystemPredicates$1 (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (OperatingSystem): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/35)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="OperatingSystemPredicates$5">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/8)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
-
-            <method name="OperatingSystemPredicates$5 (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (OperatingSystem): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="OperatingSystemPredicates">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="50%  (4/8)"/>
-            <coverage type="block, %" value="71%  (32/45)"/>
-            <coverage type="line, %" value="64%  (9/14)"/>
-
-            <method name="OperatingSystemPredicates (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="any (): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="is64Bit (): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isUnix (): Predicate">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="searchStrings (OperatingSystem): Iterable">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (20/20)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-            <method name="supportsApt (): Predicate">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="supportsYum (): Predicate">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="supportsZypper (): Predicate">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="OperatingSystemPredicates$6">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (1/1)"/>
-            <coverage type="block, %" value="87%  (53/61)"/>
-            <coverage type="line, %" value="86%  (0.9/1)"/>
-
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="87%  (53/61)"/>
-              <coverage type="line, %" value="86%  (0.9/1)"/>
-            </method>
-          </class>
-          <class name="OperatingSystemPredicates$4">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="67%  (2/3)"/>
-            <coverage type="block, %" value="90%  (36/40)"/>
-            <coverage type="line, %" value="78%  (7/9)"/>
-
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (OperatingSystem): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="94%  (33/35)"/>
-              <coverage type="line, %" value="86%  (6/7)"/>
-            </method>
-            <method name="OperatingSystemPredicates$4 (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="OperatingSystemPredicates$2">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="67%  (2/3)"/>
-            <coverage type="block, %" value="96%  (44/46)"/>
-            <coverage type="line, %" value="89%  (8/9)"/>
-
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="OperatingSystemPredicates$2 (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (OperatingSystem): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (41/41)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
-            </method>
-          </class>
-          <class name="OperatingSystemPredicates$3">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="67%  (2/3)"/>
-            <coverage type="block, %" value="97%  (57/59)"/>
-            <coverage type="line, %" value="89%  (8/9)"/>
-
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="OperatingSystemPredicates$3 (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (OperatingSystem): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (54/54)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="NodePresentAndInIntendedState.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (4/4)"/>
-          <coverage type="block, %" value="96%  (109/114)"/>
-          <coverage type="line, %" value="89%  (16.9/19)"/>
-
-          <class name="NodePresentAndInIntendedState">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (4/4)"/>
-            <coverage type="block, %" value="96%  (109/114)"/>
-            <coverage type="line, %" value="89%  (16.9/19)"/>
-
-            <method name="refresh (NodeMetadata): NodeMetadata">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="85%  (11/13)"/>
-              <coverage type="line, %" value="67%  (2/3)"/>
-            </method>
-            <method name="apply (NodeMetadata): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="96%  (76/79)"/>
-              <coverage type="line, %" value="86%  (6.9/8)"/>
-            </method>
-            <method name="NodePresentAndInIntendedState (NodeState, ComputeService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="NodePresentAndInIntendedState (NodeState, Set, ComputeService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (15/15)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="NodeRunning.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (1/1)"/>
-          <coverage type="block, %" value="100% (8/8)"/>
-          <coverage type="line, %" value="100% (2/2)"/>
-
-          <class name="NodeRunning">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (1/1)"/>
-            <coverage type="block, %" value="100% (8/8)"/>
-            <coverage type="line, %" value="100% (2/2)"/>
-
-            <method name="NodeRunning (ComputeService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="NodeSuspended.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (1/1)"/>
-          <coverage type="block, %" value="100% (5/5)"/>
-          <coverage type="line, %" value="100% (2/2)"/>
-
-          <class name="NodeSuspended">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (1/1)"/>
-            <coverage type="block, %" value="100% (5/5)"/>
-            <coverage type="line, %" value="100% (2/2)"/>
-
-            <method name="NodeSuspended (ComputeService): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>
@@ -4860,6 +4121,785 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (25/25)"/>
               <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.compute.predicates">
+        <coverage type="class, %" value="59%  (16/27)"/>
+        <coverage type="method, %" value="34%  (35/104)"/>
+        <coverage type="block, %" value="44%  (541/1229)"/>
+        <coverage type="line, %" value="41%  (89.7/219)"/>
+
+        <srcfile name="ScriptStatusReturnsZero.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/6)"/>
+          <coverage type="block, %" value="0%   (0/95)"/>
+          <coverage type="line, %" value="0%   (0/14)"/>
+
+          <class name="ScriptStatusReturnsZero">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/80)"/>
+            <coverage type="line, %" value="0%   (0/10)"/>
+
+            <method name="ScriptStatusReturnsZero (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="apply (ScriptStatusReturnsZero$CommandUsingClient): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/68)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="refresh (ScriptStatusReturnsZero$CommandUsingClient): ExecResponse">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="ScriptStatusReturnsZero$CommandUsingClient">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/15)"/>
+            <coverage type="line, %" value="0%   (0/5)"/>
+
+            <method name="ScriptStatusReturnsZero$CommandUsingClient (String, SshClient): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="access$000 (ScriptStatusReturnsZero$CommandUsingClient): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="access$100 (ScriptStatusReturnsZero$CommandUsingClient): SshClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="NodePredicates.java">
+          <coverage type="class, %" value="38%  (3/8)"/>
+          <coverage type="method, %" value="11%  (4/37)"/>
+          <coverage type="block, %" value="5%   (17/351)"/>
+          <coverage type="line, %" value="4%   (3/75)"/>
+
+          <class name="NodePredicates$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/24)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="NodePredicates$1 (Set): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (ComputeMetadata): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="NodePredicates$2">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/24)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="NodePredicates$2 (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (NodeMetadata): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="NodePredicates$3">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/32)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="NodePredicates$3 (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (NodeMetadata): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="NodePredicates$LocationId">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/85)"/>
+            <coverage type="line, %" value="0%   (0/23)"/>
+
+            <method name="NodePredicates$LocationId (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="NodePredicates$LocationId (String, NodePredicates$1): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (ComputeMetadata): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="NodePredicates$ParentLocationId">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/92)"/>
+            <coverage type="line, %" value="0%   (0/25)"/>
+
+            <method name="NodePredicates$ParentLocationId (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="NodePredicates$ParentLocationId (String, NodePredicates$1): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (ComputeMetadata): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="NodePredicates">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="20%  (2/10)"/>
+            <coverage type="block, %" value="16%  (11/68)"/>
+            <coverage type="line, %" value="17%  (3/18)"/>
+
+            <method name="NodePredicates (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="inGroup (String): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="locationId (String): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="parentLocationId (String): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="runningInGroup (String): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="runningWithTag (String): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="withIds (String []): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="withTag (String): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="all (): Predicate">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="NodePredicates$4">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="23%  (3/13)"/>
+            <coverage type="line, %" value="33%  (1/3)"/>
+
+            <method name="apply (NodeMetadata): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="NodePredicates$4 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="NodePredicates$5">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="23%  (3/13)"/>
+            <coverage type="line, %" value="33%  (1/3)"/>
+
+            <method name="apply (NodeMetadata): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="NodePredicates$5 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="NodeTerminated.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="33%  (1/3)"/>
+          <coverage type="block, %" value="14%  (9/63)"/>
+          <coverage type="line, %" value="36%  (4/11)"/>
+
+          <class name="NodeTerminated">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="14%  (9/63)"/>
+            <coverage type="line, %" value="36%  (4/11)"/>
+
+            <method name="apply (NodeMetadata): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/48)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="refresh (NodeMetadata): NodeMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="NodeTerminated (ComputeService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ImagePredicates.java">
+          <coverage type="class, %" value="60%  (3/5)"/>
+          <coverage type="method, %" value="35%  (7/20)"/>
+          <coverage type="block, %" value="38%  (55/143)"/>
+          <coverage type="line, %" value="38%  (8/21)"/>
+
+          <class name="ImagePredicates$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/24)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="ImagePredicates$1 (Set): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Image): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="ImagePredicates$Is64BitPredicate">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/5)"/>
+            <coverage type="block, %" value="0%   (0/15)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="ImagePredicates$Is64BitPredicate (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ImagePredicates$Is64BitPredicate (ImagePredicates$1): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Image): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="ImagePredicates$3">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="50%  (12/24)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ImagePredicates$3 (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Image): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ImagePredicates$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="51%  (18/35)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ImagePredicates$2 (String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Image): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ImagePredicates">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (3/6)"/>
+            <coverage type="block, %" value="56%  (25/45)"/>
+            <coverage type="line, %" value="50%  (6/12)"/>
+
+            <method name="ImagePredicates (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="idIn (Iterable): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="is64Bit (): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="any (): Predicate">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="idEquals (String): Predicate">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="userMetadataContains (String, String): Predicate">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="OperatingSystemPredicates.java">
+          <coverage type="class, %" value="71%  (5/7)"/>
+          <coverage type="method, %" value="46%  (11/24)"/>
+          <coverage type="block, %" value="74%  (222/299)"/>
+          <coverage type="line, %" value="63%  (29.8/47)"/>
+
+          <class name="OperatingSystemPredicates$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/40)"/>
+            <coverage type="line, %" value="0%   (0/9)"/>
+
+            <method name="OperatingSystemPredicates$1 (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (OperatingSystem): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/35)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="OperatingSystemPredicates$5">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/8)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="OperatingSystemPredicates$5 (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (OperatingSystem): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="OperatingSystemPredicates">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (4/8)"/>
+            <coverage type="block, %" value="71%  (32/45)"/>
+            <coverage type="line, %" value="64%  (9/14)"/>
+
+            <method name="OperatingSystemPredicates (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="any (): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="is64Bit (): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isUnix (): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="searchStrings (OperatingSystem): Iterable">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="supportsApt (): Predicate">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="supportsYum (): Predicate">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="supportsZypper (): Predicate">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="OperatingSystemPredicates$6">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="87%  (53/61)"/>
+            <coverage type="line, %" value="86%  (0.9/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="87%  (53/61)"/>
+              <coverage type="line, %" value="86%  (0.9/1)"/>
+            </method>
+          </class>
+          <class name="OperatingSystemPredicates$4">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="90%  (36/40)"/>
+            <coverage type="line, %" value="78%  (7/9)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (OperatingSystem): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="94%  (33/35)"/>
+              <coverage type="line, %" value="86%  (6/7)"/>
+            </method>
+            <method name="OperatingSystemPredicates$4 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="OperatingSystemPredicates$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="96%  (44/46)"/>
+            <coverage type="line, %" value="89%  (8/9)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="OperatingSystemPredicates$2 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (OperatingSystem): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (41/41)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+          </class>
+          <class name="OperatingSystemPredicates$3">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="97%  (57/59)"/>
+            <coverage type="line, %" value="89%  (8/9)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="OperatingSystemPredicates$3 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (OperatingSystem): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (54/54)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RetryIfSocketNotYetOpen.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="75%  (6/8)"/>
+          <coverage type="block, %" value="77%  (116/151)"/>
+          <coverage type="line, %" value="86%  (24/28)"/>
+
+          <class name="RetryIfSocketNotYetOpen">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (6/8)"/>
+            <coverage type="block, %" value="77%  (116/151)"/>
+            <coverage type="line, %" value="86%  (24/28)"/>
+
+            <method name="RetryIfSocketNotYetOpen (SocketOpen, Logger, long): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (IPSocket): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="86%  (67/78)"/>
+              <coverage type="line, %" value="88%  (7/8)"/>
+            </method>
+            <method name="RetryIfSocketNotYetOpen (SocketOpen, ComputeServiceConstants$Timeouts): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="RetryIfSocketNotYetOpen (SocketOpen, Logger): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="RetryIfSocketNotYetOpen (SocketOpen, Logger, long, TimeUnit): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="milliseconds (long): RetryIfSocketNotYetOpen">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="seconds (long): RetryIfSocketNotYetOpen">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="NodePresentAndInIntendedState.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="96%  (109/114)"/>
+          <coverage type="line, %" value="89%  (16.9/19)"/>
+
+          <class name="NodePresentAndInIntendedState">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="96%  (109/114)"/>
+            <coverage type="line, %" value="89%  (16.9/19)"/>
+
+            <method name="refresh (NodeMetadata): NodeMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="85%  (11/13)"/>
+              <coverage type="line, %" value="67%  (2/3)"/>
+            </method>
+            <method name="apply (NodeMetadata): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (76/79)"/>
+              <coverage type="line, %" value="86%  (6.9/8)"/>
+            </method>
+            <method name="NodePresentAndInIntendedState (NodeState, ComputeService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="NodePresentAndInIntendedState (NodeState, Set, ComputeService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="NodeRunning.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (1/1)"/>
+          <coverage type="block, %" value="100% (8/8)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="NodeRunning">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="NodeRunning (ComputeService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="NodeSuspended.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (1/1)"/>
+          <coverage type="block, %" value="100% (5/5)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="NodeSuspended">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (5/5)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="NodeSuspended (ComputeService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>
