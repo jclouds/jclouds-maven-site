@@ -61,7 +61,7 @@
 <a class="jxr_linenumber" name="51" href="#51">51</a>  <strong class="jxr_keyword">import</strong> org.jclouds.ec2.services.InstanceClient;
 <a class="jxr_linenumber" name="52" href="#52">52</a>  <strong class="jxr_keyword">import</strong> org.testng.annotations.Test;
 <a class="jxr_linenumber" name="53" href="#53">53</a>  
-<a class="jxr_linenumber" name="54" href="#54">54</a>  <strong class="jxr_keyword">import</strong> com.google.common.base.Function;
+<a class="jxr_linenumber" name="54" href="#54">54</a>  <strong class="jxr_keyword">import</strong> com.google.common.cache.Cache;
 <a class="jxr_linenumber" name="55" href="#55">55</a>  <strong class="jxr_keyword">import</strong> com.google.common.collect.ImmutableSet;
 <a class="jxr_linenumber" name="56" href="#56">56</a>  <strong class="jxr_keyword">import</strong> com.google.common.collect.Iterables;
 <a class="jxr_linenumber" name="57" href="#57">57</a>  <strong class="jxr_keyword">import</strong> com.google.common.collect.Multimap;
@@ -232,7 +232,7 @@
 <a class="jxr_linenumber" name="222" href="#222">222</a>       CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions createKeyPairAndSecurityGroupsAsNeededAndReturncustomize = createMock(CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions.<strong class="jxr_keyword">class</strong>);
 <a class="jxr_linenumber" name="223" href="#223">223</a>       InstancePresent instancePresent = createMock(InstancePresent.<strong class="jxr_keyword">class</strong>);
 <a class="jxr_linenumber" name="224" href="#224">224</a>       RunningInstanceToNodeMetadata runningInstanceToNodeMetadata = createMock(RunningInstanceToNodeMetadata.<strong class="jxr_keyword">class</strong>);
-<a class="jxr_linenumber" name="225" href="#225">225</a>       Function&lt;RunningInstance, Credentials&gt; instanceToCredentials = createMock(Function.<strong class="jxr_keyword">class</strong>);
+<a class="jxr_linenumber" name="225" href="#225">225</a>       Cache&lt;RunningInstance, Credentials&gt; instanceToCredentials = createMock(Cache.<strong class="jxr_keyword">class</strong>);
 <a class="jxr_linenumber" name="226" href="#226">226</a>       Map&lt;String, Credentials&gt; credentialStore = createMock(Map.<strong class="jxr_keyword">class</strong>);
 <a class="jxr_linenumber" name="227" href="#227">227</a>       ComputeUtils utils = createMock(ComputeUtils.<strong class="jxr_keyword">class</strong>);
 <a class="jxr_linenumber" name="228" href="#228">228</a>       <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> EC2CreateNodesInGroupThenAddToSet(client, Providers.&lt;TemplateBuilder&gt; of(template),

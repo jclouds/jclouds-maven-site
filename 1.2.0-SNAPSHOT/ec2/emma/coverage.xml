@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="20"/>
-    <classes value="196"/>
-    <methods value="1005"/>
-    <srcfiles value="128"/>
-    <srclines value="3716"/>
+    <classes value="197"/>
+    <methods value="1014"/>
+    <srcfiles value="129"/>
+    <srclines value="3756"/>
   </stats>
   <data>
     <all name="all classes">
-      <coverage type="class, %" value="77%  (151/196)"/>
-      <coverage type="method, %" value="61%  (618/1005)"/>
-      <coverage type="block, %" value="64%  (12459/19434)"/>
-      <coverage type="line, %" value="62%  (2321/3716)"/>
+      <coverage type="class, %" value="77%  (151/197)"/>
+      <coverage type="method, %" value="61%  (623/1014)"/>
+      <coverage type="block, %" value="65%  (12787/19712)"/>
+      <coverage type="line, %" value="63%  (2369/3756)"/>
 
       <package name="org.jclouds.ec2.compute">
         <coverage type="class, %" value="0%   (0/4)"/>
         <coverage type="method, %" value="0%   (0/13)"/>
-        <coverage type="block, %" value="0%   (0/390)"/>
+        <coverage type="block, %" value="0%   (0/388)"/>
         <coverage type="line, %" value="0%   (0/45)"/>
 
         <srcfile name="EC2ComputeService.java">
           <coverage type="class, %" value="0%   (0/4)"/>
           <coverage type="method, %" value="0%   (0/13)"/>
-          <coverage type="block, %" value="0%   (0/390)"/>
+          <coverage type="block, %" value="0%   (0/388)"/>
           <coverage type="line, %" value="0%   (0/45)"/>
 
           <class name="EC2ComputeService">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/8)"/>
-            <coverage type="block, %" value="0%   (0/338)"/>
+            <coverage type="block, %" value="0%   (0/336)"/>
             <coverage type="line, %" value="0%   (0/41)"/>
 
-            <method name="EC2ComputeService (ComputeServiceContext, Map, Supplier, Supplier, Supplier, ListNodesStrategy, GetNodeMetadataStrategy, CreateNodesInGroupThenAddToSet, RebootNodeStrategy, DestroyNodeStrategy, ResumeNodeStrategy, SuspendNodeStrategy, Provider, Provider, Predicate, Predicate, Predicate, InitializeRunScriptOnNodeOrPlaceInBadMap$Factory, RunScriptOnNode$Factory, InitAdminAccess, PersistNodeCredentials, ComputeServiceConstants$Timeouts, ExecutorService, EC2Client, Map, Map): void">
+            <method name="EC2ComputeService (ComputeServiceContext, Map, Supplier, Supplier, Supplier, ListNodesStrategy, GetNodeMetadataStrategy, CreateNodesInGroupThenAddToSet, RebootNodeStrategy, DestroyNodeStrategy, ResumeNodeStrategy, SuspendNodeStrategy, Provider, Provider, Predicate, Predicate, Predicate, InitializeRunScriptOnNodeOrPlaceInBadMap$Factory, RunScriptOnNode$Factory, InitAdminAccess, PersistNodeCredentials, ComputeServiceConstants$Timeouts, ExecutorService, EC2Client, Cache, Cache): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/35)"/>
               <coverage type="line, %" value="0%   (0/5)"/>
@@ -45,12 +45,12 @@
             </method>
             <method name="deleteKeyPair (String, String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/139)"/>
+              <coverage type="block, %" value="0%   (0/138)"/>
               <coverage type="line, %" value="0%   (0/11)"/>
             </method>
             <method name="deleteSecurityGroup (String, String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/79)"/>
+              <coverage type="block, %" value="0%   (0/78)"/>
               <coverage type="line, %" value="0%   (0/11)"/>
             </method>
             <method name="destroyNodesMatching (Predicate): Set">
@@ -123,10 +123,10 @@
         </srcfile>
       </package>
       <package name="org.jclouds.ec2.compute.predicates">
-        <coverage type="class, %" value="50%  (1/2)"/>
-        <coverage type="method, %" value="0%   (0/5)"/>
-        <coverage type="block, %" value="0%   (0/69)"/>
-        <coverage type="line, %" value="0%   (0/16)"/>
+        <coverage type="class, %" value="33%  (1/3)"/>
+        <coverage type="method, %" value="0%   (0/8)"/>
+        <coverage type="block, %" value="0%   (0/127)"/>
+        <coverage type="line, %" value="0%   (0/27)"/>
 
         <srcfile name="EC2ImagePredicates.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -181,12 +181,41 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="SecurityGroupPresent.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/58)"/>
+          <coverage type="line, %" value="0%   (0/11)"/>
+
+          <class name="SecurityGroupPresent">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/58)"/>
+            <coverage type="line, %" value="0%   (0/11)"/>
+
+            <method name="SecurityGroupPresent (EC2Client): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="apply (RegionAndName): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/30)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="refresh (RegionAndName): SecurityGroup">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
       </package>
       <package name="org.jclouds.ec2.compute.suppliers">
         <coverage type="class, %" value="0%   (0/4)"/>
         <coverage type="method, %" value="0%   (0/10)"/>
-        <coverage type="block, %" value="0%   (0/170)"/>
-        <coverage type="line, %" value="0%   (0/32)"/>
+        <coverage type="block, %" value="0%   (0/198)"/>
+        <coverage type="line, %" value="0%   (0/37)"/>
 
         <srcfile name="EC2HardwareSupplier.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -215,13 +244,13 @@
         <srcfile name="EC2ImageSupplier.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/2)"/>
-          <coverage type="block, %" value="0%   (0/13)"/>
+          <coverage type="block, %" value="0%   (0/14)"/>
           <coverage type="line, %" value="0%   (0/4)"/>
 
           <class name="EC2ImageSupplier">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/13)"/>
+            <coverage type="block, %" value="0%   (0/14)"/>
             <coverage type="line, %" value="0%   (0/4)"/>
 
             <method name="EC2ImageSupplier (Supplier): void">
@@ -231,7 +260,7 @@
             </method>
             <method name="get (): Set">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -239,24 +268,24 @@
         <srcfile name="RegionAndNameToImageSupplier.java">
           <coverage type="class, %" value="0%   (0/2)"/>
           <coverage type="method, %" value="0%   (0/6)"/>
-          <coverage type="block, %" value="0%   (0/142)"/>
-          <coverage type="line, %" value="0%   (0/26)"/>
+          <coverage type="block, %" value="0%   (0/169)"/>
+          <coverage type="line, %" value="0%   (0/31)"/>
 
           <class name="RegionAndNameToImageSupplier">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
-            <coverage type="block, %" value="0%   (0/127)"/>
-            <coverage type="line, %" value="0%   (0/25)"/>
+            <coverage type="block, %" value="0%   (0/154)"/>
+            <coverage type="line, %" value="0%   (0/30)"/>
 
-            <method name="RegionAndNameToImageSupplier (Set, DescribeImagesParallel, String [], EC2ImageParser, Map): void">
+            <method name="RegionAndNameToImageSupplier (Set, DescribeImagesParallel, String [], EC2ImageParser, Map, CacheLoader): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/21)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
-            <method name="get (): Map">
+            <method name="get (): Cache">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/60)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="block, %" value="0%   (0/84)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
             </method>
             <method name="getDescribeQueriesForOwnersInRegions (Set, String []): Iterable">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -485,21 +514,21 @@
       </package>
       <package name="org.jclouds.ec2.compute.options">
         <coverage type="class, %" value="100% (2/2)"/>
-        <coverage type="method, %" value="46%  (25/54)"/>
-        <coverage type="block, %" value="37%  (254/691)"/>
-        <coverage type="line, %" value="41%  (55.8/136)"/>
+        <coverage type="method, %" value="45%  (25/56)"/>
+        <coverage type="block, %" value="36%  (254/713)"/>
+        <coverage type="line, %" value="40%  (55.8/139)"/>
 
         <srcfile name="EC2TemplateOptions.java">
           <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="46%  (25/54)"/>
-          <coverage type="block, %" value="37%  (254/691)"/>
-          <coverage type="line, %" value="41%  (55.8/136)"/>
+          <coverage type="method, %" value="45%  (25/56)"/>
+          <coverage type="block, %" value="36%  (254/713)"/>
+          <coverage type="line, %" value="40%  (55.8/139)"/>
 
           <class name="EC2TemplateOptions">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="46%  (17/37)"/>
-            <coverage type="block, %" value="32%  (166/522)"/>
-            <coverage type="line, %" value="38%  (40/104)"/>
+            <coverage type="method, %" value="45%  (17/38)"/>
+            <coverage type="block, %" value="31%  (166/531)"/>
+            <coverage type="line, %" value="38%  (40/105)"/>
 
             <method name="authorizePublicKey (Payload): EC2TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -596,9 +625,14 @@
               <coverage type="block, %" value="0%   (0/17)"/>
               <coverage type="line, %" value="0%   (0/3)"/>
             </method>
-            <method name="withMetadata (): EC2TemplateOptions">
+            <method name="userMetadata (Map): EC2TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="userMetadata (String, String): EC2TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="equals (Object): boolean">
@@ -689,9 +723,9 @@
           </class>
           <class name="EC2TemplateOptions$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="47%  (8/17)"/>
-            <coverage type="block, %" value="52%  (88/169)"/>
-            <coverage type="line, %" value="48%  (16/33)"/>
+            <coverage type="method, %" value="44%  (8/18)"/>
+            <coverage type="block, %" value="48%  (88/182)"/>
+            <coverage type="line, %" value="46%  (16/35)"/>
 
             <method name="EC2TemplateOptions$Builder (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -733,9 +767,14 @@
               <coverage type="block, %" value="0%   (0/11)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="withDetails (): EC2TemplateOptions">
+            <method name="userMetadata (Map): EC2TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="userMetadata (String, String): EC2TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="authorizePublicKey (String): EC2TemplateOptions">
@@ -901,9 +940,9 @@
       </package>
       <package name="org.jclouds.ec2.domain">
         <coverage type="class, %" value="75%  (33/44)"/>
-        <coverage type="method, %" value="49%  (195/395)"/>
-        <coverage type="block, %" value="55%  (4490/8136)"/>
-        <coverage type="line, %" value="49%  (803.8/1654)"/>
+        <coverage type="method, %" value="49%  (194/396)"/>
+        <coverage type="block, %" value="55%  (4517/8153)"/>
+        <coverage type="line, %" value="49%  (810.8/1655)"/>
 
         <srcfile name="BundleInstanceS3Storage.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -1118,50 +1157,6 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="UserIdGroupPair.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="50%  (3/6)"/>
-          <coverage type="block, %" value="18%  (21/117)"/>
-          <coverage type="line, %" value="20%  (6/30)"/>
-
-          <class name="UserIdGroupPair">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="50%  (3/6)"/>
-            <coverage type="block, %" value="18%  (21/117)"/>
-            <coverage type="line, %" value="20%  (6/30)"/>
-
-            <method name="compareTo (UserIdGroupPair): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/53)"/>
-              <coverage type="line, %" value="0%   (0/18)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/32)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
-            </method>
-            <method name="UserIdGroupPair (String, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (15/15)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="getGroupName (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getUserId (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="BlockDeviceMapping.java">
           <coverage type="class, %" value="33%  (2/6)"/>
           <coverage type="method, %" value="35%  (9/26)"/>
@@ -1338,6 +1333,55 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (13/13)"/>
               <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="UserIdGroupPair.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="57%  (4/7)"/>
+          <coverage type="block, %" value="40%  (54/134)"/>
+          <coverage type="line, %" value="48%  (15/31)"/>
+
+          <class name="UserIdGroupPair">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="57%  (4/7)"/>
+            <coverage type="block, %" value="40%  (54/134)"/>
+            <coverage type="line, %" value="48%  (15/31)"/>
+
+            <method name="compareTo (UserIdGroupPair): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="62%  (33/53)"/>
+              <coverage type="line, %" value="50%  (9/18)"/>
+            </method>
+            <method name="UserIdGroupPair (String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getGroupName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getUserId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -1655,14 +1699,14 @@
         <srcfile name="SecurityGroup.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="27%  (3/11)"/>
-          <coverage type="block, %" value="56%  (163/291)"/>
-          <coverage type="line, %" value="55%  (34.3/63)"/>
+          <coverage type="block, %" value="55%  (161/291)"/>
+          <coverage type="line, %" value="53%  (33.3/63)"/>
 
           <class name="SecurityGroup">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="27%  (3/11)"/>
-            <coverage type="block, %" value="56%  (163/291)"/>
-            <coverage type="line, %" value="55%  (34.3/63)"/>
+            <coverage type="block, %" value="55%  (161/291)"/>
+            <coverage type="line, %" value="53%  (33.3/63)"/>
 
             <method name="compareTo (SecurityGroup): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1706,8 +1750,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="58%  (68/117)"/>
-              <coverage type="line, %" value="47%  (18/38)"/>
+              <coverage type="block, %" value="56%  (66/117)"/>
+              <coverage type="line, %" value="45%  (17/38)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1780,6 +1824,117 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="KeyPair.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="56%  (10/18)"/>
+          <coverage type="block, %" value="59%  (166/279)"/>
+          <coverage type="line, %" value="63%  (37.5/60)"/>
+
+          <class name="KeyPair">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="36%  (4/11)"/>
+            <coverage type="block, %" value="57%  (131/228)"/>
+            <coverage type="line, %" value="56%  (27.5/49)"/>
+
+            <method name="compareTo (KeyPair): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getKeyFingerprint (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getKeyMaterial (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getKeyName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getRegion (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): KeyPair$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/31)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="64%  (54/85)"/>
+              <coverage type="line, %" value="50%  (14/28)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="84%  (49/58)"/>
+              <coverage type="line, %" value="93%  (6.5/7)"/>
+            </method>
+            <method name="KeyPair (String, String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="builder (): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="KeyPair$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="86%  (6/7)"/>
+            <coverage type="block, %" value="69%  (35/51)"/>
+            <coverage type="line, %" value="91%  (10/11)"/>
+
+            <method name="fromKeyPair (KeyPair): KeyPair$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="KeyPair$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): KeyPair">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="keyFingerprint (String): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="keyMaterial (String): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="keyName (String): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="region (String): KeyPair$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="AvailabilityZoneInfo.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="33%  (3/9)"/>
@@ -1836,117 +1991,6 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (32/32)"/>
               <coverage type="line, %" value="100% (7/7)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="KeyPair.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="67%  (12/18)"/>
-          <coverage type="block, %" value="62%  (172/279)"/>
-          <coverage type="line, %" value="66%  (39.5/60)"/>
-
-          <class name="KeyPair">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="55%  (6/11)"/>
-            <coverage type="block, %" value="60%  (137/228)"/>
-            <coverage type="line, %" value="60%  (29.5/49)"/>
-
-            <method name="compareTo (KeyPair): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getKeyFingerprint (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getKeyMaterial (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toBuilder (): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/31)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="64%  (54/85)"/>
-              <coverage type="line, %" value="50%  (14/28)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="84%  (49/58)"/>
-              <coverage type="line, %" value="93%  (6.5/7)"/>
-            </method>
-            <method name="KeyPair (String, String, String, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (24/24)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-            <method name="builder (): KeyPair$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getKeyName (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getRegion (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="KeyPair$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="86%  (6/7)"/>
-            <coverage type="block, %" value="69%  (35/51)"/>
-            <coverage type="line, %" value="91%  (10/11)"/>
-
-            <method name="fromKeyPair (KeyPair): KeyPair$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="KeyPair$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="build (): KeyPair">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="keyFingerprint (String): KeyPair$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="keyMaterial (String): KeyPair$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="keyName (String): KeyPair$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="region (String): KeyPair$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>
@@ -2802,14 +2846,14 @@
         <srcfile name="RunningInstance.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="74%  (43/58)"/>
-          <coverage type="block, %" value="71%  (780/1091)"/>
-          <coverage type="line, %" value="69%  (165.6/240)"/>
+          <coverage type="block, %" value="72%  (782/1091)"/>
+          <coverage type="line, %" value="69%  (166.6/240)"/>
 
           <class name="RunningInstance">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="54%  (15/28)"/>
-            <coverage type="block, %" value="66%  (580/877)"/>
-            <coverage type="line, %" value="61%  (109.6/180)"/>
+            <coverage type="block, %" value="66%  (582/877)"/>
+            <coverage type="line, %" value="61%  (110.6/180)"/>
 
             <method name="builder (): RunningInstance$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2878,8 +2922,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="62%  (213/341)"/>
-              <coverage type="line, %" value="48%  (52/108)"/>
+              <coverage type="block, %" value="63%  (215/341)"/>
+              <coverage type="line, %" value="49%  (53/108)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -3373,9 +3417,9 @@
       </package>
       <package name="org.jclouds.ec2.compute.strategy">
         <coverage type="class, %" value="36%  (5/14)"/>
-        <coverage type="method, %" value="48%  (21/44)"/>
-        <coverage type="block, %" value="58%  (596/1036)"/>
-        <coverage type="line, %" value="58%  (114.4/198)"/>
+        <coverage type="method, %" value="45%  (19/42)"/>
+        <coverage type="block, %" value="57%  (594/1041)"/>
+        <coverage type="line, %" value="57%  (112.4/198)"/>
 
         <srcfile name="DescribeImagesParallel.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -3650,7 +3694,7 @@
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="EC2CreateNodesInGroupThenAddToSet (EC2Client, Provider, CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions, InstancePresent, Function, Function, Map, ComputeUtils): void">
+            <method name="EC2CreateNodesInGroupThenAddToSet (EC2Client, Provider, CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions, InstancePresent, Function, Cache, Map, ComputeUtils): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (54/54)"/>
               <coverage type="line, %" value="100% (11/11)"/>
@@ -3686,15 +3730,15 @@
         </srcfile>
         <srcfile name="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions.java">
           <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="90%  (9/10)"/>
-          <coverage type="block, %" value="95%  (286/302)"/>
-          <coverage type="line, %" value="95%  (57/60)"/>
+          <coverage type="method, %" value="88%  (7/8)"/>
+          <coverage type="block, %" value="93%  (284/307)"/>
+          <coverage type="line, %" value="92%  (55/60)"/>
 
           <class name="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="90%  (9/10)"/>
-            <coverage type="block, %" value="95%  (286/302)"/>
-            <coverage type="line, %" value="95%  (57/60)"/>
+            <coverage type="method, %" value="88%  (7/8)"/>
+            <coverage type="block, %" value="93%  (284/307)"/>
+            <coverage type="line, %" value="92%  (55/60)"/>
 
             <method name="getOptionsProvider (): Provider">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3706,40 +3750,30 @@
               <coverage type="block, %" value="81%  (57/70)"/>
               <coverage type="line, %" value="86%  (12/14)"/>
             </method>
-            <method name="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions (Map, Map, Function, Function, Provider): void">
+            <method name="createNewKeyPairUnlessUserSpecifiedOtherwise (String, String, TemplateOptions): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
+              <coverage type="block, %" value="94%  (103/110)"/>
+              <coverage type="line, %" value="92%  (22/24)"/>
+            </method>
+            <method name="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions (Map, Cache, Cache, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (27/27)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
             </method>
             <method name="addSecurityGroups (String, String, Template, RunInstancesOptions): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (12/12)"/>
               <coverage type="line, %" value="100% (3/3)"/>
             </method>
-            <method name="createNewKeyPairUnlessUserSpecifiedOtherwise (String, String, TemplateOptions): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (80/80)"/>
-              <coverage type="line, %" value="100% (16/16)"/>
-            </method>
             <method name="createOrImportKeyPair (String, String, TemplateOptions): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
               <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="createUniqueKeyPairAndPutIntoMap (String, String): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
             </method>
             <method name="getSecurityGroupsForTagAndOptions (String, String, TemplateOptions): Set">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (69/69)"/>
-              <coverage type="line, %" value="100% (11/11)"/>
-            </method>
-            <method name="putKeyPairIntoCredentialMap (KeyPair): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (60/60)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
             </method>
             <method name="userSpecifiedTheirOwnGroups (TemplateOptions): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -3768,334 +3802,6 @@
             <method name="reviseParsedImage (Image, ImageBuilder, OsFamily, OperatingSystem$Builder): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (1/1)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
-      <package name="org.jclouds.ec2.compute.functions">
-        <coverage type="class, %" value="83%  (10/12)"/>
-        <coverage type="method, %" value="67%  (26/39)"/>
-        <coverage type="block, %" value="62%  (728/1178)"/>
-        <coverage type="line, %" value="67%  (118.8/177)"/>
-
-        <srcfile name="CreateSecurityGroupIfNeeded.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="0%   (0/5)"/>
-          <coverage type="block, %" value="0%   (0/192)"/>
-          <coverage type="line, %" value="0%   (0/28)"/>
-
-          <class name="CreateSecurityGroupIfNeeded">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="0%   (0/5)"/>
-            <coverage type="block, %" value="0%   (0/192)"/>
-            <coverage type="line, %" value="0%   (0/28)"/>
-
-            <method name="CreateSecurityGroupIfNeeded (EC2Client): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="apply (RegionNameAndIngressRules): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="authorizeGroupToItself (String, String): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/52)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
-            </method>
-            <method name="createIngressRuleForTCPPort (String, String, int): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/40)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="createSecurityGroupInRegion (String, String, int []): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/80)"/>
-              <coverage type="line, %" value="0%   (0/13)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="CredentialsForInstance.java">
-          <coverage type="class, %" value="0%   (0/1)"/>
-          <coverage type="method, %" value="0%   (0/4)"/>
-          <coverage type="block, %" value="0%   (0/80)"/>
-          <coverage type="line, %" value="0%   (0/12)"/>
-
-          <class name="CredentialsForInstance">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/4)"/>
-            <coverage type="block, %" value="0%   (0/80)"/>
-            <coverage type="line, %" value="0%   (0/12)"/>
-
-            <method name="CredentialsForInstance (Map, PopulateDefaultLoginCredentialsForImageStrategy, Map): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/18)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
-            </method>
-            <method name="apply (RunningInstance): Credentials">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
-            </method>
-            <method name="getLoginAccountFor (RunningInstance): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/26)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getPrivateKeyOrNull (RunningInstance): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/19)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="RunningInstanceToNodeMetadata.java">
-          <coverage type="class, %" value="83%  (5/6)"/>
-          <coverage type="method, %" value="84%  (16/19)"/>
-          <coverage type="block, %" value="77%  (374/487)"/>
-          <coverage type="line, %" value="86%  (60.9/71)"/>
-
-          <class name="RunningInstanceToNodeMetadata$2">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/10)"/>
-            <coverage type="line, %" value="0%   (0/2)"/>
-
-            <method name="RunningInstanceToNodeMetadata$2 (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (Volume): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-          </class>
-          <class name="RunningInstanceToNodeMetadata$1">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="50%  (1/2)"/>
-            <coverage type="block, %" value="18%  (6/34)"/>
-            <coverage type="line, %" value="50%  (1/2)"/>
-
-            <method name="apply (Map$Entry): Volume">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/28)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="RunningInstanceToNodeMetadata$1 (RunningInstance): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="RunningInstanceToNodeMetadata$3">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="50%  (15/30)"/>
-            <coverage type="line, %" value="64%  (1.3/2)"/>
-
-            <method name="apply (String): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="29%  (6/21)"/>
-              <coverage type="line, %" value="28%  (0.3/1)"/>
-            </method>
-            <method name="RunningInstanceToNodeMetadata$3 (RunningInstanceToNodeMetadata, RunningInstance): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="RunningInstanceToNodeMetadata">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (9/9)"/>
-            <coverage type="block, %" value="84%  (322/382)"/>
-            <coverage type="line, %" value="88%  (57.4/65)"/>
-
-            <method name="getGroupForInstance (RunningInstance): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="29%  (20/70)"/>
-              <coverage type="line, %" value="42%  (3.4/8)"/>
-            </method>
-            <method name="addEBS (RunningInstance, Iterable): List">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="75%  (18/24)"/>
-              <coverage type="line, %" value="75%  (3/4)"/>
-            </method>
-            <method name="findLocationWithId (String): Location">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="95%  (35/37)"/>
-              <coverage type="line, %" value="86%  (6/7)"/>
-            </method>
-            <method name="apply (RunningInstance): NodeMetadata">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="98%  (128/130)"/>
-              <coverage type="line, %" value="96%  (23/24)"/>
-            </method>
-            <method name="RunningInstanceToNodeMetadata (Map, Map, Map, Supplier, Supplier): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (36/36)"/>
-              <coverage type="line, %" value="100% (8/8)"/>
-            </method>
-            <method name="addCredentialsForInstance (NodeMetadataBuilder, RunningInstance): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (22/22)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="getHardwareForInstance (RunningInstance): Hardware">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (32/32)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="getLocationForAvailabilityZoneOrRegion (RunningInstance): Location">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="parseHardware (RunningInstance): Hardware">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (17/17)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-          </class>
-          <class name="RunningInstanceToNodeMetadata$4">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (16/16)"/>
-            <coverage type="line, %" value="100% (2/2)"/>
-
-            <method name="RunningInstanceToNodeMetadata$4 (RunningInstanceToNodeMetadata, RunningInstance): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (Hardware): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="RunningInstanceToNodeMetadata$5">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (15/15)"/>
-            <coverage type="line, %" value="100% (2/2)"/>
-
-            <method name="RunningInstanceToNodeMetadata$5 (RunningInstanceToNodeMetadata, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (Location): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="EC2ImageParser.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="100% (4/4)"/>
-          <coverage type="block, %" value="81%  (190/236)"/>
-          <coverage type="line, %" value="87%  (28/32)"/>
-
-          <class name="EC2ImageParser">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="79%  (174/220)"/>
-            <coverage type="line, %" value="87%  (27/31)"/>
-
-            <method name="apply (Image): Image">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="75%  (138/184)"/>
-              <coverage type="line, %" value="82%  (19/23)"/>
-            </method>
-            <method name="EC2ImageParser (PopulateDefaultLoginCredentialsForImageStrategy, Map, Supplier, Supplier, ReviseParsedImage): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (36/36)"/>
-              <coverage type="line, %" value="100% (8/8)"/>
-            </method>
-          </class>
-          <class name="EC2ImageParser$1">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (16/16)"/>
-            <coverage type="line, %" value="100% (2/2)"/>
-
-            <method name="EC2ImageParser$1 (EC2ImageParser, Image): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="apply (Location): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="RegionAndIdToImage.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (3/3)"/>
-          <coverage type="block, %" value="87%  (81/93)"/>
-          <coverage type="line, %" value="82%  (14/17)"/>
-
-          <class name="RegionAndIdToImage">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (3/3)"/>
-            <coverage type="block, %" value="87%  (81/93)"/>
-            <coverage type="line, %" value="82%  (14/17)"/>
-
-            <method name="apply (RegionAndName): Image">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="80%  (49/61)"/>
-              <coverage type="line, %" value="73%  (8/11)"/>
-            </method>
-            <method name="RegionAndIdToImage (EC2ImageParser, EC2Client): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-            <method name="message (RegionAndName, Exception): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (20/20)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="CreateUniqueKeyPair.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="75%  (3/4)"/>
-          <coverage type="block, %" value="92%  (83/90)"/>
-          <coverage type="line, %" value="94%  (16/17)"/>
-
-          <class name="CreateUniqueKeyPair">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="75%  (3/4)"/>
-            <coverage type="block, %" value="92%  (83/90)"/>
-            <coverage type="line, %" value="94%  (16/17)"/>
-
-            <method name="apply (RegionAndName): KeyPair">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="CreateUniqueKeyPair (EC2Client, Supplier): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-            <method name="createNewKeyPairInRegion (String, String): KeyPair">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (52/52)"/>
-              <coverage type="line, %" value="100% (10/10)"/>
-            </method>
-            <method name="getNextName (String, String): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (19/19)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
@@ -4183,9 +3889,9 @@
       </package>
       <package name="org.jclouds.ec2.compute.config">
         <coverage type="class, %" value="88%  (14/16)"/>
-        <coverage type="method, %" value="74%  (32/43)"/>
-        <coverage type="block, %" value="75%  (237/318)"/>
-        <coverage type="line, %" value="76%  (41/54)"/>
+        <coverage type="method, %" value="70%  (32/46)"/>
+        <coverage type="block, %" value="71%  (237/332)"/>
+        <coverage type="line, %" value="72%  (41/57)"/>
 
         <srcfile name="EC2ComputeServiceContextModule.java">
           <coverage type="class, %" value="50%  (1/2)"/>
@@ -4204,7 +3910,7 @@
               <coverage type="block, %" value="0%   (0/9)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="get (): Map">
+            <method name="get (): Cache">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
@@ -4245,9 +3951,9 @@
         </srcfile>
         <srcfile name="EC2ComputeServiceDependenciesModule.java">
           <coverage type="class, %" value="91%  (10/11)"/>
-          <coverage type="method, %" value="63%  (12/19)"/>
-          <coverage type="block, %" value="81%  (172/212)"/>
-          <coverage type="line, %" value="68%  (15/22)"/>
+          <coverage type="method, %" value="55%  (12/22)"/>
+          <coverage type="block, %" value="76%  (172/226)"/>
+          <coverage type="line, %" value="60%  (15/25)"/>
 
           <class name="EC2ComputeServiceDependenciesModule$10">
             <coverage type="class, %" value="0%   (0/1)"/>
@@ -4268,18 +3974,28 @@
           </class>
           <class name="EC2ComputeServiceDependenciesModule">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="38%  (3/8)"/>
-            <coverage type="block, %" value="87%  (118/135)"/>
-            <coverage type="line, %" value="72%  (13/18)"/>
+            <coverage type="method, %" value="27%  (3/11)"/>
+            <coverage type="block, %" value="79%  (118/149)"/>
+            <coverage type="line, %" value="62%  (13/21)"/>
 
-            <method name="credentialsMap (Function): Map">
+            <method name="credentialsMap (CacheLoader): Cache">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="keypairMap (CacheLoader): Cache">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="knownImages (): Map">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/2)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="provideImageMap (Function): Map">
+            <method name="knownKeys (): Map">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="provideServerToNodeState (): Map">
@@ -4292,9 +4008,14 @@
               <coverage type="block, %" value="0%   (0/5)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="securityGroupMap (Function): Map">
+            <method name="securityGroupEventualConsistencyDelay (SecurityGroupPresent, long): Predicate">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="securityGroupMap (CacheLoader): Cache">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="&lt;static initializer&gt;">
@@ -4550,6 +4271,79 @@
           </class>
         </srcfile>
       </package>
+      <package name="org.jclouds.ec2.compute.internal">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (9/9)"/>
+        <coverage type="block, %" value="72%  (130/180)"/>
+        <coverage type="line, %" value="69%  (20/29)"/>
+
+        <srcfile name="EC2TemplateBuilderImpl.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (9/9)"/>
+          <coverage type="block, %" value="72%  (130/180)"/>
+          <coverage type="line, %" value="69%  (20/29)"/>
+
+          <class name="EC2TemplateBuilderImpl$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="66%  (74/112)"/>
+            <coverage type="line, %" value="69%  (9/13)"/>
+
+            <method name="get (): Image">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="64%  (68/106)"/>
+              <coverage type="line, %" value="67%  (8/12)"/>
+            </method>
+            <method name="EC2TemplateBuilderImpl$1 (EC2TemplateBuilderImpl): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="EC2TemplateBuilderImpl">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (7/7)"/>
+            <coverage type="block, %" value="82%  (56/68)"/>
+            <coverage type="line, %" value="71%  (12/17)"/>
+
+            <method name="resolveImage (Hardware, Iterable): Image">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="29%  (5/17)"/>
+              <coverage type="line, %" value="17%  (1/6)"/>
+            </method>
+            <method name="EC2TemplateBuilderImpl (Supplier, Supplier, Supplier, Supplier, Provider, Provider, Supplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="access$000 (EC2TemplateBuilderImpl): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="access$100 (EC2TemplateBuilderImpl): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="access$200 (EC2TemplateBuilderImpl): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="access$300 (EC2TemplateBuilderImpl): Supplier">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getImages (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
       <package name="org.jclouds.ec2.compute.util">
         <coverage type="class, %" value="100% (1/1)"/>
         <coverage type="method, %" value="50%  (1/2)"/>
@@ -4581,41 +4375,350 @@
           </class>
         </srcfile>
       </package>
-      <package name="org.jclouds.ec2.compute.domain">
-        <coverage type="class, %" value="100% (6/6)"/>
-        <coverage type="method, %" value="74%  (35/47)"/>
-        <coverage type="block, %" value="80%  (692/862)"/>
-        <coverage type="line, %" value="73%  (70.1/96)"/>
+      <package name="org.jclouds.ec2.compute.functions">
+        <coverage type="class, %" value="83%  (10/12)"/>
+        <coverage type="method, %" value="80%  (33/41)"/>
+        <coverage type="block, %" value="79%  (1023/1288)"/>
+        <coverage type="line, %" value="84%  (160.8/191)"/>
 
-        <srcfile name="RegionNameAndIngressRules.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="33%  (1/3)"/>
-          <coverage type="block, %" value="65%  (11/17)"/>
-          <coverage type="line, %" value="67%  (4/6)"/>
+        <srcfile name="CredentialsForInstance.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/82)"/>
+          <coverage type="line, %" value="0%   (0/12)"/>
 
-          <class name="RegionNameAndIngressRules">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="33%  (1/3)"/>
-            <coverage type="block, %" value="65%  (11/17)"/>
-            <coverage type="line, %" value="67%  (4/6)"/>
+          <class name="CredentialsForInstance">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/82)"/>
+            <coverage type="line, %" value="0%   (0/12)"/>
 
-            <method name="getPorts (): int []">
+            <method name="CredentialsForInstance (Cache, PopulateDefaultLoginCredentialsForImageStrategy, Supplier): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/18)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="getLoginAccountFor (RunningInstance): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/28)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="shouldAuthorizeSelf (): boolean">
+            <method name="getPrivateKeyOrNull (RunningInstance): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="RegionNameAndIngressRules (String, String, int [], boolean): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (11/11)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+            <method name="load (RunningInstance): Credentials">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
           </class>
         </srcfile>
+        <srcfile name="RunningInstanceToNodeMetadata.java">
+          <coverage type="class, %" value="83%  (5/6)"/>
+          <coverage type="method, %" value="85%  (17/20)"/>
+          <coverage type="block, %" value="76%  (398/526)"/>
+          <coverage type="line, %" value="84%  (63.9/76)"/>
+
+          <class name="RunningInstanceToNodeMetadata$2">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/10)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="RunningInstanceToNodeMetadata$2 (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Volume): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="RunningInstanceToNodeMetadata$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="18%  (6/34)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="apply (Map$Entry): Volume">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/28)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="RunningInstanceToNodeMetadata$1 (RunningInstance): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="RunningInstanceToNodeMetadata$3">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="50%  (15/30)"/>
+            <coverage type="line, %" value="64%  (1.3/2)"/>
+
+            <method name="apply (String): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="29%  (6/21)"/>
+              <coverage type="line, %" value="28%  (0.3/1)"/>
+            </method>
+            <method name="RunningInstanceToNodeMetadata$3 (RunningInstanceToNodeMetadata, RunningInstance): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="RunningInstanceToNodeMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (10/10)"/>
+            <coverage type="block, %" value="82%  (346/421)"/>
+            <coverage type="line, %" value="86%  (60.4/70)"/>
+
+            <method name="getGroupForInstance (RunningInstance): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="29%  (20/70)"/>
+              <coverage type="line, %" value="42%  (3.4/8)"/>
+            </method>
+            <method name="addEBS (RunningInstance, Iterable): List">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="75%  (18/24)"/>
+              <coverage type="line, %" value="75%  (3/4)"/>
+            </method>
+            <method name="apply (RunningInstance): NodeMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="89%  (17/19)"/>
+              <coverage type="line, %" value="80%  (4/5)"/>
+            </method>
+            <method name="buildInstance (RunningInstance, NodeMetadataBuilder): NodeMetadataBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (135/150)"/>
+              <coverage type="line, %" value="92%  (22/24)"/>
+            </method>
+            <method name="findLocationWithId (String): Location">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="95%  (35/37)"/>
+              <coverage type="line, %" value="86%  (6/7)"/>
+            </method>
+            <method name="RunningInstanceToNodeMetadata (Map, Map, Supplier, Supplier, Supplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (36/36)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="addCredentialsForInstance (NodeMetadataBuilder, RunningInstance): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (22/22)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="getHardwareForInstance (RunningInstance): Hardware">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (32/32)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getLocationForAvailabilityZoneOrRegion (RunningInstance): Location">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="parseHardware (RunningInstance): Hardware">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="RunningInstanceToNodeMetadata$4">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (16/16)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="RunningInstanceToNodeMetadata$4 (RunningInstanceToNodeMetadata, RunningInstance): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Hardware): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="RunningInstanceToNodeMetadata$5">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (15/15)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="RunningInstanceToNodeMetadata$5 (RunningInstanceToNodeMetadata, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Location): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="EC2ImageParser.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="81%  (190/236)"/>
+          <coverage type="line, %" value="87%  (28/32)"/>
+
+          <class name="EC2ImageParser">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="79%  (174/220)"/>
+            <coverage type="line, %" value="87%  (27/31)"/>
+
+            <method name="apply (Image): Image">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="75%  (138/184)"/>
+              <coverage type="line, %" value="82%  (19/23)"/>
+            </method>
+            <method name="EC2ImageParser (PopulateDefaultLoginCredentialsForImageStrategy, Map, Supplier, Supplier, ReviseParsedImage): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (36/36)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+          </class>
+          <class name="EC2ImageParser$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (16/16)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="EC2ImageParser$1 (EC2ImageParser, Image): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Location): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CreateSecurityGroupIfNeeded.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="83%  (5/6)"/>
+          <coverage type="block, %" value="96%  (229/238)"/>
+          <coverage type="line, %" value="94%  (33/35)"/>
+
+          <class name="CreateSecurityGroupIfNeeded">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="96%  (229/238)"/>
+            <coverage type="line, %" value="94%  (33/35)"/>
+
+            <method name="CreateSecurityGroupIfNeeded (EC2Client, Predicate): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="CreateSecurityGroupIfNeeded (SecurityGroupClient, Predicate): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="authorizeGroupToItself (String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (50/50)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="createIngressRuleForTCPPort (String, String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (39/39)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="createSecurityGroupInRegion (String, String, int []): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (106/106)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
+            </method>
+            <method name="load (RegionAndName): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CreateUniqueKeyPair.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (124/124)"/>
+          <coverage type="line, %" value="100% (23/23)"/>
+
+          <class name="CreateUniqueKeyPair">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (124/124)"/>
+            <coverage type="line, %" value="100% (23/23)"/>
+
+            <method name="CreateUniqueKeyPair (Map, EC2Client, Supplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="createNewKeyPairInRegion (String, String): KeyPair">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (52/52)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="getNextName (String, String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="load (RegionAndName): KeyPair">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (38/38)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RegionAndIdToImage.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (82/82)"/>
+          <coverage type="line, %" value="100% (13/13)"/>
+
+          <class name="RegionAndIdToImage">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (82/82)"/>
+            <coverage type="line, %" value="100% (13/13)"/>
+
+            <method name="RegionAndIdToImage (Map, EC2ImageParser, EC2Client): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="load (RegionAndName): Image">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (47/47)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="message (RegionAndName, Exception): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.ec2.compute.domain">
+        <coverage type="class, %" value="100% (6/6)"/>
+        <coverage type="method, %" value="77%  (36/47)"/>
+        <coverage type="block, %" value="80%  (693/862)"/>
+        <coverage type="line, %" value="73%  (70.1/96)"/>
+
         <srcfile name="EC2HardwareBuilder.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="74%  (28/38)"/>
@@ -4844,19 +4947,19 @@
         <srcfile name="RegionAndName.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (6/6)"/>
-          <coverage type="block, %" value="83%  (97/117)"/>
-          <coverage type="line, %" value="76%  (22.8/30)"/>
+          <coverage type="block, %" value="81%  (95/117)"/>
+          <coverage type="line, %" value="73%  (21.8/30)"/>
 
           <class name="RegionAndName">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (6/6)"/>
-            <coverage type="block, %" value="83%  (97/117)"/>
-            <coverage type="line, %" value="76%  (22.8/30)"/>
+            <coverage type="block, %" value="81%  (95/117)"/>
+            <coverage type="line, %" value="73%  (21.8/30)"/>
 
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="70%  (37/53)"/>
-              <coverage type="line, %" value="61%  (11/18)"/>
+              <coverage type="block, %" value="66%  (35/53)"/>
+              <coverage type="line, %" value="56%  (10/18)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -4885,76 +4988,32 @@
             </method>
           </class>
         </srcfile>
-      </package>
-      <package name="org.jclouds.ec2.compute.internal">
-        <coverage type="class, %" value="100% (2/2)"/>
-        <coverage type="method, %" value="100% (9/9)"/>
-        <coverage type="block, %" value="81%  (128/159)"/>
-        <coverage type="line, %" value="74%  (20/27)"/>
+        <srcfile name="RegionNameAndIngressRules.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="82%  (14/17)"/>
+          <coverage type="line, %" value="83%  (5/6)"/>
 
-        <srcfile name="EC2TemplateBuilderImpl.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="100% (9/9)"/>
-          <coverage type="block, %" value="81%  (128/159)"/>
-          <coverage type="line, %" value="74%  (20/27)"/>
-
-          <class name="EC2TemplateBuilderImpl$1">
+          <class name="RegionNameAndIngressRules">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="79%  (72/91)"/>
-            <coverage type="line, %" value="82%  (9/11)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="82%  (14/17)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
 
-            <method name="get (): Image">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="78%  (66/85)"/>
-              <coverage type="line, %" value="80%  (8/10)"/>
+            <method name="shouldAuthorizeSelf (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="EC2TemplateBuilderImpl$1 (EC2TemplateBuilderImpl): void">
+            <method name="RegionNameAndIngressRules (String, String, int [], boolean): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="EC2TemplateBuilderImpl">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (7/7)"/>
-            <coverage type="block, %" value="82%  (56/68)"/>
-            <coverage type="line, %" value="71%  (12/17)"/>
-
-            <method name="resolveImage (Hardware, Iterable): Image">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="29%  (5/17)"/>
-              <coverage type="line, %" value="17%  (1/6)"/>
-            </method>
-            <method name="EC2TemplateBuilderImpl (Supplier, Supplier, Supplier, Supplier, Provider, Provider, Map): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
               <coverage type="line, %" value="100% (4/4)"/>
             </method>
-            <method name="access$000 (EC2TemplateBuilderImpl): String">
+            <method name="getPorts (): int []">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="access$100 (EC2TemplateBuilderImpl): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="access$200 (EC2TemplateBuilderImpl): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="access$300 (EC2TemplateBuilderImpl): Map">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getImages (): Set">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (21/21)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
             </method>
           </class>
         </srcfile>
@@ -6166,8 +6225,8 @@
       <package name="org.jclouds.ec2">
         <coverage type="class, %" value="100% (2/2)"/>
         <coverage type="method, %" value="75%  (6/8)"/>
-        <coverage type="block, %" value="87%  (55/63)"/>
-        <coverage type="line, %" value="79%  (15/19)"/>
+        <coverage type="block, %" value="88%  (60/68)"/>
+        <coverage type="line, %" value="80%  (16/20)"/>
 
         <srcfile name="EC2ContextBuilder.java">
           <coverage type="class, %" value="100% (1/1)"/>
@@ -6211,14 +6270,14 @@
         <srcfile name="EC2PropertiesBuilder.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="67%  (2/3)"/>
-          <coverage type="block, %" value="91%  (29/32)"/>
-          <coverage type="line, %" value="80%  (8/10)"/>
+          <coverage type="block, %" value="92%  (34/37)"/>
+          <coverage type="line, %" value="82%  (9/11)"/>
 
           <class name="EC2PropertiesBuilder">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="67%  (2/3)"/>
-            <coverage type="block, %" value="91%  (29/32)"/>
-            <coverage type="line, %" value="80%  (8/10)"/>
+            <coverage type="block, %" value="92%  (34/37)"/>
+            <coverage type="line, %" value="82%  (9/11)"/>
 
             <method name="EC2PropertiesBuilder (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6232,8 +6291,8 @@
             </method>
             <method name="defaultProperties (): Properties">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (25/25)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
             </method>
           </class>
         </srcfile>
