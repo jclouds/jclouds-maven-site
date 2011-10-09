@@ -14,3 +14,4 @@ org.jclouds.aws.ec2.reference
 org.jclouds.aws.ec2.services
 org.jclouds.aws.ec2.xml
 org.jclouds.aws.ec2
+org.jclouds.aws.ec2.util

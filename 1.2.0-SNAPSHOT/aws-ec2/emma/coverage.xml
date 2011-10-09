@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
-    <packages value="14"/>
-    <classes value="89"/>
-    <methods value="546"/>
-    <srcfiles value="56"/>
-    <srclines value="1877"/>
+    <packages value="15"/>
+    <classes value="102"/>
+    <methods value="660"/>
+    <srcfiles value="63"/>
+    <srclines value="2156"/>
   </stats>
   <data>
     <all name="all classes">
-      <coverage type="class, %" value="76%  (68/89)"/>
-      <coverage type="method, %" value="68%  (371/546)"/>
-      <coverage type="block, %" value="69%  (6719/9747)"/>
-      <coverage type="line, %" value="68%  (1275.9/1877)"/>
+      <coverage type="class, %" value="75%  (76/102)"/>
+      <coverage type="method, %" value="61%  (403/660)"/>
+      <coverage type="block, %" value="65%  (7286/11284)"/>
+      <coverage type="line, %" value="63%  (1358.7/2156)"/>
 
       <package name="org.jclouds.aws.ec2.compute.predicates">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -49,8 +49,8 @@
       <package name="org.jclouds.aws.ec2.compute.suppliers">
         <coverage type="class, %" value="0%   (0/6)"/>
         <coverage type="method, %" value="0%   (0/17)"/>
-        <coverage type="block, %" value="0%   (0/390)"/>
-        <coverage type="line, %" value="0%   (0/67)"/>
+        <coverage type="block, %" value="0%   (0/430)"/>
+        <coverage type="line, %" value="0%   (0/73)"/>
 
         <srcfile name="AWSEC2HardwareSupplier.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -79,24 +79,24 @@
         <srcfile name="AWSRegionAndNameToImageSupplier.java">
           <coverage type="class, %" value="0%   (0/4)"/>
           <coverage type="method, %" value="0%   (0/12)"/>
-          <coverage type="block, %" value="0%   (0/246)"/>
-          <coverage type="line, %" value="0%   (0/43)"/>
+          <coverage type="block, %" value="0%   (0/286)"/>
+          <coverage type="line, %" value="0%   (0/49)"/>
 
           <class name="AWSRegionAndNameToImageSupplier">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/147)"/>
-            <coverage type="line, %" value="0%   (0/31)"/>
+            <coverage type="block, %" value="0%   (0/187)"/>
+            <coverage type="line, %" value="0%   (0/37)"/>
 
-            <method name="AWSRegionAndNameToImageSupplier (Set, String, String, String, Map, CallForImages$Factory, Set, ExecutorService): void">
+            <method name="AWSRegionAndNameToImageSupplier (Set, String, String, String, Map, CacheLoader, CallForImages$Factory, Set, ExecutorService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/33)"/>
-              <coverage type="line, %" value="0%   (0/11)"/>
+              <coverage type="block, %" value="0%   (0/36)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
             </method>
-            <method name="get (): Map">
+            <method name="get (): Cache">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/86)"/>
-              <coverage type="line, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/123)"/>
+              <coverage type="line, %" value="0%   (0/21)"/>
             </method>
             <method name="images (Iterable, String, String): Future">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -296,41 +296,95 @@
         </srcfile>
       </package>
       <package name="org.jclouds.aws.ec2.compute">
-        <coverage type="class, %" value="50%  (2/4)"/>
-        <coverage type="method, %" value="33%  (26/78)"/>
-        <coverage type="block, %" value="20%  (210/1027)"/>
-        <coverage type="line, %" value="23%  (45.8/201)"/>
+        <coverage type="class, %" value="33%  (2/6)"/>
+        <coverage type="method, %" value="30%  (26/87)"/>
+        <coverage type="block, %" value="18%  (210/1141)"/>
+        <coverage type="line, %" value="21%  (45.8/215)"/>
 
         <srcfile name="AWSEC2ComputeService.java">
-          <coverage type="class, %" value="0%   (0/1)"/>
-          <coverage type="method, %" value="0%   (0/4)"/>
-          <coverage type="block, %" value="0%   (0/168)"/>
-          <coverage type="line, %" value="0%   (0/24)"/>
+          <coverage type="class, %" value="0%   (0/3)"/>
+          <coverage type="method, %" value="0%   (0/12)"/>
+          <coverage type="block, %" value="0%   (0/261)"/>
+          <coverage type="line, %" value="0%   (0/37)"/>
 
           <class name="AWSEC2ComputeService">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/4)"/>
-            <coverage type="block, %" value="0%   (0/168)"/>
-            <coverage type="line, %" value="0%   (0/24)"/>
+            <coverage type="method, %" value="0%   (0/8)"/>
+            <coverage type="block, %" value="0%   (0/234)"/>
+            <coverage type="line, %" value="0%   (0/35)"/>
 
-            <method name="AWSEC2ComputeService (ComputeServiceContext, Map, Supplier, Supplier, Supplier, ListNodesStrategy, GetNodeMetadataStrategy, CreateNodesInGroupThenAddToSet, RebootNodeStrategy, DestroyNodeStrategy, ResumeNodeStrategy, SuspendNodeStrategy, Provider, Provider, Predicate, Predicate, Predicate, InitializeRunScriptOnNodeOrPlaceInBadMap$Factory, RunScriptOnNode$Factory, InitAdminAccess, PersistNodeCredentials, ComputeServiceConstants$Timeouts, ExecutorService, AWSEC2Client, Map, Map, Map, Predicate): void">
+            <method name="AWSEC2ComputeService (ComputeServiceContext, Map, Supplier, Supplier, Supplier, ListNodesStrategy, GetNodeMetadataStrategy, CreateNodesInGroupThenAddToSet, RebootNodeStrategy, DestroyNodeStrategy, ResumeNodeStrategy, SuspendNodeStrategy, Provider, Provider, Predicate, Predicate, Predicate, InitializeRunScriptOnNodeOrPlaceInBadMap$Factory, RunScriptOnNode$Factory, InitAdminAccess, PersistNodeCredentials, ComputeServiceConstants$Timeouts, ExecutorService, AWSEC2Client, Cache, Cache, Cache, Predicate): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/38)"/>
               <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="addTagsToNodesFromUserMetadataInTemplate (Set, Template): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="addUserMetadataFromTemplateOptionsToNodes (Template, Set): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="cleanUpIncidentalResources (Map$Entry): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/12)"/>
               <coverage type="line, %" value="0%   (0/3)"/>
             </method>
+            <method name="createNodesInGroup (String, int, Template): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/21)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
             <method name="deletePlacementGroup (String, String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/112)"/>
+              <coverage type="block, %" value="0%   (0/111)"/>
               <coverage type="line, %" value="0%   (0/15)"/>
             </method>
             <method name="templateOptions (): EC2TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="templateWasASpotRequestWithUserMetadata (Template): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="AWSEC2ComputeService$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/9)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="AWSEC2ComputeService$1 (AWSEC2ComputeService): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (NodeMetadata): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="AWSEC2ComputeService$2">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/18)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="AWSEC2ComputeService$2 (AWSEC2ComputeService, Template): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (NodeMetadata): NodeMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -347,7 +401,7 @@
             <coverage type="block, %" value="0%   (0/10)"/>
             <coverage type="line, %" value="0%   (0/2)"/>
 
-            <method name="AWSEC2TemplateBuilderImpl (Supplier, Supplier, Supplier, Supplier, Provider, Provider, Map): void">
+            <method name="AWSEC2TemplateBuilderImpl (Supplier, Supplier, Supplier, Supplier, Provider, Provider, Supplier): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/10)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
@@ -356,15 +410,15 @@
         </srcfile>
         <srcfile name="AWSEC2TemplateOptions.java">
           <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="36%  (26/73)"/>
-          <coverage type="block, %" value="25%  (210/849)"/>
-          <coverage type="line, %" value="26%  (45.8/175)"/>
+          <coverage type="method, %" value="35%  (26/74)"/>
+          <coverage type="block, %" value="24%  (210/870)"/>
+          <coverage type="line, %" value="26%  (45.8/176)"/>
 
           <class name="AWSEC2TemplateOptions">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="31%  (15/48)"/>
-            <coverage type="block, %" value="18%  (117/645)"/>
-            <coverage type="line, %" value="19%  (24/127)"/>
+            <coverage type="block, %" value="18%  (117/650)"/>
+            <coverage type="line, %" value="19%  (24/126)"/>
 
             <method name="authorizePublicKey (Payload): AWSEC2TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -486,11 +540,6 @@
               <coverage type="block, %" value="0%   (0/7)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="setGroupIds (Set): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
             <method name="shouldAutomaticallyCreatePlacementGroup (): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/7)"/>
@@ -526,9 +575,14 @@
               <coverage type="block, %" value="0%   (0/7)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="withMetadata (): AWSEC2TemplateOptions">
+            <method name="userMetadata (Map): AWSEC2TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="userMetadata (String, String): AWSEC2TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="&lt;static initializer&gt;">
@@ -609,9 +663,9 @@
           </class>
           <class name="AWSEC2TemplateOptions$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="44%  (11/25)"/>
-            <coverage type="block, %" value="46%  (93/204)"/>
-            <coverage type="line, %" value="45%  (22/49)"/>
+            <coverage type="method, %" value="42%  (11/26)"/>
+            <coverage type="block, %" value="42%  (93/220)"/>
+            <coverage type="line, %" value="43%  (22/51)"/>
 
             <method name="AWSEC2TemplateOptions$Builder (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -678,9 +732,14 @@
               <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="withDetails (): AWSEC2TemplateOptions">
+            <method name="userMetadata (Map): AWSEC2TemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="userMetadata (String, String): AWSEC2TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="authorizePublicKey (String): AWSEC2TemplateOptions">
@@ -741,68 +800,59 @@
           </class>
         </srcfile>
       </package>
-      <package name="org.jclouds.aws.ec2.compute.functions">
-        <coverage type="class, %" value="100% (1/1)"/>
-        <coverage type="method, %" value="100% (2/2)"/>
-        <coverage type="block, %" value="48%  (40/83)"/>
-        <coverage type="line, %" value="64%  (7/11)"/>
-
-        <srcfile name="AWSRunningInstanceToNodeMetadata.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (2/2)"/>
-          <coverage type="block, %" value="48%  (40/83)"/>
-          <coverage type="line, %" value="64%  (7/11)"/>
-
-          <class name="AWSRunningInstanceToNodeMetadata">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="48%  (40/83)"/>
-            <coverage type="line, %" value="64%  (7/11)"/>
-
-            <method name="addCredentialsForInstance (NodeMetadataBuilder, RunningInstance): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="43%  (32/75)"/>
-              <coverage type="line, %" value="56%  (5/9)"/>
-            </method>
-            <method name="AWSRunningInstanceToNodeMetadata (Map, Map, Map, Supplier, Supplier): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
       <package name="org.jclouds.aws.ec2.compute.strategy">
-        <coverage type="class, %" value="50%  (5/10)"/>
-        <coverage type="method, %" value="61%  (17/28)"/>
-        <coverage type="block, %" value="55%  (453/825)"/>
-        <coverage type="line, %" value="59%  (79/134)"/>
+        <coverage type="class, %" value="45%  (5/11)"/>
+        <coverage type="method, %" value="48%  (15/31)"/>
+        <coverage type="block, %" value="43%  (363/847)"/>
+        <coverage type="line, %" value="46%  (64/138)"/>
 
         <srcfile name="AWSEC2CreateNodesInGroupThenAddToSet.java">
-          <coverage type="class, %" value="0%   (0/1)"/>
-          <coverage type="method, %" value="0%   (0/3)"/>
-          <coverage type="block, %" value="0%   (0/122)"/>
-          <coverage type="line, %" value="0%   (0/14)"/>
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/6)"/>
+          <coverage type="block, %" value="0%   (0/160)"/>
+          <coverage type="line, %" value="0%   (0/19)"/>
 
           <class name="AWSEC2CreateNodesInGroupThenAddToSet">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/122)"/>
-            <coverage type="line, %" value="0%   (0/14)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/151)"/>
+            <coverage type="line, %" value="0%   (0/17)"/>
 
-            <method name="AWSEC2CreateNodesInGroupThenAddToSet (AWSEC2Client, Provider, CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions, AWSEC2InstancePresent, Function, Function, Map, ComputeUtils, SpotInstanceRequestToAWSRunningInstance): void">
+            <method name="AWSEC2CreateNodesInGroupThenAddToSet (AWSEC2Client, Provider, CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions, AWSEC2InstancePresent, Function, Cache, Map, ComputeUtils, SpotInstanceRequestToAWSRunningInstance): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/26)"/>
               <coverage type="line, %" value="0%   (0/5)"/>
             </method>
+            <method name="addTagsToInstancesInRegion (Map, Iterable, String): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
             <method name="createNodesInRegionAndZone (String, String, int, Template, RunInstancesOptions): Iterable">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/85)"/>
+              <coverage type="block, %" value="0%   (0/97)"/>
               <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="getSpotPriceOrNull (TemplateOptions): Float">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="AWSEC2CreateNodesInGroupThenAddToSet$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/9)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="AWSEC2CreateNodesInGroupThenAddToSet$1 (AWSEC2CreateNodesInGroupThenAddToSet): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (RunningInstance): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -896,46 +946,54 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="AWSEC2ReviseParsedImage.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (4/4)"/>
-          <coverage type="block, %" value="84%  (154/184)"/>
-          <coverage type="line, %" value="82%  (27.1/33)"/>
+        <srcfile name="CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions.java">
+          <coverage type="class, %" value="100% (4/4)"/>
+          <coverage type="method, %" value="85%  (11/13)"/>
+          <coverage type="block, %" value="70%  (209/298)"/>
+          <coverage type="line, %" value="68%  (36.9/54)"/>
 
-          <class name="AWSEC2ReviseParsedImage">
+          <class name="CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (4/4)"/>
-            <coverage type="block, %" value="84%  (154/184)"/>
-            <coverage type="line, %" value="82%  (27.1/33)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="66%  (173/261)"/>
+            <coverage type="line, %" value="67%  (34/51)"/>
 
-            <method name="reviseParsedImage (Image, ImageBuilder, OsFamily, OperatingSystem$Builder): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="76%  (80/105)"/>
-              <coverage type="line, %" value="74%  (14.1/19)"/>
+            <method name="addSecurityGroups (String, String, Template, RunInstancesOptions): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/40)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
-            <method name="getMatcherAndFind (String): Matcher">
+            <method name="execute (String, String, Template): AWSRunInstancesOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/42)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="createNewKeyPairUnlessUserSpecifiedOtherwise (String, String, TemplateOptions): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="90%  (46/51)"/>
-              <coverage type="line, %" value="80%  (4/5)"/>
+              <coverage type="block, %" value="92%  (72/78)"/>
+              <coverage type="line, %" value="93%  (13/14)"/>
             </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
             </method>
-            <method name="AWSEC2ReviseParsedImage (Map): void">
+            <method name="CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions (Map, Cache, Cache, Provider, Cache, CreatePlacementGroupIfNeeded, Function): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="createNewPlacementGroupUnlessUserSpecifiedOtherwise (String, String, TemplateOptions): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (51/51)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+            <method name="userSpecifiedTheirOwnGroups (TemplateOptions): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
-        </srcfile>
-        <srcfile name="CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions.java">
-          <coverage type="class, %" value="100% (4/4)"/>
-          <coverage type="method, %" value="100% (13/13)"/>
-          <coverage type="block, %" value="95%  (299/314)"/>
-          <coverage type="line, %" value="94%  (51.9/55)"/>
-
           <class name="CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions$2">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
@@ -950,48 +1008,6 @@
             <method name="CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions$2 (): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (7/7)"/>
-            <coverage type="block, %" value="95%  (263/277)"/>
-            <coverage type="line, %" value="94%  (49/52)"/>
-
-            <method name="addSecurityGroups (String, String, Template, RunInstancesOptions): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="88%  (35/40)"/>
-              <coverage type="line, %" value="89%  (8/9)"/>
-            </method>
-            <method name="createOrImportKeyPair (String, String, TemplateOptions): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="93%  (78/84)"/>
-              <coverage type="line, %" value="93%  (13/14)"/>
-            </method>
-            <method name="execute (String, String, Template): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="93%  (39/42)"/>
-              <coverage type="line, %" value="86%  (6/7)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="CreateKeyPairPlacementAndSecurityGroupsAsNeededAndReturnRunOptions (Map, Map, Map, Function, Function, Provider, CreatePlacementGroupIfNeeded, Function): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (20/20)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-            <method name="createNewPlacementGroupUnlessUserSpecifiedOtherwise (String, String, TemplateOptions): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (60/60)"/>
-              <coverage type="line, %" value="100% (12/12)"/>
-            </method>
-            <method name="userSpecifiedTheirOwnGroups (TemplateOptions): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
@@ -1030,12 +1046,498 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="AWSEC2ReviseParsedImage.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="84%  (154/184)"/>
+          <coverage type="line, %" value="82%  (27.1/33)"/>
+
+          <class name="AWSEC2ReviseParsedImage">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="84%  (154/184)"/>
+            <coverage type="line, %" value="82%  (27.1/33)"/>
+
+            <method name="reviseParsedImage (Image, ImageBuilder, OsFamily, OperatingSystem$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="76%  (80/105)"/>
+              <coverage type="line, %" value="74%  (14.1/19)"/>
+            </method>
+            <method name="getMatcherAndFind (String): Matcher">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (46/51)"/>
+              <coverage type="line, %" value="80%  (4/5)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="AWSEC2ReviseParsedImage (Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.ec2.util">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="32%  (19/59)"/>
+        <coverage type="block, %" value="53%  (335/630)"/>
+        <coverage type="line, %" value="34%  (32.8/96)"/>
+
+        <srcfile name="TagFilters.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="32%  (19/59)"/>
+          <coverage type="block, %" value="53%  (335/630)"/>
+          <coverage type="line, %" value="34%  (32.8/96)"/>
+
+          <class name="TagFilters">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="24%  (11/45)"/>
+            <coverage type="block, %" value="28%  (99/352)"/>
+            <coverage type="line, %" value="30%  (25/82)"/>
+
+            <method name="anyResourceId (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="anyResourceType (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="anyValue (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="customerGateway (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="dhcpOptions (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="image (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="instance (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="instancesRequest (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="keyContains (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="keyEndsWith (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="keyStartsWith (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="keyValueSet (String, Iterable): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="keyValueSet (String, String []): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="keys (Iterable): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="keys (String []): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="networkAcl (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="reservedInstance (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="resourceId (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="resourceIdContains (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="resourceIdEndsWith (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="resourceIdStartsWith (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="resourceType (TagFilters$ResourceType): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="routeTable (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="securityGroup (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="snapshot (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="subnet (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="valueContains (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="valueEndsWith (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="valueStartsWith (String): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="values (Iterable): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="values (String []): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="volume (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="vpc (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="vpnConnection (): TagFilters">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TagFilters (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="anyKey (): TagFilters">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="filters (): TagFilters">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="internetGateway (): TagFilters">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="key (String): TagFilters">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="keyValuePair (String, String): TagFilters">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="put (TagFilters$FilterName, Object): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="putAll (TagFilters$FilterName, Iterable): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (38/38)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="value (String): TagFilters">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="vpnGateway (): TagFilters">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="TagFilters$FilterName">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="57%  (4/7)"/>
+            <coverage type="block, %" value="73%  (58/79)"/>
+            <coverage type="line, %" value="55%  (3.8/7)"/>
+
+            <method name="fromValue (String): TagFilters$FilterName">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="valueOf (String): TagFilters$FilterName">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="values (): TagFilters$FilterName []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (44/44)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="TagFilters$FilterName (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="value (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="TagFilters$ResourceType">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="57%  (4/7)"/>
+            <coverage type="block, %" value="89%  (178/199)"/>
+            <coverage type="line, %" value="56%  (3.9/7)"/>
+
+            <method name="fromValue (String): TagFilters$ResourceType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="valueOf (String): TagFilters$ResourceType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="values (): TagFilters$ResourceType []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (164/164)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="TagFilters$ResourceType (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="value (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.ec2.compute.functions">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (3/3)"/>
+        <coverage type="block, %" value="54%  (51/94)"/>
+        <coverage type="line, %" value="67%  (8/12)"/>
+
+        <srcfile name="AWSRunningInstanceToNodeMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="54%  (51/94)"/>
+          <coverage type="line, %" value="67%  (8/12)"/>
+
+          <class name="AWSRunningInstanceToNodeMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="54%  (51/94)"/>
+            <coverage type="line, %" value="67%  (8/12)"/>
+
+            <method name="addCredentialsForInstance (NodeMetadataBuilder, RunningInstance): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="43%  (32/75)"/>
+              <coverage type="line, %" value="56%  (5/9)"/>
+            </method>
+            <method name="AWSRunningInstanceToNodeMetadata (Map, Map, Supplier, Supplier, Supplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="buildInstance (RunningInstance, NodeMetadataBuilder): NodeMetadataBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.ec2.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="23%  (3/13)"/>
+        <coverage type="block, %" value="69%  (61/89)"/>
+        <coverage type="line, %" value="41%  (7/17)"/>
+
+        <srcfile name="AWSEC2RestClientModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="23%  (3/13)"/>
+          <coverage type="block, %" value="69%  (61/89)"/>
+          <coverage type="line, %" value="41%  (7/17)"/>
+
+          <class name="AWSEC2RestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="23%  (3/13)"/>
+            <coverage type="block, %" value="69%  (61/89)"/>
+            <coverage type="line, %" value="41%  (7/17)"/>
+
+            <method name="getAMIServices (AWSEC2AsyncClient): AMIAsyncClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getAMIServices (AWSEC2Client): AMIClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getInstanceServices (AWSEC2AsyncClient): InstanceAsyncClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getInstanceServices (AWSEC2Client): InstanceClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSecurityGroupServices (AWSEC2AsyncClient): SecurityGroupAsyncClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSecurityGroupServices (AWSEC2Client): SecurityGroupClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTagServices (AWSEC2AsyncClient): TagAsyncClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTagServices (AWSEC2Client): TagClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provide (AWSEC2AsyncClient): EC2AsyncClient">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provide (AWSEC2Client): EC2Client">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (40/40)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="AWSEC2RestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
       </package>
       <package name="org.jclouds.aws.ec2.functions">
         <coverage type="class, %" value="83%  (5/6)"/>
         <coverage type="method, %" value="75%  (12/16)"/>
-        <coverage type="block, %" value="69%  (265/382)"/>
-        <coverage type="line, %" value="70%  (49/70)"/>
+        <coverage type="block, %" value="70%  (270/387)"/>
+        <coverage type="line, %" value="70%  (50/71)"/>
 
         <srcfile name="CreatePlacementGroupIfNeeded.java">
           <coverage type="class, %" value="100% (1/1)"/>
@@ -1054,15 +1556,15 @@
               <coverage type="block, %" value="0%   (0/12)"/>
               <coverage type="line, %" value="0%   (0/5)"/>
             </method>
-            <method name="apply (RegionAndName): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
             <method name="createPlacementGroupInRegion (String, String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/83)"/>
               <coverage type="line, %" value="0%   (0/12)"/>
+            </method>
+            <method name="load (RegionAndName): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
           </class>
         </srcfile>
@@ -1098,19 +1600,19 @@
         <srcfile name="SpotInstanceRequestToAWSRunningInstance.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (2/2)"/>
-          <coverage type="block, %" value="95%  (82/86)"/>
-          <coverage type="line, %" value="95%  (19/20)"/>
+          <coverage type="block, %" value="96%  (87/91)"/>
+          <coverage type="line, %" value="95%  (20/21)"/>
 
           <class name="SpotInstanceRequestToAWSRunningInstance">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="95%  (82/86)"/>
-            <coverage type="line, %" value="95%  (19/20)"/>
+            <coverage type="block, %" value="96%  (87/91)"/>
+            <coverage type="line, %" value="95%  (20/21)"/>
 
             <method name="apply (SpotInstanceRequest): AWSRunningInstance">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="95%  (79/83)"/>
-              <coverage type="line, %" value="95%  (18/19)"/>
+              <coverage type="block, %" value="95%  (84/88)"/>
+              <coverage type="line, %" value="95%  (19/20)"/>
             </method>
             <method name="SpotInstanceRequestToAWSRunningInstance (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1187,88 +1689,118 @@
           </class>
         </srcfile>
       </package>
-      <package name="org.jclouds.aws.ec2.config">
-        <coverage type="class, %" value="100% (1/1)"/>
-        <coverage type="method, %" value="27%  (3/11)"/>
-        <coverage type="block, %" value="72%  (58/80)"/>
-        <coverage type="line, %" value="47%  (7/15)"/>
+      <package name="org.jclouds.aws.ec2.domain">
+        <coverage type="class, %" value="88%  (14/16)"/>
+        <coverage type="method, %" value="69%  (144/210)"/>
+        <coverage type="block, %" value="73%  (2634/3593)"/>
+        <coverage type="line, %" value="63%  (440.2/699)"/>
 
-        <srcfile name="AWSEC2RestClientModule.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="27%  (3/11)"/>
-          <coverage type="block, %" value="72%  (58/80)"/>
-          <coverage type="line, %" value="47%  (7/15)"/>
+        <srcfile name="Tag.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/17)"/>
+          <coverage type="block, %" value="0%   (0/250)"/>
+          <coverage type="line, %" value="0%   (0/57)"/>
 
-          <class name="AWSEC2RestClientModule">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="27%  (3/11)"/>
-            <coverage type="block, %" value="72%  (58/80)"/>
-            <coverage type="line, %" value="47%  (7/15)"/>
+          <class name="Tag">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/10)"/>
+            <coverage type="block, %" value="0%   (0/202)"/>
+            <coverage type="line, %" value="0%   (0/42)"/>
 
-            <method name="getAMIServices (AWSEC2AsyncClient): AMIAsyncClient">
+            <method name="Tag (String, TagFilters$ResourceType, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="builder (): Tag$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="compareTo (Tag): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/85)"/>
+              <coverage type="line, %" value="0%   (0/28)"/>
+            </method>
+            <method name="getKey (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getAMIServices (AWSEC2Client): AMIClient">
+            <method name="getResourceId (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getInstanceServices (AWSEC2AsyncClient): InstanceAsyncClient">
+            <method name="getResourceType (): TagFilters$ResourceType">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getInstanceServices (AWSEC2Client): InstanceClient">
+            <method name="getValue (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getSecurityGroupServices (AWSEC2AsyncClient): SecurityGroupAsyncClient">
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="Tag$Builder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/7)"/>
+            <coverage type="block, %" value="0%   (0/48)"/>
+            <coverage type="line, %" value="0%   (0/15)"/>
+
+            <method name="Tag$Builder (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getSecurityGroupServices (AWSEC2Client): SecurityGroupClient">
+            <method name="build (): Tag">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="provide (AWSEC2AsyncClient): EC2AsyncClient">
+            <method name="clear (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
-            <method name="provide (AWSEC2Client): EC2Client">
+            <method name="key (String): Tag$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (37/37)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
+            <method name="resourceId (String): Tag$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="AWSEC2RestClientModule (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+            <method name="resourceType (TagFilters$ResourceType): Tag$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="configure (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (15/15)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+            <method name="value (String): Tag$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
           </class>
         </srcfile>
-      </package>
-      <package name="org.jclouds.aws.ec2.domain">
-        <coverage type="class, %" value="100% (14/14)"/>
-        <coverage type="method, %" value="74%  (139/187)"/>
-        <coverage type="block, %" value="79%  (2520/3200)"/>
-        <coverage type="line, %" value="69%  (420.4/613)"/>
-
         <srcfile name="PlacementGroup.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="50%  (8/16)"/>
@@ -1738,15 +2270,15 @@
         </srcfile>
         <srcfile name="SpotInstanceRequest.java">
           <coverage type="class, %" value="100% (4/4)"/>
-          <coverage type="method, %" value="69%  (38/55)"/>
-          <coverage type="block, %" value="80%  (793/996)"/>
-          <coverage type="line, %" value="66%  (132.7/200)"/>
+          <coverage type="method, %" value="69%  (40/58)"/>
+          <coverage type="block, %" value="79%  (846/1069)"/>
+          <coverage type="line, %" value="66%  (141.6/215)"/>
 
           <class name="SpotInstanceRequest">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="41%  (9/22)"/>
-            <coverage type="block, %" value="74%  (492/669)"/>
-            <coverage type="line, %" value="59%  (79.7/135)"/>
+            <coverage type="method, %" value="43%  (10/23)"/>
+            <coverage type="block, %" value="74%  (525/713)"/>
+            <coverage type="line, %" value="58%  (83.6/143)"/>
 
             <method name="compareTo (SpotInstanceRequest): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1815,18 +2347,18 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="57%  (143/252)"/>
-              <coverage type="line, %" value="48%  (38/79)"/>
+              <coverage type="block, %" value="56%  (150/268)"/>
+              <coverage type="line, %" value="46%  (39/84)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="88%  (183/209)"/>
-              <coverage type="line, %" value="93%  (17.7/19)"/>
+              <coverage type="block, %" value="87%  (194/222)"/>
+              <coverage type="line, %" value="93%  (18.6/20)"/>
             </method>
-            <method name="SpotInstanceRequest (String, String, String, Date, String, String, String, String, LaunchSpecification, String, String, float, SpotInstanceRequest$State, SpotInstanceRequest$Type, Date, Date): void">
+            <method name="SpotInstanceRequest (String, String, String, Date, String, String, String, String, LaunchSpecification, String, String, float, SpotInstanceRequest$State, SpotInstanceRequest$Type, Date, Date, Map): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (63/63)"/>
-              <coverage type="line, %" value="100% (18/18)"/>
+              <coverage type="block, %" value="100% (70/70)"/>
+              <coverage type="line, %" value="100% (19/19)"/>
             </method>
             <method name="builder (): SpotInstanceRequest$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1853,17 +2385,22 @@
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
+            <method name="getTags (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
             <method name="toString (): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (87/87)"/>
+              <coverage type="block, %" value="100% (92/92)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
           <class name="SpotInstanceRequest$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="79%  (15/19)"/>
-            <coverage type="block, %" value="88%  (149/169)"/>
-            <coverage type="line, %" value="84%  (43/51)"/>
+            <coverage type="method, %" value="76%  (16/21)"/>
+            <coverage type="block, %" value="85%  (169/198)"/>
+            <coverage type="line, %" value="83%  (48/58)"/>
 
             <method name="faultCode (String): SpotInstanceRequest$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1873,6 +2410,11 @@
             <method name="faultMessage (String): SpotInstanceRequest$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="tags (Map): SpotInstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="validFrom (Date): SpotInstanceRequest$Builder">
@@ -1887,8 +2429,8 @@
             </method>
             <method name="SpotInstanceRequest$Builder (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="availabilityZoneGroup (String): SpotInstanceRequest$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1897,13 +2439,13 @@
             </method>
             <method name="build (): SpotInstanceRequest">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (36/36)"/>
+              <coverage type="block, %" value="100% (38/38)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="clear (): SpotInstanceRequest$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (50/50)"/>
-              <coverage type="line, %" value="100% (17/17)"/>
+              <coverage type="block, %" value="100% (53/53)"/>
+              <coverage type="line, %" value="100% (18/18)"/>
             </method>
             <method name="createTime (Date): SpotInstanceRequest$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1954,6 +2496,11 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="tag (String, String): SpotInstanceRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
             </method>
             <method name="type (SpotInstanceRequest$Type): SpotInstanceRequest$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -2048,15 +2595,15 @@
         </srcfile>
         <srcfile name="AWSRunningInstance.java">
           <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="77%  (36/47)"/>
-          <coverage type="block, %" value="85%  (578/682)"/>
-          <coverage type="line, %" value="72%  (76.6/107)"/>
+          <coverage type="method, %" value="78%  (39/50)"/>
+          <coverage type="block, %" value="85%  (639/752)"/>
+          <coverage type="line, %" value="72%  (87.5/121)"/>
 
           <class name="AWSRunningInstance">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="50%  (6/12)"/>
-            <coverage type="block, %" value="81%  (309/380)"/>
-            <coverage type="line, %" value="62%  (36.6/59)"/>
+            <coverage type="method, %" value="54%  (7/13)"/>
+            <coverage type="block, %" value="81%  (344/424)"/>
+            <coverage type="line, %" value="62%  (41.5/67)"/>
 
             <method name="getMonitoringState (): MonitoringState">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2090,18 +2637,18 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="56%  (58/103)"/>
-              <coverage type="line, %" value="52%  (17/33)"/>
+              <coverage type="block, %" value="56%  (67/119)"/>
+              <coverage type="line, %" value="50%  (19/38)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="89%  (64/72)"/>
-              <coverage type="line, %" value="95%  (7.6/8)"/>
+              <coverage type="block, %" value="88%  (75/85)"/>
+              <coverage type="line, %" value="94%  (8.5/9)"/>
             </method>
-            <method name="AWSRunningInstance (String, Map, String, String, String, String, InstanceState, String, String, String, String, Date, String, String, String, String, String, String, String, RootDeviceType, String, Map, MonitoringState, String, Iterable, String, String, String): void">
+            <method name="AWSRunningInstance (String, Map, String, String, String, String, InstanceState, String, String, String, String, Date, String, String, String, String, String, String, String, RootDeviceType, String, Map, MonitoringState, String, Iterable, String, String, String, Map): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (58/58)"/>
-              <coverage type="line, %" value="100% (9/9)"/>
+              <coverage type="block, %" value="100% (65/65)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
             </method>
             <method name="builder (): AWSRunningInstance$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -2113,17 +2660,22 @@
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
+            <method name="getTags (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
             <method name="toString (): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (122/122)"/>
+              <coverage type="block, %" value="100% (127/127)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
           <class name="AWSRunningInstance$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="86%  (30/35)"/>
-            <coverage type="block, %" value="89%  (269/302)"/>
-            <coverage type="line, %" value="83%  (40/48)"/>
+            <coverage type="method, %" value="86%  (32/37)"/>
+            <coverage type="block, %" value="90%  (295/328)"/>
+            <coverage type="line, %" value="85%  (46/54)"/>
 
             <method name="devices (Map): AWSRunningInstance$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2152,8 +2704,8 @@
             </method>
             <method name="AWSRunningInstance$Builder (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
             </method>
             <method name="amiLaunchIndex (String): AWSRunningInstance$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -2167,7 +2719,7 @@
             </method>
             <method name="build (): AWSRunningInstance">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (60/60)"/>
+              <coverage type="block, %" value="100% (62/62)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="device (String, BlockDevice): AWSRunningInstance$Builder">
@@ -2295,6 +2847,16 @@
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
+            <method name="tag (String, String): AWSRunningInstance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="tags (Map): AWSRunningInstance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
             <method name="virtualizationType (String): AWSRunningInstance$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
@@ -2355,7 +2917,7 @@
       <package name="org.jclouds.aws.ec2.compute.config">
         <coverage type="class, %" value="92%  (12/13)"/>
         <coverage type="method, %" value="65%  (15/23)"/>
-        <coverage type="block, %" value="83%  (253/304)"/>
+        <coverage type="block, %" value="83%  (253/306)"/>
         <coverage type="line, %" value="81%  (34/42)"/>
 
         <srcfile name="AWSEC2ComputeServiceContextModule.java">
@@ -2375,7 +2937,7 @@
               <coverage type="block, %" value="0%   (0/9)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="get (): Map">
+            <method name="get (): Cache">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
@@ -2417,13 +2979,13 @@
         <srcfile name="AWSEC2ComputeServiceDependenciesModule.java">
           <coverage type="class, %" value="100% (11/11)"/>
           <coverage type="method, %" value="75%  (12/16)"/>
-          <coverage type="block, %" value="89%  (169/189)"/>
+          <coverage type="block, %" value="88%  (169/191)"/>
           <coverage type="line, %" value="80%  (16/20)"/>
 
           <class name="AWSEC2ComputeServiceDependenciesModule">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="33%  (2/6)"/>
-            <coverage type="block, %" value="84%  (109/129)"/>
+            <coverage type="block, %" value="83%  (109/131)"/>
             <coverage type="line, %" value="78%  (14/18)"/>
 
             <method name="placementGroupAvailable (PlacementGroupAvailable): Predicate">
@@ -2436,9 +2998,9 @@
               <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="placementGroupMap (CreateSecurityGroupIfNeeded): Map">
+            <method name="placementGroupMap (CreatePlacementGroupIfNeeded): Cache">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="provideClusterComputeIds (): Set">
@@ -2581,9 +3143,9 @@
       </package>
       <package name="org.jclouds.aws.ec2.options">
         <coverage type="class, %" value="80%  (8/10)"/>
-        <coverage type="method, %" value="85%  (61/72)"/>
-        <coverage type="block, %" value="89%  (590/664)"/>
-        <coverage type="line, %" value="90%  (123.2/137)"/>
+        <coverage type="method, %" value="83%  (60/72)"/>
+        <coverage type="block, %" value="87%  (580/664)"/>
+        <coverage type="line, %" value="88%  (121.2/137)"/>
 
         <srcfile name="CreateSecurityGroupOptions.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -2628,10 +3190,107 @@
         </srcfile>
         <srcfile name="AWSRunInstancesOptions.java">
           <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="90%  (27/30)"/>
-          <coverage type="block, %" value="88%  (258/293)"/>
-          <coverage type="line, %" value="93%  (53.7/58)"/>
+          <coverage type="method, %" value="87%  (26/30)"/>
+          <coverage type="block, %" value="85%  (248/293)"/>
+          <coverage type="line, %" value="89%  (51.7/58)"/>
 
+          <class name="AWSRunInstancesOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="89%  (16/18)"/>
+            <coverage type="block, %" value="83%  (169/203)"/>
+            <coverage type="line, %" value="89%  (32/36)"/>
+
+            <method name="getLaunchSpecificationBuilder (): LaunchSpecification$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="inPlacementGroup (String): AWSRunInstancesOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="AWSRunInstancesOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="asType (String): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="enableMonitoring (): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="withBlockDeviceMappings (Set): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withKernelId (String): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withKeyName (String): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withRamdisk (String): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withSecurityGroup (String): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withSecurityGroupId (String): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="withSecurityGroupIds (Iterable): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="withSecurityGroupIds (String []): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="withSecurityGroups (Iterable): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withSecurityGroups (String []): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withSubnetId (String): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withUserData (byte []): AWSRunInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
           <class name="AWSRunInstancesOptions$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="83%  (10/12)"/>
@@ -2696,103 +3355,6 @@
             <method name="withUserData (byte []): AWSRunInstancesOptions">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-          <class name="AWSRunInstancesOptions">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="94%  (17/18)"/>
-            <coverage type="block, %" value="88%  (179/203)"/>
-            <coverage type="line, %" value="94%  (34/36)"/>
-
-            <method name="getLaunchSpecificationBuilder (): LaunchSpecification$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="AWSRunInstancesOptions (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="asType (String): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="enableMonitoring (): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="inPlacementGroup (String): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withBlockDeviceMappings (Set): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withKernelId (String): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withKeyName (String): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withRamdisk (String): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withSecurityGroup (String): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withSecurityGroupId (String): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="withSecurityGroupIds (Iterable): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (11/11)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="withSecurityGroupIds (String []): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="withSecurityGroups (Iterable): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withSecurityGroups (String []): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withSubnetId (String): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="withUserData (byte []): AWSRunInstancesOptions">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
@@ -3051,72 +3613,46 @@
           </class>
         </srcfile>
       </package>
-      <package name="org.jclouds.aws.ec2.binders">
-        <coverage type="class, %" value="100% (2/2)"/>
-        <coverage type="method, %" value="100% (5/5)"/>
-        <coverage type="block, %" value="92%  (143/156)"/>
-        <coverage type="line, %" value="90%  (28/31)"/>
-
-        <srcfile name="BindLaunchSpecificationToFormParams.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (3/3)"/>
-          <coverage type="block, %" value="91%  (135/148)"/>
-          <coverage type="line, %" value="90%  (26/29)"/>
-
-          <class name="BindLaunchSpecificationToFormParams">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (3/3)"/>
-            <coverage type="block, %" value="91%  (135/148)"/>
-            <coverage type="line, %" value="90%  (26/29)"/>
-
-            <method name="apply (LaunchSpecification): Map">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="90%  (116/129)"/>
-              <coverage type="line, %" value="88%  (22/25)"/>
-            </method>
-            <method name="BindLaunchSpecificationToFormParams (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="BindSpotInstanceRequestIdsToIndexedFormParams.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (2/2)"/>
-          <coverage type="block, %" value="100% (8/8)"/>
-          <coverage type="line, %" value="100% (2/2)"/>
-
-          <class name="BindSpotInstanceRequestIdsToIndexedFormParams">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (8/8)"/>
-            <coverage type="line, %" value="100% (2/2)"/>
-
-            <method name="BindSpotInstanceRequestIdsToIndexedFormParams (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
       <package name="org.jclouds.aws.ec2.xml">
-        <coverage type="class, %" value="100% (15/15)"/>
-        <coverage type="method, %" value="96%  (73/76)"/>
-        <coverage type="block, %" value="94%  (1959/2092)"/>
-        <coverage type="line, %" value="96%  (432.6/453)"/>
+        <coverage type="class, %" value="100% (17/17)"/>
+        <coverage type="method, %" value="89%  (77/87)"/>
+        <coverage type="block, %" value="90%  (2112/2357)"/>
+        <coverage type="line, %" value="91%  (468.8/513)"/>
 
+        <srcfile name="TagsHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="25%  (1/4)"/>
+          <coverage type="block, %" value="10%  (8/80)"/>
+          <coverage type="line, %" value="12%  (2/16)"/>
+
+          <class name="TagsHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="25%  (1/4)"/>
+            <coverage type="block, %" value="10%  (8/80)"/>
+            <coverage type="line, %" value="12%  (2/16)"/>
+
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/50)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="getResult (): Tag">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TagsHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="CreateSecurityGroupResponseHandler.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="25%  (1/4)"/>
@@ -3147,6 +3683,50 @@
             <method name="CreateSecurityGroupResponseHandler (): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="DescribeTagsResponseHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="33%  (2/6)"/>
+          <coverage type="block, %" value="31%  (18/58)"/>
+          <coverage type="line, %" value="38%  (6/16)"/>
+
+          <class name="DescribeTagsResponseHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (2/6)"/>
+            <coverage type="block, %" value="31%  (18/58)"/>
+            <coverage type="line, %" value="38%  (6/16)"/>
+
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/18)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="getResult (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="DescribeTagsResponseHandler (TagsHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseSax$HandlerWithResult">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
@@ -3195,50 +3775,6 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="SpotInstanceHandler.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (6/6)"/>
-          <coverage type="block, %" value="92%  (262/285)"/>
-          <coverage type="line, %" value="96%  (59.5/62)"/>
-
-          <class name="SpotInstanceHandler">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (6/6)"/>
-            <coverage type="block, %" value="92%  (262/285)"/>
-            <coverage type="line, %" value="96%  (59.5/62)"/>
-
-            <method name="getResult (): SpotInstanceRequest">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="79%  (26/33)"/>
-              <coverage type="line, %" value="93%  (4.6/5)"/>
-            </method>
-            <method name="currentOrNull (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="85%  (11/13)"/>
-              <coverage type="line, %" value="92%  (1.8/2)"/>
-            </method>
-            <method name="endElement (String, String, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="92%  (169/183)"/>
-              <coverage type="line, %" value="95%  (37/39)"/>
-            </method>
-            <method name="SpotInstanceHandler (DateService, String, LaunchSpecificationHandler, SpotInstanceRequest$Builder): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (20/20)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
-            </method>
-            <method name="characters (char [], int, int): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="startElement (String, String, String, Attributes): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="SpotHandler.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (4/4)"/>
@@ -3270,6 +3806,45 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (61/61)"/>
               <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SpotInstanceHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="93%  (321/344)"/>
+          <coverage type="line, %" value="97%  (70.6/73)"/>
+
+          <class name="SpotInstanceHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="93%  (321/344)"/>
+            <coverage type="line, %" value="97%  (70.6/73)"/>
+
+            <method name="getResult (): SpotInstanceRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="79%  (26/33)"/>
+              <coverage type="line, %" value="93%  (4.6/5)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="94%  (231/247)"/>
+              <coverage type="line, %" value="96%  (48/50)"/>
+            </method>
+            <method name="SpotInstanceHandler (DateService, String, LaunchSpecificationHandler, SpotInstanceRequest$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (26/26)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
             </method>
           </class>
         </srcfile>
@@ -3329,20 +3904,25 @@
         </srcfile>
         <srcfile name="AWSDescribeInstancesResponseHandler.java">
           <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (5/5)"/>
-          <coverage type="block, %" value="100% (44/44)"/>
-          <coverage type="line, %" value="100% (10/10)"/>
+          <coverage type="method, %" value="100% (7/7)"/>
+          <coverage type="block, %" value="100% (112/112)"/>
+          <coverage type="line, %" value="100% (27/27)"/>
 
           <class name="AWSDescribeInstancesResponseHandler">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (5/5)"/>
-            <coverage type="block, %" value="100% (44/44)"/>
-            <coverage type="line, %" value="100% (10/10)"/>
+            <coverage type="method, %" value="100% (7/7)"/>
+            <coverage type="block, %" value="100% (112/112)"/>
+            <coverage type="line, %" value="100% (27/27)"/>
 
             <method name="AWSDescribeInstancesResponseHandler (DateService, String, Provider): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (9/9)"/>
               <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (36/36)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
             </method>
             <method name="endOfInstanceItem (): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -3361,7 +3941,12 @@
             </method>
             <method name="inItem (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="block, %" value="100% (31/31)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
               <coverage type="line, %" value="100% (4/4)"/>
             </method>
           </class>
@@ -3704,6 +4289,138 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (22/22)"/>
               <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.ec2.binders">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="100% (11/11)"/>
+        <coverage type="block, %" value="94%  (189/202)"/>
+        <coverage type="line, %" value="92%  (37/40)"/>
+
+        <srcfile name="BindLaunchSpecificationToFormParams.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="91%  (135/148)"/>
+          <coverage type="line, %" value="90%  (26/29)"/>
+
+          <class name="BindLaunchSpecificationToFormParams">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="91%  (135/148)"/>
+            <coverage type="line, %" value="90%  (26/29)"/>
+
+            <method name="apply (LaunchSpecification): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (116/129)"/>
+              <coverage type="line, %" value="88%  (22/25)"/>
+            </method>
+            <method name="BindLaunchSpecificationToFormParams (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BindResourceIdsToIndexedFormParams.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (14/14)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="BindResourceIdsToIndexedFormParams">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (14/14)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="BindResourceIdsToIndexedFormParams (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BindSpotInstanceRequestIdsToIndexedFormParams.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (8/8)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="BindSpotInstanceRequestIdsToIndexedFormParams">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="BindSpotInstanceRequestIdsToIndexedFormParams (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BindTagFiltersToIndexedFormParams.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (16/16)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="BindTagFiltersToIndexedFormParams">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (16/16)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="BindTagFiltersToIndexedFormParams (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BindTagsToIndexedFormParams.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (16/16)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="BindTagsToIndexedFormParams">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (16/16)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="BindTagsToIndexedFormParams (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>

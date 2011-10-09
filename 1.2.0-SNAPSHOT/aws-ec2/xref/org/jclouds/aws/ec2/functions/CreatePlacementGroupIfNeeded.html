@@ -44,15 +44,15 @@
 <a class="jxr_linenumber" name="34" href="#34">34</a>  <strong class="jxr_keyword">import</strong> org.jclouds.ec2.compute.domain.RegionAndName;
 <a class="jxr_linenumber" name="35" href="#35">35</a>  <strong class="jxr_keyword">import</strong> org.jclouds.logging.Logger;
 <a class="jxr_linenumber" name="36" href="#36">36</a>  
-<a class="jxr_linenumber" name="37" href="#37">37</a>  <strong class="jxr_keyword">import</strong> com.google.common.base.Function;
-<a class="jxr_linenumber" name="38" href="#38">38</a>  <strong class="jxr_keyword">import</strong> com.google.common.base.Predicate;
+<a class="jxr_linenumber" name="37" href="#37">37</a>  <strong class="jxr_keyword">import</strong> com.google.common.base.Predicate;
+<a class="jxr_linenumber" name="38" href="#38">38</a>  <strong class="jxr_keyword">import</strong> com.google.common.cache.CacheLoader;
 <a class="jxr_linenumber" name="39" href="#39">39</a>  
 <a class="jxr_linenumber" name="40" href="#40">40</a>  <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="41" href="#41">41</a>  <em class="jxr_javadoccomment"> * </em>
 <a class="jxr_linenumber" name="42" href="#42">42</a>  <em class="jxr_javadoccomment"> * @author Adrian Cole</em>
 <a class="jxr_linenumber" name="43" href="#43">43</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="44" href="#44">44</a>  @Singleton
-<a class="jxr_linenumber" name="45" href="#45">45</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../org/jclouds/aws/ec2/functions/CreatePlacementGroupIfNeeded.html">CreatePlacementGroupIfNeeded</a> <strong class="jxr_keyword">implements</strong> Function&lt;RegionAndName, String&gt; {
+<a class="jxr_linenumber" name="45" href="#45">45</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../org/jclouds/aws/ec2/functions/CreatePlacementGroupIfNeeded.html">CreatePlacementGroupIfNeeded</a> <strong class="jxr_keyword">extends</strong> CacheLoader&lt;RegionAndName, String&gt; {
 <a class="jxr_linenumber" name="46" href="#46">46</a>     @Resource
 <a class="jxr_linenumber" name="47" href="#47">47</a>     @Named(ComputeServiceConstants.COMPUTE_LOGGER)
 <a class="jxr_linenumber" name="48" href="#48">48</a>     <strong class="jxr_keyword">protected</strong> Logger logger = Logger.NULL;
@@ -67,7 +67,7 @@
 <a class="jxr_linenumber" name="57" href="#57">57</a>     }
 <a class="jxr_linenumber" name="58" href="#58">58</a>  
 <a class="jxr_linenumber" name="59" href="#59">59</a>     @Override
-<a class="jxr_linenumber" name="60" href="#60">60</a>     <strong class="jxr_keyword">public</strong> String apply(RegionAndName from) {
+<a class="jxr_linenumber" name="60" href="#60">60</a>     <strong class="jxr_keyword">public</strong> String load(RegionAndName from) {
 <a class="jxr_linenumber" name="61" href="#61">61</a>        createPlacementGroupInRegion(from.getRegion(), from.getName());
 <a class="jxr_linenumber" name="62" href="#62">62</a>        <strong class="jxr_keyword">return</strong> from.getName();
 <a class="jxr_linenumber" name="63" href="#63">63</a>     }
