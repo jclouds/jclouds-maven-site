@@ -1,44 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="6"/>
-    <classes value="33"/>
-    <methods value="110"/>
-    <srcfiles value="11"/>
-    <srclines value="305"/>
+    <classes value="39"/>
+    <methods value="123"/>
+    <srcfiles value="12"/>
+    <srclines value="343"/>
   </stats>
   <data>
     <all name="all classes">
-      <coverage type="class, %" value="100% (33/33)"/>
-      <coverage type="method, %" value="87%  (96/110)"/>
-      <coverage type="block, %" value="85%  (1379/1619)"/>
-      <coverage type="line, %" value="86%  (261.7/305)"/>
+      <coverage type="class, %" value="100% (39/39)"/>
+      <coverage type="method, %" value="85%  (105/123)"/>
+      <coverage type="block, %" value="77%  (1402/1831)"/>
+      <coverage type="line, %" value="72%  (247.7/343)"/>
 
       <package name="org.jclouds.byon.domain">
         <coverage type="class, %" value="100% (5/5)"/>
-        <coverage type="method, %" value="71%  (10/14)"/>
-        <coverage type="block, %" value="69%  (284/413)"/>
-        <coverage type="line, %" value="71%  (55.7/79)"/>
+        <coverage type="method, %" value="57%  (8/14)"/>
+        <coverage type="block, %" value="29%  (126/434)"/>
+        <coverage type="line, %" value="15%  (12.8/83)"/>
 
         <srcfile name="YamlNode.java">
           <coverage type="class, %" value="100% (5/5)"/>
-          <coverage type="method, %" value="71%  (10/14)"/>
-          <coverage type="block, %" value="69%  (284/413)"/>
-          <coverage type="line, %" value="71%  (55.7/79)"/>
+          <coverage type="method, %" value="57%  (8/14)"/>
+          <coverage type="block, %" value="29%  (126/434)"/>
+          <coverage type="line, %" value="15%  (12.8/83)"/>
 
           <class name="YamlNode$3">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="48%  (88/182)"/>
-            <coverage type="line, %" value="61%  (25/41)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="2%   (3/192)"/>
+            <coverage type="line, %" value="2%   (1/43)"/>
 
             <method name="apply (YamlNode): InputStream">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="47%  (85/179)"/>
-              <coverage type="line, %" value="60%  (24/40)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/189)"/>
+              <coverage type="line, %" value="0%   (0/42)"/>
             </method>
             <method name="YamlNode$3 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="YamlNode$4">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="3%   (3/93)"/>
+            <coverage type="line, %" value="4%   (1/23)"/>
+
+            <method name="apply (Node): YamlNode">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/90)"/>
+              <coverage type="line, %" value="0%   (0/22)"/>
+            </method>
+            <method name="YamlNode$4 (): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
@@ -47,8 +64,8 @@
           <class name="YamlNode">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="33%  (2/6)"/>
-            <coverage type="block, %" value="57%  (26/46)"/>
-            <coverage type="line, %" value="64%  (7/11)"/>
+            <coverage type="block, %" value="59%  (29/49)"/>
+            <coverage type="line, %" value="67%  (8/12)"/>
 
             <method name="fromNode (Node): YamlNode">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -77,8 +94,8 @@
             </method>
             <method name="YamlNode (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
             </method>
           </class>
           <class name="YamlNode$2">
@@ -98,32 +115,15 @@
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
-          <class name="YamlNode$4">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="93%  (82/88)"/>
-            <coverage type="line, %" value="95%  (21/22)"/>
-
-            <method name="apply (Node): YamlNode">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="93%  (79/85)"/>
-              <coverage type="line, %" value="95%  (20/21)"/>
-            </method>
-            <method name="YamlNode$4 (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
           <class name="YamlNode$1">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="97%  (65/67)"/>
+            <coverage type="block, %" value="97%  (68/70)"/>
             <coverage type="line, %" value="75%  (3/4)"/>
 
             <method name="apply (YamlNode): Node">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="97%  (62/64)"/>
+              <coverage type="block, %" value="97%  (65/67)"/>
               <coverage type="line, %" value="67%  (2/3)"/>
             </method>
             <method name="YamlNode$1 (): void">
@@ -137,20 +137,20 @@
       <package name="org.jclouds.byon.internal">
         <coverage type="class, %" value="100% (2/2)"/>
         <coverage type="method, %" value="38%  (5/13)"/>
-        <coverage type="block, %" value="71%  (98/139)"/>
-        <coverage type="line, %" value="64%  (16/25)"/>
+        <coverage type="block, %" value="69%  (100/145)"/>
+        <coverage type="line, %" value="57%  (16/28)"/>
 
         <srcfile name="BYONComputeServiceAdapter.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="38%  (5/13)"/>
-          <coverage type="block, %" value="71%  (98/139)"/>
-          <coverage type="line, %" value="64%  (16/25)"/>
+          <coverage type="block, %" value="69%  (100/145)"/>
+          <coverage type="line, %" value="57%  (16/28)"/>
 
           <class name="BYONComputeServiceAdapter">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="27%  (3/11)"/>
-            <coverage type="block, %" value="68%  (89/130)"/>
-            <coverage type="line, %" value="61%  (14/23)"/>
+            <coverage type="block, %" value="67%  (91/136)"/>
+            <coverage type="line, %" value="54%  (14/26)"/>
 
             <method name="createNodeWithGroupEncodedIntoNameThenStoreCredentials (String, String, Template, Map): NodeMetadata">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -164,8 +164,8 @@
             </method>
             <method name="getNode (String): NodeMetadata">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/21)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="listHardwareProfiles (): Iterable">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -199,12 +199,12 @@
             </method>
             <method name="listLocations (): Iterable">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (59/59)"/>
+              <coverage type="block, %" value="100% (60/60)"/>
               <coverage type="line, %" value="100% (8/8)"/>
             </method>
             <method name="listNodes (): Iterable">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
@@ -230,7 +230,7 @@
       <package name="org.jclouds.byon.suppliers">
         <coverage type="class, %" value="100% (2/2)"/>
         <coverage type="method, %" value="83%  (5/6)"/>
-        <coverage type="block, %" value="74%  (86/117)"/>
+        <coverage type="block, %" value="74%  (88/119)"/>
         <coverage type="line, %" value="78%  (18/23)"/>
 
         <srcfile name="SupplyFromProviderURIOrNodesProperty.java">
@@ -270,18 +270,18 @@
         <srcfile name="NodesParsedFromSupplier.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (2/2)"/>
-          <coverage type="block, %" value="98%  (44/45)"/>
+          <coverage type="block, %" value="98%  (46/47)"/>
           <coverage type="line, %" value="100% (8/8)"/>
 
           <class name="NodesParsedFromSupplier">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="98%  (44/45)"/>
+            <coverage type="block, %" value="98%  (46/47)"/>
             <coverage type="line, %" value="100% (8/8)"/>
 
-            <method name="get (): Map">
+            <method name="get (): Cache">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="96%  (26/27)"/>
+              <coverage type="block, %" value="97%  (28/29)"/>
               <coverage type="line, %" value="99%  (3/3)"/>
             </method>
             <method name="NodesParsedFromSupplier (Supplier, Function): void">
@@ -295,25 +295,25 @@
       <package name="org.jclouds.byon.functions">
         <coverage type="class, %" value="100% (5/5)"/>
         <coverage type="method, %" value="100% (10/10)"/>
-        <coverage type="block, %" value="91%  (291/319)"/>
-        <coverage type="line, %" value="93%  (52/56)"/>
+        <coverage type="block, %" value="92%  (320/348)"/>
+        <coverage type="line, %" value="94%  (58/62)"/>
 
         <srcfile name="NodeToNodeMetadata.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="100% (5/5)"/>
-          <coverage type="block, %" value="88%  (207/235)"/>
-          <coverage type="line, %" value="90%  (37/41)"/>
+          <coverage type="block, %" value="88%  (212/240)"/>
+          <coverage type="line, %" value="90%  (38/42)"/>
 
           <class name="NodeToNodeMetadata">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (3/3)"/>
-            <coverage type="block, %" value="87%  (192/220)"/>
-            <coverage type="line, %" value="90%  (36/40)"/>
+            <coverage type="block, %" value="88%  (197/225)"/>
+            <coverage type="line, %" value="90%  (37/41)"/>
 
             <method name="apply (Node): NodeMetadata">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="81%  (119/147)"/>
-              <coverage type="line, %" value="85%  (22/26)"/>
+              <coverage type="block, %" value="82%  (124/152)"/>
+              <coverage type="line, %" value="85%  (23/27)"/>
             </method>
             <method name="NodeToNodeMetadata (Supplier, Supplier, Function, Map): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -347,24 +347,24 @@
         <srcfile name="NodesFromYamlStream.java">
           <coverage type="class, %" value="100% (3/3)"/>
           <coverage type="method, %" value="100% (5/5)"/>
-          <coverage type="block, %" value="100% (84/84)"/>
-          <coverage type="line, %" value="100% (15/15)"/>
+          <coverage type="block, %" value="100% (108/108)"/>
+          <coverage type="line, %" value="100% (20/20)"/>
 
           <class name="NodesFromYamlStream">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (72/72)"/>
-            <coverage type="line, %" value="100% (14/14)"/>
+            <coverage type="block, %" value="100% (96/96)"/>
+            <coverage type="line, %" value="100% (18/18)"/>
 
             <method name="NodesFromYamlStream (): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
-            <method name="apply (InputStream): Map">
+            <method name="apply (InputStream): Cache">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (69/69)"/>
-              <coverage type="line, %" value="100% (12/12)"/>
+              <coverage type="block, %" value="100% (93/93)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
             </method>
           </class>
           <class name="NodesFromYamlStream$1">
@@ -399,26 +399,36 @@
         </srcfile>
       </package>
       <package name="org.jclouds.byon">
-        <coverage type="class, %" value="100% (4/4)"/>
-        <coverage type="method, %" value="98%  (44/45)"/>
-        <coverage type="block, %" value="97%  (389/400)"/>
-        <coverage type="line, %" value="98%  (92/94)"/>
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="94%  (48/51)"/>
+        <coverage type="block, %" value="96%  (438/455)"/>
+        <coverage type="line, %" value="96%  (102/106)"/>
 
         <srcfile name="Node.java">
           <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="98%  (40/41)"/>
-          <coverage type="block, %" value="97%  (353/364)"/>
-          <coverage type="line, %" value="98%  (81/83)"/>
+          <coverage type="method, %" value="93%  (40/43)"/>
+          <coverage type="block, %" value="96%  (370/387)"/>
+          <coverage type="line, %" value="95%  (84/88)"/>
 
           <class name="Node">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="95%  (21/22)"/>
-            <coverage type="block, %" value="95%  (220/231)"/>
-            <coverage type="line, %" value="96%  (43/45)"/>
+            <coverage type="method, %" value="87%  (20/23)"/>
+            <coverage type="block, %" value="93%  (226/243)"/>
+            <coverage type="line, %" value="91%  (43/47)"/>
 
+            <method name="getDescription (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isOs64Bit (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="equals (Object): boolean">
@@ -426,10 +436,10 @@
               <coverage type="block, %" value="80%  (8/10)"/>
               <coverage type="line, %" value="67%  (2/3)"/>
             </method>
-            <method name="Node (String, String, String, String, String, String, String, String, String, boolean, int, String, Iterable, String, String, URI, String): void">
+            <method name="Node (String, String, String, String, String, String, String, String, String, boolean, int, String, Iterable, Map, String, String, URI, String): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (55/55)"/>
-              <coverage type="line, %" value="100% (19/19)"/>
+              <coverage type="block, %" value="100% (59/59)"/>
+              <coverage type="line, %" value="100% (20/20)"/>
             </method>
             <method name="builder (): Node$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -442,11 +452,6 @@
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="getCredentialUrl (): URI">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getDescription (): String">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
@@ -474,6 +479,11 @@
             <method name="getLoginPort (): int">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMetadata (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="getName (): String">
@@ -516,31 +526,26 @@
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="isOs64Bit (): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
             <method name="toString (): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (83/83)"/>
+              <coverage type="block, %" value="100% (87/87)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
           <class name="Node$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (19/19)"/>
-            <coverage type="block, %" value="100% (133/133)"/>
-            <coverage type="line, %" value="100% (38/38)"/>
+            <coverage type="method, %" value="100% (20/20)"/>
+            <coverage type="block, %" value="100% (144/144)"/>
+            <coverage type="line, %" value="100% (41/41)"/>
 
             <method name="Node$Builder (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
             </method>
             <method name="build (): Node">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (38/38)"/>
+              <coverage type="block, %" value="100% (40/40)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="credential (String): Node$Builder">
@@ -581,6 +586,11 @@
             <method name="loginPort (int): Node$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="metadata (Map): Node$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="name (String): Node$Builder">
@@ -631,16 +641,16 @@
           </class>
         </srcfile>
         <srcfile name="BYONComputeServiceContextBuilder.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (2/2)"/>
-          <coverage type="block, %" value="100% (12/12)"/>
-          <coverage type="line, %" value="100% (4/4)"/>
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (6/6)"/>
+          <coverage type="block, %" value="100% (44/44)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
 
           <class name="BYONComputeServiceContextBuilder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (12/12)"/>
-            <coverage type="line, %" value="100% (4/4)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (33/33)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
 
             <method name="BYONComputeServiceContextBuilder (Properties): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -649,8 +659,35 @@
             </method>
             <method name="addContextModule (List): void">
               <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="addNodeStoreModule (List): void">
+              <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
               <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addNodeStoreModuleIfNotPresent (List): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="BYONComputeServiceContextBuilder$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (11/11)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="BYONComputeServiceContextBuilder$1 (BYONComputeServiceContextBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Module): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -680,22 +717,22 @@
         </srcfile>
       </package>
       <package name="org.jclouds.byon.config">
-        <coverage type="class, %" value="100% (15/15)"/>
-        <coverage type="method, %" value="100% (22/22)"/>
-        <coverage type="block, %" value="100% (231/231)"/>
-        <coverage type="line, %" value="100% (28/28)"/>
+        <coverage type="class, %" value="100% (20/20)"/>
+        <coverage type="method, %" value="100% (29/29)"/>
+        <coverage type="block, %" value="100% (330/330)"/>
+        <coverage type="line, %" value="100% (41/41)"/>
 
         <srcfile name="BYONComputeServiceContextModule.java">
-          <coverage type="class, %" value="100% (6/6)"/>
-          <coverage type="method, %" value="100% (8/8)"/>
-          <coverage type="block, %" value="100% (88/88)"/>
-          <coverage type="line, %" value="100% (10/10)"/>
+          <coverage type="class, %" value="100% (5/5)"/>
+          <coverage type="method, %" value="100% (7/7)"/>
+          <coverage type="block, %" value="100% (73/73)"/>
+          <coverage type="line, %" value="100% (9/9)"/>
 
           <class name="BYONComputeServiceContextModule">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (3/3)"/>
-            <coverage type="block, %" value="100% (58/58)"/>
-            <coverage type="line, %" value="100% (10/10)"/>
+            <coverage type="block, %" value="100% (49/49)"/>
+            <coverage type="line, %" value="100% (9/9)"/>
 
             <method name="BYONComputeServiceContextModule (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -704,8 +741,8 @@
             </method>
             <method name="configure (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (50/50)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
+              <coverage type="block, %" value="100% (41/41)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
             </method>
             <method name="provideApi (Supplier): Supplier">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -761,13 +798,54 @@
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
-          <class name="BYONComputeServiceContextModule$5">
+        </srcfile>
+        <srcfile name="CacheNodeStoreModule.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (66/66)"/>
+          <coverage type="line, %" value="100% (10/10)"/>
+
+          <class name="CacheNodeStoreModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (54/54)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
+
+            <method name="CacheNodeStoreModule (Cache): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="CacheNodeStoreModule (Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="CacheNodeStoreModule$1">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (1/1)"/>
             <coverage type="block, %" value="100% (6/6)"/>
             <coverage type="line, %" value="100% (1/1)"/>
 
-            <method name="BYONComputeServiceContextModule$5 (BYONComputeServiceContextModule): void">
+            <method name="CacheNodeStoreModule$1 (CacheNodeStoreModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CacheNodeStoreModule$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="CacheNodeStoreModule$2 (CacheNodeStoreModule): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (6/6)"/>
               <coverage type="line, %" value="100% (1/1)"/>
@@ -775,16 +853,16 @@
           </class>
         </srcfile>
         <srcfile name="YamlNodeStoreModule.java">
-          <coverage type="class, %" value="100% (9/9)"/>
-          <coverage type="method, %" value="100% (14/14)"/>
-          <coverage type="block, %" value="100% (143/143)"/>
-          <coverage type="line, %" value="100% (18/18)"/>
+          <coverage type="class, %" value="100% (12/12)"/>
+          <coverage type="method, %" value="100% (17/17)"/>
+          <coverage type="block, %" value="100% (191/191)"/>
+          <coverage type="line, %" value="100% (22/22)"/>
 
           <class name="YamlNodeStoreModule">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (6/6)"/>
-            <coverage type="block, %" value="100% (95/95)"/>
-            <coverage type="line, %" value="100% (17/17)"/>
+            <coverage type="block, %" value="100% (126/126)"/>
+            <coverage type="line, %" value="100% (19/19)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -803,12 +881,12 @@
             </method>
             <method name="configure (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (66/66)"/>
-              <coverage type="line, %" value="100% (9/9)"/>
+              <coverage type="block, %" value="100% (93/93)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
             </method>
-            <method name="provideNodeStore (Map, Function, Function): Map">
+            <method name="provideNodeStore (Map, Function, Function): Cache">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="provideYamlStore (Map, Function, Function): Map">
@@ -824,6 +902,18 @@
             <coverage type="line, %" value="100% (1/1)"/>
 
             <method name="YamlNodeStoreModule$1 (YamlNodeStoreModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="YamlNodeStoreModule$10">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="YamlNodeStoreModule$10 (YamlNodeStoreModule): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (6/6)"/>
               <coverage type="line, %" value="100% (1/1)"/>
@@ -911,6 +1001,30 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (6/6)"/>
               <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="YamlNodeStoreModule$9">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="YamlNodeStoreModule$9 (YamlNodeStoreModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="YamlNodeStoreModule$YAMLCopyInputStreamInputSupplierMap">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (5/5)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="YamlNodeStoreModule$YAMLCopyInputStreamInputSupplierMap (Map, CopyInputStreamIntoSupplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>
