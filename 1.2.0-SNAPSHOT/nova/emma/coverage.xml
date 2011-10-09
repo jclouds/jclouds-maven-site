@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,25 +12,25 @@
     <all name="all classes">
       <coverage type="class, %" value="70%  (40/57)"/>
       <coverage type="method, %" value="59%  (143/242)"/>
-      <coverage type="block, %" value="61%  (2062/3397)"/>
+      <coverage type="block, %" value="61%  (2062/3404)"/>
       <coverage type="line, %" value="54%  (348.4/649)"/>
 
       <package name="org.jclouds.openstack.nova.compute.strategy">
         <coverage type="class, %" value="0%   (0/5)"/>
         <coverage type="method, %" value="0%   (0/13)"/>
-        <coverage type="block, %" value="0%   (0/168)"/>
+        <coverage type="block, %" value="0%   (0/175)"/>
         <coverage type="line, %" value="0%   (0/37)"/>
 
         <srcfile name="NovaCreateNodeWithGroupEncodedIntoName.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/2)"/>
-          <coverage type="block, %" value="0%   (0/59)"/>
+          <coverage type="block, %" value="0%   (0/66)"/>
           <coverage type="line, %" value="0%   (0/8)"/>
 
           <class name="NovaCreateNodeWithGroupEncodedIntoName">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/59)"/>
+            <coverage type="block, %" value="0%   (0/66)"/>
             <coverage type="line, %" value="0%   (0/8)"/>
 
             <method name="NovaCreateNodeWithGroupEncodedIntoName (NovaClient, Map, Function): void">
@@ -40,7 +40,7 @@
             </method>
             <method name="createNodeWithGroupEncodedIntoName (String, String, Template): NodeMetadata">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/38)"/>
+              <coverage type="block, %" value="0%   (0/45)"/>
               <coverage type="line, %" value="0%   (0/3)"/>
             </method>
           </class>
