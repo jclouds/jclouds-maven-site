@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,25 +12,25 @@
     <all name="all classes">
       <coverage type="class, %" value="67%  (43/64)"/>
       <coverage type="method, %" value="49%  (145/295)"/>
-      <coverage type="block, %" value="54%  (2459/4523)"/>
+      <coverage type="block, %" value="54%  (2459/4530)"/>
       <coverage type="line, %" value="44%  (370.2/834)"/>
 
       <package name="org.jclouds.cloudservers.compute.strategy">
         <coverage type="class, %" value="0%   (0/5)"/>
         <coverage type="method, %" value="0%   (0/13)"/>
-        <coverage type="block, %" value="0%   (0/170)"/>
+        <coverage type="block, %" value="0%   (0/177)"/>
         <coverage type="line, %" value="0%   (0/37)"/>
 
         <srcfile name="CloudServersCreateNodeWithGroupEncodedIntoName.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/2)"/>
-          <coverage type="block, %" value="0%   (0/61)"/>
+          <coverage type="block, %" value="0%   (0/68)"/>
           <coverage type="line, %" value="0%   (0/8)"/>
 
           <class name="CloudServersCreateNodeWithGroupEncodedIntoName">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/61)"/>
+            <coverage type="block, %" value="0%   (0/68)"/>
             <coverage type="line, %" value="0%   (0/8)"/>
 
             <method name="CloudServersCreateNodeWithGroupEncodedIntoName (CloudServersClient, Map, Function): void">
@@ -40,7 +40,7 @@
             </method>
             <method name="createNodeWithGroupEncodedIntoName (String, String, Template): NodeMetadata">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/40)"/>
+              <coverage type="block, %" value="0%   (0/47)"/>
               <coverage type="line, %" value="0%   (0/3)"/>
             </method>
           </class>
