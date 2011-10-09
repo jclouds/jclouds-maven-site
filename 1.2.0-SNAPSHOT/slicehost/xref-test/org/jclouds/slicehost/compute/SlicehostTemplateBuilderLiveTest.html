@@ -71,7 +71,7 @@
 <a class="jxr_linenumber" name="61" href="#61">61</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) &amp;&amp; input.is64Bit;
 <a class="jxr_linenumber" name="62" href="#62">62</a>                 <strong class="jxr_keyword">case</strong> CENTOS:
 <a class="jxr_linenumber" name="63" href="#63">63</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.matches(<span class="jxr_string">"5.[45]"</span>)
-<a class="jxr_linenumber" name="64" href="#64">64</a>                             || (input.version.equals(<span class="jxr_string">"5.0"</span>) &amp;&amp; input.is64Bit);
+<a class="jxr_linenumber" name="64" href="#64">64</a>                             || (input.version.matches(<span class="jxr_string">"5.[06]"</span>) &amp;&amp; input.is64Bit);
 <a class="jxr_linenumber" name="65" href="#65">65</a>                 <strong class="jxr_keyword">case</strong> WINDOWS:
 <a class="jxr_linenumber" name="66" href="#66">66</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || (input.version.equals(<span class="jxr_string">"2008 SP2"</span>) &amp;&amp; !input.is64Bit)
 <a class="jxr_linenumber" name="67" href="#67">67</a>                             || input.version.equals(<span class="jxr_string">""</span>) || (input.version.equals(<span class="jxr_string">"2008 R2"</span>) &amp;&amp; input.is64Bit);
