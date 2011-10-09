@@ -1,20 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 01 20:33:36 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="7"/>
     <classes value="19"/>
-    <methods value="89"/>
+    <methods value="92"/>
     <srcfiles value="12"/>
-    <srclines value="334"/>
+    <srclines value="373"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="58%  (11/19)"/>
-      <coverage type="method, %" value="38%  (34/89)"/>
-      <coverage type="block, %" value="37%  (682/1847)"/>
-      <coverage type="line, %" value="40%  (133.4/334)"/>
+      <coverage type="method, %" value="37%  (34/92)"/>
+      <coverage type="block, %" value="31%  (682/2189)"/>
+      <coverage type="line, %" value="36%  (133.4/373)"/>
 
+      <package name="org.jclouds.aws.util">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="14%  (2/14)"/>
+        <coverage type="block, %" value="11%  (86/752)"/>
+        <coverage type="line, %" value="16%  (16/98)"/>
+
+        <srcfile name="AWSUtils.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="14%  (2/14)"/>
+          <coverage type="block, %" value="11%  (86/752)"/>
+          <coverage type="line, %" value="16%  (16/98)"/>
+
+          <class name="AWSUtils$GetRegionFromLocation">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/16)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="AWSUtils$GetRegionFromLocation (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Location): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+          <class name="AWSUtils">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="17%  (2/12)"/>
+            <coverage type="block, %" value="12%  (86/736)"/>
+            <coverage type="line, %" value="17%  (16/95)"/>
+
+            <method name="findRegionInArgsOrNull (GeneratedHttpRequest): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="getRegionFromLocationOrNull (Location): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="indexIterableToFormValuesWithPrefix (HttpRequest, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/75)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="indexMapOfIterableToFormValuesWithPrefix (HttpRequest, String, String, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/123)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
+            </method>
+            <method name="indexMapToFormValuesWithPrefix (HttpRequest, String, String, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/103)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
+            </method>
+            <method name="indexMultimapToFormValuesWithPrefix (HttpRequest, String, String, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/116)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
+            </method>
+            <method name="indexStringArrayToFormValuesWithPrefix (HttpRequest, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/72)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="indexStringArrayToFormValuesWithStringFormat (HttpRequest, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/71)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="isRegion (String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="parseHandle (String): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="parseAWSErrorFromContent (HttpRequest, HttpResponse): AWSError">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="65%  (51/78)"/>
+              <coverage type="line, %" value="53%  (8/15)"/>
+            </method>
+            <method name="AWSUtils (String, RequestSigner, ParseSax$Factory, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (35/35)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
       <package name="org.jclouds.aws.config">
         <coverage type="class, %" value="50%  (3/6)"/>
         <coverage type="method, %" value="17%  (4/23)"/>
@@ -328,89 +426,6 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (16/16)"/>
               <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-          </class>
-        </srcfile>
-      </package>
-      <package name="org.jclouds.aws.util">
-        <coverage type="class, %" value="50%  (1/2)"/>
-        <coverage type="method, %" value="18%  (2/11)"/>
-        <coverage type="block, %" value="21%  (86/410)"/>
-        <coverage type="line, %" value="27%  (16/59)"/>
-
-        <srcfile name="AWSUtils.java">
-          <coverage type="class, %" value="50%  (1/2)"/>
-          <coverage type="method, %" value="18%  (2/11)"/>
-          <coverage type="block, %" value="21%  (86/410)"/>
-          <coverage type="line, %" value="27%  (16/59)"/>
-
-          <class name="AWSUtils$GetRegionFromLocation">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/2)"/>
-            <coverage type="block, %" value="0%   (0/16)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
-
-            <method name="AWSUtils$GetRegionFromLocation (): void">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="apply (Location): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/13)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-          </class>
-          <class name="AWSUtils">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="22%  (2/9)"/>
-            <coverage type="block, %" value="22%  (86/394)"/>
-            <coverage type="line, %" value="29%  (16/56)"/>
-
-            <method name="findRegionInArgsOrNull (GeneratedHttpRequest): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-            <method name="getRegionFromLocationOrNull (Location): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="indexIterableToFormValuesWithPrefix (HttpRequest, String, Object): HttpRequest">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/75)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
-            </method>
-            <method name="indexStringArrayToFormValuesWithPrefix (HttpRequest, String, Object): HttpRequest">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/72)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-            <method name="indexStringArrayToFormValuesWithStringFormat (HttpRequest, String, Object): HttpRequest">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/71)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
-            </method>
-            <method name="isRegion (String): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="parseHandle (String): String []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="parseAWSErrorFromContent (HttpRequest, HttpResponse): AWSError">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="65%  (51/78)"/>
-              <coverage type="line, %" value="53%  (8/15)"/>
-            </method>
-            <method name="AWSUtils (String, RequestSigner, ParseSax$Factory, Provider): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (35/35)"/>
-              <coverage type="line, %" value="100% (8/8)"/>
             </method>
           </class>
         </srcfile>
