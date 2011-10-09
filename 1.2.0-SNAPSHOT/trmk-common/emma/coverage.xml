@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 01 20:33:36 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="20"/>
     <classes value="223"/>
-    <methods value="961"/>
+    <methods value="963"/>
     <srcfiles value="140"/>
-    <srclines value="3680"/>
+    <srclines value="3683"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="40%  (90/223)"/>
-      <coverage type="method, %" value="41%  (395/961)"/>
-      <coverage type="block, %" value="43%  (8193/19211)"/>
-      <coverage type="line, %" value="45%  (1639.6/3680)"/>
+      <coverage type="method, %" value="41%  (395/963)"/>
+      <coverage type="block, %" value="43%  (8193/19233)"/>
+      <coverage type="line, %" value="45%  (1639.6/3683)"/>
 
       <package name="org.jclouds.trmk.vcloud_0_8.compute.functions">
         <coverage type="class, %" value="20%  (2/10)"/>
@@ -3902,21 +3902,21 @@
       </package>
       <package name="org.jclouds.trmk.vcloud_0_8.compute.options">
         <coverage type="class, %" value="100% (2/2)"/>
-        <coverage type="method, %" value="53%  (16/30)"/>
-        <coverage type="block, %" value="38%  (149/394)"/>
-        <coverage type="line, %" value="41%  (29.7/73)"/>
+        <coverage type="method, %" value="50%  (16/32)"/>
+        <coverage type="block, %" value="36%  (149/416)"/>
+        <coverage type="line, %" value="39%  (29.7/76)"/>
 
         <srcfile name="TerremarkVCloudTemplateOptions.java">
           <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="53%  (16/30)"/>
-          <coverage type="block, %" value="38%  (149/394)"/>
-          <coverage type="line, %" value="41%  (29.7/73)"/>
+          <coverage type="method, %" value="50%  (16/32)"/>
+          <coverage type="block, %" value="36%  (149/416)"/>
+          <coverage type="line, %" value="39%  (29.7/76)"/>
 
           <class name="TerremarkVCloudTemplateOptions">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="50%  (10/20)"/>
-            <coverage type="block, %" value="28%  (83/293)"/>
-            <coverage type="line, %" value="33%  (18/55)"/>
+            <coverage type="method, %" value="48%  (10/21)"/>
+            <coverage type="block, %" value="27%  (83/302)"/>
+            <coverage type="line, %" value="32%  (18/56)"/>
 
             <method name="authorizePublicKey (Payload): TerremarkVCloudTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3963,9 +3963,14 @@
               <coverage type="block, %" value="0%   (0/65)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="withMetadata (): TerremarkVCloudTemplateOptions">
+            <method name="userMetadata (Map): TerremarkVCloudTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="userMetadata (String, String): TerremarkVCloudTemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="&lt;static initializer&gt;">
@@ -4021,9 +4026,9 @@
           </class>
           <class name="TerremarkVCloudTemplateOptions$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="60%  (6/10)"/>
-            <coverage type="block, %" value="65%  (66/101)"/>
-            <coverage type="line, %" value="63%  (12/19)"/>
+            <coverage type="method, %" value="55%  (6/11)"/>
+            <coverage type="block, %" value="58%  (66/114)"/>
+            <coverage type="line, %" value="57%  (12/21)"/>
 
             <method name="TerremarkVCloudTemplateOptions$Builder (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4040,9 +4045,14 @@
               <coverage type="block, %" value="0%   (0/11)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="withDetails (): TerremarkVCloudTemplateOptions">
+            <method name="userMetadata (Map): TerremarkVCloudTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="userMetadata (String, String): TerremarkVCloudTemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="authorizePublicKey (String): TerremarkVCloudTemplateOptions">
