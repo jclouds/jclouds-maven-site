@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="27"/>
     <classes value="229"/>
-    <methods value="1140"/>
+    <methods value="1142"/>
     <srcfiles value="143"/>
-    <srclines value="4533"/>
+    <srclines value="4536"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="65%  (149/229)"/>
-      <coverage type="method, %" value="56%  (643/1140)"/>
-      <coverage type="block, %" value="51%  (12261/23853)"/>
-      <coverage type="line, %" value="51%  (2301.4/4533)"/>
+      <coverage type="method, %" value="56%  (643/1142)"/>
+      <coverage type="block, %" value="51%  (12261/23875)"/>
+      <coverage type="line, %" value="51%  (2301.4/4536)"/>
 
       <package name="org.jclouds.vcloud.compute.internal">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -2453,21 +2453,21 @@
       </package>
       <package name="org.jclouds.vcloud.compute.options">
         <coverage type="class, %" value="100% (2/2)"/>
-        <coverage type="method, %" value="66%  (21/32)"/>
-        <coverage type="block, %" value="38%  (165/436)"/>
-        <coverage type="line, %" value="43%  (35.8/83)"/>
+        <coverage type="method, %" value="62%  (21/34)"/>
+        <coverage type="block, %" value="36%  (165/458)"/>
+        <coverage type="line, %" value="42%  (35.8/86)"/>
 
         <srcfile name="VCloudTemplateOptions.java">
           <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="66%  (21/32)"/>
-          <coverage type="block, %" value="38%  (165/436)"/>
-          <coverage type="line, %" value="43%  (35.8/83)"/>
+          <coverage type="method, %" value="62%  (21/34)"/>
+          <coverage type="block, %" value="36%  (165/458)"/>
+          <coverage type="line, %" value="42%  (35.8/86)"/>
 
           <class name="VCloudTemplateOptions">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="64%  (14/22)"/>
-            <coverage type="block, %" value="26%  (87/334)"/>
-            <coverage type="line, %" value="34%  (22/65)"/>
+            <coverage type="method, %" value="61%  (14/23)"/>
+            <coverage type="block, %" value="25%  (87/343)"/>
+            <coverage type="line, %" value="33%  (22/66)"/>
 
             <method name="clone (): VCloudTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2504,9 +2504,14 @@
               <coverage type="block, %" value="0%   (0/74)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="withMetadata (): VCloudTemplateOptions">
+            <method name="userMetadata (Map): VCloudTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="userMetadata (String, String): VCloudTemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="&lt;static initializer&gt;">
@@ -2582,9 +2587,9 @@
           </class>
           <class name="VCloudTemplateOptions$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="70%  (7/10)"/>
-            <coverage type="block, %" value="76%  (78/102)"/>
-            <coverage type="line, %" value="74%  (14/19)"/>
+            <coverage type="method, %" value="64%  (7/11)"/>
+            <coverage type="block, %" value="68%  (78/115)"/>
+            <coverage type="line, %" value="67%  (14/21)"/>
 
             <method name="VCloudTemplateOptions$Builder (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2596,9 +2601,14 @@
               <coverage type="block, %" value="0%   (0/11)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="withDetails (): VCloudTemplateOptions">
+            <method name="userMetadata (Map): VCloudTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="userMetadata (String, String): VCloudTemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="authorizePublicKey (Payload): VCloudTemplateOptions">

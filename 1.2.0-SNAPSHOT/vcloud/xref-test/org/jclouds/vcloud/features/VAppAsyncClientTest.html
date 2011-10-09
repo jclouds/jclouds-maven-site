@@ -235,7 +235,7 @@
 <a class="jxr_linenumber" name="225" href="#225">225</a>                .create(<span class="jxr_string">"https://vcenterprise.bluelock.com/api/v1.0/vApp/1"</span>));
 <a class="jxr_linenumber" name="226" href="#226">226</a> 
 <a class="jxr_linenumber" name="227" href="#227">227</a>       assertRequestLineEquals(request, <span class="jxr_string">"DELETE https://vcenterprise.bluelock.com/api/v1.0/vApp/1 HTTP/1.1"</span>);
-<a class="jxr_linenumber" name="228" href="#228">228</a>       assertNonPayloadHeadersEqual(request, <span class="jxr_string">""</span>);
+<a class="jxr_linenumber" name="228" href="#228">228</a>       assertNonPayloadHeadersEqual(request, <span class="jxr_string">"Accept: application/vnd.vmware.vcloud.task+xml\n"</span>);
 <a class="jxr_linenumber" name="229" href="#229">229</a>       assertPayloadEquals(request, <strong class="jxr_keyword">null</strong>, <strong class="jxr_keyword">null</strong>, false);
 <a class="jxr_linenumber" name="230" href="#230">230</a> 
 <a class="jxr_linenumber" name="231" href="#231">231</a>       assertResponseParserClassEquals(method, request, ParseSax.<strong class="jxr_keyword">class</strong>);
