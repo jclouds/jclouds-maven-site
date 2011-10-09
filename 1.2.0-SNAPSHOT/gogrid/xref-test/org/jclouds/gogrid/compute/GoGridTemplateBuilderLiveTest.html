@@ -63,13 +63,13 @@
 <a class="jxr_linenumber" name="53" href="#53">53</a>           <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> apply(OsFamilyVersion64Bit input) {
 <a class="jxr_linenumber" name="54" href="#54">54</a>              <strong class="jxr_keyword">switch</strong> (input.family) {
 <a class="jxr_linenumber" name="55" href="#55">55</a>                 <strong class="jxr_keyword">case</strong> RHEL:
-<a class="jxr_linenumber" name="56" href="#56">56</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.equals(<span class="jxr_string">"5.4"</span>);
+<a class="jxr_linenumber" name="56" href="#56">56</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.matches(<span class="jxr_string">"5.[67]"</span>);
 <a class="jxr_linenumber" name="57" href="#57">57</a>                 <strong class="jxr_keyword">case</strong> DEBIAN:
-<a class="jxr_linenumber" name="58" href="#58">58</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.equals(<span class="jxr_string">"5.0"</span>);
+<a class="jxr_linenumber" name="58" href="#58">58</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.matches(<span class="jxr_string">"[56].0"</span>);
 <a class="jxr_linenumber" name="59" href="#59">59</a>                 <strong class="jxr_keyword">case</strong> UBUNTU:
 <a class="jxr_linenumber" name="60" href="#60">60</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.equals(<span class="jxr_string">"10.04"</span>);
 <a class="jxr_linenumber" name="61" href="#61">61</a>                 <strong class="jxr_keyword">case</strong> CENTOS:
-<a class="jxr_linenumber" name="62" href="#62">62</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.matches(<span class="jxr_string">"5.[35]"</span>);
+<a class="jxr_linenumber" name="62" href="#62">62</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.matches(<span class="jxr_string">"5.[56]"</span>) || input.version.equals(<span class="jxr_string">"6.0"</span>);
 <a class="jxr_linenumber" name="63" href="#63">63</a>                 <strong class="jxr_keyword">case</strong> WINDOWS:
 <a class="jxr_linenumber" name="64" href="#64">64</a>                    <strong class="jxr_keyword">return</strong> input.version.equals(<span class="jxr_string">""</span>) || input.version.matches(<span class="jxr_string">"200[38]"</span>);
 <a class="jxr_linenumber" name="65" href="#65">65</a>                 <strong class="jxr_keyword">default</strong>:

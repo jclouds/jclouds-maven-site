@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Sep 10 20:32:44 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
 
 <report>
   <stats>
     <packages value="19"/>
     <classes value="109"/>
-    <methods value="487"/>
+    <methods value="489"/>
     <srcfiles value="77"/>
-    <srclines value="1355"/>
+    <srclines value="1358"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="83%  (90/109)"/>
-      <coverage type="method, %" value="57%  (279/487)"/>
-      <coverage type="block, %" value="55%  (4249/7790)"/>
-      <coverage type="line, %" value="56%  (761.7/1355)"/>
+      <coverage type="method, %" value="57%  (279/489)"/>
+      <coverage type="block, %" value="54%  (4249/7812)"/>
+      <coverage type="line, %" value="56%  (761.7/1358)"/>
 
       <package name="org.jclouds.gogrid.compute">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -200,21 +200,21 @@
       </package>
       <package name="org.jclouds.gogrid.compute.options">
         <coverage type="class, %" value="50%  (1/2)"/>
-        <coverage type="method, %" value="10%  (2/20)"/>
-        <coverage type="block, %" value="5%   (8/161)"/>
-        <coverage type="line, %" value="8%   (2.5/31)"/>
+        <coverage type="method, %" value="9%   (2/22)"/>
+        <coverage type="block, %" value="4%   (8/183)"/>
+        <coverage type="line, %" value="7%   (2.5/34)"/>
 
         <srcfile name="GoGridTemplateOptions.java">
           <coverage type="class, %" value="50%  (1/2)"/>
-          <coverage type="method, %" value="10%  (2/20)"/>
-          <coverage type="block, %" value="5%   (8/161)"/>
-          <coverage type="line, %" value="8%   (2.5/31)"/>
+          <coverage type="method, %" value="9%   (2/22)"/>
+          <coverage type="block, %" value="4%   (8/183)"/>
+          <coverage type="line, %" value="7%   (2.5/34)"/>
 
           <class name="GoGridTemplateOptions$Builder">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/7)"/>
-            <coverage type="block, %" value="0%   (0/69)"/>
-            <coverage type="line, %" value="0%   (0/13)"/>
+            <coverage type="method, %" value="0%   (0/8)"/>
+            <coverage type="block, %" value="0%   (0/82)"/>
+            <coverage type="line, %" value="0%   (0/15)"/>
 
             <method name="GoGridTemplateOptions$Builder (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -246,17 +246,22 @@
               <coverage type="block, %" value="0%   (0/11)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="withMetadata (): GoGridTemplateOptions">
+            <method name="userMetadata (Map): GoGridTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="userMetadata (String, String): GoGridTemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
           </class>
           <class name="GoGridTemplateOptions">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="15%  (2/13)"/>
-            <coverage type="block, %" value="9%   (8/92)"/>
-            <coverage type="line, %" value="16%  (3/19)"/>
+            <coverage type="method, %" value="14%  (2/14)"/>
+            <coverage type="block, %" value="8%   (8/101)"/>
+            <coverage type="line, %" value="15%  (3/20)"/>
 
             <method name="authorizePublicKey (Payload): GoGridTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -308,9 +313,14 @@
               <coverage type="block, %" value="0%   (0/7)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="withMetadata (): GoGridTemplateOptions">
+            <method name="userMetadata (Map): GoGridTemplateOptions">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="userMetadata (String, String): GoGridTemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="&lt;static initializer&gt;">
