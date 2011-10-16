@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-08T23:27:57.895">
+<pmd version="4.2.5" timestamp="2011-10-15T23:20:23.955">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/compute/src/main/java/org/jclouds/cim/xml/ResourceAllocationSettingDataHandler.java">
 <violation beginline="70" endline="70" begincolumn="41" endcolumn="60" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.cim.xml" class="ResourceAllocationSettingDataHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
 Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
@@ -16,6 +16,14 @@ Too many static imports may lead to messy code
 <file name="/scratch/hudson/workspace/jclouds-maven-site/compute/src/main/java/org/jclouds/compute/ComputeService.java">
 <violation beginline="22" endline="22" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'java.util.NoSuchElementException'
+</violation>
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="65" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.compute.callables.ScriptStillRunningException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site/compute/src/main/java/org/jclouds/compute/callables/BlockUntilInitScriptStatusIsZeroThenReturnOutput.java">
+<violation beginline="70" endline="95" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.compute.callables" class="BlockUntilInitScriptStatusIsZeroThenReturnOutput" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'stateRunning'.
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/compute/src/main/java/org/jclouds/compute/callables/RunScriptOnNodeUsingSsh.java">
@@ -34,7 +42,7 @@ Too many static imports may lead to messy code
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/compute/src/main/java/org/jclouds/compute/internal/BaseComputeService.java">
-<violation beginline="19" endline="667" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.compute.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+<violation beginline="19" endline="694" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.compute.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
 </violation>
 </file>
@@ -44,7 +52,7 @@ Ensure you override both equals() and hashCode()
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/compute/src/main/java/org/jclouds/compute/predicates/ScriptStatusReturnsZero.java">
-<violation beginline="67" endline="67" begincolumn="31" endcolumn="36" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.compute.predicates" class="ScriptStatusReturnsZero$CommandUsingClient" variable="client" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+<violation beginline="66" endline="66" begincolumn="31" endcolumn="36" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.compute.predicates" class="ScriptStatusReturnsZero$CommandUsingClient" variable="client" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
 Avoid unused private fields such as 'client'.
 </violation>
 </file>
