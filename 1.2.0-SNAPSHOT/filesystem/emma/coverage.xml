@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 15 20:32:03 EDT 2011 -->
 
 <report>
   <stats>
@@ -6,14 +6,14 @@
     <classes value="25"/>
     <methods value="114"/>
     <srcfiles value="12"/>
-    <srclines value="470"/>
+    <srclines value="471"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="76%  (19/25)"/>
       <coverage type="method, %" value="73%  (83/114)"/>
-      <coverage type="block, %" value="71%  (1730/2437)"/>
-      <coverage type="line, %" value="71%  (335.4/470)"/>
+      <coverage type="block, %" value="71%  (1736/2443)"/>
+      <coverage type="line, %" value="71%  (336.4/471)"/>
 
       <package name="org.jclouds.filesystem.reference">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -762,20 +762,20 @@
       <package name="org.jclouds.filesystem.config">
         <coverage type="class, %" value="100% (4/4)"/>
         <coverage type="method, %" value="100% (8/8)"/>
-        <coverage type="block, %" value="100% (90/90)"/>
-        <coverage type="line, %" value="100% (19/19)"/>
+        <coverage type="block, %" value="100% (96/96)"/>
+        <coverage type="line, %" value="100% (20/20)"/>
 
         <srcfile name="FilesystemBlobStoreContextModule.java">
           <coverage type="class, %" value="100% (3/3)"/>
           <coverage type="method, %" value="100% (5/5)"/>
-          <coverage type="block, %" value="100% (75/75)"/>
-          <coverage type="line, %" value="100% (13/13)"/>
+          <coverage type="block, %" value="100% (81/81)"/>
+          <coverage type="line, %" value="100% (14/14)"/>
 
           <class name="FilesystemBlobStoreContextModule">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (3/3)"/>
-            <coverage type="block, %" value="100% (63/63)"/>
-            <coverage type="line, %" value="100% (12/12)"/>
+            <coverage type="block, %" value="100% (69/69)"/>
+            <coverage type="line, %" value="100% (13/13)"/>
 
             <method name="FilesystemBlobStoreContextModule (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -784,8 +784,8 @@
             </method>
             <method name="configure (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (58/58)"/>
-              <coverage type="line, %" value="100% (10/10)"/>
+              <coverage type="block, %" value="100% (64/64)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
             </method>
             <method name="provide (FilesystemBlobStore): BlobStore">
               <coverage type="method, %" value="100% (1/1)"/>
