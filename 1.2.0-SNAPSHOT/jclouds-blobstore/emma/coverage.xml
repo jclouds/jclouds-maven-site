@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 08 20:35:26 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 15 20:32:03 EDT 2011 -->
 
 <report>
   <stats>
@@ -6,14 +6,14 @@
     <classes value="124"/>
     <methods value="564"/>
     <srcfiles value="72"/>
-    <srclines value="1521"/>
+    <srclines value="1523"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="68%  (84/124)"/>
       <coverage type="method, %" value="42%  (235/564)"/>
-      <coverage type="block, %" value="39%  (3268/8413)"/>
-      <coverage type="line, %" value="44%  (673.4/1521)"/>
+      <coverage type="block, %" value="39%  (3283/8436)"/>
+      <coverage type="line, %" value="44%  (674.5/1523)"/>
 
       <package name="org.jclouds.blobstore.attr">
         <coverage type="class, %" value="14%  (1/7)"/>
@@ -2101,8 +2101,8 @@
       <package name="org.jclouds.blobstore">
         <coverage type="class, %" value="76%  (13/17)"/>
         <coverage type="method, %" value="43%  (42/97)"/>
-        <coverage type="block, %" value="42%  (832/1988)"/>
-        <coverage type="line, %" value="45%  (164.4/365)"/>
+        <coverage type="block, %" value="42%  (847/2011)"/>
+        <coverage type="line, %" value="45%  (165.5/367)"/>
 
         <srcfile name="KeyAlreadyExistsException.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -2288,8 +2288,8 @@
         <srcfile name="TransientAsyncBlobStore.java">
           <coverage type="class, %" value="67%  (6/9)"/>
           <coverage type="method, %" value="39%  (22/57)"/>
-          <coverage type="block, %" value="40%  (623/1564)"/>
-          <coverage type="line, %" value="43%  (119.4/278)"/>
+          <coverage type="block, %" value="40%  (619/1563)"/>
+          <coverage type="line, %" value="43%  (119.5/279)"/>
 
           <class name="TransientAsyncBlobStore$3">
             <coverage type="class, %" value="0%   (0/1)"/>
@@ -2436,8 +2436,8 @@
           <class name="TransientAsyncBlobStore">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="39%  (13/33)"/>
-            <coverage type="block, %" value="39%  (487/1246)"/>
-            <coverage type="line, %" value="43%  (95.6/221)"/>
+            <coverage type="block, %" value="39%  (483/1245)"/>
+            <coverage type="line, %" value="43%  (95.6/222)"/>
 
             <method name="blobExists (String, String): ListenableFuture">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2564,15 +2564,15 @@
               <coverage type="block, %" value="75%  (129/172)"/>
               <coverage type="line, %" value="81%  (23.4/29)"/>
             </method>
+            <method name="createContainerInLocation (Location, String): ListenableFuture">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="84%  (27/32)"/>
+              <coverage type="line, %" value="78%  (3.9/5)"/>
+            </method>
             <method name="list (String, ListContainerOptions): ListenableFuture">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="86%  (153/178)"/>
               <coverage type="line, %" value="92%  (29.4/32)"/>
-            </method>
-            <method name="createContainerInLocation (Location, String): ListenableFuture">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="94%  (31/33)"/>
-              <coverage type="line, %" value="98%  (3.9/4)"/>
             </method>
             <method name="TransientAsyncBlobStore (BlobStoreContext, DateService, Crypto, ConcurrentMap, Provider, ConcurrentMap, HttpGetOptionsListToGetOptions, IfDirectoryReturnNameStrategy, Blob$Factory, BlobUtils, ExecutorService, Supplier, Supplier): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -2677,38 +2677,38 @@
         <srcfile name="TransientBlobRequestSigner.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="80%  (4/5)"/>
-          <coverage type="block, %" value="76%  (95/125)"/>
-          <coverage type="line, %" value="83%  (10/12)"/>
+          <coverage type="block, %" value="77%  (114/149)"/>
+          <coverage type="line, %" value="85%  (11/13)"/>
 
           <class name="TransientBlobRequestSigner">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="80%  (4/5)"/>
-            <coverage type="block, %" value="76%  (95/125)"/>
-            <coverage type="line, %" value="83%  (10/12)"/>
+            <coverage type="block, %" value="77%  (114/149)"/>
+            <coverage type="line, %" value="85%  (11/13)"/>
 
             <method name="signGetBlob (String, String, GetOptions): HttpRequest">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/30)"/>
+              <coverage type="block, %" value="0%   (0/35)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
-            <method name="TransientBlobRequestSigner (BasicAuthentication, BlobToHttpGetOptions): void">
+            <method name="TransientBlobRequestSigner (BasicAuthentication, BlobToHttpGetOptions, URI): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (15/15)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
             </method>
             <method name="signGetBlob (String, String): HttpRequest">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (23/23)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="signPutBlob (String, Blob): HttpRequest">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="block, %" value="100% (39/39)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="signRemoveBlob (String, String): HttpRequest">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (23/23)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>

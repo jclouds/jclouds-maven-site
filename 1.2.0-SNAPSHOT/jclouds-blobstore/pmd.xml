@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-09T01:54:35.901">
+<pmd version="4.2.5" timestamp="2011-10-16T01:43:52.084">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/blobstore/src/main/java/org/jclouds/blobstore/TransientAsyncBlobStore.java">
-<violation beginline="19" endline="705" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+<violation beginline="19" endline="706" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
 </violation>
-<violation beginline="594" endline="595" begincolumn="10" endcolumn="71" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore" class="TransientAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+<violation beginline="595" endline="596" begincolumn="10" endcolumn="71" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore" class="TransientAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
 These nested if statements could be combined
 </violation>
-<violation beginline="598" endline="599" begincolumn="10" endcolumn="71" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore" class="TransientAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+<violation beginline="599" endline="600" begincolumn="10" endcolumn="71" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore" class="TransientAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
 These nested if statements could be combined
 </violation>
 </file>
