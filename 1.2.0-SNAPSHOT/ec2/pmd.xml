@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-09T03:26:51.336">
+<pmd version="4.2.5" timestamp="2011-10-16T03:15:05.137">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/EC2PropertiesBuilder.java">
 <violation beginline="19" endline="55" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/functions/CreateUniqueKeyPair.java">
-<violation beginline="82" endline="84" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.ec2.compute.functions" class="CreateUniqueKeyPair" method="createNewKeyPairInRegion" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+<violation beginline="71" endline="73" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.ec2.compute.functions" class="CreateUniqueKeyPair" method="createNewKeyPairInRegion" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions.java">
-<violation beginline="120" endline="127" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.ec2.compute.strategy" class="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions" method="createNewKeyPairUnlessUserSpecifiedOtherwise" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+<violation beginline="19" endline="195" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="125" endline="131" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.ec2.compute.strategy" class="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions" method="createNewKeyPairUnlessUserSpecifiedOtherwise" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
 These nested if statements could be combined
 </violation>
 </file>
@@ -26,7 +29,7 @@ Too many static imports may lead to messy code
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/suppliers/RegionAndNameToImageSupplier.java">
-<violation beginline="19" endline="132" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+<violation beginline="19" endline="125" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
 </violation>
 </file>

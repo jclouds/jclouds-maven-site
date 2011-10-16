@@ -49,7 +49,7 @@
 <a class="jxr_linenumber" name="39" href="#39">39</a>  <em class="jxr_javadoccomment"> * </em>
 <a class="jxr_linenumber" name="40" href="#40">40</a>  <em class="jxr_javadoccomment"> * @author Adrian Cole</em>
 <a class="jxr_linenumber" name="41" href="#41">41</a>  <em class="jxr_javadoccomment"> */</em>
-<a class="jxr_linenumber" name="42" href="#42">42</a>  <em class="jxr_comment">//NOTE:without testName, this will not call @Before* and fail w/NPE during surefire</em>
+<a class="jxr_linenumber" name="42" href="#42">42</a>  <em class="jxr_comment">// NOTE:without testName, this will not call @Before* and fail w/NPE during surefire</em>
 <a class="jxr_linenumber" name="43" href="#43">43</a>  @Test(groups = <span class="jxr_string">"unit"</span>, testName = <span class="jxr_string">"DescribeKeyPairsResponseHandlerTest"</span>)
 <a class="jxr_linenumber" name="44" href="#44">44</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/ec2/xml/DescribeKeyPairsResponseHandlerTest.html">DescribeKeyPairsResponseHandlerTest</a> <strong class="jxr_keyword">extends</strong> BaseEC2HandlerTest {
 <a class="jxr_linenumber" name="45" href="#45">45</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testApplyInputStream() {
@@ -57,22 +57,21 @@
 <a class="jxr_linenumber" name="47" href="#47">47</a>        InputStream is = getClass().getResourceAsStream(<span class="jxr_string">"/describe_keypairs.xml"</span>);
 <a class="jxr_linenumber" name="48" href="#48">48</a>  
 <a class="jxr_linenumber" name="49" href="#49">49</a>        Set&lt;KeyPair&gt; expected = ImmutableSet.of(<strong class="jxr_keyword">new</strong> KeyPair(defaultRegion, <span class="jxr_string">"gsg-keypair"</span>,
-<a class="jxr_linenumber" name="50" href="#50">50</a>                 <span class="jxr_string">"1f:51:ae:28:bf:89:e9:d8:1f:25:5d:37:2d:7d:b8:ca:9f:f5:f1:6f"</span>, <strong class="jxr_keyword">null</strong>));
+<a class="jxr_linenumber" name="50" href="#50">50</a>                 <span class="jxr_string">"1f:51:ae:28:bf:89:e9:d8:1f:25:5d:37:2d:7d:b8:ca:9f:f5:f1:6f"</span>, <strong class="jxr_keyword">null</strong>, <strong class="jxr_keyword">null</strong>));
 <a class="jxr_linenumber" name="51" href="#51">51</a>  
-<a class="jxr_linenumber" name="52" href="#52">52</a>        DescribeKeyPairsResponseHandler handler = injector
-<a class="jxr_linenumber" name="53" href="#53">53</a>                 .getInstance(DescribeKeyPairsResponseHandler.<strong class="jxr_keyword">class</strong>);
-<a class="jxr_linenumber" name="54" href="#54">54</a>        addDefaultRegionToHandler(handler);
-<a class="jxr_linenumber" name="55" href="#55">55</a>        Set&lt;KeyPair&gt; result = factory.create(handler).parse(is);
-<a class="jxr_linenumber" name="56" href="#56">56</a>        assertEquals(result, expected);
-<a class="jxr_linenumber" name="57" href="#57">57</a>     }
-<a class="jxr_linenumber" name="58" href="#58">58</a>  
-<a class="jxr_linenumber" name="59" href="#59">59</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> addDefaultRegionToHandler(ParseSax.HandlerWithResult&lt;?&gt; handler) {
-<a class="jxr_linenumber" name="60" href="#60">60</a>        GeneratedHttpRequest&lt;?&gt; request = createMock(GeneratedHttpRequest.<strong class="jxr_keyword">class</strong>);
-<a class="jxr_linenumber" name="61" href="#61">61</a>        expect(request.getArgs()).andReturn(ImmutableList.&lt;Object&gt;of());
-<a class="jxr_linenumber" name="62" href="#62">62</a>        replay(request);
-<a class="jxr_linenumber" name="63" href="#63">63</a>        handler.setContext(request);
-<a class="jxr_linenumber" name="64" href="#64">64</a>     }
-<a class="jxr_linenumber" name="65" href="#65">65</a>  }
+<a class="jxr_linenumber" name="52" href="#52">52</a>        DescribeKeyPairsResponseHandler handler = injector.getInstance(DescribeKeyPairsResponseHandler.<strong class="jxr_keyword">class</strong>);
+<a class="jxr_linenumber" name="53" href="#53">53</a>        addDefaultRegionToHandler(handler);
+<a class="jxr_linenumber" name="54" href="#54">54</a>        Set&lt;KeyPair&gt; result = factory.create(handler).parse(is);
+<a class="jxr_linenumber" name="55" href="#55">55</a>        assertEquals(result, expected);
+<a class="jxr_linenumber" name="56" href="#56">56</a>     }
+<a class="jxr_linenumber" name="57" href="#57">57</a>  
+<a class="jxr_linenumber" name="58" href="#58">58</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> addDefaultRegionToHandler(ParseSax.HandlerWithResult&lt;?&gt; handler) {
+<a class="jxr_linenumber" name="59" href="#59">59</a>        GeneratedHttpRequest&lt;?&gt; request = createMock(GeneratedHttpRequest.<strong class="jxr_keyword">class</strong>);
+<a class="jxr_linenumber" name="60" href="#60">60</a>        expect(request.getArgs()).andReturn(ImmutableList.&lt;Object&gt; of());
+<a class="jxr_linenumber" name="61" href="#61">61</a>        replay(request);
+<a class="jxr_linenumber" name="62" href="#62">62</a>        handler.setContext(request);
+<a class="jxr_linenumber" name="63" href="#63">63</a>     }
+<a class="jxr_linenumber" name="64" href="#64">64</a>  }
 </pre>
 <hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
 </html>

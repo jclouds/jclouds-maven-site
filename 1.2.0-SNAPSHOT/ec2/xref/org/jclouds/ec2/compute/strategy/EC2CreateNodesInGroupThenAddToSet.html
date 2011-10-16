@@ -160,11 +160,11 @@
 <a class="jxr_linenumber" name="150" href="#150">150</a>       String zone = getZoneFromLocationOrNull(template.getLocation());
 <a class="jxr_linenumber" name="151" href="#151">151</a>       <a href="../../../../../org/jclouds/ec2/options/RunInstancesOptions.html">RunInstancesOptions</a> instanceOptions = createKeyPairAndSecurityGroupsAsNeededAndReturncustomize.execute(region,
 <a class="jxr_linenumber" name="152" href="#152">152</a>                group, template);
-<a class="jxr_linenumber" name="153" href="#153">153</a>       <strong class="jxr_keyword">return</strong> createNodesInRegionAndZone(region, zone, count, template, instanceOptions);
+<a class="jxr_linenumber" name="153" href="#153">153</a>       <strong class="jxr_keyword">return</strong> createNodesInRegionAndZone(region, zone, group, count, template, instanceOptions);
 <a class="jxr_linenumber" name="154" href="#154">154</a>    }
 <a class="jxr_linenumber" name="155" href="#155">155</a> 
-<a class="jxr_linenumber" name="156" href="#156">156</a>    <strong class="jxr_keyword">protected</strong> Iterable&lt;? <strong class="jxr_keyword">extends</strong> RunningInstance&gt; createNodesInRegionAndZone(String region, String zone, <strong class="jxr_keyword">int</strong> count,
-<a class="jxr_linenumber" name="157" href="#157">157</a>             Template template, <a href="../../../../../org/jclouds/ec2/options/RunInstancesOptions.html">RunInstancesOptions</a> instanceOptions) {
+<a class="jxr_linenumber" name="156" href="#156">156</a>    <strong class="jxr_keyword">protected</strong> Iterable&lt;? <strong class="jxr_keyword">extends</strong> RunningInstance&gt; createNodesInRegionAndZone(String region, String zone, String group,
+<a class="jxr_linenumber" name="157" href="#157">157</a>             <strong class="jxr_keyword">int</strong> count, Template template, <a href="../../../../../org/jclouds/ec2/options/RunInstancesOptions.html">RunInstancesOptions</a> instanceOptions) {
 <a class="jxr_linenumber" name="158" href="#158">158</a>       <strong class="jxr_keyword">int</strong> countStarted = 0;
 <a class="jxr_linenumber" name="159" href="#159">159</a>       <strong class="jxr_keyword">int</strong> tries = 0;
 <a class="jxr_linenumber" name="160" href="#160">160</a>       Iterable&lt;? <strong class="jxr_keyword">extends</strong> RunningInstance&gt; started = ImmutableSet.&lt;RunningInstance&gt; of();
