@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="40" tokens="299">
+<file line="51" path="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/domain/AppendFile.java"/>
+<file line="52" path="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/domain/CreateFile.java"/>
+<codefragment>
+<![CDATA[
+   public CreateFile(String path, Iterable<String> lines, String marker) {
+      this.path = checkNotNull(path, "path");
+      this.lines = checkNotNull(lines, "lines");
+      this.marker = checkNotNull(marker, "marker");
+      checkState(Iterables.size(lines) > 0, "you must pass something to execute");
+   }
+
+   public static String escapeVarTokens(String toEscape, OsFamily family) {
+      Map<String, String> inputToEscape = Maps.newHashMap();
+      for (ShellToken token : ImmutableList.of(ShellToken.VARL, ShellToken.VARR)) {
+         if (!token.to(family).equals("")) {
+            String tokenS = "{" + token.toString().toLowerCase() + "}";
+            inputToEscape.put(tokenS, "{escvar}" + tokenS);
+         }
+      }
+      for (Entry<String, String> entry : inputToEscape.entrySet()) {
+         toEscape = toEscape.replace(entry.getKey(), entry.getValue());
+      }
+      return toEscape;
+   }
+
+   @Override
+   public Iterable<String> functionDependencies(OsFamily family) {
+      return Collections.emptyList();
+   }
+
+   @Override
+   public String render(OsFamily family) {
+      List<Statement> statements = Lists.newArrayList();
+      if (family == OsFamily.UNIX) {
+         StringBuilder builder = new StringBuilder();
+         hereFile(path, builder);
+         statements.add(interpret(builder.toString()));
+      } else {
+         for (String line : lines) {
+            statements.add(appendToFile(line, path, family));
+         }
+      }
+      return new StatementList(statements).render(family);
+   }
+]]>
+</codefragment>
+</duplication>
+<duplication lines="20" tokens="148">
+<file line="56" path="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/domain/AppendFile.java"/>
+<file line="107" path="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/domain/CreateRunScript.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   public static String escapeVarTokens(String toEscape, OsFamily family) {
+      Map<String, String> inputToEscape = Maps.newHashMap();
+      for (ShellToken token : ImmutableList.of(ShellToken.VARL, ShellToken.VARR)) {
+         if (!token.to(family).equals("")) {
+            String tokenS = "{" + token.toString().toLowerCase() + "}";
+            inputToEscape.put(tokenS, "{escvar}" + tokenS);
+         }
+      }
+      for (Entry<String, String> entry : inputToEscape.entrySet()) {
+         toEscape = toEscape.replace(entry.getKey(), entry.getValue());
+      }
+      return toEscape;
+   }
+
+   @Override
+   public Iterable<String> functionDependencies(OsFamily family) {
+      return Collections.emptyList();
+   }
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
