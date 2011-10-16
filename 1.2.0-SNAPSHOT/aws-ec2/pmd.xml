@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-09T11:47:17.846">
+<pmd version="4.2.5" timestamp="2011-10-16T11:32:39.838">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/AWSEC2PropertiesBuilder.java">
-<violation beginline="19" endline="110" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+<violation beginline="19" endline="112" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
 </violation>
 </file>
@@ -21,7 +21,7 @@ Too many static imports may lead to messy code
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/suppliers/AWSRegionAndNameToImageSupplier.java">
-<violation beginline="19" endline="167" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+<violation beginline="19" endline="159" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
 </violation>
 </file>
@@ -38,6 +38,11 @@ Avoid unused imports such as 'org.jclouds.ec2.domain.InstanceType'
 <file name="/scratch/hudson/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/reference/AWSEC2Constants.java">
 <violation beginline="21" endline="21" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.reference" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'org.jclouds.ec2.domain.InstanceType'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/xml/AWSDescribeInstancesResponseHandler.java">
+<violation beginline="55" endline="58" begincolumn="4" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.aws.ec2.xml" class="AWSDescribeInstancesResponseHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'tagSetHandler'.
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/xml/LaunchSpecificationHandler.java">

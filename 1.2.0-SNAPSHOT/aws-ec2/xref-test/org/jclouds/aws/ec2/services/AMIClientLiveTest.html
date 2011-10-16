@@ -143,7 +143,7 @@
 <a class="jxr_linenumber" name="133" href="#133">133</a>    }
 <a class="jxr_linenumber" name="134" href="#134">134</a> 
 <a class="jxr_linenumber" name="135" href="#135">135</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testDescribeImagesCC() {
-<a class="jxr_linenumber" name="136" href="#136">136</a>       Set&lt;? <strong class="jxr_keyword">extends</strong> Image&gt; twoResults = client.describeImagesInRegion(Region.US_EAST_1, filters(
+<a class="jxr_linenumber" name="136" href="#136">136</a>       Set&lt;? <strong class="jxr_keyword">extends</strong> Image&gt; ccResults = client.describeImagesInRegion(Region.US_EAST_1, filters(
 <a class="jxr_linenumber" name="137" href="#137">137</a>                ImmutableMultimap.&lt;String, String&gt; builder()<em class="jxr_comment">//</em>
 <a class="jxr_linenumber" name="138" href="#138">138</a>                         .put(<span class="jxr_string">"virtualization-type"</span>, <span class="jxr_string">"hvm"</span>)<em class="jxr_comment">//</em>
 <a class="jxr_linenumber" name="139" href="#139">139</a>                         .put(<span class="jxr_string">"architecture"</span>, <span class="jxr_string">"x86_64"</span>)<em class="jxr_comment">//</em>
@@ -153,8 +153,8 @@
 <a class="jxr_linenumber" name="143" href="#143">143</a>                         .put(<span class="jxr_string">"image-type"</span>, <span class="jxr_string">"machine"</span>)<em class="jxr_comment">//</em>
 <a class="jxr_linenumber" name="144" href="#144">144</a>                         .put(<span class="jxr_string">"root-device-type"</span>, <span class="jxr_string">"ebs"</span>)<em class="jxr_comment">//</em>
 <a class="jxr_linenumber" name="145" href="#145">145</a>                         .build()).ownedBy(<span class="jxr_string">"137112412989"</span>, <span class="jxr_string">"099720109477"</span>));
-<a class="jxr_linenumber" name="146" href="#146">146</a>       assertNotNull(twoResults);
-<a class="jxr_linenumber" name="147" href="#147">147</a>       assertEquals(twoResults.size(), 33);
+<a class="jxr_linenumber" name="146" href="#146">146</a>       assertNotNull(ccResults);
+<a class="jxr_linenumber" name="147" href="#147">147</a>       assert (ccResults.size() &gt;= 34) : ccResults;
 <a class="jxr_linenumber" name="148" href="#148">148</a>    }
 <a class="jxr_linenumber" name="149" href="#149">149</a> 
 <a class="jxr_linenumber" name="150" href="#150">150</a>    @Test(enabled = false)

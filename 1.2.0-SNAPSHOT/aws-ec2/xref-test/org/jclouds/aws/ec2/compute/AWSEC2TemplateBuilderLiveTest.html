@@ -151,7 +151,7 @@
 <a class="jxr_linenumber" name="141" href="#141">141</a> 
 <a class="jxr_linenumber" name="142" href="#142">142</a>       Template defaultTemplate = context.getComputeService().templateBuilder().build();
 <a class="jxr_linenumber" name="143" href="#143">143</a>       assert (defaultTemplate.getImage().getProviderId().startsWith(<span class="jxr_string">"ami-"</span>)) : defaultTemplate;
-<a class="jxr_linenumber" name="144" href="#144">144</a>       assertEquals(defaultTemplate.getImage().getOperatingSystem().getVersion(), <span class="jxr_string">"2011.09.rc-1"</span>);
+<a class="jxr_linenumber" name="144" href="#144">144</a>       assertEquals(defaultTemplate.getImage().getOperatingSystem().getVersion(), <span class="jxr_string">"2011.09.1"</span>);
 <a class="jxr_linenumber" name="145" href="#145">145</a>       assertEquals(defaultTemplate.getImage().getOperatingSystem().is64Bit(), <strong class="jxr_keyword">true</strong>);
 <a class="jxr_linenumber" name="146" href="#146">146</a>       assertEquals(defaultTemplate.getImage().getOperatingSystem().getFamily(), OsFamily.AMZN_LINUX);
 <a class="jxr_linenumber" name="147" href="#147">147</a>       assertEquals(defaultTemplate.getImage().getUserMetadata().get(<span class="jxr_string">"rootDeviceType"</span>), <span class="jxr_string">"ebs"</span>);
@@ -167,7 +167,7 @@
 <a class="jxr_linenumber" name="157" href="#157">157</a>       Template defaultTemplate = context.getComputeService().templateBuilder().osFamily(OsFamily.AMZN_LINUX)
 <a class="jxr_linenumber" name="158" href="#158">158</a>             .imageMatches(EC2ImagePredicates.rootDeviceType(RootDeviceType.INSTANCE_STORE)).build();
 <a class="jxr_linenumber" name="159" href="#159">159</a>       assert (defaultTemplate.getImage().getProviderId().startsWith(<span class="jxr_string">"ami-"</span>)) : defaultTemplate;
-<a class="jxr_linenumber" name="160" href="#160">160</a>       assertEquals(defaultTemplate.getImage().getOperatingSystem().getVersion(), <span class="jxr_string">"2011.09.rc-1"</span>);
+<a class="jxr_linenumber" name="160" href="#160">160</a>       assertEquals(defaultTemplate.getImage().getOperatingSystem().getVersion(), <span class="jxr_string">"2011.09.1"</span>);
 <a class="jxr_linenumber" name="161" href="#161">161</a>       assertEquals(defaultTemplate.getImage().getOperatingSystem().is64Bit(), false);
 <a class="jxr_linenumber" name="162" href="#162">162</a>       assertEquals(defaultTemplate.getImage().getOperatingSystem().getFamily(), OsFamily.AMZN_LINUX);
 <a class="jxr_linenumber" name="163" href="#163">163</a>       assertEquals(defaultTemplate.getImage().getUserMetadata().get(<span class="jxr_string">"rootDeviceType"</span>), <span class="jxr_string">"instance-store"</span>);
@@ -182,7 +182,7 @@
 <a class="jxr_linenumber" name="172" href="#172">172</a>                .build();
 <a class="jxr_linenumber" name="173" href="#173">173</a>       assert (fastestTemplate.getImage().getProviderId().startsWith(<span class="jxr_string">"ami-"</span>)) : fastestTemplate;
 <a class="jxr_linenumber" name="174" href="#174">174</a>       assertEquals(fastestTemplate.getHardware().getProviderId(), InstanceType.CC1_4XLARGE);
-<a class="jxr_linenumber" name="175" href="#175">175</a>       assertEquals(fastestTemplate.getImage().getOperatingSystem().getVersion(), <span class="jxr_string">"2011.09.rc-1"</span>);
+<a class="jxr_linenumber" name="175" href="#175">175</a>       assertEquals(fastestTemplate.getImage().getOperatingSystem().getVersion(), <span class="jxr_string">"2011.09.1"</span>);
 <a class="jxr_linenumber" name="176" href="#176">176</a>       assertEquals(fastestTemplate.getImage().getOperatingSystem().is64Bit(), <strong class="jxr_keyword">true</strong>);
 <a class="jxr_linenumber" name="177" href="#177">177</a>       assertEquals(fastestTemplate.getImage().getOperatingSystem().getFamily(), OsFamily.AMZN_LINUX);
 <a class="jxr_linenumber" name="178" href="#178">178</a>       assertEquals(fastestTemplate.getImage().getUserMetadata().get(<span class="jxr_string">"rootDeviceType"</span>), <span class="jxr_string">"ebs"</span>);

@@ -94,7 +94,7 @@
 <a class="jxr_linenumber" name="84" href="#84">84</a>        }).to(CredentialsForInstance.<strong class="jxr_keyword">class</strong>);
 <a class="jxr_linenumber" name="85" href="#85">85</a>        bind(<strong class="jxr_keyword">new</strong> TypeLiteral&lt;CacheLoader&lt;RegionAndName, String&gt;&gt;() {
 <a class="jxr_linenumber" name="86" href="#86">86</a>        }).to(CreateSecurityGroupIfNeeded.<strong class="jxr_keyword">class</strong>);
-<a class="jxr_linenumber" name="87" href="#87">87</a>        bind(<strong class="jxr_keyword">new</strong> TypeLiteral&lt;CacheLoader&lt;RegionAndName, KeyPair&gt;&gt;() {
+<a class="jxr_linenumber" name="87" href="#87">87</a>        bind(<strong class="jxr_keyword">new</strong> TypeLiteral&lt;Function&lt;RegionAndName, KeyPair&gt;&gt;() {
 <a class="jxr_linenumber" name="88" href="#88">88</a>        }).to(CreateUniqueKeyPair.<strong class="jxr_keyword">class</strong>);
 <a class="jxr_linenumber" name="89" href="#89">89</a>        bind(<strong class="jxr_keyword">new</strong> TypeLiteral&lt;Function&lt;RegionNameAndPublicKeyMaterial, KeyPair&gt;&gt;() {
 <a class="jxr_linenumber" name="90" href="#90">90</a>        }).to(ImportOrReturnExistingKeypair.<strong class="jxr_keyword">class</strong>);
