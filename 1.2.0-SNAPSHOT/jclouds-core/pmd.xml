@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-08T20:36:33.412">
+<pmd version="4.2.5" timestamp="2011-10-15T20:33:07.125">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/PropertiesBuilder.java">
 <violation beginline="19" endline="268" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
@@ -16,6 +16,11 @@ Avoid unused imports such as 'com.google.common.collect.Iterables'
 </violation>
 <violation beginline="36" endline="36" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.concurrent.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'com.google.common.collect.Multimap'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/crypto/SshKeys.java">
+<violation beginline="19" endline="359" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.crypto" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
 </violation>
 </file>
 <file name="/scratch/hudson/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/encryption/internal/Base64.java">
