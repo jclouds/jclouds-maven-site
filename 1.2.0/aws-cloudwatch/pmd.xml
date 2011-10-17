@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-10-17T18:30:49.312">
+<file name="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/providers/aws-cloudwatch/src/main/java/org/jclouds/aws/cloudwatch/AWSCloudWatchPropertiesBuilder.java">
+<violation beginline="19" endline="69" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.cloudwatch" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
