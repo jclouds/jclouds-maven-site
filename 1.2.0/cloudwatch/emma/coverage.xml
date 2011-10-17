@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Mon Oct 17 05:41:20 EDT 2011 -->
+
+<report>
+  <stats>
+    <packages value="5"/>
+    <classes value="8"/>
+    <methods value="37"/>
+    <srcfiles value="8"/>
+    <srclines value="156"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100% (8/8)"/>
+      <coverage type="method, %" value="65%  (24/37)"/>
+      <coverage type="block, %" value="72%  (555/768)"/>
+      <coverage type="line, %" value="68%  (106/156)"/>
+
+      <package name="org.jclouds.cloudwatch.domain">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="42%  (8/19)"/>
+        <coverage type="block, %" value="63%  (312/492)"/>
+        <coverage type="line, %" value="52%  (44/85)"/>
+
+        <srcfile name="Datapoint.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="25%  (3/12)"/>
+          <coverage type="block, %" value="54%  (192/357)"/>
+          <coverage type="line, %" value="53%  (41/78)"/>
+
+          <class name="Datapoint">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="25%  (3/12)"/>
+            <coverage type="block, %" value="54%  (192/357)"/>
+            <coverage type="line, %" value="53%  (41/78)"/>
+
+            <method name="getAverage (): Double">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCustomUnit (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getMaximum (): Double">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getMinimum (): Double">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSamples (): Double">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSum (): Double">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTimestamp (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getUnit (): StandardUnit">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/47)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="50%  (75/149)"/>
+              <coverage type="line, %" value="44%  (21/48)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="82%  (90/110)"/>
+              <coverage type="line, %" value="91%  (10/11)"/>
+            </method>
+            <method name="Datapoint (Double, Double, Double, Date, Double, Double, StandardUnit, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (27/27)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="StandardUnit.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="89%  (120/135)"/>
+          <coverage type="line, %" value="43%  (3/7)"/>
+
+          <class name="StandardUnit">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="89%  (120/135)"/>
+            <coverage type="line, %" value="43%  (3/7)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="value (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromValue (String): StandardUnit">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="80%  (12/15)"/>
+              <coverage type="line, %" value="33%  (1/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (94/94)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="StandardUnit (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="valueOf (String): StandardUnit">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): StandardUnit []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudwatch">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="60%  (3/5)"/>
+        <coverage type="block, %" value="75%  (30/40)"/>
+        <coverage type="line, %" value="69%  (9/13)"/>
+
+        <srcfile name="CloudWatchContextBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="46%  (6/13)"/>
+          <coverage type="line, %" value="50%  (2/4)"/>
+
+          <class name="CloudWatchContextBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="46%  (6/13)"/>
+            <coverage type="line, %" value="50%  (2/4)"/>
+
+            <method name="addClientModule (List): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="CloudWatchContextBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudWatchPropertiesBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="89%  (24/27)"/>
+          <coverage type="line, %" value="78%  (7/9)"/>
+
+          <class name="CloudWatchPropertiesBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="89%  (24/27)"/>
+            <coverage type="line, %" value="78%  (7/9)"/>
+
+            <method name="CloudWatchPropertiesBuilder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="CloudWatchPropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudwatch.xml">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (10/10)"/>
+        <coverage type="block, %" value="89%  (190/213)"/>
+        <coverage type="line, %" value="90%  (46/51)"/>
+
+        <srcfile name="DatapointHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="86%  (145/168)"/>
+          <coverage type="line, %" value="87%  (33/38)"/>
+
+          <class name="DatapointHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="86%  (145/168)"/>
+            <coverage type="line, %" value="87%  (33/38)"/>
+
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="76%  (66/87)"/>
+              <coverage type="line, %" value="78%  (14/18)"/>
+            </method>
+            <method name="doubleOrNull (): Double">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="88%  (14/16)"/>
+              <coverage type="line, %" value="75%  (3/4)"/>
+            </method>
+            <method name="DatapointHandler (DateService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="getResult (): Datapoint">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (46/46)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="GetMetricStatisticsResponseHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (45/45)"/>
+          <coverage type="line, %" value="100% (13/13)"/>
+
+          <class name="GetMetricStatisticsResponseHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (45/45)"/>
+            <coverage type="line, %" value="100% (13/13)"/>
+
+            <method name="GetMetricStatisticsResponseHandler (DatapointHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getResult (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudwatch.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (1/1)"/>
+        <coverage type="block, %" value="100% (5/5)"/>
+        <coverage type="line, %" value="100% (2/2)"/>
+
+        <srcfile name="CloudWatchRestClientModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (1/1)"/>
+          <coverage type="block, %" value="100% (5/5)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="CloudWatchRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (5/5)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="CloudWatchRestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudwatch.functions">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (18/18)"/>
+        <coverage type="line, %" value="100% (5/5)"/>
+
+        <srcfile name="ISO8601Format.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (18/18)"/>
+          <coverage type="line, %" value="100% (5/5)"/>
+
+          <class name="ISO8601Format">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (18/18)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="ISO8601Format (DateService): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="apply (Object): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
