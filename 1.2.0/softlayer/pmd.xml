@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-10-17T23:15:58.377">
+<file name="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/providers/softlayer/src/main/java/org/jclouds/softlayer/SoftLayerPropertiesBuilder.java">
+<violation beginline="19" endline="79" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.softlayer" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/providers/softlayer/src/main/java/org/jclouds/softlayer/compute/config/SoftLayerComputeServiceContextModule.java">
+<violation beginline="19" endline="135" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.softlayer.compute.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/providers/softlayer/src/main/java/org/jclouds/softlayer/compute/functions/ProductItemsToHardware.java">
+<violation beginline="19" endline="125" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.softlayer.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/providers/softlayer/src/main/java/org/jclouds/softlayer/compute/strategy/SoftLayerComputeServiceAdapter.java">
+<violation beginline="19" endline="265" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.softlayer.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<suppressedviolation filename="/scratch/hudson/workspace/jclouds-1.2.0-maven-site/providers/softlayer/src/main/java/org/jclouds/softlayer/binders/ProductOrderToJson.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'complexType'." usermsg=""/>
+</pmd>

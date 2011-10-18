@@ -1,0 +1,12 @@
+org.jclouds.softlayer
+org.jclouds.softlayer.binders
+org.jclouds.softlayer.compute.config
+org.jclouds.softlayer.compute.functions
+org.jclouds.softlayer.compute.options
+org.jclouds.softlayer.compute.strategy
+org.jclouds.softlayer.config
+org.jclouds.softlayer.domain
+org.jclouds.softlayer.features
+org.jclouds.softlayer.handlers
+org.jclouds.softlayer.predicates
+org.jclouds.softlayer.reference
