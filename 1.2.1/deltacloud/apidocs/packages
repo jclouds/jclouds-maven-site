@@ -1,0 +1,13 @@
+org.jclouds.deltacloud
+org.jclouds.deltacloud.collections
+org.jclouds.deltacloud.compute.config
+org.jclouds.deltacloud.compute.functions
+org.jclouds.deltacloud.compute.strategy
+org.jclouds.deltacloud.config
+org.jclouds.deltacloud.domain
+org.jclouds.deltacloud.domain.internal
+org.jclouds.deltacloud.functions
+org.jclouds.deltacloud.handlers
+org.jclouds.deltacloud.options
+org.jclouds.deltacloud.predicates
+org.jclouds.deltacloud.xml
