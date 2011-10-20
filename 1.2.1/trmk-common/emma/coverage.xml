@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Wed Oct 19 23:36:09 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Thu Oct 20 10:26:17 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="40%  (90/223)"/>
       <coverage type="method, %" value="41%  (395/963)"/>
-      <coverage type="block, %" value="43%  (8193/19247)"/>
-      <coverage type="line, %" value="45%  (1639.6/3683)"/>
+      <coverage type="block, %" value="43%  (8188/19247)"/>
+      <coverage type="line, %" value="44%  (1637.6/3683)"/>
 
       <package name="org.jclouds.trmk.vcloud_0_8.compute.functions">
         <coverage type="class, %" value="20%  (2/10)"/>
@@ -4713,8 +4713,8 @@
       <package name="org.jclouds.trmk.vcloud_0_8.domain">
         <coverage type="class, %" value="83%  (19/23)"/>
         <coverage type="method, %" value="44%  (78/178)"/>
-        <coverage type="block, %" value="50%  (1758/3530)"/>
-        <coverage type="line, %" value="42%  (298.7/706)"/>
+        <coverage type="block, %" value="50%  (1753/3530)"/>
+        <coverage type="line, %" value="42%  (296.7/706)"/>
 
         <srcfile name="Capacity.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -5479,14 +5479,14 @@
         <srcfile name="InternetService.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="31%  (4/13)"/>
-          <coverage type="block, %" value="74%  (241/327)"/>
-          <coverage type="line, %" value="61%  (42.4/70)"/>
+          <coverage type="block, %" value="72%  (236/327)"/>
+          <coverage type="line, %" value="58%  (40.4/70)"/>
 
           <class name="InternetService">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="31%  (4/13)"/>
-            <coverage type="block, %" value="74%  (241/327)"/>
-            <coverage type="line, %" value="61%  (42.4/70)"/>
+            <coverage type="block, %" value="72%  (236/327)"/>
+            <coverage type="line, %" value="58%  (40.4/70)"/>
 
             <method name="compareTo (InternetService): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5535,8 +5535,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="68%  (83/122)"/>
-              <coverage type="line, %" value="54%  (21/39)"/>
+              <coverage type="block, %" value="64%  (78/122)"/>
+              <coverage type="line, %" value="49%  (19/39)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
