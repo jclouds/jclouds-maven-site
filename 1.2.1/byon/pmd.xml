@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-20T05:25:56.338">
+<pmd version="4.2.5" timestamp="2011-10-20T17:12:26.456">
 <file name="/scratch/hudson/workspace/jclouds-1.2.1-maven-site/apis/byon/src/main/java/org/jclouds/byon/internal/BYONComputeServiceAdapter.java">
 <violation beginline="118" endline="120" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.byon.internal" class="BYONComputeServiceAdapter" method="getNode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
