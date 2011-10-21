@@ -1,4 +1,3 @@
-org.jclouds.vcloud
 org.jclouds.vcloud.binders
 org.jclouds.vcloud.compute.config
 org.jclouds.vcloud.compute.functions
@@ -8,14 +7,14 @@ org.jclouds.vcloud.compute.strategy
 org.jclouds.vcloud.compute.suppliers
 org.jclouds.vcloud.compute.util
 org.jclouds.vcloud.config
-org.jclouds.vcloud.domain
 org.jclouds.vcloud.domain.internal
-org.jclouds.vcloud.domain.network
 org.jclouds.vcloud.domain.network.firewall
 org.jclouds.vcloud.domain.network.internal
-org.jclouds.vcloud.domain.network.nat
 org.jclouds.vcloud.domain.network.nat.rules
+org.jclouds.vcloud.domain.network.nat
+org.jclouds.vcloud.domain.network
 org.jclouds.vcloud.domain.ovf
+org.jclouds.vcloud.domain
 org.jclouds.vcloud.endpoints
 org.jclouds.vcloud.features
 org.jclouds.vcloud.filters
@@ -27,5 +26,6 @@ org.jclouds.vcloud.predicates
 org.jclouds.vcloud.reference
 org.jclouds.vcloud.suppliers
 org.jclouds.vcloud.util
-org.jclouds.vcloud.xml
 org.jclouds.vcloud.xml.ovf
+org.jclouds.vcloud.xml
+org.jclouds.vcloud
