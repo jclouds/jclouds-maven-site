@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-19T05:04:30.485">
+<pmd version="4.2.5" timestamp="2011-10-20T22:29:25.815">
 <file name="/scratch/hudson/workspace/jclouds-1.2.1-maven-site/apis/atmos/src/main/java/org/jclouds/atmos/blobstore/AtmosAsyncBlobStore.java">
 <violation beginline="243" endline="245" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.atmos.blobstore" class="AtmosAsyncBlobStore" method="putBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
