@@ -1,8 +1,7 @@
-org.jclouds.elasticstack
 org.jclouds.elasticstack.binders
-org.jclouds.elasticstack.compute
 org.jclouds.elasticstack.compute.config
 org.jclouds.elasticstack.compute.functions
+org.jclouds.elasticstack.compute
 org.jclouds.elasticstack.config
 org.jclouds.elasticstack.domain
 org.jclouds.elasticstack.functions
@@ -10,3 +9,4 @@ org.jclouds.elasticstack.handlers
 org.jclouds.elasticstack.predicates
 org.jclouds.elasticstack.reference
 org.jclouds.elasticstack.util
+org.jclouds.elasticstack
