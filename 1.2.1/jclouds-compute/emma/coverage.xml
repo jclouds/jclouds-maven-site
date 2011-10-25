@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Mon Oct 24 09:41:11 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Oct 25 09:35:02 EDT 2011 -->
 
 <report>
   <stats>
@@ -11,9 +11,9 @@
   <data>
     <all name="all classes">
       <coverage type="class, %" value="66%  (166/250)"/>
-      <coverage type="method, %" value="40%  (580/1449)"/>
-      <coverage type="block, %" value="42%  (9827/23274)"/>
-      <coverage type="line, %" value="41%  (1676.2/4046)"/>
+      <coverage type="method, %" value="40%  (581/1449)"/>
+      <coverage type="block, %" value="42%  (9838/23274)"/>
+      <coverage type="line, %" value="42%  (1680.2/4046)"/>
 
       <package name="org.jclouds.cim.functions">
         <coverage type="class, %" value="0%   (0/3)"/>
@@ -7372,9 +7372,9 @@
       </package>
       <package name="org.jclouds.cim">
         <coverage type="class, %" value="48%  (11/23)"/>
-        <coverage type="method, %" value="30%  (57/191)"/>
-        <coverage type="block, %" value="57%  (1817/3161)"/>
-        <coverage type="line, %" value="48%  (206.5/428)"/>
+        <coverage type="method, %" value="30%  (58/191)"/>
+        <coverage type="block, %" value="58%  (1828/3161)"/>
+        <coverage type="line, %" value="49%  (210.5/428)"/>
 
         <srcfile name="CIMPredicates.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -7939,14 +7939,14 @@
         <srcfile name="SettingData.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="46%  (6/13)"/>
-          <coverage type="block, %" value="55%  (95/172)"/>
-          <coverage type="line, %" value="56%  (22.8/41)"/>
+          <coverage type="block, %" value="56%  (97/172)"/>
+          <coverage type="line, %" value="58%  (23.8/41)"/>
 
           <class name="SettingData">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="33%  (3/9)"/>
-            <coverage type="block, %" value="52%  (76/145)"/>
-            <coverage type="line, %" value="51%  (17.8/35)"/>
+            <coverage type="block, %" value="54%  (78/145)"/>
+            <coverage type="line, %" value="54%  (18.8/35)"/>
 
             <method name="builder (): SettingData$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -7980,8 +7980,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="62%  (33/53)"/>
-              <coverage type="line, %" value="50%  (9/18)"/>
+              <coverage type="block, %" value="66%  (35/53)"/>
+              <coverage type="line, %" value="56%  (10/18)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -8024,9 +8024,9 @@
         </srcfile>
         <srcfile name="ResourceAllocationSettingData.java">
           <coverage type="class, %" value="50%  (4/8)"/>
-          <coverage type="method, %" value="37%  (29/78)"/>
-          <coverage type="block, %" value="61%  (839/1377)"/>
-          <coverage type="line, %" value="46%  (77.9/168)"/>
+          <coverage type="method, %" value="38%  (30/78)"/>
+          <coverage type="block, %" value="62%  (848/1377)"/>
+          <coverage type="line, %" value="48%  (80.9/168)"/>
 
           <class name="ResourceAllocationSettingData$ConsumerVisibility">
             <coverage type="class, %" value="0%   (0/1)"/>
@@ -8290,15 +8290,10 @@
           </class>
           <class name="ResourceAllocationSettingData">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="16%  (4/25)"/>
-            <coverage type="block, %" value="62%  (247/397)"/>
-            <coverage type="line, %" value="38%  (29.9/78)"/>
+            <coverage type="method, %" value="20%  (5/25)"/>
+            <coverage type="block, %" value="64%  (256/397)"/>
+            <coverage type="line, %" value="42%  (32.9/78)"/>
 
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/87)"/>
-              <coverage type="line, %" value="0%   (0/28)"/>
-            </method>
             <method name="getAddress (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
@@ -8398,6 +8393,11 @@
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="10%  (9/87)"/>
+              <coverage type="line, %" value="11%  (3/28)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
