@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-20T23:35:15.800">
+<pmd version="4.2.5" timestamp="2011-10-25T22:53:49.198">
 <file name="/scratch/hudson/workspace/jclouds-1.2.1-maven-site/apis/cloudsigma/src/main/java/org/jclouds/cloudsigma/functions/MapToDriveInfo.java">
 <violation beginline="91" endline="91" begincolumn="32" endcolumn="69" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.cloudsigma.functions" class="MapToDriveInfo" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
 Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
