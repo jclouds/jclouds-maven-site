@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-25T12:50:12.534">
+<pmd version="4.2.5" timestamp="2011-10-26T17:06:47.308">
 <file name="/scratch/hudson/workspace/jclouds-1.2.1-maven-site/compute/src/main/java/org/jclouds/cim/xml/ResourceAllocationSettingDataHandler.java">
 <violation beginline="70" endline="70" begincolumn="41" endcolumn="60" rule="BooleanInstantiation" ruleset="Basic Rules" package="org.jclouds.cim.xml" class="ResourceAllocationSettingDataHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
 Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
