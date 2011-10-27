@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Oct 25 09:35:02 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Wed Oct 26 13:47:17 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="76%  (48/63)"/>
       <coverage type="method, %" value="55%  (153/278)"/>
-      <coverage type="block, %" value="62%  (3566/5740)"/>
-      <coverage type="line, %" value="60%  (693.5/1147)"/>
+      <coverage type="block, %" value="62%  (3556/5740)"/>
+      <coverage type="line, %" value="60%  (688.5/1147)"/>
 
       <package name="org.jclouds.deltacloud.compute.functions">
         <coverage type="class, %" value="0%   (0/9)"/>
@@ -621,20 +621,20 @@
       <package name="org.jclouds.deltacloud.domain.internal">
         <coverage type="class, %" value="100% (1/1)"/>
         <coverage type="method, %" value="38%  (3/8)"/>
-        <coverage type="block, %" value="64%  (127/199)"/>
-        <coverage type="line, %" value="62%  (26.6/43)"/>
+        <coverage type="block, %" value="62%  (123/199)"/>
+        <coverage type="line, %" value="57%  (24.6/43)"/>
 
         <srcfile name="BaseHardwareProperty.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="38%  (3/8)"/>
-          <coverage type="block, %" value="64%  (127/199)"/>
-          <coverage type="line, %" value="62%  (26.6/43)"/>
+          <coverage type="block, %" value="62%  (123/199)"/>
+          <coverage type="line, %" value="57%  (24.6/43)"/>
 
           <class name="BaseHardwareProperty">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="38%  (3/8)"/>
-            <coverage type="block, %" value="64%  (127/199)"/>
-            <coverage type="line, %" value="62%  (26.6/43)"/>
+            <coverage type="block, %" value="62%  (123/199)"/>
+            <coverage type="line, %" value="57%  (24.6/43)"/>
 
             <method name="getKind (): HardwareProperty$Kind">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -663,8 +663,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="67%  (51/76)"/>
-              <coverage type="line, %" value="56%  (14/25)"/>
+              <coverage type="block, %" value="62%  (47/76)"/>
+              <coverage type="line, %" value="48%  (12/25)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -682,8 +682,8 @@
       <package name="org.jclouds.deltacloud.domain">
         <coverage type="class, %" value="100% (19/19)"/>
         <coverage type="method, %" value="52%  (64/122)"/>
-        <coverage type="block, %" value="64%  (1565/2433)"/>
-        <coverage type="line, %" value="56%  (282.8/502)"/>
+        <coverage type="block, %" value="64%  (1559/2433)"/>
+        <coverage type="line, %" value="56%  (279.8/502)"/>
 
         <srcfile name="KeyAuthentication.java">
           <coverage type="class, %" value="100% (1/1)"/>
@@ -792,17 +792,56 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="ParameterizedHardwareProperty.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="60%  (3/5)"/>
+          <coverage type="block, %" value="53%  (57/107)"/>
+          <coverage type="line, %" value="63%  (13.9/22)"/>
+
+          <class name="ParameterizedHardwareProperty">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="53%  (57/107)"/>
+            <coverage type="line, %" value="63%  (13.9/22)"/>
+
+            <method name="getParam (): HardwareParameter">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="67%  (26/39)"/>
+              <coverage type="line, %" value="54%  (7/13)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (18/20)"/>
+              <coverage type="line, %" value="98%  (3.9/4)"/>
+            </method>
+            <method name="ParameterizedHardwareProperty (HardwareProperty$Kind, String, String, Object, HardwareParameter): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="RangeHardwareProperty.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="50%  (3/6)"/>
-          <coverage type="block, %" value="55%  (86/156)"/>
-          <coverage type="line, %" value="63%  (18.8/30)"/>
+          <coverage type="block, %" value="54%  (84/156)"/>
+          <coverage type="line, %" value="59%  (17.8/30)"/>
 
           <class name="RangeHardwareProperty">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="50%  (3/6)"/>
-            <coverage type="block, %" value="55%  (86/156)"/>
-            <coverage type="line, %" value="63%  (18.8/30)"/>
+            <coverage type="block, %" value="54%  (84/156)"/>
+            <coverage type="line, %" value="59%  (17.8/30)"/>
 
             <method name="getFirst (): Number">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -821,8 +860,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="67%  (37/55)"/>
-              <coverage type="line, %" value="56%  (10/18)"/>
+              <coverage type="block, %" value="64%  (35/55)"/>
+              <coverage type="line, %" value="50%  (9/18)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -833,45 +872,6 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (20/20)"/>
               <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="ParameterizedHardwareProperty.java">
-          <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="60%  (3/5)"/>
-          <coverage type="block, %" value="55%  (59/107)"/>
-          <coverage type="line, %" value="68%  (14.9/22)"/>
-
-          <class name="ParameterizedHardwareProperty">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="60%  (3/5)"/>
-            <coverage type="block, %" value="55%  (59/107)"/>
-            <coverage type="line, %" value="68%  (14.9/22)"/>
-
-            <method name="getParam (): HardwareParameter">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/32)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="72%  (28/39)"/>
-              <coverage type="line, %" value="62%  (8/13)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="90%  (18/20)"/>
-              <coverage type="line, %" value="98%  (3.9/4)"/>
-            </method>
-            <method name="ParameterizedHardwareProperty (HardwareProperty$Kind, String, String, Object, HardwareParameter): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
             </method>
           </class>
         </srcfile>
@@ -1143,14 +1143,14 @@
         <srcfile name="Realm.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="57%  (8/14)"/>
-          <coverage type="block, %" value="67%  (199/297)"/>
-          <coverage type="line, %" value="59%  (34.4/58)"/>
+          <coverage type="block, %" value="66%  (197/297)"/>
+          <coverage type="line, %" value="58%  (33.4/58)"/>
 
           <class name="Realm">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="33%  (3/9)"/>
-            <coverage type="block, %" value="60%  (145/240)"/>
-            <coverage type="line, %" value="58%  (29.4/51)"/>
+            <coverage type="block, %" value="60%  (143/240)"/>
+            <coverage type="line, %" value="56%  (28.4/51)"/>
 
             <method name="getHref (): URI">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1184,8 +1184,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="60%  (55/92)"/>
-              <coverage type="line, %" value="50%  (15/30)"/>
+              <coverage type="block, %" value="58%  (53/92)"/>
+              <coverage type="line, %" value="47%  (14/30)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
