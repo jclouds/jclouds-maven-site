@@ -1,0 +1,10 @@
+org.jclouds.trmk.ecloud.compute.config
+org.jclouds.trmk.ecloud.compute.functions
+org.jclouds.trmk.ecloud.config
+org.jclouds.trmk.ecloud.domain.internal
+org.jclouds.trmk.ecloud.domain
+org.jclouds.trmk.ecloud.features
+org.jclouds.trmk.ecloud.functions
+org.jclouds.trmk.ecloud.suppliers
+org.jclouds.trmk.ecloud.xml
+org.jclouds.trmk.ecloud
