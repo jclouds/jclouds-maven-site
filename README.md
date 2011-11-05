@@ -1,4 +1,4 @@
-jclouds Maven sites, include Javadocs:
+jclouds Maven sites, including Javadocs:
 
 * [1.0-beta-9d](http://www.jclouds.org/jclouds-maven-site/1.0-beta-9d/jclouds-multi/)
 * [1.0.0](http://www.jclouds.org/jclouds-maven-site/1.0.0/jclouds-multi/)
