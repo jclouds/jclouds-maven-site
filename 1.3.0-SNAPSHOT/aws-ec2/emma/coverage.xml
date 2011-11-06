@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 29 20:40:04 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Nov 05 20:45:08 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="75%  (77/103)"/>
       <coverage type="method, %" value="61%  (412/670)"/>
-      <coverage type="block, %" value="64%  (7423/11529)"/>
-      <coverage type="line, %" value="63%  (1389.8/2190)"/>
+      <coverage type="block, %" value="64%  (7425/11529)"/>
+      <coverage type="line, %" value="64%  (1390.8/2190)"/>
 
       <package name="org.jclouds.aws.ec2.compute.predicates">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -1712,8 +1712,8 @@
       <package name="org.jclouds.aws.ec2.domain">
         <coverage type="class, %" value="88%  (14/16)"/>
         <coverage type="method, %" value="69%  (145/210)"/>
-        <coverage type="block, %" value="74%  (2641/3591)"/>
-        <coverage type="line, %" value="63%  (442.2/699)"/>
+        <coverage type="block, %" value="74%  (2643/3591)"/>
+        <coverage type="line, %" value="63%  (443.2/699)"/>
 
         <srcfile name="Tag.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -2616,14 +2616,14 @@
         <srcfile name="AWSRunningInstance.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="78%  (39/50)"/>
-          <coverage type="block, %" value="85%  (636/751)"/>
-          <coverage type="line, %" value="71%  (86.5/121)"/>
+          <coverage type="block, %" value="85%  (638/751)"/>
+          <coverage type="line, %" value="72%  (87.5/121)"/>
 
           <class name="AWSRunningInstance">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="54%  (7/13)"/>
-            <coverage type="block, %" value="81%  (342/424)"/>
-            <coverage type="line, %" value="60%  (40.5/67)"/>
+            <coverage type="block, %" value="81%  (344/424)"/>
+            <coverage type="line, %" value="62%  (41.5/67)"/>
 
             <method name="getMonitoringState (): MonitoringState">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2657,8 +2657,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="55%  (65/119)"/>
-              <coverage type="line, %" value="47%  (18/38)"/>
+              <coverage type="block, %" value="56%  (67/119)"/>
+              <coverage type="line, %" value="50%  (19/38)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
