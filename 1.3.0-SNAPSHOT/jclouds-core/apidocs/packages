@@ -36,8 +36,8 @@ org.jclouds.location.config
 org.jclouds.location.functions
 org.jclouds.location.reference
 org.jclouds.location.suppliers
-org.jclouds.location
 org.jclouds.location.predicates
+org.jclouds.location
 org.jclouds.logging.config
 org.jclouds.logging.internal
 org.jclouds.logging.jdk.config
@@ -58,6 +58,6 @@ org.jclouds.util
 org.jclouds.config
 org.jclouds.javax.annotation.concurrent
 org.jclouds.javax.annotation
-org.jclouds
-org.jclouds.xml
 org.jclouds.xml.internal
+org.jclouds.xml
+org.jclouds
