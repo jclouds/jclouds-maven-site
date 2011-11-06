@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-10-30T02:36:14.132">
+<pmd version="4.2.5" timestamp="2011-11-06T03:00:59.621">
 <file name="/scratch/hudson/workspace/jclouds-maven-site/blobstore/src/main/java/org/jclouds/blobstore/TransientAsyncBlobStore.java">
 <violation beginline="19" endline="706" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
 Too many static imports may lead to messy code
