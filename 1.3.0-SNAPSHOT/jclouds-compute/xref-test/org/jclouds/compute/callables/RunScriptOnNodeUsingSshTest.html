@@ -139,8 +139,8 @@
 <a class="jxr_linenumber" name="129" href="#129">129</a>         expect(sshClient.getUsername()).andReturn(<span class="jxr_string">"tester"</span>);
 <a class="jxr_linenumber" name="130" href="#130">130</a>         expect(sshClient.getHostAddress()).andReturn(<span class="jxr_string">"somewhere.example.com"</span>);
 <a class="jxr_linenumber" name="131" href="#131">131</a>         expect(sshClient.exec(<span class="jxr_string">"sudo sh &lt;&lt;'RUN_SCRIPT_AS_ROOT_SSH'\n"</span> +
-<a class="jxr_linenumber" name="132" href="#132">132</a>                 <span class="jxr_string">"mkdir -p /home/users/testuser\n"</span> +
-<a class="jxr_linenumber" name="133" href="#133">133</a>                 <span class="jxr_string">"useradd -s /bin/bash -d /home/users/testuser testuser\n"</span> +
+<a class="jxr_linenumber" name="132" href="#132">132</a>                 <span class="jxr_string">"mkdir -p /home/users\n"</span> +
+<a class="jxr_linenumber" name="133" href="#133">133</a>                 <span class="jxr_string">"useradd -s /bin/bash -m  -d /home/users/testuser testuser\n"</span> +
 <a class="jxr_linenumber" name="134" href="#134">134</a>                 <span class="jxr_string">"chown -R testuser /home/users/testuser\n"</span> +
 <a class="jxr_linenumber" name="135" href="#135">135</a>                 <span class="jxr_string">"RUN_SCRIPT_AS_ROOT_SSH\n"</span>)).andReturn(<strong class="jxr_keyword">new</strong> ExecResponse(<span class="jxr_string">"done"</span>, <strong class="jxr_keyword">null</strong>, 0));
 <a class="jxr_linenumber" name="136" href="#136">136</a>         sshClient.disconnect();
