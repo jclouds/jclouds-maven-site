@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 29 20:40:04 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Nov 05 20:45:08 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,26 +12,26 @@
     <all name="all classes">
       <coverage type="class, %" value="100% (8/8)"/>
       <coverage type="method, %" value="65%  (24/37)"/>
-      <coverage type="block, %" value="73%  (557/768)"/>
-      <coverage type="line, %" value="69%  (107/156)"/>
+      <coverage type="block, %" value="72%  (555/768)"/>
+      <coverage type="line, %" value="68%  (106/156)"/>
 
       <package name="org.jclouds.cloudwatch.domain">
         <coverage type="class, %" value="100% (2/2)"/>
         <coverage type="method, %" value="42%  (8/19)"/>
-        <coverage type="block, %" value="64%  (314/492)"/>
-        <coverage type="line, %" value="53%  (45/85)"/>
+        <coverage type="block, %" value="63%  (312/492)"/>
+        <coverage type="line, %" value="52%  (44/85)"/>
 
         <srcfile name="Datapoint.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="25%  (3/12)"/>
-          <coverage type="block, %" value="54%  (194/357)"/>
-          <coverage type="line, %" value="54%  (42/78)"/>
+          <coverage type="block, %" value="54%  (192/357)"/>
+          <coverage type="line, %" value="53%  (41/78)"/>
 
           <class name="Datapoint">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="25%  (3/12)"/>
-            <coverage type="block, %" value="54%  (194/357)"/>
-            <coverage type="line, %" value="54%  (42/78)"/>
+            <coverage type="block, %" value="54%  (192/357)"/>
+            <coverage type="line, %" value="53%  (41/78)"/>
 
             <method name="getAverage (): Double">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -80,8 +80,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="52%  (77/149)"/>
-              <coverage type="line, %" value="46%  (22/48)"/>
+              <coverage type="block, %" value="50%  (75/149)"/>
+              <coverage type="line, %" value="44%  (21/48)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
