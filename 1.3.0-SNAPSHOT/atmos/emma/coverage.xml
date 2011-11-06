@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 29 20:40:04 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Nov 05 20:45:08 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="78%  (47/60)"/>
       <coverage type="method, %" value="52%  (145/281)"/>
-      <coverage type="block, %" value="49%  (2566/5264)"/>
-      <coverage type="line, %" value="53%  (495.2/943)"/>
+      <coverage type="block, %" value="49%  (2564/5264)"/>
+      <coverage type="line, %" value="52%  (494.2/943)"/>
 
       <package name="org.jclouds.atmos.handlers">
         <coverage type="class, %" value="0%   (0/2)"/>
@@ -849,8 +849,8 @@
       <package name="org.jclouds.atmos.domain">
         <coverage type="class, %" value="83%  (5/6)"/>
         <coverage type="method, %" value="46%  (21/46)"/>
-        <coverage type="block, %" value="46%  (410/885)"/>
-        <coverage type="line, %" value="48%  (95.5/197)"/>
+        <coverage type="block, %" value="46%  (408/885)"/>
+        <coverage type="line, %" value="48%  (94.5/197)"/>
 
         <srcfile name="UploadInfo.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -1071,14 +1071,14 @@
         <srcfile name="DirectoryEntry.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="62%  (5/8)"/>
-          <coverage type="block, %" value="64%  (110/173)"/>
-          <coverage type="line, %" value="62%  (25.5/41)"/>
+          <coverage type="block, %" value="62%  (108/173)"/>
+          <coverage type="line, %" value="60%  (24.5/41)"/>
 
           <class name="DirectoryEntry">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="62%  (5/8)"/>
-            <coverage type="block, %" value="64%  (110/173)"/>
-            <coverage type="line, %" value="62%  (25.5/41)"/>
+            <coverage type="block, %" value="62%  (108/173)"/>
+            <coverage type="line, %" value="60%  (24.5/41)"/>
 
             <method name="getObjectID (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1097,8 +1097,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="64%  (44/69)"/>
-              <coverage type="line, %" value="52%  (12/23)"/>
+              <coverage type="block, %" value="61%  (42/69)"/>
+              <coverage type="line, %" value="48%  (11/23)"/>
             </method>
             <method name="compareTo (DirectoryEntry): int">
               <coverage type="method, %" value="100% (1/1)"/>
