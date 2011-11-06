@@ -171,70 +171,72 @@
 <a class="jxr_linenumber" name="161" href="#161">161</a>          <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> UnsupportedOperationException(<span class="jxr_string">"windows not yet implemented"</span>);
 <a class="jxr_linenumber" name="162" href="#162">162</a>       String homeDir = defaultHome + <span class="jxr_string">"{fs}"</span> + login;
 <a class="jxr_linenumber" name="163" href="#163">163</a>       ImmutableList.Builder&lt;Statement&gt; statements = ImmutableList.&lt;Statement&gt; builder();
-<a class="jxr_linenumber" name="164" href="#164">164</a>       statements.add(Statements.exec(<span class="jxr_string">"{md} "</span> + homeDir));
-<a class="jxr_linenumber" name="165" href="#165">165</a> 
-<a class="jxr_linenumber" name="166" href="#166">166</a>       ImmutableMap.Builder&lt;String, String&gt; userAddOptions = ImmutableMap.&lt;String, String&gt; builder();
-<a class="jxr_linenumber" name="167" href="#167">167</a>       userAddOptions.put(<span class="jxr_string">"-s"</span>, shell);
-<a class="jxr_linenumber" name="168" href="#168">168</a>       <strong class="jxr_keyword">if</strong> (groups.size() &gt; 0) {
-<a class="jxr_linenumber" name="169" href="#169">169</a>          <strong class="jxr_keyword">for</strong> (String group : groups)
-<a class="jxr_linenumber" name="170" href="#170">170</a>             statements.add(Statements.exec(<span class="jxr_string">"groupadd -f "</span> + group));
-<a class="jxr_linenumber" name="171" href="#171">171</a> 
-<a class="jxr_linenumber" name="172" href="#172">172</a>          List&lt;String&gt; groups = Lists.newArrayList(<strong class="jxr_keyword">this</strong>.groups);
-<a class="jxr_linenumber" name="173" href="#173">173</a>          String primaryGroup = groups.remove(0);
-<a class="jxr_linenumber" name="174" href="#174">174</a>          userAddOptions.put(<span class="jxr_string">"-g"</span>, primaryGroup);
-<a class="jxr_linenumber" name="175" href="#175">175</a>          <strong class="jxr_keyword">if</strong> (groups.size() &gt; 0)
-<a class="jxr_linenumber" name="176" href="#176">176</a>             userAddOptions.put(<span class="jxr_string">"-G"</span>, Joiner.on(',').join(groups));
-<a class="jxr_linenumber" name="177" href="#177">177</a> 
-<a class="jxr_linenumber" name="178" href="#178">178</a>       }
-<a class="jxr_linenumber" name="179" href="#179">179</a>       userAddOptions.put(<span class="jxr_string">"-d"</span>, homeDir);
-<a class="jxr_linenumber" name="180" href="#180">180</a>       <strong class="jxr_keyword">if</strong> (password != <strong class="jxr_keyword">null</strong>) {
-<a class="jxr_linenumber" name="181" href="#181">181</a>          <strong class="jxr_keyword">try</strong> {
-<a class="jxr_linenumber" name="182" href="#182">182</a>             userAddOptions.put(<span class="jxr_string">"-p"</span>, <span class="jxr_string">"'"</span> + cryptFunction.apply(password) + <span class="jxr_string">"'"</span>);
-<a class="jxr_linenumber" name="183" href="#183">183</a>          } <strong class="jxr_keyword">catch</strong> (Exception e) {
-<a class="jxr_linenumber" name="184" href="#184">184</a>             Throwables.propagate(e);
-<a class="jxr_linenumber" name="185" href="#185">185</a>          }
-<a class="jxr_linenumber" name="186" href="#186">186</a>       }
-<a class="jxr_linenumber" name="187" href="#187">187</a> 
-<a class="jxr_linenumber" name="188" href="#188">188</a>       String options = Joiner.on(' ').withKeyValueSeparator(<span class="jxr_string">" "</span>).join(userAddOptions.build());
+<a class="jxr_linenumber" name="164" href="#164">164</a>       <em class="jxr_comment">// useradd cannot create the default homedir</em>
+<a class="jxr_linenumber" name="165" href="#165">165</a>       statements.add(Statements.exec(<span class="jxr_string">"{md} "</span> + defaultHome));
+<a class="jxr_linenumber" name="166" href="#166">166</a> 
+<a class="jxr_linenumber" name="167" href="#167">167</a>       ImmutableMap.Builder&lt;String, String&gt; userAddOptions = ImmutableMap.&lt;String, String&gt; builder();
+<a class="jxr_linenumber" name="168" href="#168">168</a>       userAddOptions.put(<span class="jxr_string">"-s"</span>, shell);
+<a class="jxr_linenumber" name="169" href="#169">169</a>       <strong class="jxr_keyword">if</strong> (groups.size() &gt; 0) {
+<a class="jxr_linenumber" name="170" href="#170">170</a>          <strong class="jxr_keyword">for</strong> (String group : groups)
+<a class="jxr_linenumber" name="171" href="#171">171</a>             statements.add(Statements.exec(<span class="jxr_string">"groupadd -f "</span> + group));
+<a class="jxr_linenumber" name="172" href="#172">172</a> 
+<a class="jxr_linenumber" name="173" href="#173">173</a>          List&lt;String&gt; groups = Lists.newArrayList(<strong class="jxr_keyword">this</strong>.groups);
+<a class="jxr_linenumber" name="174" href="#174">174</a>          String primaryGroup = groups.remove(0);
+<a class="jxr_linenumber" name="175" href="#175">175</a>          userAddOptions.put(<span class="jxr_string">"-g"</span>, primaryGroup);
+<a class="jxr_linenumber" name="176" href="#176">176</a>          <strong class="jxr_keyword">if</strong> (groups.size() &gt; 0)
+<a class="jxr_linenumber" name="177" href="#177">177</a>             userAddOptions.put(<span class="jxr_string">"-G"</span>, Joiner.on(',').join(groups));
+<a class="jxr_linenumber" name="178" href="#178">178</a> 
+<a class="jxr_linenumber" name="179" href="#179">179</a>       }
+<a class="jxr_linenumber" name="180" href="#180">180</a>       userAddOptions.put(<span class="jxr_string">"-m"</span>, <span class="jxr_string">""</span>);
+<a class="jxr_linenumber" name="181" href="#181">181</a>       userAddOptions.put(<span class="jxr_string">"-d"</span>, homeDir);
+<a class="jxr_linenumber" name="182" href="#182">182</a>       <strong class="jxr_keyword">if</strong> (password != <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="183" href="#183">183</a>          <strong class="jxr_keyword">try</strong> {
+<a class="jxr_linenumber" name="184" href="#184">184</a>             userAddOptions.put(<span class="jxr_string">"-p"</span>, <span class="jxr_string">"'"</span> + cryptFunction.apply(password) + <span class="jxr_string">"'"</span>);
+<a class="jxr_linenumber" name="185" href="#185">185</a>          } <strong class="jxr_keyword">catch</strong> (Exception e) {
+<a class="jxr_linenumber" name="186" href="#186">186</a>             Throwables.propagate(e);
+<a class="jxr_linenumber" name="187" href="#187">187</a>          }
+<a class="jxr_linenumber" name="188" href="#188">188</a>       }
 <a class="jxr_linenumber" name="189" href="#189">189</a> 
-<a class="jxr_linenumber" name="190" href="#190">190</a>       statements.add(Statements.exec(String.format(<span class="jxr_string">"useradd %s %s"</span>, options, login)));
+<a class="jxr_linenumber" name="190" href="#190">190</a>       String options = Joiner.on(' ').withKeyValueSeparator(<span class="jxr_string">" "</span>).join(userAddOptions.build());
 <a class="jxr_linenumber" name="191" href="#191">191</a> 
-<a class="jxr_linenumber" name="192" href="#192">192</a>       <strong class="jxr_keyword">if</strong> (authorizeRSAPublicKeys.size() &gt; 0 || installRSAPrivateKey != <strong class="jxr_keyword">null</strong>) {
-<a class="jxr_linenumber" name="193" href="#193">193</a>          String sshDir = homeDir + <span class="jxr_string">"{fs}.ssh"</span>;
-<a class="jxr_linenumber" name="194" href="#194">194</a>          <strong class="jxr_keyword">if</strong> (authorizeRSAPublicKeys.size() &gt; 0)
-<a class="jxr_linenumber" name="195" href="#195">195</a>             statements.add(<strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/scriptbuilder/statements/ssh/AuthorizeRSAPublicKeys.html">AuthorizeRSAPublicKeys</a>(sshDir, authorizeRSAPublicKeys));
-<a class="jxr_linenumber" name="196" href="#196">196</a>          <strong class="jxr_keyword">if</strong> (installRSAPrivateKey != <strong class="jxr_keyword">null</strong>)
-<a class="jxr_linenumber" name="197" href="#197">197</a>             statements.add(<strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/scriptbuilder/domain/InstallRSAPrivateKey.html">InstallRSAPrivateKey</a>(sshDir, installRSAPrivateKey));
-<a class="jxr_linenumber" name="198" href="#198">198</a>       }
-<a class="jxr_linenumber" name="199" href="#199">199</a>       statements.add(Statements.exec(String.format(<span class="jxr_string">"chown -R %s %s"</span>, login, homeDir)));
-<a class="jxr_linenumber" name="200" href="#200">200</a>       <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/scriptbuilder/domain/StatementList.html">StatementList</a>(statements.build()).render(family);
-<a class="jxr_linenumber" name="201" href="#201">201</a>    }
-<a class="jxr_linenumber" name="202" href="#202">202</a> 
-<a class="jxr_linenumber" name="203" href="#203">203</a>    @Override
-<a class="jxr_linenumber" name="204" href="#204">204</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">int</strong> hashCode() {
-<a class="jxr_linenumber" name="205" href="#205">205</a>       <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> prime = 31;
-<a class="jxr_linenumber" name="206" href="#206">206</a>       <strong class="jxr_keyword">int</strong> result = 1;
-<a class="jxr_linenumber" name="207" href="#207">207</a>       result = prime * result + ((login == <strong class="jxr_keyword">null</strong>) ? 0 : login.hashCode());
-<a class="jxr_linenumber" name="208" href="#208">208</a>       <strong class="jxr_keyword">return</strong> result;
-<a class="jxr_linenumber" name="209" href="#209">209</a>    }
-<a class="jxr_linenumber" name="210" href="#210">210</a> 
-<a class="jxr_linenumber" name="211" href="#211">211</a>    @Override
-<a class="jxr_linenumber" name="212" href="#212">212</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> equals(Object obj) {
-<a class="jxr_linenumber" name="213" href="#213">213</a>       <strong class="jxr_keyword">if</strong> (<strong class="jxr_keyword">this</strong> == obj)
-<a class="jxr_linenumber" name="214" href="#214">214</a>          <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">true</strong>;
-<a class="jxr_linenumber" name="215" href="#215">215</a>       <strong class="jxr_keyword">if</strong> (obj == <strong class="jxr_keyword">null</strong>)
-<a class="jxr_linenumber" name="216" href="#216">216</a>          <strong class="jxr_keyword">return</strong> false;
-<a class="jxr_linenumber" name="217" href="#217">217</a>       <strong class="jxr_keyword">if</strong> (getClass() != obj.getClass())
+<a class="jxr_linenumber" name="192" href="#192">192</a>       statements.add(Statements.exec(String.format(<span class="jxr_string">"useradd %s %s"</span>, options, login)));
+<a class="jxr_linenumber" name="193" href="#193">193</a> 
+<a class="jxr_linenumber" name="194" href="#194">194</a>       <strong class="jxr_keyword">if</strong> (authorizeRSAPublicKeys.size() &gt; 0 || installRSAPrivateKey != <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="195" href="#195">195</a>          String sshDir = homeDir + <span class="jxr_string">"{fs}.ssh"</span>;
+<a class="jxr_linenumber" name="196" href="#196">196</a>          <strong class="jxr_keyword">if</strong> (authorizeRSAPublicKeys.size() &gt; 0)
+<a class="jxr_linenumber" name="197" href="#197">197</a>             statements.add(<strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/scriptbuilder/statements/ssh/AuthorizeRSAPublicKeys.html">AuthorizeRSAPublicKeys</a>(sshDir, authorizeRSAPublicKeys));
+<a class="jxr_linenumber" name="198" href="#198">198</a>          <strong class="jxr_keyword">if</strong> (installRSAPrivateKey != <strong class="jxr_keyword">null</strong>)
+<a class="jxr_linenumber" name="199" href="#199">199</a>             statements.add(<strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/scriptbuilder/domain/InstallRSAPrivateKey.html">InstallRSAPrivateKey</a>(sshDir, installRSAPrivateKey));
+<a class="jxr_linenumber" name="200" href="#200">200</a>       }
+<a class="jxr_linenumber" name="201" href="#201">201</a>       statements.add(Statements.exec(String.format(<span class="jxr_string">"chown -R %s %s"</span>, login, homeDir)));
+<a class="jxr_linenumber" name="202" href="#202">202</a>       <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/scriptbuilder/domain/StatementList.html">StatementList</a>(statements.build()).render(family);
+<a class="jxr_linenumber" name="203" href="#203">203</a>    }
+<a class="jxr_linenumber" name="204" href="#204">204</a> 
+<a class="jxr_linenumber" name="205" href="#205">205</a>    @Override
+<a class="jxr_linenumber" name="206" href="#206">206</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">int</strong> hashCode() {
+<a class="jxr_linenumber" name="207" href="#207">207</a>       <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> prime = 31;
+<a class="jxr_linenumber" name="208" href="#208">208</a>       <strong class="jxr_keyword">int</strong> result = 1;
+<a class="jxr_linenumber" name="209" href="#209">209</a>       result = prime * result + ((login == <strong class="jxr_keyword">null</strong>) ? 0 : login.hashCode());
+<a class="jxr_linenumber" name="210" href="#210">210</a>       <strong class="jxr_keyword">return</strong> result;
+<a class="jxr_linenumber" name="211" href="#211">211</a>    }
+<a class="jxr_linenumber" name="212" href="#212">212</a> 
+<a class="jxr_linenumber" name="213" href="#213">213</a>    @Override
+<a class="jxr_linenumber" name="214" href="#214">214</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> equals(Object obj) {
+<a class="jxr_linenumber" name="215" href="#215">215</a>       <strong class="jxr_keyword">if</strong> (<strong class="jxr_keyword">this</strong> == obj)
+<a class="jxr_linenumber" name="216" href="#216">216</a>          <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">true</strong>;
+<a class="jxr_linenumber" name="217" href="#217">217</a>       <strong class="jxr_keyword">if</strong> (obj == <strong class="jxr_keyword">null</strong>)
 <a class="jxr_linenumber" name="218" href="#218">218</a>          <strong class="jxr_keyword">return</strong> false;
-<a class="jxr_linenumber" name="219" href="#219">219</a>       <a href="../../../../../org/jclouds/scriptbuilder/statements/login/UserAdd.html">UserAdd</a> other = (UserAdd) obj;
-<a class="jxr_linenumber" name="220" href="#220">220</a>       <strong class="jxr_keyword">if</strong> (login == <strong class="jxr_keyword">null</strong>) {
-<a class="jxr_linenumber" name="221" href="#221">221</a>          <strong class="jxr_keyword">if</strong> (other.login != <strong class="jxr_keyword">null</strong>)
-<a class="jxr_linenumber" name="222" href="#222">222</a>             <strong class="jxr_keyword">return</strong> false;
-<a class="jxr_linenumber" name="223" href="#223">223</a>       } <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (!login.equals(other.login))
-<a class="jxr_linenumber" name="224" href="#224">224</a>          <strong class="jxr_keyword">return</strong> false;
-<a class="jxr_linenumber" name="225" href="#225">225</a>       <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">true</strong>;
-<a class="jxr_linenumber" name="226" href="#226">226</a>    }
-<a class="jxr_linenumber" name="227" href="#227">227</a> }
+<a class="jxr_linenumber" name="219" href="#219">219</a>       <strong class="jxr_keyword">if</strong> (getClass() != obj.getClass())
+<a class="jxr_linenumber" name="220" href="#220">220</a>          <strong class="jxr_keyword">return</strong> false;
+<a class="jxr_linenumber" name="221" href="#221">221</a>       <a href="../../../../../org/jclouds/scriptbuilder/statements/login/UserAdd.html">UserAdd</a> other = (UserAdd) obj;
+<a class="jxr_linenumber" name="222" href="#222">222</a>       <strong class="jxr_keyword">if</strong> (login == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="223" href="#223">223</a>          <strong class="jxr_keyword">if</strong> (other.login != <strong class="jxr_keyword">null</strong>)
+<a class="jxr_linenumber" name="224" href="#224">224</a>             <strong class="jxr_keyword">return</strong> false;
+<a class="jxr_linenumber" name="225" href="#225">225</a>       } <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (!login.equals(other.login))
+<a class="jxr_linenumber" name="226" href="#226">226</a>          <strong class="jxr_keyword">return</strong> false;
+<a class="jxr_linenumber" name="227" href="#227">227</a>       <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">true</strong>;
+<a class="jxr_linenumber" name="228" href="#228">228</a>    }
+<a class="jxr_linenumber" name="229" href="#229">229</a> }
 </pre>
 <hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
 </html>

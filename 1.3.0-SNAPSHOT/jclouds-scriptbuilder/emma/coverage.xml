@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 29 20:40:04 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Nov 05 20:45:08 EDT 2011 -->
 
 <report>
   <stats>
@@ -6,14 +6,14 @@
     <classes value="60"/>
     <methods value="286"/>
     <srcfiles value="41"/>
-    <srclines value="1054"/>
+    <srclines value="1055"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="80%  (48/60)"/>
       <coverage type="method, %" value="65%  (186/286)"/>
-      <coverage type="block, %" value="78%  (5027/6404)"/>
-      <coverage type="line, %" value="73%  (768/1054)"/>
+      <coverage type="block, %" value="79%  (5033/6410)"/>
+      <coverage type="line, %" value="73%  (769/1055)"/>
 
       <package name="org.jclouds.scriptbuilder.domain">
         <coverage type="class, %" value="71%  (22/31)"/>
@@ -1108,8 +1108,8 @@
       <package name="org.jclouds.scriptbuilder.statements.login">
         <coverage type="class, %" value="83%  (10/12)"/>
         <coverage type="method, %" value="68%  (53/78)"/>
-        <coverage type="block, %" value="78%  (991/1265)"/>
-        <coverage type="line, %" value="73%  (201.9/278)"/>
+        <coverage type="block, %" value="78%  (997/1271)"/>
+        <coverage type="line, %" value="73%  (202.9/279)"/>
 
         <srcfile name="DefaultConfiguration.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -1262,14 +1262,14 @@
         <srcfile name="UserAdd.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="72%  (13/18)"/>
-          <coverage type="block, %" value="82%  (352/428)"/>
-          <coverage type="line, %" value="72%  (63/87)"/>
+          <coverage type="block, %" value="82%  (358/434)"/>
+          <coverage type="line, %" value="73%  (64/88)"/>
 
           <class name="UserAdd">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="57%  (4/7)"/>
-            <coverage type="block, %" value="81%  (272/334)"/>
-            <coverage type="line, %" value="68%  (43/63)"/>
+            <coverage type="block, %" value="82%  (278/340)"/>
+            <coverage type="line, %" value="69%  (44/64)"/>
 
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1288,8 +1288,8 @@
             </method>
             <method name="render (OsFamily): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="98%  (219/223)"/>
-              <coverage type="line, %" value="94%  (30/32)"/>
+              <coverage type="block, %" value="98%  (225/229)"/>
+              <coverage type="line, %" value="94%  (31/33)"/>
             </method>
             <method name="UserAdd (String, List, String, String, List, String, String): void">
               <coverage type="method, %" value="100% (1/1)"/>
