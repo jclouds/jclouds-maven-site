@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Oct 29 20:40:04 EDT 2011 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Nov 05 20:45:08 EDT 2011 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="77%  (151/197)"/>
       <coverage type="method, %" value="62%  (626/1015)"/>
-      <coverage type="block, %" value="65%  (12808/19789)"/>
-      <coverage type="line, %" value="63%  (2376/3766)"/>
+      <coverage type="block, %" value="65%  (12810/19789)"/>
+      <coverage type="line, %" value="63%  (2377/3766)"/>
 
       <package name="org.jclouds.ec2.compute">
         <coverage type="class, %" value="0%   (0/4)"/>
@@ -941,8 +941,8 @@
       <package name="org.jclouds.ec2.domain">
         <coverage type="class, %" value="75%  (33/44)"/>
         <coverage type="method, %" value="50%  (198/399)"/>
-        <coverage type="block, %" value="56%  (4570/8215)"/>
-        <coverage type="line, %" value="49%  (822.6/1668)"/>
+        <coverage type="block, %" value="56%  (4572/8215)"/>
+        <coverage type="line, %" value="49%  (823.6/1668)"/>
 
         <srcfile name="BundleInstanceS3Storage.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -1699,14 +1699,14 @@
         <srcfile name="SecurityGroup.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="27%  (3/11)"/>
-          <coverage type="block, %" value="56%  (163/291)"/>
-          <coverage type="line, %" value="55%  (34.3/63)"/>
+          <coverage type="block, %" value="55%  (161/291)"/>
+          <coverage type="line, %" value="53%  (33.3/63)"/>
 
           <class name="SecurityGroup">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="27%  (3/11)"/>
-            <coverage type="block, %" value="56%  (163/291)"/>
-            <coverage type="line, %" value="55%  (34.3/63)"/>
+            <coverage type="block, %" value="55%  (161/291)"/>
+            <coverage type="line, %" value="53%  (33.3/63)"/>
 
             <method name="compareTo (SecurityGroup): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1750,8 +1750,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="58%  (68/117)"/>
-              <coverage type="line, %" value="47%  (18/38)"/>
+              <coverage type="block, %" value="56%  (66/117)"/>
+              <coverage type="line, %" value="45%  (17/38)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -2861,14 +2861,14 @@
         <srcfile name="RunningInstance.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="74%  (43/58)"/>
-          <coverage type="block, %" value="71%  (780/1091)"/>
-          <coverage type="line, %" value="69%  (165.6/240)"/>
+          <coverage type="block, %" value="72%  (784/1091)"/>
+          <coverage type="line, %" value="70%  (167.6/240)"/>
 
           <class name="RunningInstance">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="54%  (15/28)"/>
-            <coverage type="block, %" value="66%  (580/877)"/>
-            <coverage type="line, %" value="61%  (109.6/180)"/>
+            <coverage type="block, %" value="67%  (584/877)"/>
+            <coverage type="line, %" value="62%  (111.6/180)"/>
 
             <method name="builder (): RunningInstance$Builder">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2937,8 +2937,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="62%  (213/341)"/>
-              <coverage type="line, %" value="48%  (52/108)"/>
+              <coverage type="block, %" value="64%  (217/341)"/>
+              <coverage type="line, %" value="50%  (54/108)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
