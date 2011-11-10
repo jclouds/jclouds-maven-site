@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-06-21T16:56:59.616">
-<file name="/scratch/hudson/workspace/jclouds-1.0-beta-9d-maven-site/providers/trmk-vcloudexpress/src/main/java/org/jclouds/vcloud/terremark/TerremarkVCloudExpressPropertiesBuilder.java">
-<violation beginline="19" endline="50" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.terremark" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
-Too many static imports may lead to messy code
-</violation>
-</file>
-</pmd>
